@@ -426,9 +426,11 @@
     },
     "why_choose_bento": {
       "type": "prose-why-choose-bento",
-      "settings": {}
+      "settings": {
+        "card_1_image": "shopify://shop_images/hf_20260503_181949_af29350a-cced-4077-93ad-04e86e0159d0.png",
+        "card_2_image": "shopify://shop_images/paneraicrown_febfe43a-a27d-4b1e-ad1d-860dea357cde.jpg"
+      }
     },
-
     "brand_benefits": {
       "type": "multicolumn",
       "blocks": {

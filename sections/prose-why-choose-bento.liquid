@@ -19,17 +19,25 @@
 
 /* ── Header ───────────────────────────── */
 .pwc-head { margin-bottom: 52px; }
+.pwc-header-row {
+  display: flex; align-items: flex-end; justify-content: space-between;
+  gap: 32px; flex-wrap: wrap;
+}
 .pwc-eyebrow {
-  display: inline-block; font-size: 11px; font-weight: 700;
-  letter-spacing: .18em; text-transform: uppercase; color: #c9a96e; margin-bottom: 14px;
+  display: flex; align-items: center; gap: 12px;
+  font-size: 10px; font-weight: 700; letter-spacing: .22em;
+  text-transform: uppercase; color: #c9a96e;
+  white-space: nowrap; flex-shrink: 0;
+}
+.pwc-eyebrow::after {
+  content: ''; display: block; height: 1px; width: 48px; background: #c9a96e;
 }
 .pwc-title {
   font-family: var(--font-heading-family, Georgia, serif);
-  font-size: clamp(28px,4vw,48px); font-weight: 700;
-  letter-spacing: -.02em; line-height: 1.1; color: #0a0a0a;
-  margin-bottom: 14px;
+  font-size: clamp(44px, 6vw, 80px); font-weight: 700;
+  letter-spacing: -.04em; line-height: 1.0; color: #0a0a0a;
+  flex: 1; min-width: 280px;
 }
-.pwc-sub { font-size: 16px; color: #6b6b6b; max-width: 520px; line-height: 1.65; }
 
 /* ── Bento Grid ───────────────────────── */
 .pwc-grid {
@@ -99,10 +107,10 @@
 /* gradient overlay */
 .pwc-overlay {
   position: absolute; inset: 0; z-index: 1;
-  background: linear-gradient(to top, rgba(10,10,10,.78) 0%, rgba(10,10,10,.1) 60%, transparent 100%);
+  background: linear-gradient(to top, rgba(10,10,10,.93) 0%, rgba(10,10,10,.55) 40%, rgba(10,10,10,.1) 70%, transparent 100%);
   transition: opacity .3s;
 }
-.pwc-card:hover .pwc-overlay { opacity: .85; }
+.pwc-card:hover .pwc-overlay { opacity: 1; }
 
 /* ── Card content ─────────────────────── */
 .pwc-body {
@@ -170,9 +178,10 @@
   <div class="pwc-wrap">
 
     <div class="pwc-head">
-      <span class="pwc-eyebrow reveal">Pourquoi Prose</span>
-      <h2 class="pwc-title reveal" style="transition-delay:.08s">La différence qui change tout</h2>
-      <p class="pwc-sub reveal" style="transition-delay:.16s">Quatre engagements qui font de Prose une marque horlogère à part entière.</p>
+      <div class="pwc-header-row reveal">
+        <span class="pwc-eyebrow">Pourquoi Prose</span>
+        <h2 class="pwc-title" style="transition-delay:.08s">La différence<br>qui change tout</h2>
+      </div>
     </div>
 
     <div class="pwc-grid">
