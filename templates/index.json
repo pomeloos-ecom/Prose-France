@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
@@ -40,7 +49,12 @@
           }
         }
       },
-      "block_order": ["subheading", "heading", "text", "button"],
+      "block_order": [
+        "subheading",
+        "heading",
+        "text",
+        "button"
+      ],
       "settings": {
         "transparent_header": true,
         "image_height": "100vh",
@@ -56,51 +70,72 @@
         "color_button_background": "#ffffff",
         "color_overlay": "#171717",
         "overlay_opacity": 40,
-        "enable_parallax": true,
-        "parallax_direction": "vertical",
         "padding_top": 0,
         "padding_bottom": 0,
         "divider": false,
         "full_width": true,
-        "rounded": false
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
       }
     },
-
     "logo_list": {
       "type": "logo-list",
       "blocks": {
-        "logo_1": { "type": "logo", "settings": { "height": 36 } },
-        "logo_2": { "type": "logo", "settings": { "height": 36 } },
-        "logo_3": { "type": "logo", "settings": { "height": 36 } },
-        "logo_4": { "type": "logo", "settings": { "height": 36 } },
-        "logo_5": { "type": "logo", "settings": { "height": 36 } }
+        "logo_1": {
+          "type": "logo",
+          "settings": {
+            "height": 36
+          }
+        },
+        "logo_2": {
+          "type": "logo",
+          "settings": {
+            "height": 36
+          }
+        },
+        "logo_3": {
+          "type": "logo",
+          "settings": {
+            "height": 36
+          }
+        },
+        "logo_4": {
+          "type": "logo",
+          "settings": {
+            "height": 36
+          }
+        },
+        "logo_5": {
+          "type": "logo",
+          "settings": {
+            "height": 36
+          }
+        }
       },
-      "block_order": ["logo_1", "logo_2", "logo_3", "logo_4", "logo_5"],
+      "block_order": [
+        "logo_1",
+        "logo_2",
+        "logo_3",
+        "logo_4",
+        "logo_5"
+      ],
       "settings": {
-        "heading": "As seen in",
-        "heading_size": "subtitle-sm",
-        "heading_alignment": "text-center md:items-center",
         "layout": "marquee",
         "direction": "left",
         "speed": 25,
-        "full_width": true,
+        "heading": "As seen in",
+        "heading_size": "subtitle-sm",
+        "heading_alignment": "text-center md:items-center",
         "padding_top": 28,
         "padding_bottom": 28,
-        "divider": true
+        "divider": true,
+        "full_width": true
       }
     },
-
     "concept_video": {
       "type": "video-with-text",
       "blocks": {
-        "subheading": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "LE CONCEPT",
-            "subheading_size": "subtitle-sm",
-            "secondary_color": false
-          }
-        },
         "heading": {
           "type": "heading",
           "settings": {
@@ -127,14 +162,17 @@
           }
         }
       },
-      "block_order": ["subheading", "heading", "text", "button"],
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
       "settings": {
-        "enable_video_looping": false,
         "enable_video_autoplay": false,
-        "content_position": "md:items-center",
+        "enable_video_looping": false,
         "text_alignment": "center",
+        "content_position": "md:items-center",
         "text_alignment_mobile": "center",
-        "color_scheme": "background-1",
         "padding_top": 80,
         "padding_bottom": 80,
         "divider": false,
@@ -142,19 +180,18 @@
         "rounded": false
       }
     },
-
     "best_sellers": {
       "type": "featured-collection",
       "settings": {
+        "product_limit": 8,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "show_view_all": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "heading": "Nos Best Sellers",
         "heading_size": "title-lg tracking-heading",
         "heading_alignment": "text-center md:items-center",
-        "columns": 4,
-        "columns_mobile": "1",
-        "product_limit": 8,
-        "show_view_all": true,
-        "carousel_on_desktop": true,
-        "swipe_on_mobile": true,
         "padding_top": 80,
         "padding_bottom": 80,
         "divider": false,
@@ -162,23 +199,35 @@
         "rounded": false
       }
     },
-
     "product_categories": {
       "type": "collection-list",
       "blocks": {
-        "col_1": { "type": "collection", "settings": {} },
-        "col_2": { "type": "collection", "settings": {} },
-        "col_3": { "type": "collection", "settings": {} }
+        "col_1": {
+          "type": "collection",
+          "settings": {}
+        },
+        "col_2": {
+          "type": "collection",
+          "settings": {}
+        },
+        "col_3": {
+          "type": "collection",
+          "settings": {}
+        }
       },
-      "block_order": ["col_1", "col_2", "col_3"],
+      "block_order": [
+        "col_1",
+        "col_2",
+        "col_3"
+      ],
       "settings": {
+        "columns": 3,
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "heading": "Explorer par catégorie",
         "heading_size": "title-lg tracking-heading",
         "heading_alignment": "text-center md:items-center",
-        "columns": 3,
-        "columns_mobile": "1",
-        "show_view_all": false,
-        "swipe_on_mobile": true,
         "padding_top": 80,
         "padding_bottom": 80,
         "divider": false,
@@ -186,7 +235,6 @@
         "rounded": false
       }
     },
-
     "testimonials_section": {
       "type": "testimonials",
       "blocks": {
@@ -221,7 +269,11 @@
           }
         }
       },
-      "block_order": ["t1", "t2", "t3"],
+      "block_order": [
+        "t1",
+        "t2",
+        "t3"
+      ],
       "settings": {
         "heading": "Ce que disent nos clients",
         "heading_size": "title-lg tracking-heading",
@@ -232,58 +284,62 @@
         "rounded": false
       }
     },
-
     "brand_benefits": {
       "type": "multicolumn",
       "blocks": {
         "b1": {
           "type": "column",
           "settings": {
-            "heading": "Savoir-faire français",
-            "text": "<p>Nos horlogers certifiés maîtrisent les techniques traditionnelles et modernes pour créer des pièces d'exception.</p>",
             "text_alignment": "center",
-            "text_alignment_mobile": "center"
+            "text_alignment_mobile": "center",
+            "heading": "Savoir-faire français",
+            "text": "<p>Nos horlogers certifiés maîtrisent les techniques traditionnelles et modernes pour créer des pièces d'exception.</p>"
           }
         },
         "b2": {
           "type": "column",
           "settings": {
-            "heading": "100% sur mesure",
-            "text": "<p>Cadran, bracelet, boîtier, gravure — chaque détail est personnalisé selon votre vision. Votre montre, votre identité.</p>",
             "text_alignment": "center",
-            "text_alignment_mobile": "center"
+            "text_alignment_mobile": "center",
+            "heading": "100% sur mesure",
+            "text": "<p>Cadran, bracelet, boîtier, gravure — chaque détail est personnalisé selon votre vision. Votre montre, votre identité.</p>"
           }
         },
         "b3": {
           "type": "column",
           "settings": {
-            "heading": "Garantie 2 ans",
-            "text": "<p>Chaque création Prose est garantie 2 ans avec un service après-vente dédié pour votre tranquillité d'esprit.</p>",
             "text_alignment": "center",
-            "text_alignment_mobile": "center"
+            "text_alignment_mobile": "center",
+            "heading": "Garantie 2 ans",
+            "text": "<p>Chaque création Prose est garantie 2 ans avec un service après-vente dédié pour votre tranquillité d'esprit.</p>"
           }
         },
         "b4": {
           "type": "column",
           "settings": {
-            "heading": "Livraison mondiale",
-            "text": "<p>Votre pièce unique est livrée dans un écrin de luxe, assurée et tracée jusqu'à votre porte partout dans le monde.</p>",
             "text_alignment": "center",
-            "text_alignment_mobile": "center"
+            "text_alignment_mobile": "center",
+            "heading": "Livraison mondiale",
+            "text": "<p>Votre pièce unique est livrée dans un écrin de luxe, assurée et tracée jusqu'à votre porte partout dans le monde.</p>"
           }
         }
       },
-      "block_order": ["b1", "b2", "b3", "b4"],
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4"
+      ],
       "settings": {
+        "gap": "large",
+        "columns": 4,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "heading": "Pourquoi choisir Prose ?",
         "heading_size": "title-lg tracking-heading",
         "heading_alignment": "text-center md:items-center",
         "button_label": "Créer ma montre",
         "button_link": "/collections/all",
-        "columns": 4,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "gap": "large",
         "padding_top": 80,
         "padding_bottom": 80,
         "divider": false,
@@ -291,28 +347,32 @@
         "rounded": false
       }
     },
-
     "ugc_section": {
       "type": "collage",
       "blocks": {
         "img_1": {
           "type": "image",
-          "settings": { "aspect_ratio": "adapt" }
+          "settings": {}
         },
         "img_2": {
           "type": "image",
-          "settings": { "aspect_ratio": "adapt" }
+          "settings": {}
         },
         "img_3": {
           "type": "image",
-          "settings": { "aspect_ratio": "adapt" }
+          "settings": {}
         },
         "img_4": {
           "type": "image",
-          "settings": { "aspect_ratio": "adapt" }
+          "settings": {}
         }
       },
-      "block_order": ["img_1", "img_2", "img_3", "img_4"],
+      "block_order": [
+        "img_1",
+        "img_2",
+        "img_3",
+        "img_4"
+      ],
       "settings": {
         "heading": "La communauté Prose",
         "heading_size": "title-lg tracking-heading",
@@ -324,10 +384,10 @@
         "rounded": false
       }
     },
-
     "about_brand": {
       "type": "reveal-image-with-text",
       "settings": {
+        "content_width": "medium",
         "heading": "L'histoire derrière chaque pièce",
         "heading_size": "title-lg tracking-heading",
         "heading_alignment": "text-left",
@@ -336,15 +396,11 @@
         "button_link": "/pages/about",
         "button_external": false,
         "button_icon": true,
-        "content_width": "medium",
         "color_text": "",
         "color_button_text": "",
-        "color_button_background": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "color_button_background": ""
       }
     },
-
     "faq_section": {
       "type": "faq",
       "blocks": {
@@ -389,20 +445,25 @@
           }
         }
       },
-      "block_order": ["q1", "q2", "q3", "q4", "q5"],
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
       "settings": {
+        "style": "with-border",
         "heading": "Questions fréquentes",
         "heading_size": "title-lg tracking-heading",
         "heading_alignment": "text-center md:items-center",
-        "style": "with-border",
-        "narrow": true,
         "padding_top": 80,
         "padding_bottom": 80,
         "divider": false,
+        "narrow": true,
         "rounded": false
       }
     },
-
     "cta_final": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -440,7 +501,12 @@
           }
         }
       },
-      "block_order": ["subheading", "heading", "text", "button"],
+      "block_order": [
+        "subheading",
+        "heading",
+        "text",
+        "button"
+      ],
       "settings": {
         "image_height": "600px",
         "content_width": "large",
@@ -455,16 +521,15 @@
         "color_button_background": "#ffffff",
         "color_overlay": "#171717",
         "overlay_opacity": 55,
-        "enable_parallax": false,
         "padding_top": 0,
         "padding_bottom": 0,
         "divider": false,
         "full_width": true,
-        "rounded": false
+        "rounded": false,
+        "enable_parallax": false
       }
     }
   },
-
   "order": [
     "hero",
     "logo_list",
