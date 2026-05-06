@@ -52,13 +52,25 @@
             "button_external": false,
             "button_icon": true
           }
+        },
+        "button_cipmxn": {
+          "type": "button",
+          "settings": {
+            "button_label": "Découvrir les collections",
+            "button_link": "/collections/all",
+            "button_style": "primary",
+            "button_size": "md",
+            "button_external": false,
+            "button_icon": false
+          }
         }
       },
       "block_order": [
         "subheading",
         "heading",
         "text",
-        "button"
+        "button",
+        "button_cipmxn"
       ],
       "settings": {
         "transparent_header": true,
@@ -251,7 +263,7 @@
         "show_view_all": true,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "heading": "Vos modèles favoris",
+        "heading": "Nos Best Sellers",
         "heading_size": "title-lg tracking-heading",
         "heading_alignment": "text-center md:items-center",
         "heading_tag": "h2",
