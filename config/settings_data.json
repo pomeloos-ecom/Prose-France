@@ -42,7 +42,7 @@
     "color_error_background": "#fff1f2",
     "color_info_text": "#b45309",
     "color_info_background": "#fffbeb",
-    "type_header_font": "sans_serif_n7",
+    "type_header_font": "inter_n7",
     "type_header_line_height": 1,
     "type_header_spacing": -15,
     "type_header_capitalize": false,
