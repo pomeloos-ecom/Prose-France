@@ -1,0 +1,786 @@
+{% comment %} Prose — Custom Landing Page — inspired by 21st.dev {% endcomment %}
+
+<style>
+/* ── Reset & Base ─────────────────────────────── */
+.plp *, .plp *::before, .plp *::after { box-sizing: border-box; margin: 0; padding: 0; }
+.plp {
+  --ink:    #0a0a0a;
+  --ink2:   #1c1c1c;
+  --gold:   #c9a96e;
+  --gold2:  #a07840;
+  --cream:  #f8f4ef;
+  --cream2: #ede7de;
+  --muted:  #6b6b6b;
+  --white:  #ffffff;
+  --border: rgba(201,169,110,.2);
+  --radius: 10px;
+  font-family: var(--font-body-family, Georgia, serif);
+  color: var(--ink);
+  background: var(--white);
+}
+
+/* ── Layout ───────────────────────────────────── */
+.plp section  { padding: 80px 24px; }
+@media(min-width:768px)  { .plp section { padding: 100px 48px; } }
+@media(min-width:1200px) { .plp section { padding: 120px 80px; } }
+.plp .wrap { max-width: 1200px; margin: 0 auto; }
+.plp .ctr  { text-align: center; }
+
+/* ── Typography ───────────────────────────────── */
+.plp .eyebrow {
+  display: inline-block; font-size: 11px; font-weight: 600;
+  letter-spacing: .18em; text-transform: uppercase; color: var(--gold); margin-bottom: 16px;
+}
+.plp h1, .plp h2, .plp h3 {
+  font-family: var(--font-heading-family, Georgia, serif);
+  line-height: 1.1; letter-spacing: -.02em;
+}
+.plp p { line-height: 1.7; color: var(--muted); }
+
+/* ── Scroll reveal ────────────────────────────── */
+.plp .reveal {
+  opacity: 0; transform: translateY(28px);
+  transition: opacity .65s cubic-bezier(.22,1,.36,1), transform .65s cubic-bezier(.22,1,.36,1);
+}
+.plp .reveal.d1 { transition-delay:.1s } .plp .reveal.d2 { transition-delay:.2s }
+.plp .reveal.d3 { transition-delay:.3s } .plp .reveal.d4 { transition-delay:.4s }
+.plp .reveal.d5 { transition-delay:.5s }
+.plp .reveal.visible { opacity: 1; transform: none; }
+
+/* ── Buttons ─────────────────────────────────── */
+.plp .btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 14px 28px; border-radius: 3px;
+  font-size: 12px; font-weight: 700; letter-spacing: .1em;
+  text-transform: uppercase; text-decoration: none;
+  border: 1px solid transparent; cursor: pointer; transition: all .2s;
+}
+.plp .btn-dark  { background: var(--ink);  color: var(--white); border-color: var(--ink); }
+.plp .btn-dark:hover  { background: #333; }
+.plp .btn-gold  { background: var(--gold); color: var(--white); border-color: var(--gold); }
+.plp .btn-gold:hover  { background: var(--gold2); border-color: var(--gold2); }
+.plp .btn-ghost { background: transparent; color: var(--white); border-color: rgba(255,255,255,.4); }
+.plp .btn-ghost:hover { background: var(--white); color: var(--ink); border-color: var(--white); }
+.plp .btn-outline { background: transparent; color: var(--ink); border-color: var(--ink); }
+.plp .btn-outline:hover { background: var(--ink); color: var(--white); }
+
+/* ── Image placeholder ────────────────────────── */
+.plp .ph {
+  background: linear-gradient(135deg, var(--cream), var(--cream2));
+  display: flex; flex-direction: column; align-items: center;
+  justify-content: center; gap: 10px; color: var(--muted);
+  font-size: 11px; text-align: center; border: 1px dashed #ddd;
+}
+.plp .ph svg { width: 26px; height: 26px; opacity: .45; }
+
+/* ════════════════════════════════════════
+   § 1 — HERO (21st.dev: Hero with image + 2 buttons)
+════════════════════════════════════════ */
+.plp .hero {
+  min-height: 100svh; padding: 120px 24px 80px;
+  background: var(--ink); position: relative; overflow: hidden;
+  display: flex; align-items: center;
+}
+@media(min-width:768px)  { .plp .hero { padding: 140px 48px 80px; } }
+@media(min-width:1200px) { .plp .hero { padding: 0 80px; } }
+.plp .hero::before {
+  content: ''; position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(ellipse 55% 70% at 72% 50%, rgba(201,169,110,.12) 0%, transparent 62%);
+}
+.plp .hero-grid {
+  display: grid; grid-template-columns: 1fr; gap: 56px; align-items: center; position: relative; z-index: 1;
+}
+@media(min-width:900px) { .plp .hero-grid { grid-template-columns: 1fr 1fr; } }
+
+.plp .hero-badge {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: rgba(201,169,110,.1); border: 1px solid rgba(201,169,110,.25);
+  padding: 6px 14px; border-radius: 2px;
+  font-size: 10px; font-weight: 700; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--gold); margin-bottom: 28px;
+}
+.plp .hero h1 { font-size: clamp(42px,5.5vw,72px); color: var(--white); margin-bottom: 24px; }
+.plp .hero h1 em { font-style: italic; color: var(--gold); }
+
+.plp .hero-bullets {
+  list-style: none; display: flex; flex-direction: column; gap: 12px; margin-bottom: 40px;
+}
+.plp .hero-bullets li {
+  display: flex; align-items: center; gap: 12px;
+  font-size: 15px; color: rgba(255,255,255,.65);
+}
+.plp .hero-bullets li::before {
+  content: ''; width: 6px; height: 6px; border-radius: 50%;
+  background: var(--gold); flex-shrink: 0;
+}
+.plp .hero-cta { display: flex; flex-wrap: wrap; gap: 12px; }
+
+.plp .hero-visual { position: relative; animation: plpFloat 6s ease-in-out infinite; }
+@keyframes plpFloat { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)} }
+.plp .hero-img-box { width: 100%; border-radius: 4px; aspect-ratio: 3/4; overflow: hidden; }
+.plp .hero-img-box img { width:100%; height:100%; object-fit:cover; }
+.plp .hero-img-box .ph  { width:100%; height:100%; aspect-ratio:unset; border-radius:4px; min-height:380px; }
+.plp .hero-floatbadge {
+  position: absolute; bottom: -14px; left: 50%; transform: translateX(-50%);
+  background: var(--gold); color: var(--white); padding: 10px 22px; border-radius: 2px;
+  font-size: 10px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; white-space: nowrap;
+}
+
+/* ════════════════════════════════════════
+   § 2 — LOGO BAR (21st.dev: Logo marquee CSS infinite slider)
+════════════════════════════════════════ */
+.plp .logo-bar { background: var(--ink2); padding: 28px 0; overflow: hidden; }
+.plp .logo-inner {
+  max-width: 1200px; margin: 0 auto; padding: 0 48px;
+  display: flex; align-items: center;
+}
+.plp .logo-label {
+  font-size: 10px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase;
+  color: rgba(255,255,255,.28); white-space: nowrap; margin-right: 36px; flex-shrink: 0;
+}
+.plp .logo-track-wrap {
+  flex: 1; overflow: hidden;
+  mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+}
+.plp .logo-track {
+  display: flex; width: max-content; gap: 64px; align-items: center;
+  animation: plpScroll 28s linear infinite;
+}
+.plp .logo-track:hover { animation-play-state: paused; }
+@keyframes plpScroll { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+.plp .logo-item {
+  font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+  color: rgba(255,255,255,.22); white-space: nowrap; transition: color .2s;
+  font-family: var(--font-heading-family, Georgia, serif);
+}
+.plp .logo-item:hover { color: rgba(255,255,255,.65); }
+
+/* ════════════════════════════════════════
+   § 3 — CONCEPT VIDEO
+════════════════════════════════════════ */
+.plp .concept { background: var(--cream); }
+.plp .concept-grid {
+  display: grid; grid-template-columns: 1fr; gap: 60px; align-items: center;
+}
+@media(min-width:900px) { .plp .concept-grid { grid-template-columns: 1fr 1fr; } }
+.plp .vid-wrap {
+  position: relative; border-radius: var(--radius); overflow: hidden; aspect-ratio: 16/9;
+}
+.plp .vid-wrap img, .plp .vid-wrap .ph {
+  width: 100%; height: 100%; object-fit: cover; aspect-ratio: unset; border-radius: var(--radius);
+}
+.plp .vid-wrap .ph { min-height: 220px; }
+.plp .play-btn {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  background: rgba(0,0,0,.28); cursor: pointer; transition: background .2s;
+}
+.plp .play-btn:hover { background: rgba(0,0,0,.42); }
+.plp .play-ring {
+  width: 70px; height: 70px; border-radius: 50%; background: rgba(255,255,255,.95);
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 8px 32px rgba(0,0,0,.2); transition: transform .2s;
+}
+.plp .play-btn:hover .play-ring { transform: scale(1.08); }
+.plp .play-ring svg { width: 26px; height: 26px; margin-left: 4px; color: var(--ink); }
+
+.plp .concept-text h2 { font-size: clamp(28px,4vw,46px); margin-bottom: 20px; }
+.plp .concept-text p  { font-size: 16px; margin-bottom: 32px; }
+
+/* ════════════════════════════════════════
+   § 4 — BEST SELLERS (21st.dev: Product Card grid)
+════════════════════════════════════════ */
+.plp .products { background: var(--white); }
+.plp .sec-head { margin-bottom: 48px; }
+.plp .sec-head h2 { font-size: clamp(26px,4vw,46px); margin-bottom: 10px; }
+.plp .sec-head .row { display: flex; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+.plp .view-all {
+  font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--gold); text-decoration: none; border-bottom: 1px solid var(--gold); padding-bottom: 2px;
+}
+.plp .prod-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 20px; }
+@media(min-width:768px) { .plp .prod-grid { grid-template-columns: repeat(4,1fr); } }
+
+.plp .pcard {
+  border: 1px solid #ede9e3; border-radius: var(--radius); overflow: hidden;
+  transition: transform .3s, box-shadow .3s;
+}
+.plp .pcard:hover { transform: translateY(-6px); box-shadow: 0 20px 48px rgba(0,0,0,.08); }
+.plp .pcard-img { aspect-ratio: 1; overflow: hidden; position: relative; }
+.plp .pcard-img img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s; }
+.plp .pcard:hover .pcard-img img { transform: scale(1.06); }
+.plp .pcard-img .ph { width: 100%; height: 100%; aspect-ratio: unset; min-height: 200px; }
+.plp .pcard-badge {
+  position: absolute; top: 10px; left: 10px;
+  background: var(--gold); color: var(--white);
+  font-size: 9px; font-weight: 700; letter-spacing: .06em;
+  text-transform: uppercase; padding: 4px 10px; border-radius: 2px;
+}
+.plp .pcard-body  { padding: 16px; }
+.plp .pcard-stars { color: #f59e0b; font-size: 12px; margin-bottom: 8px; }
+.plp .pcard-name  { font-size: 14px; font-weight: 700; color: var(--ink); margin-bottom: 6px; letter-spacing: -.01em; }
+.plp .pcard-price { display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 700; }
+.plp .pcard-price s { font-size: 12px; color: var(--muted); font-weight: 400; }
+.plp .pcard-cta {
+  display: block; width: 100%; padding: 10px; margin-top: 14px;
+  background: var(--ink); color: var(--white); border: none; border-radius: 3px;
+  font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+  text-align: center; text-decoration: none; cursor: pointer; transition: background .2s;
+}
+.plp .pcard-cta:hover { background: var(--gold); }
+
+/* ════════════════════════════════════════
+   § 5 — CATEGORIES
+════════════════════════════════════════ */
+.plp .cats { background: var(--cream); }
+.plp .cat-grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
+@media(min-width:600px) { .plp .cat-grid { grid-template-columns: repeat(3,1fr); } }
+.plp .cat-card { position: relative; border-radius: var(--radius); overflow: hidden; aspect-ratio: 2/3; cursor: pointer; }
+.plp .cat-card img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s; }
+.plp .cat-card:hover img { transform: scale(1.06); }
+.plp .cat-card .ph { width: 100%; height: 100%; aspect-ratio: unset; min-height: 340px; border-radius: var(--radius); }
+.plp .cat-overlay {
+  position: absolute; inset: 0; border-radius: var(--radius);
+  background: linear-gradient(to top, rgba(0,0,0,.68) 0%, transparent 55%);
+  display: flex; align-items: flex-end; padding: 28px;
+}
+.plp .cat-name { font-size: 19px; font-weight: 700; color: var(--white); display: block; margin-bottom: 8px; letter-spacing: -.01em; }
+.plp .cat-link { font-size: 10px; font-weight: 700; color: var(--gold); text-transform: uppercase; letter-spacing: .1em; text-decoration: none; }
+
+/* ════════════════════════════════════════
+   § 6 — TESTIMONIALS (21st.dev: Customer Testimonials)
+════════════════════════════════════════ */
+.plp .testi { background: var(--white); }
+.plp .tgrid { display: grid; grid-template-columns: 1fr; gap: 20px; }
+@media(min-width:600px) { .plp .tgrid { grid-template-columns: repeat(3,1fr); } }
+.plp .tcard {
+  background: var(--cream); border-radius: var(--radius);
+  padding: 28px; display: flex; flex-direction: column; gap: 16px;
+  border: 1px solid var(--cream2); transition: transform .3s, box-shadow .3s;
+}
+.plp .tcard:hover { transform: translateY(-4px); box-shadow: 0 16px 48px rgba(0,0,0,.06); }
+.plp .tcard-stars { color: #f59e0b; font-size: 14px; letter-spacing: 2px; }
+.plp .tcard-text  { font-size: 15px; color: var(--ink2); line-height: 1.65; font-style: italic; flex: 1; }
+.plp .tcard-foot  {
+  display: flex; align-items: center; gap: 12px;
+  border-top: 1px solid var(--cream2); padding-top: 16px;
+}
+.plp .tcard-av {
+  width: 42px; height: 42px; border-radius: 50%;
+  background: var(--ink); color: var(--white);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 15px; font-weight: 700; flex-shrink: 0;
+}
+.plp .tcard-name { font-weight: 700; font-size: 13px; color: var(--ink); }
+.plp .tcard-role { font-size: 11px; color: var(--muted); }
+.plp .verified {
+  margin-left: auto; background: rgba(45,106,79,.1); color: #2d6a4f;
+  font-size: 10px; font-weight: 700; padding: 3px 8px; border-radius: 100px;
+}
+
+/* ════════════════════════════════════════
+   § 7 — BRAND BENEFITS (21st.dev: Features 4 — border-grid)
+════════════════════════════════════════ */
+.plp .benefits { background: var(--ink); }
+.plp .benefits .eyebrow { color: var(--gold); }
+.plp .benefits h2 { color: var(--white); font-size: clamp(28px,4vw,48px); margin-bottom: 56px; max-width: 480px; }
+.plp .ben-grid {
+  display: grid; grid-template-columns: repeat(2,1fr); gap: 0;
+  border: 1px solid rgba(255,255,255,.08); border-radius: var(--radius); overflow: hidden;
+}
+@media(min-width:768px) { .plp .ben-grid { grid-template-columns: repeat(4,1fr); } }
+.plp .bcard {
+  padding: 32px 24px;
+  border-right: 1px solid rgba(255,255,255,.08);
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  transition: background .25s;
+}
+@media(min-width:768px) {
+  .plp .bcard:nth-child(4) { border-right: none; }
+}
+.plp .bcard:hover { background: rgba(201,169,110,.06); }
+.plp .bcard-ico {
+  width: 44px; height: 44px; border-radius: 10px;
+  background: rgba(201,169,110,.1); color: var(--gold);
+  display: flex; align-items: center; justify-content: center; margin-bottom: 20px;
+}
+.plp .bcard-ico svg { width: 22px; height: 22px; }
+.plp .bcard h3 { font-size: 15px; font-weight: 700; color: var(--white); margin-bottom: 10px; }
+.plp .bcard p  { font-size: 13px; color: rgba(255,255,255,.4); line-height: 1.65; }
+
+/* ════════════════════════════════════════
+   § 8 — UGC GALLERY
+════════════════════════════════════════ */
+.plp .ugc { background: var(--cream2); }
+.plp .ugc h2 { font-size: clamp(26px,4vw,46px); margin-bottom: 40px; }
+.plp .ugc-grid {
+  display: grid; grid-template-columns: repeat(2,1fr); gap: 10px;
+}
+@media(min-width:768px) {
+  .plp .ugc-grid { grid-template-columns: 2fr 1fr 1fr; grid-template-rows: 1fr 1fr; }
+  .plp .ugc-main { grid-row: span 2; }
+}
+.plp .ugc-item { border-radius: var(--radius); overflow: hidden; position: relative; }
+.plp .ugc-item img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .4s; }
+.plp .ugc-item:hover img { transform: scale(1.04); }
+.plp .ugc-item .ph { width: 100%; height: 100%; aspect-ratio: unset; min-height: 180px; border-radius: var(--radius); }
+.plp .ugc-main .ph  { min-height: 380px; }
+.plp .ugc-mask {
+  position: absolute; inset: 0; border-radius: var(--radius);
+  background: rgba(0,0,0,0); transition: background .3s;
+}
+.plp .ugc-item:hover .ugc-mask { background: rgba(0,0,0,.2); }
+
+/* ════════════════════════════════════════
+   § 9 — ABOUT / FOUNDER
+════════════════════════════════════════ */
+.plp .about { background: var(--white); padding: 0; }
+.plp .about-wrap { display: grid; grid-template-columns: 1fr; }
+@media(min-width:900px) { .plp .about-wrap { grid-template-columns: 1fr 1fr; min-height: 620px; } }
+.plp .about-img { overflow: hidden; min-height: 400px; }
+.plp .about-img img { width: 100%; height: 100%; object-fit: cover; }
+.plp .about-img .ph { width: 100%; height: 100%; aspect-ratio: unset; min-height: 400px; }
+.plp .about-body {
+  padding: 80px 48px; background: var(--cream);
+  display: flex; flex-direction: column; justify-content: center;
+}
+@media(min-width:1200px) { .plp .about-body { padding: 80px 80px; } }
+.plp .about-body h2  { font-size: clamp(26px,3.5vw,44px); margin-bottom: 20px; }
+.plp .about-body p   { font-size: 16px; margin-bottom: 14px; }
+.plp .about-quote {
+  border-left: 3px solid var(--gold); padding-left: 20px;
+  font-size: 17px; font-style: italic; color: var(--ink2);
+  line-height: 1.6; margin: 24px 0 28px;
+}
+
+/* ════════════════════════════════════════
+   § 10 — FAQ (21st.dev: Accordion)
+════════════════════════════════════════ */
+.plp .faq { background: var(--cream); }
+.plp .faq h2 { font-size: clamp(26px,4vw,48px); margin-bottom: 48px; }
+.plp .faq-list { max-width: 780px; margin: 0 auto; display: flex; flex-direction: column; gap: 4px; }
+.plp details.fi { background: var(--white); border-radius: 8px; border: 1px solid var(--cream2); overflow: hidden; }
+.plp details.fi summary {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  padding: 20px 24px; font-size: 15px; font-weight: 600; color: var(--ink);
+  cursor: pointer; list-style: none; transition: color .2s;
+}
+.plp details.fi summary::-webkit-details-marker { display: none; }
+.plp details.fi summary:hover { color: var(--gold); }
+.plp .fi-icon {
+  width: 26px; height: 26px; border-radius: 50%;
+  background: var(--cream2); flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 20px; font-weight: 300; line-height: 1; color: var(--gold);
+  transition: transform .3s;
+}
+.plp details.fi[open] .fi-icon { transform: rotate(45deg); }
+.plp .fi-body { padding: 0 24px 20px; font-size: 14px; color: var(--muted); line-height: 1.7; }
+
+/* ════════════════════════════════════════
+   § 11 — FINAL CTA
+════════════════════════════════════════ */
+.plp .fcta { background: var(--ink); text-align: center; position: relative; overflow: hidden; }
+.plp .fcta::before {
+  content: ''; position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(ellipse 65% 80% at 50% 110%, rgba(201,169,110,.18) 0%, transparent 65%);
+}
+.plp .fcta-bg { position: absolute; inset: 0; }
+.plp .fcta-bg img { width: 100%; height: 100%; object-fit: cover; opacity: .22; }
+.plp .fcta .wrap { position: relative; z-index: 1; }
+.plp .fcta h2 { font-size: clamp(30px,5vw,62px); color: var(--white); margin-bottom: 18px; }
+.plp .fcta p  { font-size: 17px; color: rgba(255,255,255,.5); max-width: 500px; margin: 0 auto 40px; }
+.plp .fcta-box {
+  display: inline-block; background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.1); border-radius: 8px;
+  padding: 28px 40px; margin-bottom: 36px;
+}
+.plp .fcta-box .pname { font-size: 13px; font-weight: 700; color: var(--white); letter-spacing: .06em; margin-bottom: 14px; }
+.plp .price-row { display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap; }
+.plp .price-now { font-size: 30px; font-weight: 800; color: var(--white); }
+.plp .price-old { font-size: 16px; color: rgba(255,255,255,.3); text-decoration: line-through; }
+.plp .price-tag { background: var(--gold); color: var(--white); font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 100px; }
+.plp .trust-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 28px; }
+.plp .tr-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: rgba(255,255,255,.38); }
+.plp .tr-item svg { width: 14px; height: 14px; }
+</style>
+
+<div class="plp">
+
+  <!-- §1 HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <div class="hero-badge reveal">✦ Ateliers Français &amp; Internationaux</div>
+          <h1 class="reveal d1">Votre montre.<br><em>Votre histoire.</em></h1>
+          <ul class="hero-bullets reveal d2">
+            <li>Sur mesure de A à Z, selon votre vision</li>
+            <li>Horlogers certifiés, savoir-faire d'exception</li>
+            <li>Garantie 2 ans · Livraison mondiale assurée</li>
+          </ul>
+          <div class="hero-cta reveal d3">
+            <a href="/collections/all" class="btn btn-gold">
+              Découvrir
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="#concept" class="btn btn-ghost">Notre concept</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal d2">
+          <div class="hero-img-box">
+            {%- if section.settings.hero_image != blank -%}
+              <img src="{{ section.settings.hero_image | image_url: width: 800 }}" alt="Prose Watches" loading="eager">
+            {%- else -%}
+              <div class="ph" style="height:100%;min-height:460px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><path d="M21 15l-5-5L5 21" stroke-linecap="round"/></svg>
+                <span>Image Hero<br><small style="opacity:.6">Recommandé 800×1067px</small></span>
+              </div>
+            {%- endif -%}
+          </div>
+          <div class="hero-floatbadge">Patented Pro-Align™ Tech</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- §2 LOGO MARQUEE -->
+  <div class="logo-bar">
+    <div class="logo-inner">
+      <span class="logo-label">As seen in</span>
+      <div class="logo-track-wrap">
+        <div class="logo-track" aria-hidden="true">
+          {%- assign logos = 'Vogue,GQ,Forbes,Le Monde,Monocle,Esquire,Vogue,GQ,Forbes,Le Monde,Monocle,Esquire' | split: ',' -%}
+          {%- for logo in logos -%}
+            <span class="logo-item">{{ logo }}</span>
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- §3 CONCEPT VIDEO -->
+  <section class="concept" id="concept">
+    <div class="wrap">
+      <div class="concept-grid">
+        <div class="reveal">
+          <div class="vid-wrap">
+            {%- if section.settings.video_cover != blank -%}
+              <img src="{{ section.settings.video_cover | image_url: width: 900 }}" alt="Concept Prose" loading="lazy">
+            {%- else -%}
+              <div class="ph" style="min-height:280px;border-radius:var(--radius);">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><path d="M21 15l-5-5L5 21"/></svg>
+                <span>Couverture vidéo<br><small style="opacity:.6">Recommandé 900×506px</small></span>
+              </div>
+            {%- endif -%}
+            <div class="play-btn">
+              <div class="play-ring">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.14v14l11-7-11-7z"/></svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <span class="eyebrow reveal">Le concept</span>
+          <h2 class="reveal d1">L'art de créer une montre unique</h2>
+          <p class="reveal d2">De la conception à la livraison, chaque pièce est une collaboration entre votre vision et notre expertise horlogère. Nous créons des histoires que vous portez au poignet.</p>
+          <a href="/pages/about" class="btn btn-dark reveal d3" style="margin-top:8px;">En savoir plus</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- §4 BEST SELLERS -->
+  <section class="products">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="row">
+          <div>
+            <span class="eyebrow">Sélection</span>
+            <h2>Nos Best Sellers</h2>
+          </div>
+          <a href="/collections/all" class="view-all">Voir tout →</a>
+        </div>
+      </div>
+      <div class="prod-grid">
+        {%- assign p_keys   = 'product_1_image,product_2_image,product_3_image,product_4_image' | split: ',' -%}
+        {%- assign p_names  = 'Série Classique,Édition Noire,Grande Complication,Montre Sport' | split: ',' -%}
+        {%- assign p_prices = '$490,$690,$890,$390' | split: ',' -%}
+        {%- assign p_olds   = '$650,$920,$1190,$520' | split: ',' -%}
+        {%- assign p_badges = 'Best Seller,Nouveau,Exclusif,Série Limitée' | split: ',' -%}
+        {%- for i in (0..3) -%}
+        <div class="pcard reveal" style="transition-delay:{{ forloop.index0 | times: 0.1 }}s;">
+          <div class="pcard-img">
+            {%- assign ikey = p_keys[i] -%}
+            {%- if section.settings[ikey] != blank -%}
+              <img src="{{ section.settings[ikey] | image_url: width: 600 }}" alt="{{ p_names[i] }}" loading="lazy">
+            {%- else -%}
+              <div class="ph" style="min-height:200px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><path d="M21 15l-5-5L5 21"/></svg>
+                <span>Produit {{ forloop.index }}</span>
+              </div>
+            {%- endif -%}
+            <span class="pcard-badge">{{ p_badges[i] }}</span>
+          </div>
+          <div class="pcard-body">
+            <div class="pcard-stars">★★★★★</div>
+            <div class="pcard-name">{{ p_names[i] }}</div>
+            <div class="pcard-price">{{ p_prices[i] }} <s>{{ p_olds[i] }}</s></div>
+            <a href="/collections/all" class="pcard-cta">Voir le produit</a>
+          </div>
+        </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </section>
+
+  <!-- §5 CATEGORIES -->
+  <section class="cats">
+    <div class="wrap">
+      <div class="sec-head ctr">
+        <span class="eyebrow">Collections</span>
+        <h2>Explorer par catégorie</h2>
+      </div>
+      <div class="cat-grid">
+        {%- assign c_keys  = 'cat_1_image,cat_2_image,cat_3_image' | split: ',' -%}
+        {%- assign c_names = 'Montres Classiques,Montres Sport,Éditions Limitées' | split: ',' -%}
+        {%- assign c_hrefs = '/collections/all,/collections/all,/collections/all' | split: ',' -%}
+        {%- for i in (0..2) -%}
+        <div class="cat-card reveal" style="transition-delay:{{ forloop.index0 | times: 0.15 }}s;">
+          {%- assign ck = c_keys[i] -%}
+          {%- if section.settings[ck] != blank -%}
+            <img src="{{ section.settings[ck] | image_url: width: 600 }}" alt="{{ c_names[i] }}" loading="lazy">
+          {%- else -%}
+            <div class="ph" style="min-height:360px;border-radius:var(--radius);">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><path d="M21 15l-5-5L5 21"/></svg>
+              <span>Catégorie {{ forloop.index }}</span>
+            </div>
+          {%- endif -%}
+          <div class="cat-overlay">
+            <div>
+              <span class="cat-name">{{ c_names[i] }}</span>
+              <a href="{{ c_hrefs[i] }}" class="cat-link">Explorer →</a>
+            </div>
+          </div>
+        </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </section>
+
+  <!-- §6 TESTIMONIALS -->
+  <section class="testi">
+    <div class="wrap ctr">
+      <span class="eyebrow reveal">Témoignages</span>
+      <h2 class="reveal d1" style="font-size:clamp(28px,4vw,46px);margin-bottom:10px;">Ce que disent nos clients</h2>
+      <p class="reveal d2" style="margin-bottom:48px;">Avis réels. Résultats réels. Sans filtre.</p>
+      <div class="tgrid">
+        {%- assign tv_names  = 'Alexandre M.,Sophie L.,Thomas R.' | split: ',' -%}
+        {%- assign tv_roles  = 'Client depuis 2023,Cliente depuis 2022,Client depuis 2024' | split: ',' -%}
+        {%- assign tv_inits  = 'A,S,T' | split: ',' -%}
+        {%- assign tv_quotes = "Une expérience unique. Ma montre personnalisée a dépassé toutes mes attentes. Le savoir-faire est époustouflant.,Service impeccable qualité exceptionnelle. Je recommande Prose à tous les passionnés d'horlogerie de luxe.,Ma pièce sur mesure est une véritable œuvre d'art. L'équipe à l'écoute à chaque étape." | split: ',' -%}
+        {%- for i in (0..2) -%}
+        <div class="tcard reveal d{{ forloop.index }}">
+          <div class="tcard-stars">★★★★★</div>
+          <p class="tcard-text">"{{ tv_quotes[i] }}"</p>
+          <div class="tcard-foot">
+            <div class="tcard-av">{{ tv_inits[i] }}</div>
+            <div>
+              <div class="tcard-name">{{ tv_names[i] }}</div>
+              <div class="tcard-role">{{ tv_roles[i] }}</div>
+            </div>
+            <span class="verified">✓ Vérifié</span>
+          </div>
+        </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </section>
+
+  <!-- §7 BRAND BENEFITS -->
+  <section class="benefits">
+    <div class="wrap">
+      <span class="eyebrow reveal">Pourquoi Prose</span>
+      <h2 class="reveal d1">La différence qui change tout</h2>
+      <div class="ben-grid">
+        <div class="bcard reveal d1">
+          <div class="bcard-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
+          <h3>Savoir-faire certifié</h3>
+          <p>Horlogers certifiés maîtrisant techniques traditionnelles et modernes pour des pièces d'exception.</p>
+        </div>
+        <div class="bcard reveal d2">
+          <div class="bcard-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 8v4l3 3"/></svg></div>
+          <h3>100% sur mesure</h3>
+          <p>Cadran, bracelet, boîtier, gravure — chaque détail selon votre vision et votre identité.</p>
+        </div>
+        <div class="bcard reveal d3">
+          <div class="bcard-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 0 0 1.946-.806 3.42 3.42 0 0 1 4.438 0 3.42 3.42 0 0 0 1.946.806A3.42 3.42 0 0 1 19.5 7.7a3.42 3.42 0 0 0 .806 1.946 3.42 3.42 0 0 1 0 4.438 3.42 3.42 0 0 0-.806 1.946A3.42 3.42 0 0 1 16.165 19.3a3.42 3.42 0 0 0-1.946.806 3.42 3.42 0 0 1-4.438 0 3.42 3.42 0 0 0-1.946-.806A3.42 3.42 0 0 1 4.5 16.3a3.42 3.42 0 0 0-.806-1.946 3.42 3.42 0 0 1 0-4.438A3.42 3.42 0 0 0 4.5 7.97a3.42 3.42 0 0 1 3.335-3.273z"/></svg></div>
+          <h3>Garantie 2 ans</h3>
+          <p>Chaque création garantie 2 ans avec service après-vente dédié pour votre tranquillité.</p>
+        </div>
+        <div class="bcard reveal d4">
+          <div class="bcard-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 2C8 6 8 18 12 22M12 2c4 4 4 16 0 20M2 12h20"/></svg></div>
+          <h3>Livraison mondiale</h3>
+          <p>Votre pièce livrée dans un écrin de luxe, assurée et tracée jusqu'à votre porte partout.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- §8 UGC GALLERY -->
+  <section class="ugc">
+    <div class="wrap ctr">
+      <span class="eyebrow reveal">Communauté</span>
+      <h2 class="reveal d1">La communauté Prose</h2>
+      <div class="ugc-grid" style="margin-top:48px;">
+        {%- assign u_keys = 'ugc_1_image,ugc_2_image,ugc_3_image,ugc_4_image' | split: ',' -%}
+        {%- for i in (0..3) -%}
+        {%- assign uk = u_keys[i] -%}
+        <div class="ugc-item {% if forloop.first %}ugc-main{% endif %} reveal" style="transition-delay:{{ forloop.index0 | times: 0.1 }}s;">
+          {%- if section.settings[uk] != blank -%}
+            <img src="{{ section.settings[uk] | image_url: width: 600 }}" alt="UGC {{ forloop.index }}" loading="lazy" style="{% if forloop.first %}min-height:380px;{% else %}min-height:180px;{% endif %}">
+          {%- else -%}
+            <div class="ph" style="{% if forloop.first %}min-height:380px;{% else %}min-height:180px;{% endif %}border-radius:var(--radius);">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><path d="M21 15l-5-5L5 21"/></svg>
+              <span>Photo {{ forloop.index }}</span>
+            </div>
+          {%- endif -%}
+          <div class="ugc-mask"></div>
+        </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </section>
+
+  <!-- §9 ABOUT -->
+  <section class="about">
+    <div class="about-wrap">
+      <div class="about-img">
+        {%- if section.settings.about_image != blank -%}
+          <img src="{{ section.settings.about_image | image_url: width: 900 }}" alt="Fondateur Prose" loading="lazy">
+        {%- else -%}
+          <div class="ph" style="min-height:500px;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><path d="M21 15l-5-5L5 21"/></svg>
+            <span>Photo fondateur / atelier<br><small style="opacity:.6">Recommandé 900×1000px</small></span>
+          </div>
+        {%- endif -%}
+      </div>
+      <div class="about-body">
+        <span class="eyebrow reveal">Notre histoire</span>
+        <h2 class="reveal d1">L'histoire derrière chaque pièce</h2>
+        <blockquote class="about-quote reveal d2">"Chaque montre que nous créons est une promesse — celle de l'excellence, du détail et du temps bien investi."</blockquote>
+        <p class="reveal d3">Fondée par des passionnés d'horlogerie, Prose est née d'une conviction simple : chaque personne mérite une montre qui lui ressemble vraiment.</p>
+        <p class="reveal d3">Nos ateliers réunissent les meilleurs artisans français et internationaux pour transformer vos envies en réalité.</p>
+        <a href="/pages/about" class="btn btn-dark reveal d4" style="margin-top:24px;">Notre histoire complète</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- §10 FAQ -->
+  <section class="faq">
+    <div class="wrap ctr">
+      <span class="eyebrow reveal">FAQ</span>
+      <h2 class="reveal d1">Questions fréquentes</h2>
+      <div class="faq-list">
+        <details class="fi reveal d1">
+          <summary>Combien de temps dure la création d'une montre ? <span class="fi-icon">+</span></summary>
+          <p class="fi-body">Le délai moyen est de 4 à 8 semaines selon la complexité de la personnalisation. Vous êtes informé à chaque étape.</p>
+        </details>
+        <details class="fi reveal d2">
+          <summary>Puis-je personnaliser une montre existante ? <span class="fi-icon">+</span></summary>
+          <p class="fi-body">Oui, nous travaillons sur des montres neuves comme sur des pièces existantes. Apportez votre montre, nous lui donnons une nouvelle vie.</p>
+        </details>
+        <details class="fi reveal d3">
+          <summary>Quelles sont les possibilités de personnalisation ? <span class="fi-icon">+</span></summary>
+          <p class="fi-body">Cadran, aiguilles, bracelet, boîtier, couronne, gravure — tout est personnalisable. Nos horlogers vous guident selon vos envies et votre budget.</p>
+        </details>
+        <details class="fi reveal d1">
+          <summary>Livrez-vous à l'international ? <span class="fi-icon">+</span></summary>
+          <p class="fi-body">Oui, nous livrons partout dans le monde. Chaque envoi est assuré et bénéficie d'un suivi en temps réel jusqu'à votre porte.</p>
+        </details>
+        <details class="fi reveal d2">
+          <summary>Quelle est votre politique de retour ? <span class="fi-icon">+</span></summary>
+          <p class="fi-body">Les pièces personnalisées ne peuvent pas être retournées. En cas de défaut de fabrication, nous reprenons la montre dans le cadre de notre garantie 2 ans.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- §11 FINAL CTA -->
+  <section class="fcta">
+    {%- if section.settings.cta_image != blank -%}
+    <div class="fcta-bg">
+      <img src="{{ section.settings.cta_image | image_url: width: 1400 }}" alt="" loading="lazy">
+    </div>
+    {%- endif -%}
+    <div class="wrap">
+      <span class="eyebrow reveal" style="color:rgba(201,169,110,.8);">Commencer votre projet</span>
+      <h2 class="reveal d1">Votre montre unique<br>vous attend.</h2>
+      <p class="reveal d2">Rejoignez des centaines de clients qui ont fait confiance à Prose pour leur pièce d'exception.</p>
+      <div class="fcta-box reveal d3">
+        <div class="pname">Montre Personnalisée Prose</div>
+        <div class="price-row">
+          <span class="price-now">À partir de $490</span>
+          <span class="price-tag">✦ Sur mesure</span>
+        </div>
+      </div>
+      <a href="/collections/all" class="btn btn-gold reveal d4" style="font-size:13px;padding:18px 44px;">
+        Créer ma montre
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <div class="trust-row reveal d5">
+        <span class="tr-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg> Garantie 2 ans</span>
+        <span class="tr-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect width="18" height="11" x="3" y="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> Paiement sécurisé</span>
+        <span class="tr-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m7.5 4.27 9 5.15M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16ZM3.3 7l8.7 5 8.7-5M12 22V12"/></svg> Livraison mondiale</span>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<script>
+(function(){
+  if (!window.IntersectionObserver) {
+    document.querySelectorAll('.plp .reveal').forEach(function(el){ el.classList.add('visible'); });
+    return;
+  }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if (e.isIntersecting){ e.target.classList.add('visible'); io.unobserve(e.target); }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.plp .reveal').forEach(function(el){ io.observe(el); });
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Prose Landing Page",
+  "tag": "div",
+  "settings": [
+    { "type": "header",       "content": "§1 Hero" },
+    { "type": "image_picker", "id": "hero_image",     "label": "Image principale (3:4 — 800×1067px)" },
+    { "type": "header",       "content": "§3 Concept vidéo" },
+    { "type": "image_picker", "id": "video_cover",    "label": "Couverture vidéo (16:9 — 900×506px)" },
+    { "type": "header",       "content": "§4 Best Sellers" },
+    { "type": "image_picker", "id": "product_1_image","label": "Produit 1 — Série Classique" },
+    { "type": "image_picker", "id": "product_2_image","label": "Produit 2 — Édition Noire" },
+    { "type": "image_picker", "id": "product_3_image","label": "Produit 3 — Grande Complication" },
+    { "type": "image_picker", "id": "product_4_image","label": "Produit 4 — Montre Sport" },
+    { "type": "header",       "content": "§5 Catégories" },
+    { "type": "image_picker", "id": "cat_1_image",    "label": "Catégorie 1 — Classiques" },
+    { "type": "image_picker", "id": "cat_2_image",    "label": "Catégorie 2 — Sport" },
+    { "type": "image_picker", "id": "cat_3_image",    "label": "Catégorie 3 — Éditions Limitées" },
+    { "type": "header",       "content": "§8 Galerie UGC" },
+    { "type": "image_picker", "id": "ugc_1_image",    "label": "Grande photo (gauche)" },
+    { "type": "image_picker", "id": "ugc_2_image",    "label": "Photo 2" },
+    { "type": "image_picker", "id": "ugc_3_image",    "label": "Photo 3" },
+    { "type": "image_picker", "id": "ugc_4_image",    "label": "Photo 4" },
+    { "type": "header",       "content": "§9 About" },
+    { "type": "image_picker", "id": "about_image",    "label": "Photo fondateur / atelier" },
+    { "type": "header",       "content": "§11 CTA Final" },
+    { "type": "image_picker", "id": "cta_image",      "label": "Image de fond CTA (optionnel)" }
+  ],
+  "presets": [{ "name": "Prose Landing Page" }]
+}
+{% endschema %}
