@@ -36,8 +36,10 @@
             "text": "<p>L'expertise d'horlogers certifiés pour créer la pièce unique qui vous ressemble.</p>",
             "text_size": "subtext-md",
             "text_max_size": 40,
+            "text_font": "body",
             "secondary_color": false,
-            "highlighted_text": "none"
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
           }
         },
         "button": {
@@ -45,7 +47,10 @@
           "settings": {
             "button_label": "Découvrir les collections",
             "button_link": "/collections/all",
-            "button_style": "primary"
+            "button_style": "primary",
+            "button_size": "md",
+            "button_external": false,
+            "button_icon": true
           }
         }
       },
@@ -66,8 +71,10 @@
         "text_alignment_mobile": "left",
         "color_text": "#ffffff",
         "color_highlight": "#c9a96e",
+        "gradient_highlight": "",
         "color_button_text": "#171717",
         "color_button_background": "#ffffff",
+        "color_button_gradient": "",
         "color_overlay": "#171717",
         "overlay_opacity": 40,
         "padding_top": 0,
@@ -85,31 +92,36 @@
         "logo_1": {
           "type": "logo",
           "settings": {
-            "height": 36
+            "height": 36,
+            "link": ""
           }
         },
         "logo_2": {
           "type": "logo",
           "settings": {
-            "height": 36
+            "height": 36,
+            "link": ""
           }
         },
         "logo_3": {
           "type": "logo",
           "settings": {
-            "height": 36
+            "height": 36,
+            "link": ""
           }
         },
         "logo_4": {
           "type": "logo",
           "settings": {
-            "height": 36
+            "height": 36,
+            "link": ""
           }
         },
         "logo_5": {
           "type": "logo",
           "settings": {
-            "height": 36
+            "height": 36,
+            "link": ""
           }
         }
       },
@@ -122,15 +134,34 @@
       ],
       "settings": {
         "layout": "marquee",
+        "grid_horizontal": 70,
         "direction": "left",
         "speed": 25,
         "heading": "As seen in",
         "heading_size": "subtitle-sm",
         "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
         "padding_top": 28,
         "padding_bottom": 28,
         "divider": true,
-        "full_width": true
+        "full_width": true,
+        "rounded": false
       }
     },
     "concept_video": {
@@ -142,7 +173,8 @@
             "heading": "L'art de créer une montre unique",
             "heading_size": "title-lg tracking-heading",
             "heading_tag": "h2",
-            "highlighted_text": "none"
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
           }
         },
         "text": {
@@ -150,7 +182,11 @@
           "settings": {
             "text": "<p>De la conception à la livraison, chaque pièce est une collaboration entre votre vision et notre expertise horlogère.</p>",
             "text_size": "subtext-md",
-            "text_max_size": 36
+            "text_max_size": 36,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
           }
         },
         "button": {
@@ -158,7 +194,10 @@
           "settings": {
             "button_label": "En savoir plus",
             "button_link": "/pages/about",
-            "button_style": "secondary"
+            "button_style": "secondary",
+            "button_size": "md",
+            "button_external": false,
+            "button_icon": true
           }
         }
       },
@@ -168,21 +207,42 @@
         "button"
       ],
       "settings": {
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
         "enable_video_autoplay": false,
         "enable_video_looping": false,
+        "image_height": "adapt",
+        "video_width": "medium",
+        "layout": "video_first",
         "text_alignment": "center",
         "content_position": "md:items-center",
+        "video_url_mobile": "",
+        "image_height_mobile": "auto",
         "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
         "padding_top": 80,
         "padding_bottom": 80,
         "divider": false,
         "full_width": false,
-        "rounded": false
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
       }
     },
     "best_sellers": {
       "type": "featured-collection",
       "settings": {
+        "collection": "",
+        "products": [],
         "product_limit": 8,
         "columns": 4,
         "carousel_on_desktop": true,
@@ -192,6 +252,19 @@
         "heading": "Nos Best Sellers",
         "heading_size": "title-lg tracking-heading",
         "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
         "padding_top": 80,
         "padding_bottom": 80,
         "divider": false,
@@ -204,15 +277,39 @@
       "blocks": {
         "col_1": {
           "type": "collection",
-          "settings": {}
+          "settings": {
+            "collection": "",
+            "title": "",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
         },
         "col_2": {
           "type": "collection",
-          "settings": {}
+          "settings": {
+            "collection": "",
+            "title": "",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
         },
         "col_3": {
           "type": "collection",
-          "settings": {}
+          "settings": {
+            "collection": "",
+            "title": "",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
         }
       },
       "block_order": [
@@ -222,12 +319,29 @@
       ],
       "settings": {
         "columns": 3,
+        "carousel_on_desktop": true,
+        "image_type": "collection",
+        "image_ratio": "square",
+        "show_products_count": true,
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "heading": "Explorer par catégorie",
         "heading_size": "title-lg tracking-heading",
         "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
         "padding_top": 80,
         "padding_bottom": 80,
         "divider": false,
@@ -245,7 +359,10 @@
             "text": "<p>\"Une expérience unique. Ma montre personnalisée a dépassé toutes mes attentes. Le savoir-faire est époustouflant.\"</p>",
             "author": "Alexandre M.",
             "author_info": "Client depuis 2023",
-            "highlighted_text": "none"
+            "author_url": "",
+            "image_ratio": "rounded",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
           }
         },
         "t2": {
@@ -255,7 +372,10 @@
             "text": "<p>\"Service impeccable, qualité exceptionnelle. Je recommande Prose à tous les passionnés d'horlogerie de luxe.\"</p>",
             "author": "Sophie L.",
             "author_info": "Cliente depuis 2022",
-            "highlighted_text": "none"
+            "author_url": "",
+            "image_ratio": "rounded",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
           }
         },
         "t3": {
@@ -265,7 +385,10 @@
             "text": "<p>\"Ma pièce sur mesure est une véritable œuvre d'art. L'équipe a été à l'écoute à chaque étape du processus.\"</p>",
             "author": "Thomas R.",
             "author_info": "Client depuis 2024",
-            "highlighted_text": "none"
+            "author_url": "",
+            "image_ratio": "rounded",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
           }
         }
       },
@@ -278,6 +401,23 @@
         "heading": "Ce que disent nos clients",
         "heading_size": "title-lg tracking-heading",
         "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
         "padding_top": 80,
         "padding_bottom": 80,
         "divider": false,
@@ -290,37 +430,78 @@
         "b1": {
           "type": "column",
           "settings": {
+            "show_border": false,
             "text_alignment": "center",
             "text_alignment_mobile": "center",
+            "image": "shopify://shop_images/hf_20260503_083817_46a22ba0-e632-4164-a44b-c2ea7ffd22c7.png",
+            "image_ratio": "adapt",
             "heading": "Savoir-faire français",
-            "text": "<p>Nos horlogers certifiés maîtrisent les techniques traditionnelles et modernes pour créer des pièces d'exception.</p>"
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Nos horlogers certifiés maîtrisent les techniques traditionnelles et modernes pour créer des pièces d'exception.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
           }
         },
         "b2": {
           "type": "column",
           "settings": {
+            "show_border": false,
             "text_alignment": "center",
             "text_alignment_mobile": "center",
+            "image_ratio": "adapt",
             "heading": "100% sur mesure",
-            "text": "<p>Cadran, bracelet, boîtier, gravure — chaque détail est personnalisé selon votre vision. Votre montre, votre identité.</p>"
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Cadran, bracelet, boîtier, gravure — chaque détail est personnalisé selon votre vision. Votre montre, votre identité.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
           }
         },
         "b3": {
           "type": "column",
           "settings": {
+            "show_border": false,
             "text_alignment": "center",
             "text_alignment_mobile": "center",
+            "image_ratio": "adapt",
             "heading": "Garantie 2 ans",
-            "text": "<p>Chaque création Prose est garantie 2 ans avec un service après-vente dédié pour votre tranquillité d'esprit.</p>"
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Chaque création Prose est garantie 2 ans avec un service après-vente dédié pour votre tranquillité d'esprit.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
           }
         },
         "b4": {
           "type": "column",
           "settings": {
+            "show_border": false,
             "text_alignment": "center",
             "text_alignment_mobile": "center",
+            "image_ratio": "adapt",
             "heading": "Livraison mondiale",
-            "text": "<p>Votre pièce unique est livrée dans un écrin de luxe, assurée et tracée jusqu'à votre porte partout dans le monde.</p>"
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Votre pièce unique est livrée dans un écrin de luxe, assurée et tracée jusqu'à votre porte partout dans le monde.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
           }
         }
       },
@@ -338,8 +519,23 @@
         "heading": "Pourquoi choisir Prose ?",
         "heading_size": "title-lg tracking-heading",
         "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
         "button_label": "Créer ma montre",
         "button_link": "/collections/all",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
         "padding_top": 80,
         "padding_bottom": 80,
         "divider": false,
@@ -352,19 +548,91 @@
       "blocks": {
         "img_1": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "link": "",
+            "invert_subheading_heading": false,
+            "image_ratio": "portrait",
+            "content_position": "md:items-end md:justify-start",
+            "text_alignment": "left",
+            "image_ratio_mobile": "portrait",
+            "content_position_mobile": "items-end justify-start",
+            "text_alignment_mobile": "left",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#ffffff",
+            "color_highlight": "",
+            "gradient_highlight": "",
+            "color_overlay": "#171717",
+            "overlay_opacity": 10
+          }
         },
         "img_2": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "link": "",
+            "invert_subheading_heading": false,
+            "image_ratio": "portrait",
+            "content_position": "md:items-end md:justify-start",
+            "text_alignment": "left",
+            "image_ratio_mobile": "portrait",
+            "content_position_mobile": "items-end justify-start",
+            "text_alignment_mobile": "left",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#ffffff",
+            "color_highlight": "",
+            "gradient_highlight": "",
+            "color_overlay": "#171717",
+            "overlay_opacity": 10
+          }
         },
         "img_3": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "link": "",
+            "invert_subheading_heading": false,
+            "image_ratio": "portrait",
+            "content_position": "md:items-end md:justify-start",
+            "text_alignment": "left",
+            "image_ratio_mobile": "portrait",
+            "content_position_mobile": "items-end justify-start",
+            "text_alignment_mobile": "left",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#ffffff",
+            "color_highlight": "",
+            "gradient_highlight": "",
+            "color_overlay": "#171717",
+            "overlay_opacity": 10
+          }
         },
         "img_4": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "link": "",
+            "invert_subheading_heading": false,
+            "image_ratio": "portrait",
+            "content_position": "md:items-end md:justify-start",
+            "text_alignment": "left",
+            "image_ratio_mobile": "portrait",
+            "content_position_mobile": "items-end justify-start",
+            "text_alignment_mobile": "left",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#ffffff",
+            "color_highlight": "",
+            "gradient_highlight": "",
+            "color_overlay": "#171717",
+            "overlay_opacity": 10
+          }
         }
       },
       "block_order": [
@@ -377,11 +645,29 @@
         "heading": "La communauté Prose",
         "heading_size": "title-lg tracking-heading",
         "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "<p>Share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
         "padding_top": 80,
         "padding_bottom": 80,
         "divider": false,
         "full_width": false,
-        "rounded": false
+        "rounded": false,
+        "enable_parallax": true
       }
     },
     "about_brand": {
@@ -398,7 +684,8 @@
         "button_icon": true,
         "color_text": "",
         "color_button_text": "",
-        "color_button_background": ""
+        "color_button_background": "",
+        "color_button_gradient": ""
       }
     },
     "faq_section": {
@@ -409,7 +696,8 @@
           "settings": {
             "title": "Combien de temps dure la création d'une montre ?",
             "text": "<p>Le délai moyen est de 4 à 8 semaines selon la complexité de la personnalisation et les pièces choisies. Vous êtes informé à chaque étape.</p>",
-            "highlighted_text": "none"
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
           }
         },
         "q2": {
@@ -417,7 +705,8 @@
           "settings": {
             "title": "Puis-je personnaliser une montre existante ?",
             "text": "<p>Oui, nous travaillons sur des montres neuves comme sur des pièces existantes. Apportez votre montre, nous lui donnons une nouvelle vie.</p>",
-            "highlighted_text": "none"
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
           }
         },
         "q3": {
@@ -425,7 +714,8 @@
           "settings": {
             "title": "Quelles sont les possibilités de personnalisation ?",
             "text": "<p>Cadran, aiguilles, bracelet, boîtier, couronne, gravure — tout est personnalisable. Nos horlogers vous guident selon vos envies et votre budget.</p>",
-            "highlighted_text": "none"
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
           }
         },
         "q4": {
@@ -433,7 +723,8 @@
           "settings": {
             "title": "Livrez-vous à l'international ?",
             "text": "<p>Oui, nous livrons partout dans le monde. Chaque envoi est assuré et bénéficie d'un suivi en temps réel jusqu'à votre porte.</p>",
-            "highlighted_text": "none"
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
           }
         },
         "q5": {
@@ -441,7 +732,8 @@
           "settings": {
             "title": "Quelle est votre politique de retour ?",
             "text": "<p>Les pièces personnalisées ne peuvent pas être retournées. En cas de défaut de fabrication, nous reprenons la montre dans le cadre de notre garantie 2 ans.</p>",
-            "highlighted_text": "none"
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
           }
         }
       },
@@ -457,6 +749,25 @@
         "heading": "Questions fréquentes",
         "heading_size": "title-lg tracking-heading",
         "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 4,
         "padding_top": 80,
         "padding_bottom": 80,
         "divider": false,
@@ -481,7 +792,8 @@
             "heading": "<strong>Votre montre unique vous attend.</strong>",
             "heading_size": "title-xl tracking-heading",
             "heading_tag": "h2",
-            "highlighted_text": "none"
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
           }
         },
         "text": {
@@ -489,7 +801,11 @@
           "settings": {
             "text": "<p>Rejoignez des centaines de clients qui ont fait confiance à Prose pour leur pièce d'exception.</p>",
             "text_size": "subtext-md",
-            "text_max_size": 36
+            "text_max_size": 36,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
           }
         },
         "button": {
@@ -497,7 +813,10 @@
           "settings": {
             "button_label": "Créer ma montre",
             "button_link": "/collections/all",
-            "button_style": "primary"
+            "button_style": "primary",
+            "button_size": "md",
+            "button_external": false,
+            "button_icon": true
           }
         }
       },
@@ -508,6 +827,7 @@
         "button"
       ],
       "settings": {
+        "transparent_header": false,
         "image_height": "600px",
         "content_width": "large",
         "content_position": "md:items-center md:justify-center",
@@ -517,8 +837,10 @@
         "text_alignment_mobile": "center",
         "color_text": "#ffffff",
         "color_highlight": "#c9a96e",
+        "gradient_highlight": "",
         "color_button_text": "#171717",
         "color_button_background": "#ffffff",
+        "color_button_gradient": "",
         "color_overlay": "#171717",
         "overlay_opacity": 55,
         "padding_top": 0,
@@ -526,7 +848,8 @@
         "divider": false,
         "full_width": true,
         "rounded": false,
-        "enable_parallax": false
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
       }
     }
   },
