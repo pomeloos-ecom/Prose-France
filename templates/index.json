@@ -278,7 +278,7 @@
         "col_1": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "justeiko-montre-automatique",
             "title": "",
             "description": "",
             "overlay_content": false,
