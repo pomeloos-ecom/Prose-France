@@ -1,9 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "prose-landing": {
       "type": "prose-landing",
-      "settings": {}
+      "settings": {
+        "hero_image": "shopify://shop_images/Proseikocopy2_c895faec-08c4-4139-93ea-85025c91e7e5.jpg",
+        "product_1_image": "shopify://shop_images/hf_20260503_075528_d82fecd3-ddde-4960-9d02-8301aa909dfc.png",
+        "product_2_image": "shopify://shop_images/hf_20260503_185946_c46f0418-be7f-44bf-844b-32f6a51bd42a.png",
+        "product_3_image": "shopify://shop_images/hf_20260503_192430_57993e01-2a8f-4145-bbdf-8936a3b21d52.png",
+        "product_4_image": "shopify://shop_images/hf_20260503_181751_43a7085e-6244-4cd5-aaa5-a87750cb55ec.png",
+        "cat_1_image": "shopify://shop_images/rosegoldblakc.jpg",
+        "cat_2_image": "shopify://shop_images/SeikoakPROSERoseBlackangle4.png",
+        "cat_3_image": "shopify://shop_images/arabicwhite2.jpg",
+        "ugc_1_image": "shopify://shop_images/hf_20260421_171950_63c927ed-4d0b-4242-bb72-6133153aca75.png"
+      }
     }
   },
-  "order": ["prose-landing"]
+  "order": [
+    "prose-landing"
+  ]
 }
