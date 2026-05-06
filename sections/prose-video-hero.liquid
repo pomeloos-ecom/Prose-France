@@ -1,0 +1,335 @@
+{% comment %} Prose — Animated Video on Scroll Hero (21st.dev: YoucefBnm/animated-video-on-scroll) {% endcomment %}
+
+<style>
+/* ── Reset ─────────────────────────────────────── */
+.avs *, .avs *::before, .avs *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* ── Container ─────────────────────────────────── */
+.avs {
+  position: relative;
+  height: 280vh;
+  background: #f8f4ef;
+  font-family: var(--font-body-family, sans-serif);
+}
+
+/* Sticky viewport */
+.avs-sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+  gap: 0;
+}
+
+/* ── Text block ────────────────────────────────── */
+.avs-text {
+  text-align: center;
+  margin-bottom: 28px;
+  position: relative;
+  z-index: 2;
+}
+.avs-eyebrow {
+  display: inline-block;
+  font-size: 10px; font-weight: 700; letter-spacing: .2em;
+  text-transform: uppercase; color: #c9a96e;
+  margin-bottom: 14px;
+  opacity: 0; transform: translateY(16px);
+  transition: opacity .7s ease, transform .7s ease;
+}
+.avs-eyebrow.in { opacity: 1; transform: none; }
+
+.avs-title {
+  font-family: var(--font-heading-family, Georgia, serif);
+  font-size: clamp(36px, 5.5vw, 72px);
+  font-weight: 700; line-height: 1.08;
+  letter-spacing: -.03em; color: #0a0a0a;
+  margin-bottom: 16px;
+  opacity: 0; transform: translateY(24px);
+  transition: opacity .7s .1s ease, transform .7s .1s ease;
+}
+.avs-title.in { opacity: 1; transform: none; }
+.avs-title em { font-style: italic; color: #c9a96e; }
+
+.avs-sub {
+  font-size: clamp(14px, 1.5vw, 17px);
+  color: #6b6b6b; max-width: 500px; margin: 0 auto;
+  line-height: 1.65;
+  opacity: 0; transform: translateY(20px);
+  transition: opacity .7s .2s ease, transform .7s .2s ease;
+}
+.avs-sub.in { opacity: 1; transform: none; }
+
+/* ── Video container ───────────────────────────── */
+.avs-video-wrap {
+  width: 100%;
+  max-width: 1100px;
+  position: relative;
+  z-index: 1;
+  /* clip-path animated by JS */
+  clip-path: inset(35% 42% 35% 42% round 1000px);
+  will-change: clip-path;
+}
+
+.avs-video-inner {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #e8e2da;
+  /* scale animated by JS */
+  transform: scale(0.7);
+  transform-origin: center center;
+  will-change: transform;
+}
+
+.avs-video-inner video {
+  width: 100%; height: 100%;
+  object-fit: cover; display: block;
+}
+
+/* Placeholder */
+.avs-ph {
+  width: 100%; height: 100%;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 14px; color: #9b9287;
+  background: linear-gradient(135deg, #ede7de, #ddd5c8);
+}
+.avs-ph svg { width: 40px; height: 40px; opacity: .4; }
+.avs-ph span { font-size: 12px; font-weight: 600; letter-spacing: .06em; text-align: center; }
+.avs-ph small { display: block; font-weight: 400; opacity: .7; margin-top: 4px; }
+
+/* ── CTA ───────────────────────────────────────── */
+.avs-cta {
+  margin-top: 28px;
+  position: relative; z-index: 2;
+  opacity: 0; transform: translateY(20px);
+  transition: opacity .6s .4s ease, transform .6s .4s ease;
+}
+.avs-cta.in { opacity: 1; transform: none; }
+
+.avs-btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 14px 32px; border-radius: 3px;
+  background: #0a0a0a; color: #fff;
+  font-size: 11px; font-weight: 700; letter-spacing: .1em;
+  text-transform: uppercase; text-decoration: none;
+  border: 1px solid #0a0a0a;
+  transition: background .2s, border-color .2s;
+}
+.avs-btn:hover { background: #c9a96e; border-color: #c9a96e; }
+.avs-btn svg { width: 14px; height: 14px; flex-shrink: 0; }
+
+/* ── Scroll hint ───────────────────────────────── */
+.avs-scroll-hint {
+  position: absolute; bottom: 28px; left: 50%;
+  transform: translateX(-50%);
+  display: flex; flex-direction: column; align-items: center; gap: 8px;
+  font-size: 10px; font-weight: 600; letter-spacing: .16em;
+  text-transform: uppercase; color: #aaa;
+  opacity: 1; transition: opacity .4s;
+  z-index: 3;
+}
+.avs-scroll-hint.hide { opacity: 0; }
+.avs-mouse {
+  width: 22px; height: 34px; border: 2px solid #ccc; border-radius: 12px;
+  position: relative;
+}
+.avs-mouse::after {
+  content: ''; position: absolute; left: 50%; top: 5px;
+  transform: translateX(-50%);
+  width: 3px; height: 8px; background: #c9a96e; border-radius: 2px;
+  animation: avsMouseScroll 1.5s ease infinite;
+}
+@keyframes avsMouseScroll {
+  0%   { opacity: 1; transform: translateX(-50%) translateY(0); }
+  100% { opacity: 0; transform: translateX(-50%) translateY(10px); }
+}
+</style>
+
+<div class="avs" id="avs-section">
+  <div class="avs-sticky">
+
+    <!-- Text -->
+    <div class="avs-text">
+      <span class="avs-eyebrow" id="avs-eyebrow">Ateliers Français &amp; Internationaux</span>
+      <h1 class="avs-title" id="avs-title">
+        {%- if section.settings.heading != blank -%}
+          {{ section.settings.heading }}
+        {%- else -%}
+          Votre montre.<br><em>Votre histoire.</em>
+        {%- endif -%}
+      </h1>
+      <p class="avs-sub" id="avs-sub">
+        {%- if section.settings.subheading != blank -%}
+          {{ section.settings.subheading }}
+        {%- else -%}
+          L'expertise d'horlogers certifiés pour créer la pièce unique qui vous ressemble.
+        {%- endif -%}
+      </p>
+    </div>
+
+    <!-- Video -->
+    <div class="avs-video-wrap" id="avs-vw">
+      <div class="avs-video-inner" id="avs-vi">
+        {%- if section.settings.video != blank -%}
+          <video autoplay loop muted playsinline>
+            {%- for source in section.settings.video.sources -%}
+              <source src="{{ source.url }}" type="{{ source.mime_type }}">
+            {%- endfor -%}
+          </video>
+        {%- else -%}
+          <div class="avs-ph">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+              <polygon points="5 3 19 12 5 21 5 3"/>
+            </svg>
+            <span>
+              Vidéo placeholder
+              <small>Sélectionner depuis les fichiers Shopify</small>
+            </span>
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="avs-cta" id="avs-cta">
+      <a href="{{ section.settings.cta_link | default: '/collections/all' }}" class="avs-btn">
+        {{ section.settings.cta_label | default: 'Découvrir les collections' }}
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+
+    <!-- Scroll hint -->
+    <div class="avs-scroll-hint" id="avs-hint">
+      <div class="avs-mouse"></div>
+      <span>Scroll</span>
+    </div>
+
+  </div>
+</div>
+
+<script>
+(function () {
+  var section = document.getElementById('avs-section');
+  if (!section) return;
+
+  var vw   = document.getElementById('avs-vw');
+  var vi   = document.getElementById('avs-vi');
+  var hint = document.getElementById('avs-hint');
+
+  /* ── Entrance animations ─────────────────────── */
+  var entranceEls = ['avs-eyebrow', 'avs-title', 'avs-sub', 'avs-cta'];
+  setTimeout(function () {
+    entranceEls.forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) el.classList.add('in');
+    });
+  }, 150);
+
+  /* ── Scroll-driven clip-path + scale ─────────── */
+  var ticking = false;
+
+  function update() {
+    var rect       = section.getBoundingClientRect();
+    var totalH     = section.offsetHeight;
+    var winH       = window.innerHeight;
+    var scrolled   = Math.max(0, -rect.top);
+    var maxScroll  = totalH - winH;
+    var p          = Math.min(1, Math.max(0, scrolled / maxScroll)); // 0 → 1
+
+    /* Inset: 35%/42% → 0% */
+    var insetY = 35 * (1 - p);
+    var insetX = 42 * (1 - p);
+
+    /* Border-radius: 1000px → 12px */
+    var radius = 1000 + (12 - 1000) * p;
+
+    /* Scale: 0.7 → 1 */
+    var scale = 0.7 + 0.3 * p;
+
+    vw.style.clipPath =
+      'inset(' + insetY + '% ' + insetX + '% ' + insetY + '% ' + insetX + '% round ' + radius + 'px)';
+    vi.style.transform = 'scale(' + scale + ')';
+
+    /* Hide scroll hint after 15% scroll */
+    if (p > 0.08) {
+      hint.classList.add('hide');
+    } else {
+      hint.classList.remove('hide');
+    }
+
+    ticking = false;
+  }
+
+  window.addEventListener('scroll', function () {
+    if (!ticking) {
+      requestAnimationFrame(update);
+      ticking = true;
+    }
+  }, { passive: true });
+
+  /* Initial state */
+  update();
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Prose — Video Hero",
+  "tag": "div",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Texte"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Titre",
+      "default": "Votre montre. <em>Votre histoire.</em>"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Sous-titre",
+      "default": "L'expertise d'horlogers certifiés pour créer la pièce unique qui vous ressemble."
+    },
+    {
+      "type": "header",
+      "content": "Vidéo"
+    },
+    {
+      "type": "video",
+      "id": "video",
+      "label": "Vidéo (depuis vos fichiers Shopify)"
+    },
+    {
+      "type": "header",
+      "content": "Bouton CTA"
+    },
+    {
+      "type": "text",
+      "id": "cta_label",
+      "label": "Texte du bouton",
+      "default": "Découvrir les collections"
+    },
+    {
+      "type": "url",
+      "id": "cta_link",
+      "label": "Lien du bouton"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Prose Video Hero"
+    }
+  ]
+}
+{% endschema %}

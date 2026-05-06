@@ -9,10 +9,14 @@
  */
 {
   "sections": {
+    "video-hero": {
+      "type": "prose-video-hero",
+      "settings": {}
+    },
     "fonts-test": {
       "type": "prose-fonts-test",
       "settings": {}
     }
   },
-  "order": ["fonts-test"]
+  "order": ["video-hero", "fonts-test"]
 }
