@@ -24,7 +24,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Votre montre. Votre histoire.</strong>",
-            "heading_size": "title-md",
+            "heading_size": "title-xl tracking-heading",
             "heading_tag": "h1",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
@@ -52,44 +52,31 @@
             "button_external": false,
             "button_icon": true
           }
-        },
-        "button_cipmxn": {
-          "type": "button",
-          "settings": {
-            "button_label": "Découvrir les collections",
-            "button_link": "/collections/all",
-            "button_style": "primary",
-            "button_size": "md",
-            "button_external": false,
-            "button_icon": false
-          }
         }
       },
       "block_order": [
         "subheading",
         "heading",
         "text",
-        "button",
-        "button_cipmxn"
+        "button"
       ],
       "settings": {
         "transparent_header": true,
-        "image": "shopify://shop_images/hf_20260506_160533_602ac19d-c9de-454e-8b6b-f3f284c82dab.png",
-        "image_height": "650px",
-        "content_width": "medium",
-        "content_position": "md:items-end md:justify-start",
+        "image_height": "100vh",
+        "content_width": "large",
+        "content_position": "md:items-center md:justify-start",
         "text_alignment": "left",
-        "image_height_mobile": "100vh",
+        "image_height_mobile": "600px",
         "content_position_mobile": "items-end justify-start",
         "text_alignment_mobile": "left",
-        "color_text": "#1f1f1f",
+        "color_text": "#ffffff",
         "color_highlight": "#c9a96e",
         "gradient_highlight": "",
         "color_button_text": "#171717",
         "color_button_background": "#ffffff",
         "color_button_gradient": "",
         "color_overlay": "#171717",
-        "overlay_opacity": 0,
+        "overlay_opacity": 40,
         "padding_top": 0,
         "padding_bottom": 0,
         "divider": false,
@@ -149,7 +136,7 @@
         "layout": "marquee",
         "grid_horizontal": 70,
         "direction": "left",
-        "speed": 1,
+        "speed": 25,
         "heading": "As seen in",
         "heading_size": "subtitle-sm",
         "heading_alignment": "text-center md:items-center",
@@ -220,7 +207,6 @@
         "button"
       ],
       "settings": {
-        "video": "shopify://files/videos/TEST VSL.mp4",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "enable_video_autoplay": false,
@@ -255,10 +241,10 @@
     "best_sellers": {
       "type": "featured-collection",
       "settings": {
-        "collection": "automatique",
+        "collection": "",
         "products": [],
-        "product_limit": 9,
-        "columns": 5,
+        "product_limit": 8,
+        "columns": 4,
         "carousel_on_desktop": true,
         "show_view_all": true,
         "columns_mobile": "1",
@@ -438,6 +424,11 @@
         "rounded": false
       }
     },
+    "why_choose_bento": {
+      "type": "prose-why-choose-bento",
+      "settings": {}
+    },
+
     "brand_benefits": {
       "type": "multicolumn",
       "blocks": {
@@ -874,6 +865,7 @@
     "best_sellers",
     "product_categories",
     "testimonials_section",
+    "why_choose_bento",
     "brand_benefits",
     "ugc_section",
     "about_brand",

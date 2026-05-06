@@ -1,0 +1,316 @@
+{% comment %}
+  Prose — Why Choose Us (Bento Grid)
+  Inspired by: 21st.dev — Ruixen Bento Cards + FUI Bento Grid
+  4 cards asymétriques avec coins +, image en fond, scroll reveal
+{% endcomment %}
+
+<style>
+.pwc *, .pwc *::before, .pwc *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+.pwc {
+  background: var(--color-background, #fff);
+  padding: 80px 24px;
+  font-family: var(--font-body-family, sans-serif);
+}
+@media(min-width:768px) { .pwc { padding: 100px 48px; } }
+@media(min-width:1200px) { .pwc { padding: 120px 80px; } }
+
+.pwc-wrap { max-width: 1200px; margin: 0 auto; }
+
+/* ── Header ───────────────────────────── */
+.pwc-head { margin-bottom: 52px; }
+.pwc-eyebrow {
+  display: inline-block; font-size: 11px; font-weight: 700;
+  letter-spacing: .18em; text-transform: uppercase; color: #c9a96e; margin-bottom: 14px;
+}
+.pwc-title {
+  font-family: var(--font-heading-family, Georgia, serif);
+  font-size: clamp(28px,4vw,48px); font-weight: 700;
+  letter-spacing: -.02em; line-height: 1.1; color: #0a0a0a;
+  margin-bottom: 14px;
+}
+.pwc-sub { font-size: 16px; color: #6b6b6b; max-width: 520px; line-height: 1.65; }
+
+/* ── Bento Grid ───────────────────────── */
+.pwc-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+@media(min-width:640px) {
+  .pwc-grid { grid-template-columns: 1fr 1fr; }
+}
+@media(min-width:1024px) {
+  .pwc-grid {
+    grid-template-columns: 1.4fr 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  .pwc-card:nth-child(1) { grid-row: span 2; }
+  .pwc-card:nth-child(4) { grid-column: span 2; }
+}
+
+/* ── Card base ────────────────────────── */
+.pwc-card {
+  position: relative;
+  border: 1px dashed #c5bdb5;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: #f8f4ef;
+  transition: border-color .3s, box-shadow .3s, transform .3s;
+  cursor: default;
+}
+.pwc-card:hover {
+  border-color: #c9a96e;
+  box-shadow: 0 20px 60px rgba(0,0,0,.08);
+  transform: translateY(-4px);
+}
+
+/* tall card on desktop */
+@media(min-width:1024px) {
+  .pwc-card:nth-child(1) { min-height: 520px; }
+  .pwc-card:nth-child(4) { min-height: 220px; }
+}
+
+/* ── Card image (fond) ────────────────── */
+.pwc-img {
+  position: absolute; inset: 0;
+  z-index: 0;
+}
+.pwc-img img {
+  width: 100%; height: 100%; object-fit: cover;
+  transition: transform .5s ease;
+}
+.pwc-card:hover .pwc-img img { transform: scale(1.04); }
+
+/* placeholder */
+.pwc-img-ph {
+  width: 100%; height: 100%;
+  background: linear-gradient(135deg, #ede7de, #ddd5c8);
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 10px; color: #a09585; font-size: 11px; text-align: center;
+}
+.pwc-img-ph svg { width: 28px; height: 28px; opacity: .4; }
+
+/* gradient overlay */
+.pwc-overlay {
+  position: absolute; inset: 0; z-index: 1;
+  background: linear-gradient(to top, rgba(10,10,10,.78) 0%, rgba(10,10,10,.1) 60%, transparent 100%);
+  transition: opacity .3s;
+}
+.pwc-card:hover .pwc-overlay { opacity: .85; }
+
+/* ── Card content ─────────────────────── */
+.pwc-body {
+  position: relative; z-index: 2;
+  padding: 28px 24px;
+}
+.pwc-card-eyebrow {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 10px; font-weight: 700; letter-spacing: .16em;
+  text-transform: uppercase; color: #c9a96e; margin-bottom: 10px;
+}
+.pwc-card-ico {
+  width: 28px; height: 28px; border-radius: 6px;
+  background: rgba(201,169,110,.15);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.pwc-card-ico svg { width: 14px; height: 14px; color: #c9a96e; }
+.pwc-card h3 {
+  font-family: var(--font-heading-family, Georgia, serif);
+  font-size: 20px; font-weight: 700; color: #fff;
+  letter-spacing: -.01em; margin-bottom: 8px; line-height: 1.2;
+}
+.pwc-card p { font-size: 13px; color: rgba(255,255,255,.65); line-height: 1.65; }
+
+/* ── Corner + icons (Ruixen style) ─────── */
+.pwc-corners { position: absolute; inset: 0; z-index: 3; pointer-events: none; }
+.pwc-corner {
+  position: absolute; width: 20px; height: 20px;
+  display: flex; align-items: center; justify-content: center;
+  opacity: 0; transition: opacity .3s;
+}
+.pwc-card:hover .pwc-corner { opacity: 1; }
+.pwc-corner svg { width: 18px; height: 18px; color: #c9a96e; }
+.pwc-corner-tl { top: -9px;  left: -9px;  }
+.pwc-corner-tr { top: -9px;  right: -9px; }
+.pwc-corner-bl { bottom: -9px; left: -9px;  }
+.pwc-corner-br { bottom: -9px; right: -9px; }
+
+/* ── Scroll reveal ───────────────────── */
+.pwc-card.reveal {
+  opacity: 0; transform: translateY(28px);
+  transition: opacity .6s cubic-bezier(.22,1,.36,1), transform .6s cubic-bezier(.22,1,.36,1),
+              border-color .3s, box-shadow .3s;
+}
+.pwc-card.reveal.visible { opacity: 1; transform: translateY(0); }
+.pwc-card.reveal.visible:hover { transform: translateY(-4px); }
+.pwc-head .pwc-title.reveal, .pwc-head .pwc-sub.reveal, .pwc-head .pwc-eyebrow.reveal {
+  opacity: 0; transform: translateY(20px);
+  transition: opacity .6s ease, transform .6s ease;
+}
+.pwc-head .pwc-title.reveal.visible,
+.pwc-head .pwc-sub.reveal.visible,
+.pwc-head .pwc-eyebrow.reveal.visible { opacity: 1; transform: none; }
+</style>
+
+{%- comment -%} SVG icons helper {%- endcomment -%}
+{%- capture ico_craft -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></svg>{%- endcapture -%}
+{%- capture ico_custom -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93 17.66 6.34M6.34 17.66l-1.41 1.41M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2"/></svg>{%- endcapture -%}
+{%- capture ico_guarantee -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>{%- endcapture -%}
+{%- capture ico_shipping -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10"/><path d="M2 12h20M12 2c-4 4-4 16 0 20M12 2c4 4 4 16 0 20"/></svg>{%- endcapture -%}
+
+{%- assign card_eyebrows = 'Savoir-faire certifié,100% sur mesure,Garantie 2 ans,Livraison mondiale' | split: ',' -%}
+<div class="pwc">
+  <div class="pwc-wrap">
+
+    <div class="pwc-head">
+      <span class="pwc-eyebrow reveal">Pourquoi Prose</span>
+      <h2 class="pwc-title reveal" style="transition-delay:.08s">La différence qui change tout</h2>
+      <p class="pwc-sub reveal" style="transition-delay:.16s">Quatre engagements qui font de Prose une marque horlogère à part entière.</p>
+    </div>
+
+    <div class="pwc-grid">
+
+      <!-- Card 1 — Savoir-faire -->
+      <div class="pwc-card reveal">
+        <div class="pwc-img">
+          {%- if section.settings.card_1_image != blank -%}
+            <img src="{{ section.settings.card_1_image | image_url: width: 800 }}" alt="Savoir-faire" loading="lazy">
+          {%- else -%}
+            <div class="pwc-img-ph">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><path d="M21 15l-5-5L5 21" stroke-linecap="round"/></svg>
+              <span>Photo 1 — Portrait<br><small style="opacity:.7">Image placeholder</small></span>
+            </div>
+          {%- endif -%}
+        </div>
+        <div class="pwc-overlay"></div>
+        <div class="pwc-corners">
+          <div class="pwc-corner pwc-corner-tl">{{ ico_craft }}</div>
+          <div class="pwc-corner pwc-corner-tr">{{ ico_craft }}</div>
+          <div class="pwc-corner pwc-corner-bl">{{ ico_craft }}</div>
+          <div class="pwc-corner pwc-corner-br">{{ ico_craft }}</div>
+        </div>
+        <div class="pwc-body">
+          <div class="pwc-card-eyebrow"><div class="pwc-card-ico">{{ ico_craft }}</div>Savoir-faire certifié</div>
+          <h3>L'art de l'horloger français</h3>
+          <p>Nos horlogers certifiés maîtrisent les techniques traditionnelles et modernes pour créer des pièces d'exception qui traversent le temps.</p>
+        </div>
+      </div>
+
+      <!-- Card 2 — Sur mesure -->
+      <div class="pwc-card reveal" style="transition-delay:.1s;">
+        <div class="pwc-img">
+          {%- if section.settings.card_2_image != blank -%}
+            <img src="{{ section.settings.card_2_image | image_url: width: 600 }}" alt="Sur mesure" loading="lazy">
+          {%- else -%}
+            <div class="pwc-img-ph">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><path d="M21 15l-5-5L5 21" stroke-linecap="round"/></svg>
+              <span>Photo 2<br><small style="opacity:.7">Image placeholder</small></span>
+            </div>
+          {%- endif -%}
+        </div>
+        <div class="pwc-overlay"></div>
+        <div class="pwc-corners">
+          <div class="pwc-corner pwc-corner-tl">{{ ico_custom }}</div>
+          <div class="pwc-corner pwc-corner-tr">{{ ico_custom }}</div>
+          <div class="pwc-corner pwc-corner-bl">{{ ico_custom }}</div>
+          <div class="pwc-corner pwc-corner-br">{{ ico_custom }}</div>
+        </div>
+        <div class="pwc-body">
+          <div class="pwc-card-eyebrow"><div class="pwc-card-ico">{{ ico_custom }}</div>100% sur mesure</div>
+          <h3>Chaque détail vous ressemble</h3>
+          <p>Cadran, bracelet, boîtier, gravure — chaque composant est choisi selon votre vision et votre personnalité.</p>
+        </div>
+      </div>
+
+      <!-- Card 3 — Garantie -->
+      <div class="pwc-card reveal" style="transition-delay:.2s;">
+        <div class="pwc-img">
+          {%- if section.settings.card_3_image != blank -%}
+            <img src="{{ section.settings.card_3_image | image_url: width: 600 }}" alt="Garantie" loading="lazy">
+          {%- else -%}
+            <div class="pwc-img-ph">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><path d="M21 15l-5-5L5 21" stroke-linecap="round"/></svg>
+              <span>Photo 3<br><small style="opacity:.7">Image placeholder</small></span>
+            </div>
+          {%- endif -%}
+        </div>
+        <div class="pwc-overlay"></div>
+        <div class="pwc-corners">
+          <div class="pwc-corner pwc-corner-tl">{{ ico_guarantee }}</div>
+          <div class="pwc-corner pwc-corner-tr">{{ ico_guarantee }}</div>
+          <div class="pwc-corner pwc-corner-bl">{{ ico_guarantee }}</div>
+          <div class="pwc-corner pwc-corner-br">{{ ico_guarantee }}</div>
+        </div>
+        <div class="pwc-body">
+          <div class="pwc-card-eyebrow"><div class="pwc-card-ico">{{ ico_guarantee }}</div>Garantie 2 ans</div>
+          <h3>Zéro risque. Tout bénéfice.</h3>
+          <p>Chaque création Prose est garantie 2 ans avec un service après-vente dédié. Nous répondons toujours présent.</p>
+        </div>
+      </div>
+
+      <!-- Card 4 — Livraison (large) -->
+      <div class="pwc-card reveal" style="transition-delay:.3s;">
+        <div class="pwc-img">
+          {%- if section.settings.card_4_image != blank -%}
+            <img src="{{ section.settings.card_4_image | image_url: width: 1000 }}" alt="Livraison" loading="lazy">
+          {%- else -%}
+            <div class="pwc-img-ph">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><path d="M21 15l-5-5L5 21" stroke-linecap="round"/></svg>
+              <span>Photo 4 — Paysage<br><small style="opacity:.7">Image placeholder</small></span>
+            </div>
+          {%- endif -%}
+        </div>
+        <div class="pwc-overlay"></div>
+        <div class="pwc-corners">
+          <div class="pwc-corner pwc-corner-tl">{{ ico_shipping }}</div>
+          <div class="pwc-corner pwc-corner-tr">{{ ico_shipping }}</div>
+          <div class="pwc-corner pwc-corner-bl">{{ ico_shipping }}</div>
+          <div class="pwc-corner pwc-corner-br">{{ ico_shipping }}</div>
+        </div>
+        <div class="pwc-body">
+          <div class="pwc-card-eyebrow"><div class="pwc-card-ico">{{ ico_shipping }}</div>Livraison mondiale</div>
+          <h3>Jusqu'à votre porte, partout</h3>
+          <p>Votre pièce unique est livrée dans un écrin de luxe premium, assurée et tracée en temps réel partout dans le monde.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  if (!window.IntersectionObserver) {
+    document.querySelectorAll('.pwc .reveal').forEach(function(el){ el.classList.add('visible'); });
+    return;
+  }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){ e.target.classList.add('visible'); io.unobserve(e.target); }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.pwc .reveal').forEach(function(el){ io.observe(el); });
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Why Choose Bento",
+  "tag": "div",
+  "settings": [
+    { "type": "header",       "content": "Images des cartes" },
+    { "type": "image_picker", "id": "card_1_image", "label": "Carte 1 — Savoir-faire (portrait recommandé)" },
+    { "type": "image_picker", "id": "card_2_image", "label": "Carte 2 — Sur mesure" },
+    { "type": "image_picker", "id": "card_3_image", "label": "Carte 3 — Garantie" },
+    { "type": "image_picker", "id": "card_4_image", "label": "Carte 4 — Livraison (paysage recommandé)" }
+  ],
+  "presets": [{ "name": "Prose Why Choose Bento" }]
+}
+{% endschema %}
