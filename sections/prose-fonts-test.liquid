@@ -1,0 +1,262 @@
+{% comment %} Prose — Font Combinations Test Page {% endcomment %}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;1,6..96,400&family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&family=DM+Serif+Display:ital@0;1&family=Figtree:wght@300;400;600&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,300&family=Inter:wght@300;400;500&family=Jost:wght@300;400;500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Marcellus&family=Montserrat:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Raleway:wght@300;400;500&family=Source+Sans+3:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+.pft { background: #f5f0eb; min-height: 100vh; padding: 60px 24px 100px; }
+.pft-title {
+  text-align: center; margin-bottom: 64px;
+  font-family: 'Inter', sans-serif; color: #0a0a0a;
+}
+.pft-title h1 { font-size: 28px; font-weight: 600; letter-spacing: -.02em; margin-bottom: 8px; }
+.pft-title p  { font-size: 14px; color: #777; }
+
+.pft-grid {
+  display: grid; grid-template-columns: 1fr; gap: 2px;
+  max-width: 1200px; margin: 0 auto;
+}
+@media(min-width:900px) { .pft-grid { grid-template-columns: 1fr 1fr; } }
+
+/* Card */
+.fc {
+  background: #fff; padding: 44px 40px; position: relative;
+  border: 1px solid #e8e2da;
+  transition: box-shadow .2s;
+}
+.fc:hover { box-shadow: 0 8px 40px rgba(0,0,0,.07); z-index: 1; }
+
+.fc-num {
+  position: absolute; top: 18px; right: 22px;
+  font-family: 'Inter', sans-serif; font-size: 11px;
+  font-weight: 600; color: #bbb; letter-spacing: .06em;
+}
+.fc-tag {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: #f5f0eb; border: 1px solid #e8e2da;
+  padding: 5px 12px; border-radius: 2px;
+  font-family: 'Inter', sans-serif;
+  font-size: 10px; font-weight: 600; color: #c9a96e;
+  letter-spacing: .1em; text-transform: uppercase;
+  margin-bottom: 28px;
+}
+.fc-eyebrow {
+  font-size: 10px; font-weight: 700; letter-spacing: .18em;
+  text-transform: uppercase; color: #c9a96e; margin-bottom: 12px;
+  font-family: 'Inter', sans-serif;
+}
+.fc-divider {
+  width: 40px; height: 1px; background: #c9a96e; margin: 20px 0;
+}
+.fc-meta {
+  margin-top: 32px; padding-top: 20px; border-top: 1px solid #ede7de;
+  display: flex; gap: 16px; flex-wrap: wrap;
+  font-family: 'Inter', sans-serif; font-size: 11px; color: #aaa;
+}
+.fc-meta strong { color: #555; font-weight: 600; }
+
+/* ── Combo 1 — Playfair Display + Lato ── */
+.fc1 .fc-h { font-family: 'Playfair Display', serif; font-size: 38px; font-weight: 700; line-height: 1.1; letter-spacing: -.01em; color: #0a0a0a; }
+.fc1 .fc-h em { font-style: italic; color: #c9a96e; }
+.fc1 .fc-sub { font-family: 'Source Sans 3', sans-serif; font-size: 17px; font-weight: 300; color: #6b6b6b; line-height: 1.65; margin-top: 14px; }
+.fc1 .fc-body { font-family: 'Source Sans 3', sans-serif; font-size: 14px; color: #555; line-height: 1.75; }
+
+/* ── Combo 2 — Cormorant Garamond + Jost ── */
+.fc2 .fc-h { font-family: 'Cormorant Garamond', serif; font-size: 44px; font-weight: 600; line-height: 1.08; letter-spacing: -.01em; color: #0a0a0a; }
+.fc2 .fc-h em { font-style: italic; color: #c9a96e; }
+.fc2 .fc-sub { font-family: 'Jost', sans-serif; font-size: 14px; font-weight: 300; letter-spacing: .08em; text-transform: uppercase; color: #6b6b6b; line-height: 1.65; margin-top: 14px; }
+.fc2 .fc-body { font-family: 'Jost', sans-serif; font-size: 14px; font-weight: 300; color: #555; line-height: 1.75; }
+
+/* ── Combo 3 — Libre Baskerville + Source Sans 3 ── */
+.fc3 .fc-h { font-family: 'Libre Baskerville', serif; font-size: 34px; font-weight: 700; line-height: 1.15; color: #0a0a0a; }
+.fc3 .fc-h em { font-style: italic; color: #c9a96e; }
+.fc3 .fc-sub { font-family: 'Source Sans 3', sans-serif; font-size: 16px; font-weight: 400; color: #6b6b6b; line-height: 1.65; margin-top: 14px; }
+.fc3 .fc-body { font-family: 'Source Sans 3', sans-serif; font-size: 14px; color: #555; line-height: 1.75; }
+
+/* ── Combo 4 — Bodoni Moda + DM Sans ── */
+.fc4 .fc-h { font-family: 'Bodoni Moda', serif; font-size: 40px; font-weight: 700; line-height: 1.1; letter-spacing: -.02em; color: #0a0a0a; }
+.fc4 .fc-h em { font-style: italic; color: #c9a96e; }
+.fc4 .fc-sub { font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 300; color: #6b6b6b; line-height: 1.65; margin-top: 14px; }
+.fc4 .fc-body { font-family: 'DM Sans', sans-serif; font-size: 14px; color: #555; line-height: 1.75; }
+
+/* ── Combo 5 — DM Serif Display + Inter ── */
+.fc5 .fc-h { font-family: 'DM Serif Display', serif; font-size: 42px; font-weight: 400; line-height: 1.1; color: #0a0a0a; }
+.fc5 .fc-h em { font-style: italic; color: #c9a96e; }
+.fc5 .fc-sub { font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 400; color: #6b6b6b; line-height: 1.65; margin-top: 14px; letter-spacing: .01em; }
+.fc5 .fc-body { font-family: 'Inter', sans-serif; font-size: 13px; color: #555; line-height: 1.8; }
+
+/* ── Combo 6 — Fraunces + Figtree ── */
+.fc6 .fc-h { font-family: 'Fraunces', serif; font-size: 42px; font-weight: 700; line-height: 1.1; letter-spacing: -.02em; color: #0a0a0a; }
+.fc6 .fc-h em { font-style: italic; font-weight: 300; color: #c9a96e; }
+.fc6 .fc-sub { font-family: 'Figtree', sans-serif; font-size: 15px; font-weight: 300; color: #6b6b6b; line-height: 1.65; margin-top: 14px; }
+.fc6 .fc-body { font-family: 'Figtree', sans-serif; font-size: 14px; color: #555; line-height: 1.75; }
+
+/* ── Combo 7 — Marcellus + Raleway ── */
+.fc7 .fc-h { font-family: 'Marcellus', serif; font-size: 40px; font-weight: 400; line-height: 1.12; color: #0a0a0a; }
+.fc7 .fc-h em { font-style: normal; color: #c9a96e; }
+.fc7 .fc-sub { font-family: 'Raleway', sans-serif; font-size: 13px; font-weight: 400; letter-spacing: .12em; text-transform: uppercase; color: #6b6b6b; line-height: 1.65; margin-top: 14px; }
+.fc7 .fc-body { font-family: 'Raleway', sans-serif; font-size: 14px; font-weight: 300; color: #555; line-height: 1.75; }
+
+/* ── Combo 8 — Cinzel + Montserrat ── */
+.fc8 .fc-h { font-family: 'Cinzel', serif; font-size: 32px; font-weight: 600; line-height: 1.2; letter-spacing: .04em; text-transform: uppercase; color: #0a0a0a; }
+.fc8 .fc-h em { font-style: normal; color: #c9a96e; }
+.fc8 .fc-sub { font-family: 'Montserrat', sans-serif; font-size: 12px; font-weight: 400; letter-spacing: .14em; text-transform: uppercase; color: #6b6b6b; line-height: 1.65; margin-top: 14px; }
+.fc8 .fc-body { font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 300; color: #555; line-height: 1.8; }
+</style>
+
+<div class="pft">
+  <div class="pft-title">
+    <h1>Sélection de polices — Prose Watches</h1>
+    <p>8 combinaisons titre + sous-titre + corps • Cliquer sur la combinaison souhaitée pour la transmettre</p>
+  </div>
+
+  <div class="pft-grid">
+
+    <!-- 1 -->
+    <div class="fc fc1">
+      <span class="fc-num">01</span>
+      <div class="fc-tag">Playfair Display · Source Sans 3</div>
+      <div class="fc-eyebrow">Ateliers Français</div>
+      <h2 class="fc-h">Votre montre.<br><em>Votre histoire.</em></h2>
+      <div class="fc-divider"></div>
+      <p class="fc-sub">L'expertise d'horlogers certifiés pour créer la pièce unique qui vous ressemble.</p>
+      <div class="fc-divider"></div>
+      <p class="fc-body">De la conception à la livraison, chaque pièce est une collaboration entre votre vision et notre savoir-faire horloger. Un processus artisanal, une pièce unique.</p>
+      <div class="fc-meta">
+        <span>Titre : <strong>Playfair Display 700</strong></span>
+        <span>Corps : <strong>Source Sans 3 300–400</strong></span>
+        <span>Style : <strong>Classique · Éditorial</strong></span>
+      </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="fc fc2">
+      <span class="fc-num">02</span>
+      <div class="fc-tag">Cormorant Garamond · Jost</div>
+      <div class="fc-eyebrow">Ateliers Français</div>
+      <h2 class="fc-h">Votre montre.<br><em>Votre histoire.</em></h2>
+      <div class="fc-divider"></div>
+      <p class="fc-sub">L'expertise d'horlogers certifiés pour créer la pièce unique qui vous ressemble.</p>
+      <div class="fc-divider"></div>
+      <p class="fc-body">De la conception à la livraison, chaque pièce est une collaboration entre votre vision et notre savoir-faire horloger. Un processus artisanal, une pièce unique.</p>
+      <div class="fc-meta">
+        <span>Titre : <strong>Cormorant Garamond 600</strong></span>
+        <span>Corps : <strong>Jost 300</strong></span>
+        <span>Style : <strong>Ultra-élégant · Haute couture</strong></span>
+      </div>
+    </div>
+
+    <!-- 3 -->
+    <div class="fc fc3">
+      <span class="fc-num">03</span>
+      <div class="fc-tag">Libre Baskerville · Source Sans 3</div>
+      <div class="fc-eyebrow">Ateliers Français</div>
+      <h2 class="fc-h">Votre montre.<br><em>Votre histoire.</em></h2>
+      <div class="fc-divider"></div>
+      <p class="fc-sub">L'expertise d'horlogers certifiés pour créer la pièce unique qui vous ressemble.</p>
+      <div class="fc-divider"></div>
+      <p class="fc-body">De la conception à la livraison, chaque pièce est une collaboration entre votre vision et notre savoir-faire horloger. Un processus artisanal, une pièce unique.</p>
+      <div class="fc-meta">
+        <span>Titre : <strong>Libre Baskerville 700</strong></span>
+        <span>Corps : <strong>Source Sans 3 400</strong></span>
+        <span>Style : <strong>Intemporel · Presse de luxe</strong></span>
+      </div>
+    </div>
+
+    <!-- 4 -->
+    <div class="fc fc4">
+      <span class="fc-num">04</span>
+      <div class="fc-tag">Bodoni Moda · DM Sans</div>
+      <div class="fc-eyebrow">Ateliers Français</div>
+      <h2 class="fc-h">Votre montre.<br><em>Votre histoire.</em></h2>
+      <div class="fc-divider"></div>
+      <p class="fc-sub">L'expertise d'horlogers certifiés pour créer la pièce unique qui vous ressemble.</p>
+      <div class="fc-divider"></div>
+      <p class="fc-body">De la conception à la livraison, chaque pièce est une collaboration entre votre vision et notre savoir-faire horloger. Un processus artisanal, une pièce unique.</p>
+      <div class="fc-meta">
+        <span>Titre : <strong>Bodoni Moda 700</strong></span>
+        <span>Corps : <strong>DM Sans 300</strong></span>
+        <span>Style : <strong>Mode · Luxe moderne</strong></span>
+      </div>
+    </div>
+
+    <!-- 5 -->
+    <div class="fc fc5">
+      <span class="fc-num">05</span>
+      <div class="fc-tag">DM Serif Display · Inter</div>
+      <div class="fc-eyebrow">Ateliers Français</div>
+      <h2 class="fc-h">Votre montre.<br><em>Votre histoire.</em></h2>
+      <div class="fc-divider"></div>
+      <p class="fc-sub">L'expertise d'horlogers certifiés pour créer la pièce unique qui vous ressemble.</p>
+      <div class="fc-divider"></div>
+      <p class="fc-body">De la conception à la livraison, chaque pièce est une collaboration entre votre vision et notre savoir-faire horloger. Un processus artisanal, une pièce unique.</p>
+      <div class="fc-meta">
+        <span>Titre : <strong>DM Serif Display 400</strong></span>
+        <span>Corps : <strong>Inter 300–400</strong></span>
+        <span>Style : <strong>Luxe contemporain · Tech</strong></span>
+      </div>
+    </div>
+
+    <!-- 6 -->
+    <div class="fc fc6">
+      <span class="fc-num">06</span>
+      <div class="fc-tag">Fraunces · Figtree</div>
+      <div class="fc-eyebrow">Ateliers Français</div>
+      <h2 class="fc-h">Votre montre.<br><em>Votre histoire.</em></h2>
+      <div class="fc-divider"></div>
+      <p class="fc-sub">L'expertise d'horlogers certifiés pour créer la pièce unique qui vous ressemble.</p>
+      <div class="fc-divider"></div>
+      <p class="fc-body">De la conception à la livraison, chaque pièce est une collaboration entre votre vision et notre savoir-faire horloger. Un processus artisanal, une pièce unique.</p>
+      <div class="fc-meta">
+        <span>Titre : <strong>Fraunces 700</strong></span>
+        <span>Corps : <strong>Figtree 300</strong></span>
+        <span>Style : <strong>Luxe organique · Artisanal</strong></span>
+      </div>
+    </div>
+
+    <!-- 7 -->
+    <div class="fc fc7">
+      <span class="fc-num">07</span>
+      <div class="fc-tag">Marcellus · Raleway</div>
+      <div class="fc-eyebrow">Ateliers Français</div>
+      <h2 class="fc-h">Votre montre.<br><em>Votre histoire.</em></h2>
+      <div class="fc-divider"></div>
+      <p class="fc-sub">L'expertise d'horlogers certifiés pour créer la pièce unique qui vous ressemble.</p>
+      <div class="fc-divider"></div>
+      <p class="fc-body">De la conception à la livraison, chaque pièce est une collaboration entre votre vision et notre savoir-faire horloger. Un processus artisanal, une pièce unique.</p>
+      <div class="fc-meta">
+        <span>Titre : <strong>Marcellus 400</strong></span>
+        <span>Corps : <strong>Raleway 300–400</strong></span>
+        <span>Style : <strong>Raffinement · Élégance sobre</strong></span>
+      </div>
+    </div>
+
+    <!-- 8 -->
+    <div class="fc fc8">
+      <span class="fc-num">08</span>
+      <div class="fc-tag">Cinzel · Montserrat</div>
+      <div class="fc-eyebrow">Ateliers Français</div>
+      <h2 class="fc-h">Votre montre.<br><em>Votre histoire.</em></h2>
+      <div class="fc-divider"></div>
+      <p class="fc-sub">L'expertise d'horlogers certifiés pour créer la pièce unique qui vous ressemble.</p>
+      <div class="fc-divider"></div>
+      <p class="fc-body">De la conception à la livraison, chaque pièce est une collaboration entre votre vision et notre savoir-faire horloger. Un processus artisanal, une pièce unique.</p>
+      <div class="fc-meta">
+        <span>Titre : <strong>Cinzel 600</strong></span>
+        <span>Corps : <strong>Montserrat 300</strong></span>
+        <span>Style : <strong>Prestige classique · Roman</strong></span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Prose — Font Test",
+  "tag": "div",
+  "settings": [],
+  "presets": [{ "name": "Prose Font Test" }]
+}
+{% endschema %}
