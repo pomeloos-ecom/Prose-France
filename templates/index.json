@@ -62,8 +62,8 @@
       ],
       "settings": {
         "transparent_header": true,
-        "image": "shopify://shop_images/Herosection.jpg",
-        "image_height": "adapt",
+        "image": "shopify://shop_images/hf_20260506_160533_602ac19d-c9de-454e-8b6b-f3f284c82dab.png",
+        "image_height": "650px",
         "content_width": "medium",
         "content_position": "md:items-end md:justify-start",
         "text_alignment": "left",
