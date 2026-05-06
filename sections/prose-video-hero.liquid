@@ -23,14 +23,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 40px 24px;
+  padding: 24px 24px;
   gap: 0;
 }
 
 /* ── Text block ────────────────────────────────── */
 .avs-text {
   text-align: center;
-  margin-bottom: 28px;
+  margin-bottom: 10px;
   position: relative;
   z-index: 2;
 }
@@ -82,6 +82,8 @@
   border-radius: 12px;
   overflow: hidden;
   background: #e8e2da;
+  position: relative;
+  cursor: pointer;
   /* scale animated by JS */
   transform: scale(0.7);
   transform-origin: center center;
@@ -92,6 +94,31 @@
   width: 100%; height: 100%;
   object-fit: cover; display: block;
 }
+
+/* Play button overlay */
+.avs-play-btn {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(0,0,0,0);
+  transition: background .25s;
+  z-index: 2;
+}
+.avs-video-inner:hover .avs-play-btn { background: rgba(0,0,0,.15); }
+.avs-play-btn.hidden { opacity: 0; pointer-events: none; }
+
+.avs-play-ring {
+  width: 64px; height: 64px; border-radius: 50%;
+  background: rgba(255,255,255,.92);
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 8px 32px rgba(0,0,0,.18);
+  transform: scale(0);
+  transition: transform .3s cubic-bezier(.34,1.56,.64,1), opacity .2s;
+  opacity: 0;
+}
+.avs-play-btn.paused .avs-play-ring {
+  transform: scale(1); opacity: 1;
+}
+.avs-play-ring svg { width: 24px; height: 24px; margin-left: 4px; color: #0a0a0a; }
 
 /* Placeholder */
 .avs-ph {
@@ -107,7 +134,7 @@
 
 /* ── CTA ───────────────────────────────────────── */
 .avs-cta {
-  margin-top: 28px;
+  margin-top: 16px;
   position: relative; z-index: 2;
   opacity: 0; transform: translateY(20px);
   transition: opacity .6s .4s ease, transform .6s .4s ease;
@@ -179,11 +206,16 @@
     <div class="avs-video-wrap" id="avs-vw">
       <div class="avs-video-inner" id="avs-vi">
         {%- if section.settings.video != blank -%}
-          <video autoplay loop muted playsinline>
+          <video id="avs-video" autoplay loop muted playsinline>
             {%- for source in section.settings.video.sources -%}
               <source src="{{ source.url }}" type="{{ source.mime_type }}">
             {%- endfor -%}
           </video>
+          <div class="avs-play-btn" id="avs-play-btn">
+            <div class="avs-play-ring">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.14v14l11-7-11-7z"/></svg>
+            </div>
+          </div>
         {%- else -%}
           <div class="avs-ph">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
@@ -277,6 +309,27 @@
 
   /* Initial state */
   update();
+
+  /* ── Play / pause on click ───────────────────── */
+  var video   = document.getElementById('avs-video');
+  var playBtn = document.getElementById('avs-play-btn');
+
+  if (video && playBtn) {
+    /* Start muted autoplay, then unmute on first click */
+    vi.addEventListener('click', function () {
+      if (video.paused) {
+        video.play();
+        video.muted = false;
+        playBtn.classList.remove('paused');
+      } else {
+        video.pause();
+        playBtn.classList.add('paused');
+      }
+    });
+
+    video.addEventListener('play',  function () { playBtn.classList.remove('paused'); });
+    video.addEventListener('pause', function () { playBtn.classList.add('paused'); });
+  }
 })();
 </script>
 
