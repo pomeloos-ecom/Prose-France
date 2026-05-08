@@ -1444,6 +1444,7 @@
     },
     "why_choose_bento": {
       "type": "prose-why-choose-bento",
+      "disabled": true,
       "settings": {}
     },
     "brand_benefits": {
