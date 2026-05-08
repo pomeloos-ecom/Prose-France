@@ -616,6 +616,7 @@
         "text_zp7dzr",
         "button_9kqqTV"
       ],
+      "disabled": true,
       "name": "SS - Text Block Pro",
       "settings": {
         "image_width": 20,
@@ -685,12 +686,11 @@
       "blocks": {
         "heading_YeFFPC": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "<h2>Featured collection (tabs) #6</h2>",
-            "heading_custom": false,
-            "heading_font": "josefin_sans_n4",
-            "heading_size": 48,
+            "heading": "<p>VOS MODÈLES FAVORIS</p>",
+            "heading_custom": true,
+            "heading_font": "red_hat_display_n9",
+            "heading_size": 42,
             "heading_size_mobile": 32,
             "heading_advanced": false,
             "heading_height": 130,
@@ -701,9 +701,8 @@
         },
         "text_RXFMyX": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "text": "<p>Découvrez une sélection des modèles les plus appréciés par nos clients.</p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 16,
@@ -929,7 +928,7 @@
         "margin_bottom": 0,
         "margin_horizontal": 0,
         "margin_horizontal_mobile": 0,
-        "padding_top": 0,
+        "padding_top": 52,
         "padding_bottom": 36,
         "padding_horizontal": 5,
         "padding_horizontal_mobile": 1.5,
