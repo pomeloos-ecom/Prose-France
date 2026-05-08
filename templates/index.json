@@ -550,7 +550,7 @@
           "settings": {
             "column_width": 1,
             "row_width": 2,
-            "image": "shopify://shop_images/Design_sans_titre_2.png",
+            "image": "shopify://shop_images/hf_20260508_142958_fe90e823-7a47-4ee8-8534-e3b051ace628.png",
             "bg_overlay": 20,
             "collection": "",
             "sub_heading": "",
@@ -576,7 +576,7 @@
           "settings": {
             "column_width": 1,
             "row_width": 1,
-            "image": "shopify://shop_images/ROSEGOLDBLUE.png",
+            "image": "shopify://shop_images/hf_20260508_142958_fe90e823-7a47-4ee8-8534-e3b051ace628.png",
             "bg_overlay": 20,
             "collection": "",
             "sub_heading": "",
@@ -628,6 +628,7 @@
           "settings": {
             "column_width": 1,
             "row_width": 1,
+            "image": "shopify://shop_images/hf_20260506_205730_29b99187-aa3b-4a0c-8341-3286879e793a.png",
             "bg_overlay": 20,
             "collection": "",
             "sub_heading": "",
