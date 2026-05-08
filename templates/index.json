@@ -120,7 +120,7 @@
           "type": "feature",
           "settings": {
             "icon": "star_sparkle",
-            "feature_text": "<p>Rapport qualité-service prix imbattable</p>",
+            "feature_text": "<p>Rapport qualité-prix imbattable</p>",
             "hide_on_desktop": false,
             "hide_on_mobile": false
           }
