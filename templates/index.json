@@ -484,7 +484,7 @@
       ],
       "name": "SS - Slider #2 pro",
       "settings": {
-        "slider_view": 4,
+        "slider_view": 5,
         "slider_view_mobile": 1.7,
         "card_radius": 16,
         "card_border_thickness": 0,
