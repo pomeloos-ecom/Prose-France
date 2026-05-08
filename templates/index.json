@@ -728,6 +728,62 @@
             "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)"
           }
         },
+        "collection_f4hfJe": {
+          "type": "collection",
+          "settings": {
+            "tab": "COUPS DE COEUR",
+            "collection": "coups-de-coeur",
+            "products_show": 10,
+            "products": [],
+            "custom_url": "",
+            "shape_color": "#f7f7f7",
+            "background_style": "solid",
+            "background_color": "#ffffff",
+            "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)"
+          }
+        },
+        "collection_HnxBKq": {
+          "type": "collection",
+          "settings": {
+            "tab": "COUPS DE COEUR",
+            "collection": "coups-de-coeur",
+            "products_show": 10,
+            "products": [],
+            "custom_url": "",
+            "shape_color": "#f7f7f7",
+            "background_style": "solid",
+            "background_color": "#ffffff",
+            "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)"
+          }
+        },
+        "collection_MmVmj3": {
+          "type": "collection",
+          "settings": {
+            "tab": "COUPS DE COEUR",
+            "collection": "coups-de-coeur",
+            "products_show": 10,
+            "products": [],
+            "custom_url": "",
+            "shape_color": "#f7f7f7",
+            "background_style": "solid",
+            "background_color": "#ffffff",
+            "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)"
+          }
+        },
+        "collection_FVzKY6": {
+          "type": "collection",
+          "settings": {
+            "tab": "COUPS DE COEUR",
+            "collection": "coups-de-coeur",
+            "products_show": 10,
+            "products": [],
+            "custom_url": "",
+            "shape_color": "#f7f7f7",
+            "background_style": "solid",
+            "background_color": "#ffffff",
+            "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)"
+          }
+        },
         "collection_7pN8jn": {
           "type": "collection",
           "settings": {
@@ -762,6 +818,10 @@
         "heading_YeFFPC",
         "text_RXFMyX",
         "collection_fWmQcx",
+        "collection_f4hfJe",
+        "collection_HnxBKq",
+        "collection_MmVmj3",
+        "collection_FVzKY6",
         "collection_7pN8jn",
         "collection_HwrHjH"
       ],
