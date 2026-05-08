@@ -738,7 +738,7 @@
             "custom_url": "",
             "shape_color": "#cff9e3",
             "background_style": "solid",
-            "background_color": "#619179",
+            "background_color": "#fffaf5",
             "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)"
           }
         },
@@ -1171,6 +1171,7 @@
         "item_yQLNBw",
         "item_TQFPjX"
       ],
+      "disabled": true,
       "name": "SS - Media Grid #2",
       "settings": {
         "heading": "<h2><strong>COLLECTIONS 2026</strong></h2>",
