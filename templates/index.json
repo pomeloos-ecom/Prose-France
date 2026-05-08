@@ -172,6 +172,7 @@
           "settings": {
             "tab": "New tab",
             "collection": "justeiko-montre-automatique",
+            "image": "shopify://shop_images/hf_20260508_124748_2d1a36d4-24bd-4578-a317-a3d49458200f.png",
             "products_show": 10,
             "products": [],
             "custom_url": "",
@@ -186,6 +187,7 @@
           "settings": {
             "tab": "New tab",
             "collection": "hubleiko-montre-automatique",
+            "image": "shopify://shop_images/hf_20260503_083817_46a22ba0-e632-4164-a44b-c2ea7ffd22c7.png",
             "products_show": 10,
             "products": [],
             "custom_url": "",
