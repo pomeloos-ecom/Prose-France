@@ -626,7 +626,7 @@
           "type": "collection",
           "settings": {
             "tab": "First tab",
-            "collection": "seikoak-montre-automatique",
+            "collection": "",
             "products_show": 10,
             "products": [],
             "custom_url": "",
@@ -790,7 +790,7 @@
         "arrow_icon_size_mobile": 8,
         "arrow_border_thickness": 0,
         "arrow_radius": 100,
-        "arrow_hover_effect": "color",
+        "arrow_hover_effect": "scale",
         "navigation_mt_mobile": 20,
         "arrow_horizontal_position": 25,
         "arrow_vertical_position": 75,
