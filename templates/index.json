@@ -402,12 +402,12 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Design_sans_titre_3.png",
-            "badge": "Badge",
-            "title": "New Slide",
-            "text": "<p>Text</p>",
-            "button": "View",
+            "badge": "",
+            "title": "Collection Naut",
+            "text": "",
+            "button": "VOIR",
             "button_url": "",
-            "content_bg_color": "#121212"
+            "content_bg_color": "#573431"
           }
         },
         "slide_4WxfxH": {
@@ -419,7 +419,7 @@
             "text": "<p>Text</p>",
             "button": "View",
             "button_url": "",
-            "content_bg_color": "#121212"
+            "content_bg_color": "#fdefce"
           }
         },
         "slide_bVKEwN": {
@@ -484,14 +484,14 @@
       ],
       "name": "SS - Slider #2 pro",
       "settings": {
-        "slider_view": 5,
+        "slider_view": 4,
         "slider_view_mobile": 1.7,
         "card_radius": 16,
         "card_border_thickness": 0,
-        "card_shadow": true,
+        "card_shadow": false,
         "card_ratio": "portrait",
         "card_ratio_mobile": "portrait",
-        "card_overlay": 0.1,
+        "card_overlay": 0,
         "card_padding_advanced": true,
         "card_padding_vertical": 18,
         "card_padding_vertical_mobile": 16,
@@ -508,9 +508,9 @@
         "badge_padding_vertical": 6,
         "badge_padding_vertical_mobile": 6,
         "badge_radius": 100,
-        "title_custom": false,
-        "title_font": "josefin_sans_n4",
-        "title_size": 20,
+        "title_custom": true,
+        "title_font": "red_hat_display_n9",
+        "title_size": 16,
         "title_size_mobile": 20,
         "title_height": 130,
         "text_custom": false,
@@ -564,9 +564,9 @@
         "arrow_bg_hover_color": "#121212",
         "arrow_border_color": "#121212",
         "arrow_border_hover_color": "#121212",
-        "background_style": "solid",
-        "background_color": "#ffffff",
-        "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)",
+        "background_style": "gradient",
+        "background_color": "#faf8f4",
+        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(242, 242, 242, 1) 100%)",
         "border_color": "#121212",
         "margin_top": 0,
         "margin_bottom": 0,
@@ -576,7 +576,7 @@
         "padding_bottom": 36,
         "padding_horizontal": 0,
         "padding_horizontal_mobile": 0,
-        "full_width": true,
+        "full_width": false,
         "content_width": 1200,
         "border_thickness": 0,
         "section_radius": 0,
