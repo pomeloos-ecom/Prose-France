@@ -687,7 +687,7 @@
         "heading_YeFFPC": {
           "type": "heading",
           "settings": {
-            "heading": "<p>VOS MODÈLES FAVORIS</p>",
+            "heading": "<p>COLLECTIONS PROSE 2026</p>",
             "heading_custom": true,
             "heading_font": "red_hat_display_n9",
             "heading_size": 42,
@@ -702,7 +702,7 @@
         "text_RXFMyX": {
           "type": "text",
           "settings": {
-            "text": "<p>Découvrez une sélection des modèles les plus appréciés par nos clients.</p>",
+            "text": "<p>Cliquez sur le nom d'une collection pour découvrir les modèles qui s'y trouvent. Si vous préférez une montre unique, vous pouvez aussi utiliser notre configurateur.</p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 16,
@@ -717,7 +717,7 @@
         "collection_fWmQcx": {
           "type": "collection",
           "settings": {
-            "tab": "1- NAUTIKO",
+            "tab": "NAUTIKO",
             "collection": "coups-de-coeur",
             "products_show": 10,
             "products": [],
@@ -731,7 +731,7 @@
         "collection_f4hfJe": {
           "type": "collection",
           "settings": {
-            "tab": "2 - JUSTEIKO",
+            "tab": "JUSTEIKO",
             "collection": "coups-de-coeur",
             "products_show": 10,
             "products": [],
@@ -745,7 +745,7 @@
         "collection_HnxBKq": {
           "type": "collection",
           "settings": {
-            "tab": "3- SEIKOAK",
+            "tab": "SEIKOAK",
             "collection": "coups-de-coeur",
             "products_show": 10,
             "products": [],
@@ -759,7 +759,7 @@
         "collection_MmVmj3": {
           "type": "collection",
           "settings": {
-            "tab": "4 - SEIKONAUT",
+            "tab": "SEIKONAUT",
             "collection": "coups-de-coeur",
             "products_show": 10,
             "products": [],
@@ -773,7 +773,7 @@
         "collection_QWd37y": {
           "type": "collection",
           "settings": {
-            "tab": "5 - SEIKONA",
+            "tab": "SEIKONA",
             "collection": "coups-de-coeur",
             "products_show": 10,
             "products": [],
@@ -787,7 +787,7 @@
         "collection_6hh9Wq": {
           "type": "collection",
           "settings": {
-            "tab": "6 - MASTEIKO",
+            "tab": "MASTEIKO",
             "collection": "coups-de-coeur",
             "products_show": 10,
             "products": [],
@@ -806,9 +806,9 @@
             "products_show": 10,
             "products": [],
             "custom_url": "",
-            "shape_color": "#f7f7f7",
+            "shape_color": "#be123c",
             "background_style": "solid",
-            "background_color": "#ffffff",
+            "background_color": "#ffceda",
             "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)"
           }
         },
