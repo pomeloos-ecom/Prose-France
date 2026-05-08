@@ -426,14 +426,17 @@
     },
     "video_showcase": {
       "type": "prose-video-showcase",
-      "settings": {}
+      "settings": {
+        "eyebrow": "Notre concept",
+        "title": "Découvrez le savoir-faire Prose",
+        "video": "shopify://files/videos/TEST VSL.mp4",
+        "bg_color": "#f8f4ef"
+      }
     },
-
     "why_choose_bento": {
       "type": "prose-why-choose-bento",
       "settings": {}
     },
-
     "brand_benefits": {
       "type": "multicolumn",
       "blocks": {
