@@ -718,7 +718,7 @@
         "collection_fWmQcx": {
           "type": "collection",
           "settings": {
-            "tab": "Vos coups de coeur",
+            "tab": "COUPS DE COEUR",
             "collection": "coups-de-coeur",
             "products_show": 10,
             "products": [],
@@ -732,7 +732,7 @@
         "collection_7pN8jn": {
           "type": "collection",
           "settings": {
-            "tab": "Second tab",
+            "tab": "ÉDITIONS LIMITÉES",
             "collection": "",
             "products_show": 10,
             "products": [],
@@ -745,6 +745,7 @@
         },
         "collection_HwrHjH": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "tab": "Third tab",
             "collection": "",
