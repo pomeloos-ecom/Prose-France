@@ -279,6 +279,7 @@
           "type": "collection",
           "settings": {
             "collection": "justeiko-montre-automatique",
+            "image": "shopify://shop_images/hf_20260508_124748_2d1a36d4-24bd-4578-a317-a3d49458200f.png",
             "title": "",
             "description": "",
             "overlay_content": false,
@@ -321,7 +322,7 @@
         "columns": 3,
         "carousel_on_desktop": true,
         "image_type": "collection",
-        "image_ratio": "square",
+        "image_ratio": "portrait",
         "show_products_count": true,
         "show_view_all": false,
         "columns_mobile": "1",
@@ -426,14 +427,16 @@
     },
     "video_showcase": {
       "type": "prose-video-showcase",
-      "settings": {}
+      "settings": {
+        "eyebrow": "Notre concept",
+        "title": "Découvrez le savoir-faire Prose",
+        "bg_color": "#f8f4ef"
+      }
     },
-
     "why_choose_bento": {
       "type": "prose-why-choose-bento",
       "settings": {}
     },
-
     "brand_benefits": {
       "type": "multicolumn",
       "blocks": {
