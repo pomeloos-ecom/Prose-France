@@ -178,7 +178,10 @@
             "text": "Shop",
             "promo_text": "",
             "products_list": [],
-            "collections_list": [],
+            "collections_list": [
+              "automatique",
+              "configurateur"
+            ],
             "heading_text": "",
             "submenu": "",
             "cta_text": "View All →",
@@ -230,8 +233,9 @@
       "settings": {
         "transparent_bg": "all",
         "logo": "shopify://shop_images/PROSE_-_BRAND_27.png",
+        "logo_mobile": "shopify://shop_images/PROSE_-_BRAND_25.png",
         "logo_width": 130,
-        "logo_width_mobile": 130,
+        "logo_width_mobile": 50,
         "name_custom": false,
         "name_font": "josefin_sans_n4",
         "name_size": 20,
