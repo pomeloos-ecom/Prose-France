@@ -362,6 +362,7 @@
         "slide_ybiTbh": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/green_c253ac19-c4bb-4527-9405-2b7266b85d4a.png",
             "title": "New Slide",
             "button": "Learn more",
             "url": ""
@@ -370,6 +371,7 @@
         "slide_VKrbEP": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/0005_Calque-5.png",
             "title": "New Slide",
             "button": "Learn more",
             "url": ""
@@ -378,22 +380,7 @@
         "slide_mMfxK7": {
           "type": "slide",
           "settings": {
-            "title": "New Slide",
-            "button": "Learn more",
-            "url": ""
-          }
-        },
-        "slide_GGq6yx": {
-          "type": "slide",
-          "settings": {
-            "title": "New Slide",
-            "button": "Learn more",
-            "url": ""
-          }
-        },
-        "slide_mkNnD9": {
-          "type": "slide",
-          "settings": {
+            "image": "shopify://shop_images/0006_Calque-6.png",
             "title": "New Slide",
             "button": "Learn more",
             "url": ""
@@ -403,9 +390,7 @@
       "block_order": [
         "slide_ybiTbh",
         "slide_VKrbEP",
-        "slide_mMfxK7",
-        "slide_GGq6yx",
-        "slide_mkNnD9"
+        "slide_mMfxK7"
       ],
       "name": "SS - Slider #2",
       "settings": {
@@ -418,10 +403,10 @@
         "card_padding_horizontal_mobile": 30,
         "card_radius": 0,
         "card_border_thickness": 0,
-        "card_shadow": true,
+        "card_shadow": false,
         "card_ratio": "portrait",
         "card_ratio_mobile": "portrait",
-        "card_overlay": 0.3,
+        "card_overlay": 0,
         "content_horizontal_position": "center",
         "content_horizontal_position_mobile": "center",
         "content_vertical_position": "end",
