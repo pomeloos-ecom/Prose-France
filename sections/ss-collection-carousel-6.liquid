@@ -1683,11 +1683,13 @@
     if (tabs.length > 0 && sliders.length > 0) {
       tabs.forEach(tab => tab.classList.remove('active'));
       sliders.forEach(slider => slider.classList.remove('active'));
-      
       tabs[0].classList.add('active');
       sliders[0].classList.add('active');
-      
       updateSectionBackground(tabs[0]);
+    } else if (sliders.length > 0) {
+      // Collection carousel mode: no tabs, activate first slider directly
+      sliders.forEach(slider => slider.classList.remove('active'));
+      sliders[0].classList.add('active');
     }
     
     const shape = document.querySelector('.featured-collection-shape-{{ section.id }}');
