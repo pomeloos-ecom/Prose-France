@@ -9,88 +9,12 @@
  */
 {
   "sections": {
-    "hero": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "ATELIERS FRANÇAIS & INTERNATIONAUX",
-            "subheading_size": "subtitle-sm",
-            "secondary_color": false
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Votre montre. Votre histoire.</strong>",
-            "heading_size": "title-xl tracking-heading",
-            "heading_tag": "h1",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>L'expertise d'horlogers certifiés pour créer la pièce unique qui vous ressemble.</p>",
-            "text_size": "subtext-md",
-            "text_max_size": 40,
-            "text_font": "body",
-            "secondary_color": false,
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Découvrir les collections",
-            "button_link": "/collections/all",
-            "button_style": "primary",
-            "button_size": "md",
-            "button_external": false,
-            "button_icon": true
-          }
-        }
-      },
-      "block_order": [
-        "subheading",
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "transparent_header": true,
-        "image_height": "100vh",
-        "content_width": "large",
-        "content_position": "md:items-center md:justify-start",
-        "text_alignment": "left",
-        "image_height_mobile": "600px",
-        "content_position_mobile": "items-end justify-start",
-        "text_alignment_mobile": "left",
-        "color_text": "#ffffff",
-        "color_highlight": "#c9a96e",
-        "gradient_highlight": "",
-        "color_button_text": "#171717",
-        "color_button_background": "#ffffff",
-        "color_button_gradient": "",
-        "color_overlay": "#171717",
-        "overlay_opacity": 40,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "divider": false,
-        "full_width": true,
-        "rounded": false,
-        "enable_parallax": true,
-        "parallax_direction": "vertical"
-      }
-    },
     "ss_hero_pro_2_6jnVpn": {
       "type": "ss-hero-pro-2",
       "blocks": {
         "badge_88pzwb": {
           "type": "badge",
+          "disabled": true,
           "settings": {
             "badge": "★ Premium Quality Guaranteed",
             "badge_custom": false,
@@ -105,11 +29,11 @@
             "badge_mt_mobile": 12,
             "badge_color": "#121212",
             "badge_background": true,
-            "badge_bg_color": "#F3F3F3",
+            "badge_bg_color": "#f3f3f3",
             "badge_bg_opacity": 20,
             "badge_radius": 100,
             "badge_border_thickness": 1,
-            "badge_border_color": "#E5E5E5",
+            "badge_border_color": "#e5e5e5",
             "badge_border_opacity": 20,
             "badge_padding_horizontal": 12,
             "badge_padding_horizontal_mobile": 8,
@@ -120,7 +44,7 @@
         "heading_wHYxBW": {
           "type": "heading",
           "settings": {
-            "heading": "<h1>Discover the perfect solution for your <strong>everyday needs.</strong></h1>",
+            "heading": "<h1>Votre montre, <strong>votre histoire.</strong></h1>",
             "heading_custom": false,
             "heading_font": "josefin_sans_n4",
             "heading_size": 52,
@@ -129,9 +53,9 @@
             "heading_height": 130,
             "heading_mt": 16,
             "heading_mt_mobile": 12,
-            "heading_color": "#121212",
+            "heading_color": "#181818",
             "heading_accent_color_style": "solid",
-            "heading_accent_color": "#555555",
+            "heading_accent_color": "#e3b962",
             "heading_accent_gradient": "linear-gradient(135deg, #121212 0%, #555555 100%)"
           }
         },
@@ -142,7 +66,7 @@
             "stars_size": 20,
             "stars_size_mobile": 18,
             "stars_gap": 2,
-            "stars_text": "<strong>4.9/5</strong> based on 10,000+ reviews",
+            "stars_text": "4.9/5 based on 10,000+ reviews",
             "review_custom": false,
             "review_font": "josefin_sans_n4",
             "review_size": 14,
@@ -152,9 +76,9 @@
             "review_mt": 16,
             "review_mt_mobile": 12,
             "review_color": "#121212",
-            "stars_color": "#FFFFFF",
-            "stars_bg_color": "#121212",
-            "stars_bg_half_color": "#DDDDDD"
+            "stars_color": "#ffffff",
+            "stars_bg_color": "#0c8900",
+            "stars_bg_half_color": "#dddddd"
           }
         },
         "button_nynLjA": {
@@ -168,7 +92,7 @@
             "button_font": "josefin_sans_n4",
             "button_size": 14,
             "button_size_mobile": 14,
-            "button_advanced": false,
+            "button_advanced": true,
             "button_height": 100,
             "button_text_transform": "none",
             "button_letter_spacing": "normal",
@@ -176,31 +100,31 @@
             "button_padding_horizontal_mobile": 32,
             "button_padding_vertical": 16,
             "button_padding_vertical_mobile": 16,
-            "button_radius": 100,
+            "button_radius": 3,
             "button_border_thickness": 1,
-            "button_custom_styling": true,
+            "button_custom_styling": false,
             "button_full_width_mobile": true,
-            "button_color": "#FFFFFF",
-            "button_hover_color": "#FFFFFF",
-            "button_bg_color": "#121212",
+            "button_color": "#ffffff",
+            "button_hover_color": "#ffffff",
+            "button_bg_color": "#e3b962",
             "button_bg_hover_color": "#555555",
             "button_border_color": "#121212",
             "button_border_hover_color": "#555555",
             "button_shadow_color": "#000000"
           }
         },
-        "button_4FdLgt": {
+        "button_KRqapk": {
           "type": "button",
           "settings": {
             "button": "Shop now",
             "button_url": "",
             "open_in_new_tab": false,
-            "button_style": "non_outline",
+            "button_style": "outline",
             "button_custom": false,
             "button_font": "josefin_sans_n4",
             "button_size": 14,
             "button_size_mobile": 14,
-            "button_advanced": false,
+            "button_advanced": true,
             "button_height": 100,
             "button_text_transform": "none",
             "button_letter_spacing": "normal",
@@ -208,24 +132,24 @@
             "button_padding_horizontal_mobile": 32,
             "button_padding_vertical": 16,
             "button_padding_vertical_mobile": 16,
-            "button_radius": 100,
+            "button_radius": 3,
             "button_border_thickness": 1,
-            "button_custom_styling": true,
+            "button_custom_styling": false,
             "button_full_width_mobile": true,
-            "button_color": "#FFFFFF",
-            "button_hover_color": "#FFFFFF",
-            "button_bg_color": "#121212",
+            "button_color": "#434549",
+            "button_hover_color": "#ffffff",
+            "button_bg_color": "rgba(0,0,0,0)",
             "button_bg_hover_color": "#555555",
-            "button_border_color": "#121212",
+            "button_border_color": "#434549",
             "button_border_hover_color": "#555555",
-            "button_shadow_color": "#000000"
+            "button_shadow_color": "rgba(0,0,0,0)"
           }
         },
         "feature_x6qyLt": {
           "type": "feature",
           "settings": {
-            "icon": "shield_check",
-            "feature_text": "<p>Free Worldwide Shipping</p>",
+            "icon": "star_sparkle",
+            "feature_text": "<p>Rapport qualité-service-prix imbattable</p>",
             "hide_on_desktop": false,
             "hide_on_mobile": false
           }
@@ -233,8 +157,8 @@
         "feature_WdLayX": {
           "type": "feature",
           "settings": {
-            "icon": "shield_check",
-            "feature_text": "<p>Free Worldwide Shipping</p>",
+            "icon": "box",
+            "feature_text": "<p>Livraison offerte</p>",
             "hide_on_desktop": false,
             "hide_on_mobile": false
           }
@@ -243,13 +167,14 @@
           "type": "feature",
           "settings": {
             "icon": "shield_check",
-            "feature_text": "<p>Free Worldwide Shipping</p>",
+            "feature_text": "<p>Garantie 3 ans</p>",
             "hide_on_desktop": false,
             "hide_on_mobile": false
           }
         },
         "stat_NjaNqV": {
           "type": "stat",
+          "disabled": true,
           "settings": {
             "heading": "<h3>Satisfaction rate</h3>",
             "text": "<p>From verified buyers</p>",
@@ -284,7 +209,7 @@
         "heading_wHYxBW",
         "review_nQaNrh",
         "button_nynLjA",
-        "button_4FdLgt",
+        "button_KRqapk",
         "feature_x6qyLt",
         "feature_WdLayX",
         "feature_X7Yqd8",
@@ -344,9 +269,9 @@
         "stat_text_mt": 4,
         "feature_icon_color": "#121212",
         "feature_text_color": "#121212",
-        "features_bg_color": "#FFFFFF",
+        "features_bg_color": "#ffffff",
         "features_bg_opacity": 20,
-        "features_border_color": "#E5E5E5",
+        "features_border_color": "#e5e5e5",
         "features_border_opacity": 20,
         "stat_percent_color_style": "solid",
         "stat_percent_color": "#121212",
@@ -355,16 +280,17 @@
         "stat_heading_opacity": 100,
         "stat_text_color": "#555555",
         "stat_text_opacity": 100,
-        "stat_bg_color": "#FFFFFF",
+        "stat_bg_color": "#ffffff",
         "stat_bg_opacity": 20,
-        "stat_border_color": "#E5E5E5",
+        "stat_border_color": "#e5e5e5",
         "stat_border_opacity": 20,
         "background_style": "image",
+        "image": "shopify://shop_images/Herosection.jpg",
         "bg_overlay_color": "#000000",
         "bg_overlay_opacity": 0,
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)",
-        "border_color": "#E5E5E5",
+        "border_color": "#e5e5e5",
         "margin_top": 0,
         "margin_bottom": 0,
         "margin_horizontal": 0,
@@ -425,6 +351,7 @@
         "logo_4",
         "logo_5"
       ],
+      "disabled": true,
       "settings": {
         "layout": "marquee",
         "grid_horizontal": 70,
@@ -1154,7 +1081,6 @@
     }
   },
   "order": [
-    "hero",
     "ss_hero_pro_2_6jnVpn",
     "logo_list",
     "concept_video",
