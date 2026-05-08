@@ -175,7 +175,7 @@
         "menu_item_FKBzyJ": {
           "type": "menu_item",
           "settings": {
-            "text": "Shop",
+            "text": "SHOP",
             "promo_text": "",
             "products_list": [],
             "collections_list": [
@@ -191,7 +191,7 @@
         "menu_item_zbMKQe": {
           "type": "menu_item",
           "settings": {
-            "text": "Collections",
+            "text": "COLLECTIONS",
             "promo_text": "",
             "products_list": [],
             "collections_list": [
@@ -211,7 +211,7 @@
         "menu_item_bT3WDA": {
           "type": "menu_item",
           "settings": {
-            "text": "About",
+            "text": "CONTACT",
             "promo_text": "",
             "products_list": [],
             "collections_list": [],
@@ -234,7 +234,7 @@
         "transparent_bg": "all",
         "logo": "shopify://shop_images/PROSE_-_BRAND_27.png",
         "logo_mobile": "shopify://shop_images/PROSE_-_BRAND_25.png",
-        "logo_width": 130,
+        "logo_width": 100,
         "logo_width_mobile": 50,
         "name_custom": false,
         "name_font": "josefin_sans_n4",
@@ -247,8 +247,8 @@
         "menu_heading_size_mobile": 12,
         "menu_heading_height": 130,
         "menu_heading_case": "uppercase",
-        "link_custom": false,
-        "link_font": "josefin_sans_n4",
+        "link_custom": true,
+        "link_font": "red_hat_display_n7",
         "link_size": 14,
         "link_size_mobile": 14,
         "link_height": 130,
@@ -298,7 +298,7 @@
         "slider_background_opacity": 20,
         "link_color": "#FFFFFF",
         "link_hover_color": "#FFFFFF",
-        "link_hero_color": "#FFFFFF",
+        "link_hero_color": "#272727",
         "promo_color": "#FFFFFF",
         "menu_heading_color": "#FFFFFF",
         "submenu_link_color": "#FFFFFF",
