@@ -646,7 +646,7 @@
     "best_sellers": {
       "type": "featured-collection",
       "settings": {
-        "collection": "",
+        "collection": "coups-de-coeur",
         "products": [],
         "product_limit": 10,
         "columns": 4,
