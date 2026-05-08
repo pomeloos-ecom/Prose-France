@@ -385,6 +385,7 @@
         },
         "slide_aC7XzD": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/hf_20260502_080909_3e2a054b-5d77-400a-b7b0-ef3aa38ff154.jpg",
             "badge": "Badge",
@@ -398,6 +399,19 @@
         "slide_NEb3U8": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Design_sans_titre.png",
+            "badge": "Badge",
+            "title": "New Slide",
+            "text": "<p>Text</p>",
+            "button": "View",
+            "button_url": "",
+            "content_bg_color": "#121212"
+          }
+        },
+        "slide_4WxfxH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre.png",
             "badge": "Badge",
             "title": "New Slide",
             "text": "<p>Text</p>",
@@ -423,6 +437,7 @@
         "slide_C6C4zR",
         "slide_aC7XzD",
         "slide_NEb3U8",
+        "slide_4WxfxH",
         "slide_WiVAkL"
       ],
       "name": "SS - Slider #2 pro",
