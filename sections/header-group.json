@@ -335,7 +335,7 @@
         "width": "page",
         "content_width": 1200,
         "border_thickness": 1,
-        "section_radius": 100,
+        "section_radius": 3,
         "lazy": false
       }
     }
