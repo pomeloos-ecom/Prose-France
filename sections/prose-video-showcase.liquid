@@ -1,0 +1,394 @@
+{% comment %} Prose — Video Showcase Section {% endcomment %}
+
+<style>
+.pvs *, .pvs *::before, .pvs *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+.pvs {
+  background: {{ section.settings.bg_color | default: '#f8f4ef' }};
+  padding: 80px 24px;
+  font-family: var(--font-body-family, sans-serif);
+}
+@media(min-width:768px) { .pvs { padding: 100px 48px; } }
+@media(min-width:1200px) { .pvs { padding: 120px 80px; } }
+
+.pvs-wrap { max-width: 1000px; margin: 0 auto; }
+
+/* ── Header ──────────────────────────── */
+.pvs-head {
+  margin-bottom: 40px; text-align: center;
+  opacity: 0; transform: translateY(20px);
+  transition: opacity .65s ease, transform .65s ease;
+}
+.pvs-head.visible { opacity: 1; transform: none; }
+
+.pvs-eyebrow {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-size: 10px; font-weight: 700; letter-spacing: .2em;
+  text-transform: uppercase; color: #c9a96e; margin-bottom: 14px;
+}
+.pvs-eyebrow::before,
+.pvs-eyebrow::after { content: ''; display: block; height: 1px; width: 32px; background: #c9a96e; }
+
+.pvs-title {
+  font-family: var(--font-heading-family, Georgia, serif);
+  font-size: clamp(28px, 4vw, 52px);
+  font-weight: 700; letter-spacing: -.03em; line-height: 1.1;
+  color: #0a0a0a;
+}
+
+/* ── Frame outer ─────────────────────── */
+.pvs-frame-outer {
+  position: relative;
+  opacity: 0; transform: translateY(28px);
+  transition: opacity .7s .15s ease, transform .7s .15s ease;
+}
+.pvs-frame-outer.visible { opacity: 1; transform: none; }
+
+/* Corner brackets (film-frame style) */
+.pvs-corners {
+  position: absolute; inset: -10px; pointer-events: none; z-index: 2;
+}
+.pvs-corner {
+  position: absolute; width: 24px; height: 24px;
+}
+.pvs-corner::before,
+.pvs-corner::after {
+  content: ''; position: absolute;
+  background: #c9a96e;
+}
+.pvs-corner::before { width: 100%; height: 2px; }
+.pvs-corner::after  { width: 2px; height: 100%; }
+
+.pvs-corner-tl { top: 0; left: 0; }
+.pvs-corner-tl::before { top: 0; left: 0; }
+.pvs-corner-tl::after  { top: 0; left: 0; }
+
+.pvs-corner-tr { top: 0; right: 0; }
+.pvs-corner-tr::before { top: 0; right: 0; }
+.pvs-corner-tr::after  { top: 0; right: 0; }
+
+.pvs-corner-bl { bottom: 0; left: 0; }
+.pvs-corner-bl::before { bottom: 0; left: 0; }
+.pvs-corner-bl::after  { bottom: 0; left: 0; }
+
+.pvs-corner-br { bottom: 0; right: 0; }
+.pvs-corner-br::before { bottom: 0; right: 0; }
+.pvs-corner-br::after  { bottom: 0; right: 0; }
+
+/* ── Video container ─────────────────── */
+.pvs-video-box {
+  position: relative;
+  border: 1px solid rgba(201,169,110,.35);
+  border-radius: 8px;
+  overflow: hidden;
+  aspect-ratio: 16/9;
+  background: #1a1a1a;
+  cursor: pointer;
+}
+
+/* placeholder */
+.pvs-placeholder {
+  position: absolute; inset: 0;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 14px; background: linear-gradient(135deg, #1a1a1a, #2a2520);
+  color: #6b6b6b;
+}
+.pvs-placeholder svg { width: 32px; height: 32px; opacity: .4; }
+.pvs-placeholder span { font-size: 12px; font-weight: 500; letter-spacing: .06em; text-align: center; }
+
+/* actual video */
+.pvs-video {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover; display: block;
+}
+
+/* ── Play overlay ────────────────────── */
+.pvs-play-overlay {
+  position: absolute; inset: 0; z-index: 3;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(0,0,0,.18);
+  transition: background .25s, opacity .25s;
+}
+.pvs-play-overlay.hide {
+  opacity: 0; pointer-events: none;
+}
+.pvs-video-box:hover .pvs-play-overlay:not(.hide) {
+  background: rgba(0,0,0,.28);
+}
+
+/* Play button */
+.pvs-play-btn {
+  width: 72px; height: 72px; border-radius: 50%;
+  background: rgba(255,255,255,.95);
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 8px 40px rgba(0,0,0,.3);
+  transition: transform .25s cubic-bezier(.34,1.56,.64,1), background .2s;
+}
+.pvs-video-box:hover .pvs-play-btn { transform: scale(1.08); }
+.pvs-play-btn svg { width: 28px; height: 28px; margin-left: 4px; color: #0a0a0a; }
+
+/* progress bar */
+.pvs-progress {
+  position: absolute; bottom: 0; left: 0; right: 0; height: 3px;
+  background: rgba(255,255,255,.15); z-index: 4;
+}
+.pvs-progress-bar {
+  height: 100%; background: #c9a96e; width: 0%;
+  transition: width .1s linear;
+}
+
+/* ── Mobile fullscreen overlay ───────── */
+.pvs-modal {
+  display: none;
+  position: fixed; inset: 0; z-index: 9999;
+  background: rgba(0,0,0,.92);
+  align-items: center; justify-content: center;
+  padding: 20px;
+}
+.pvs-modal.open { display: flex; }
+.pvs-modal-inner {
+  position: relative; width: 100%; max-width: 100%;
+}
+.pvs-modal-video {
+  width: 100%; height: auto;
+  border-radius: 6px; display: block;
+  max-height: 80vh; object-fit: contain;
+  border: 1px solid rgba(201,169,110,.3);
+}
+.pvs-modal-close {
+  position: absolute; top: -44px; right: 0;
+  background: none; border: none; cursor: pointer;
+  color: rgba(255,255,255,.8); font-size: 28px; line-height: 1;
+  padding: 8px; transition: color .2s;
+}
+.pvs-modal-close:hover { color: #c9a96e; }
+.pvs-modal-backdrop {
+  position: absolute; inset: 0; z-index: -1;
+}
+</style>
+
+<div class="pvs" id="pvs-{{ section.id }}">
+  <div class="pvs-wrap">
+
+    <!-- Header -->
+    <div class="pvs-head" id="pvs-head-{{ section.id }}">
+      <div class="pvs-eyebrow">{{ section.settings.eyebrow | default: 'Notre concept' }}</div>
+      <h2 class="pvs-title">{{ section.settings.title | default: 'Découvrez le savoir-faire Prose' }}</h2>
+    </div>
+
+    <!-- Frame -->
+    <div class="pvs-frame-outer" id="pvs-frame-{{ section.id }}">
+      <!-- Corner brackets -->
+      <div class="pvs-corners">
+        <div class="pvs-corner pvs-corner-tl"></div>
+        <div class="pvs-corner pvs-corner-tr"></div>
+        <div class="pvs-corner pvs-corner-bl"></div>
+        <div class="pvs-corner pvs-corner-br"></div>
+      </div>
+
+      <!-- Video box -->
+      <div class="pvs-video-box" id="pvs-box-{{ section.id }}">
+
+        {%- if section.settings.video != blank -%}
+          <video class="pvs-video" id="pvs-vid-{{ section.id }}"
+            playsinline muted preload="metadata"
+            {%- for source in section.settings.video.sources -%}
+              {%- if forloop.first -%}
+                src="{{ source.url }}"
+              {%- endif -%}
+            {%- endfor -%}>
+            {%- for source in section.settings.video.sources -%}
+              <source src="{{ source.url }}" type="{{ source.mime_type }}">
+            {%- endfor -%}
+          </video>
+        {%- else -%}
+          <div class="pvs-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+              <polygon points="5 3 19 12 5 21 5 3"/>
+            </svg>
+            <span>Sélectionner une vidéo<br><small style="opacity:.6">depuis les fichiers Shopify</small></span>
+          </div>
+        {%- endif -%}
+
+        <!-- Play overlay (always shown when paused) -->
+        <div class="pvs-play-overlay" id="pvs-overlay-{{ section.id }}">
+          <div class="pvs-play-btn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.14v14l11-7-11-7z"/></svg>
+          </div>
+        </div>
+
+        <!-- Progress bar -->
+        <div class="pvs-progress">
+          <div class="pvs-progress-bar" id="pvs-prog-{{ section.id }}"></div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Mobile fullscreen modal -->
+<div class="pvs-modal" id="pvs-modal-{{ section.id }}">
+  <div class="pvs-modal-backdrop" id="pvs-backdrop-{{ section.id }}"></div>
+  <div class="pvs-modal-inner">
+    <button class="pvs-modal-close" id="pvs-mclose-{{ section.id }}" aria-label="Fermer">✕</button>
+    {%- if section.settings.video != blank -%}
+      <video class="pvs-modal-video" id="pvs-mvid-{{ section.id }}"
+        controls playsinline
+        {%- for source in section.settings.video.sources -%}
+          {%- if forloop.first -%}src="{{ source.url }}"{%- endif -%}
+        {%- endfor -%}>
+        {%- for source in section.settings.video.sources -%}
+          <source src="{{ source.url }}" type="{{ source.mime_type }}">
+        {%- endfor -%}
+      </video>
+    {%- endif -%}
+  </div>
+</div>
+
+<script>
+(function(){
+  var id       = '{{ section.id }}';
+  var head     = document.getElementById('pvs-head-'    + id);
+  var frame    = document.getElementById('pvs-frame-'   + id);
+  var box      = document.getElementById('pvs-box-'     + id);
+  var vid      = document.getElementById('pvs-vid-'     + id);
+  var overlay  = document.getElementById('pvs-overlay-' + id);
+  var prog     = document.getElementById('pvs-prog-'    + id);
+  var modal    = document.getElementById('pvs-modal-'   + id);
+  var mvid     = document.getElementById('pvs-mvid-'    + id);
+  var mclose   = document.getElementById('pvs-mclose-'  + id);
+  var backdrop = document.getElementById('pvs-backdrop-'+ id);
+
+  /* Scroll reveal */
+  if (window.IntersectionObserver) {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.1 });
+    if (head)  io.observe(head);
+    if (frame) io.observe(frame);
+  } else {
+    if (head)  head.classList.add('visible');
+    if (frame) frame.classList.add('visible');
+  }
+
+  if (!vid || !box) return;
+
+  /* ── Helper: is mobile ───────────────── */
+  function isMobile() {
+    return window.innerWidth < 768 || ('ontouchstart' in window);
+  }
+
+  /* ── Desktop: inline play ───────────── */
+  function playInline() {
+    vid.muted = false;
+    vid.play().catch(function(){ vid.muted = true; vid.play(); });
+    overlay.classList.add('hide');
+  }
+
+  function pauseInline() {
+    vid.pause();
+    overlay.classList.remove('hide');
+  }
+
+  /* ── Mobile: modal ───────────────────── */
+  function openModal() {
+    modal.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    if (mvid) {
+      mvid.currentTime = 0;
+      mvid.play().catch(function(){});
+    }
+  }
+
+  function closeModal() {
+    modal.classList.remove('open');
+    document.body.style.overflow = '';
+    if (mvid) { mvid.pause(); mvid.currentTime = 0; }
+  }
+
+  /* ── Main click on box ───────────────── */
+  box.addEventListener('click', function(e) {
+    if (isMobile()) {
+      openModal();
+    } else {
+      if (vid.paused) { playInline(); } else { pauseInline(); }
+    }
+  });
+
+  /* ── Modal close triggers ───────────── */
+  if (mclose)   mclose.addEventListener('click',   closeModal);
+  if (backdrop) backdrop.addEventListener('click',  closeModal);
+
+  /* Close on Escape */
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape' && modal.classList.contains('open')) closeModal();
+  });
+
+  /* ── Progress bar ────────────────────── */
+  vid.addEventListener('timeupdate', function(){
+    if (vid.duration && prog) {
+      prog.style.width = (vid.currentTime / vid.duration * 100) + '%';
+    }
+  });
+  vid.addEventListener('ended', function(){
+    overlay.classList.remove('hide');
+    if (prog) prog.style.width = '0%';
+  });
+
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Video Showcase",
+  "tag": "div",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Texte"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Surtitre",
+      "default": "Notre concept"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titre",
+      "default": "Découvrez le savoir-faire Prose"
+    },
+    {
+      "type": "header",
+      "content": "Vidéo"
+    },
+    {
+      "type": "video",
+      "id": "video",
+      "label": "Vidéo (depuis vos fichiers Shopify)"
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Couleur de fond",
+      "default": "#f8f4ef"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video Showcase"
+    }
+  ]
+}
+{% endschema %}

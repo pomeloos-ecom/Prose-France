@@ -9,300 +9,81 @@
  */
 {
   "sections": {
-    "ss_hero_pro_2_6jnVpn": {
-      "type": "ss-hero-pro-2",
+    "hero": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "badge_88pzwb": {
-          "type": "badge",
-          "disabled": true,
+        "subheading": {
+          "type": "subheading",
           "settings": {
-            "badge": "★ Premium Quality Guaranteed",
-            "badge_custom": false,
-            "badge_font": "josefin_sans_n4",
-            "badge_size": 12,
-            "badge_size_mobile": 11,
-            "badge_advanced": false,
-            "badge_height": 130,
-            "badge_letter_spacing": "normal",
-            "badge_text_transform": "uppercase",
-            "badge_mt": 16,
-            "badge_mt_mobile": 12,
-            "badge_color": "#121212",
-            "badge_background": true,
-            "badge_bg_color": "#f3f3f3",
-            "badge_bg_opacity": 20,
-            "badge_radius": 100,
-            "badge_border_thickness": 1,
-            "badge_border_color": "#e5e5e5",
-            "badge_border_opacity": 20,
-            "badge_padding_horizontal": 12,
-            "badge_padding_horizontal_mobile": 8,
-            "badge_padding_vertical": 6,
-            "badge_padding_vertical_mobile": 6
+            "subheading": "ATELIERS FRANÇAIS & INTERNATIONAUX",
+            "subheading_size": "subtitle-sm",
+            "secondary_color": false
           }
         },
-        "heading_wHYxBW": {
+        "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<h1>Votre montre, <strong>votre histoire.</strong></h1>",
-            "heading_custom": false,
-            "heading_font": "josefin_sans_n4",
-            "heading_size": 52,
-            "heading_size_mobile": 32,
-            "heading_advanced": false,
-            "heading_height": 130,
-            "heading_mt": 16,
-            "heading_mt_mobile": 12,
-            "heading_color": "#181818",
-            "heading_accent_color_style": "solid",
-            "heading_accent_color": "#e3b962",
-            "heading_accent_gradient": "linear-gradient(135deg, #121212 0%, #555555 100%)"
+            "heading": "<strong>Votre montre. Votre histoire.</strong>",
+            "heading_size": "title-xl tracking-heading",
+            "heading_tag": "h1",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
           }
         },
-        "review_nQaNrh": {
-          "type": "review",
+        "text": {
+          "type": "text",
           "settings": {
-            "stars_count": 5,
-            "stars_size": 20,
-            "stars_size_mobile": 18,
-            "stars_gap": 2,
-            "stars_text": "4.9/5 based on 10,000+ reviews",
-            "review_custom": false,
-            "review_font": "josefin_sans_n4",
-            "review_size": 14,
-            "review_size_mobile": 12,
-            "review_advanced": false,
-            "review_height": 130,
-            "review_mt": 16,
-            "review_mt_mobile": 12,
-            "review_color": "#121212",
-            "stars_color": "#ffffff",
-            "stars_bg_color": "#0c8900",
-            "stars_bg_half_color": "#dddddd"
+            "text": "<p>L'expertise d'horlogers certifiés pour créer la pièce unique qui vous ressemble.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 40,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
           }
         },
-        "button_nynLjA": {
+        "button": {
           "type": "button",
           "settings": {
-            "button": "Shop now",
-            "button_url": "",
-            "open_in_new_tab": false,
-            "button_style": "non_outline",
-            "button_custom": false,
-            "button_font": "josefin_sans_n4",
-            "button_size": 14,
-            "button_size_mobile": 14,
-            "button_advanced": true,
-            "button_height": 100,
-            "button_text_transform": "none",
-            "button_letter_spacing": "normal",
-            "button_padding_horizontal": 32,
-            "button_padding_horizontal_mobile": 32,
-            "button_padding_vertical": 16,
-            "button_padding_vertical_mobile": 16,
-            "button_radius": 3,
-            "button_border_thickness": 1,
-            "button_custom_styling": false,
-            "button_full_width_mobile": true,
-            "button_color": "#ffffff",
-            "button_hover_color": "#ffffff",
-            "button_bg_color": "#e3b962",
-            "button_bg_hover_color": "#555555",
-            "button_border_color": "#121212",
-            "button_border_hover_color": "#555555",
-            "button_shadow_color": "#000000"
-          }
-        },
-        "button_KRqapk": {
-          "type": "button",
-          "settings": {
-            "button": "Shop now",
-            "button_url": "",
-            "open_in_new_tab": false,
-            "button_style": "outline",
-            "button_custom": false,
-            "button_font": "josefin_sans_n4",
-            "button_size": 14,
-            "button_size_mobile": 14,
-            "button_advanced": true,
-            "button_height": 100,
-            "button_text_transform": "none",
-            "button_letter_spacing": "normal",
-            "button_padding_horizontal": 32,
-            "button_padding_horizontal_mobile": 32,
-            "button_padding_vertical": 16,
-            "button_padding_vertical_mobile": 16,
-            "button_radius": 3,
-            "button_border_thickness": 1,
-            "button_custom_styling": false,
-            "button_full_width_mobile": true,
-            "button_color": "#434549",
-            "button_hover_color": "#ffffff",
-            "button_bg_color": "rgba(0,0,0,0)",
-            "button_bg_hover_color": "#555555",
-            "button_border_color": "#434549",
-            "button_border_hover_color": "#555555",
-            "button_shadow_color": "rgba(0,0,0,0)"
-          }
-        },
-        "feature_x6qyLt": {
-          "type": "feature",
-          "settings": {
-            "icon": "star_sparkle",
-            "feature_text": "<p>Rapport qualité-service-prix imbattable</p>",
-            "hide_on_desktop": false,
-            "hide_on_mobile": false
-          }
-        },
-        "feature_WdLayX": {
-          "type": "feature",
-          "settings": {
-            "icon": "box",
-            "feature_text": "<p>Livraison offerte</p>",
-            "hide_on_desktop": false,
-            "hide_on_mobile": false
-          }
-        },
-        "feature_X7Yqd8": {
-          "type": "feature",
-          "settings": {
-            "icon": "shield_check",
-            "feature_text": "<p>Garantie 3 ans</p>",
-            "hide_on_desktop": false,
-            "hide_on_mobile": false
-          }
-        },
-        "stat_NjaNqV": {
-          "type": "stat",
-          "disabled": true,
-          "settings": {
-            "heading": "<h3>Satisfaction rate</h3>",
-            "text": "<p>From verified buyers</p>",
-            "percent": 95,
-            "hide_on_desktop": false,
-            "hide_on_mobile": false
-          }
-        },
-        "stat_q8gXdG": {
-          "type": "stat",
-          "settings": {
-            "heading": "<h3>Repeat customers</h3>",
-            "text": "<p>Returning within 6 months</p>",
-            "percent": 85,
-            "hide_on_desktop": false,
-            "hide_on_mobile": false
-          }
-        },
-        "stat_qABVLd": {
-          "type": "stat",
-          "settings": {
-            "heading": "<h3>On-time fulfillment</h3>",
-            "text": "<p>Across all global orders</p>",
-            "percent": 100,
-            "hide_on_desktop": false,
-            "hide_on_mobile": false
+            "button_label": "Découvrir les collections",
+            "button_link": "/collections/all",
+            "button_style": "primary",
+            "button_size": "md",
+            "button_external": false,
+            "button_icon": true
           }
         }
       },
       "block_order": [
-        "badge_88pzwb",
-        "heading_wHYxBW",
-        "review_nQaNrh",
-        "button_nynLjA",
-        "button_KRqapk",
-        "feature_x6qyLt",
-        "feature_WdLayX",
-        "feature_X7Yqd8",
-        "stat_NjaNqV",
-        "stat_q8gXdG",
-        "stat_qABVLd"
+        "subheading",
+        "heading",
+        "text",
+        "button"
       ],
-      "name": "SS - Hero pro #2 💎",
       "settings": {
-        "hero_height": "full_screen",
-        "hero_fixed_height": 600,
-        "hero_fixed_height_mobile": 600,
-        "content_align": "left",
-        "content_align_mobile": "left",
-        "content_vertical_align": "center",
-        "button_mt": 32,
-        "button_mt_mobile": 24,
-        "features_background": true,
-        "features_padding_vertical": 8,
-        "features_padding_vertical_mobile": 8,
-        "features_padding_horizontal": 12,
-        "features_padding_horizontal_mobile": 12,
-        "features_thickness": 1,
-        "features_radius": 8,
-        "feature_icon_size": 16,
-        "feature_icon_size_mobile": 16,
-        "feature_text_custom": false,
-        "feature_text_font": "josefin_sans_n4",
-        "feature_text_size": 13,
-        "feature_text_size_mobile": 13,
-        "feature_text_advanced": false,
-        "feature_text_height": 150,
-        "stat_radius": 18,
-        "stat_border_thickness": 1,
-        "counter_animation": true,
-        "animation_duration": 2,
-        "animation_duration_mobile": 2,
-        "stat_percent_custom": false,
-        "stat_percent_font": "josefin_sans_n4",
-        "stat_percent_size": 36,
-        "stat_percent_size_mobile": 28,
-        "stat_percent_advanced": false,
-        "stat_percent_height": 100,
-        "stat_heading_custom": false,
-        "stat_heading_font": "josefin_sans_n4",
-        "stat_heading_size": 12,
-        "stat_heading_size_mobile": 11,
-        "stat_heading_advanced": false,
-        "stat_heading_height": 130,
-        "stat_heading_mt": 4,
-        "stat_text_custom": false,
-        "stat_text_font": "josefin_sans_n4",
-        "stat_text_size": 10,
-        "stat_text_size_mobile": 10,
-        "stat_text_advanced": false,
-        "stat_text_height": 130,
-        "stat_text_mt": 4,
-        "feature_icon_color": "#121212",
-        "feature_text_color": "#121212",
-        "features_bg_color": "#ffffff",
-        "features_bg_opacity": 20,
-        "features_border_color": "#e5e5e5",
-        "features_border_opacity": 20,
-        "stat_percent_color_style": "solid",
-        "stat_percent_color": "#121212",
-        "stat_percent_gradient": "linear-gradient(135deg, #121212 0%, #555555 100%)",
-        "stat_heading_color": "#121212",
-        "stat_heading_opacity": 100,
-        "stat_text_color": "#555555",
-        "stat_text_opacity": 100,
-        "stat_bg_color": "#ffffff",
-        "stat_bg_opacity": 20,
-        "stat_border_color": "#e5e5e5",
-        "stat_border_opacity": 20,
-        "background_style": "image",
-        "image": "shopify://shop_images/Herosection.jpg",
-        "bg_overlay_color": "#000000",
-        "bg_overlay_opacity": 0,
-        "background_color": "#ffffff",
-        "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)",
-        "border_color": "#e5e5e5",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "margin_horizontal": 0,
-        "margin_horizontal_mobile": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "width": "page",
-        "content_width": 1200,
-        "border_thickness": 0,
-        "section_radius": 0
+        "transparent_header": true,
+        "image_height": "100vh",
+        "content_width": "large",
+        "content_position": "md:items-center md:justify-start",
+        "text_alignment": "left",
+        "image_height_mobile": "600px",
+        "content_position_mobile": "items-end justify-start",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_highlight": "#c9a96e",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 40,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
       }
     },
     "logo_list": {
@@ -351,7 +132,6 @@
         "logo_4",
         "logo_5"
       ],
-      "disabled": true,
       "settings": {
         "layout": "marquee",
         "grid_horizontal": 70,
@@ -644,13 +424,16 @@
         "rounded": false
       }
     },
+    "video_showcase": {
+      "type": "prose-video-showcase",
+      "settings": {}
+    },
+
     "why_choose_bento": {
       "type": "prose-why-choose-bento",
-      "settings": {
-        "card_1_image": "shopify://shop_images/hf_20260503_181949_af29350a-cced-4077-93ad-04e86e0159d0.png",
-        "card_2_image": "shopify://shop_images/paneraicrown_febfe43a-a27d-4b1e-ad1d-860dea357cde.jpg"
-      }
+      "settings": {}
     },
+
     "brand_benefits": {
       "type": "multicolumn",
       "blocks": {
@@ -1081,12 +864,13 @@
     }
   },
   "order": [
-    "ss_hero_pro_2_6jnVpn",
+    "hero",
     "logo_list",
     "concept_video",
     "best_sellers",
     "product_categories",
     "testimonials_section",
+    "video_showcase",
     "why_choose_bento",
     "brand_benefits",
     "ugc_section",
