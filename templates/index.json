@@ -200,7 +200,7 @@
         "button_mt": 32,
         "button_mt_mobile": 24,
         "features_background": true,
-        "features_padding_vertical": 8,
+        "features_padding_vertical": 30,
         "features_padding_vertical_mobile": 8,
         "features_padding_horizontal": 12,
         "features_padding_horizontal_mobile": 12,
