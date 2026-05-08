@@ -44,9 +44,9 @@
         "heading_KbXkF8": {
           "type": "heading",
           "settings": {
-            "heading": "<h1>Votre montre,<strong>votre histoire.</strong></h1>",
-            "heading_custom": false,
-            "heading_font": "josefin_sans_n4",
+            "heading": "<h1>VOTRE MONTRE,<br/><strong>VOTRE HISTOIRE.</strong></h1>",
+            "heading_custom": true,
+            "heading_font": "red_hat_display_n9",
             "heading_size": 52,
             "heading_size_mobile": 32,
             "heading_advanced": false,
@@ -55,7 +55,7 @@
             "heading_mt_mobile": 12,
             "heading_color": "#121212",
             "heading_accent_color_style": "solid",
-            "heading_accent_color": "#d29c1e",
+            "heading_accent_color": "#848484",
             "heading_accent_gradient": "linear-gradient(135deg, #121212 0%, #555555 100%)"
           }
         },
@@ -106,7 +106,7 @@
             "button_full_width_mobile": true,
             "button_color": "#FFFFFF",
             "button_hover_color": "#FFFFFF",
-            "button_bg_color": "#d29c1e",
+            "button_bg_color": "#848484",
             "button_bg_hover_color": "#555555",
             "button_border_color": "#121212",
             "button_border_hover_color": "#555555",
@@ -311,7 +311,7 @@
       "type": "prose-video-showcase",
       "settings": {
         "eyebrow": "LE CONCEPT PROSE",
-        "title": "Découvrez le savoir-faire Prose",
+        "title": "DÉCOUVREZ LE SAVOIR-FAIRE PROSE",
         "video": "shopify://files/videos/TEST VSL.mp4",
         "bg_color": "#f8f4ef"
       }
@@ -338,7 +338,7 @@
           "settings": {
             "title": "Découvrez nos collections",
             "title_custom": true,
-            "title_font": "inter_n5",
+            "title_font": "red_hat_display_n7",
             "title_size": 40,
             "title_height": 100,
             "title_align": "center",
