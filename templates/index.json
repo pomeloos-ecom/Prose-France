@@ -736,9 +736,9 @@
             "products_show": 10,
             "products": [],
             "custom_url": "",
-            "shape_color": "#f7f7f7",
+            "shape_color": "#cff9e3",
             "background_style": "solid",
-            "background_color": "#ffffff",
+            "background_color": "#619179",
             "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)"
           }
         },
