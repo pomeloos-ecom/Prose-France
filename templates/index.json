@@ -552,7 +552,7 @@
         "show_view_all": true,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "heading": "Nos Best Sellers",
+        "heading": "",
         "heading_size": "title-lg tracking-heading",
         "heading_alignment": "text-center md:items-center",
         "heading_tag": "h2",
