@@ -717,7 +717,7 @@
         "collection_fWmQcx": {
           "type": "collection",
           "settings": {
-            "tab": "COUPS DE COEUR",
+            "tab": "1- NAUTIKO",
             "collection": "coups-de-coeur",
             "products_show": 10,
             "products": [],
@@ -731,7 +731,7 @@
         "collection_f4hfJe": {
           "type": "collection",
           "settings": {
-            "tab": "COUPS DE COEUR",
+            "tab": "2 - JUSTEIKO",
             "collection": "coups-de-coeur",
             "products_show": 10,
             "products": [],
@@ -745,7 +745,7 @@
         "collection_HnxBKq": {
           "type": "collection",
           "settings": {
-            "tab": "COUPS DE COEUR",
+            "tab": "3- SEIKOAK",
             "collection": "coups-de-coeur",
             "products_show": 10,
             "products": [],
@@ -759,7 +759,35 @@
         "collection_MmVmj3": {
           "type": "collection",
           "settings": {
-            "tab": "COUPS DE COEUR",
+            "tab": "4 - SEIKONAUT",
+            "collection": "coups-de-coeur",
+            "products_show": 10,
+            "products": [],
+            "custom_url": "",
+            "shape_color": "#f7f7f7",
+            "background_style": "solid",
+            "background_color": "#ffffff",
+            "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)"
+          }
+        },
+        "collection_QWd37y": {
+          "type": "collection",
+          "settings": {
+            "tab": "5 - SEIKONA",
+            "collection": "coups-de-coeur",
+            "products_show": 10,
+            "products": [],
+            "custom_url": "",
+            "shape_color": "#f7f7f7",
+            "background_style": "solid",
+            "background_color": "#ffffff",
+            "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)"
+          }
+        },
+        "collection_6hh9Wq": {
+          "type": "collection",
+          "settings": {
+            "tab": "6 - MASTEIKO",
             "collection": "coups-de-coeur",
             "products_show": 10,
             "products": [],
@@ -821,6 +849,8 @@
         "collection_f4hfJe",
         "collection_HnxBKq",
         "collection_MmVmj3",
+        "collection_QWd37y",
+        "collection_6hh9Wq",
         "collection_FVzKY6",
         "collection_7pN8jn",
         "collection_HwrHjH"
@@ -835,14 +865,14 @@
         "tabs_gap_mobile": 16,
         "tabs_mt": 32,
         "tabs_mt_mobile": 32,
-        "tab_custom": false,
-        "tab_font": "josefin_sans_n4",
+        "tab_custom": true,
+        "tab_font": "red_hat_display_n8",
         "tab_size": 16,
         "tab_size_mobile": 16,
         "tab_advanced": false,
         "tab_height": 100,
         "tab_background": true,
-        "tab_radius": 100,
+        "tab_radius": 4,
         "tab_border_thickness": 1,
         "tab_padding_vertical": 12,
         "tab_padding_vertical_mobile": 12,
@@ -901,7 +931,7 @@
         "product_button": "Voir le modèle",
         "product_button_open_in_new_tab": false,
         "product_button_style": "outline",
-        "product_button_custom": false,
+        "product_button_custom": true,
         "product_button_font": "josefin_sans_n4",
         "product_button_size": 16,
         "product_button_size_mobile": 16,
@@ -949,7 +979,7 @@
         "arrow_vertical_position": 75,
         "color_mode": "basic",
         "color_primary": "#121212",
-        "color_secondary": "#ffffff",
+        "color_secondary": "#fffbf4",
         "color_accent": "#121212",
         "title_color": "#121212",
         "vendor_color": "#5e5e5e",
