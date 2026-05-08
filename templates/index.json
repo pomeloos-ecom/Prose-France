@@ -422,10 +422,46 @@
             "content_bg_color": "#121212"
           }
         },
+        "slide_bVKEwN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_2.png",
+            "badge": "Badge",
+            "title": "New Slide",
+            "text": "<p>Text</p>",
+            "button": "View",
+            "button_url": "",
+            "content_bg_color": "#121212"
+          }
+        },
         "slide_WiVAkL": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Design_sans_titre_1.png",
+            "badge": "Badge",
+            "title": "New Slide",
+            "text": "<p>Text</p>",
+            "button": "View",
+            "button_url": "",
+            "content_bg_color": "#121212"
+          }
+        },
+        "slide_yfG48A": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_1.png",
+            "badge": "Badge",
+            "title": "New Slide",
+            "text": "<p>Text</p>",
+            "button": "View",
+            "button_url": "",
+            "content_bg_color": "#121212"
+          }
+        },
+        "slide_hgmcWy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_3.png",
             "badge": "Badge",
             "title": "New Slide",
             "text": "<p>Text</p>",
@@ -441,11 +477,14 @@
         "slide_aC7XzD",
         "slide_NEb3U8",
         "slide_4WxfxH",
-        "slide_WiVAkL"
+        "slide_bVKEwN",
+        "slide_WiVAkL",
+        "slide_yfG48A",
+        "slide_hgmcWy"
       ],
       "name": "SS - Slider #2 pro",
       "settings": {
-        "slider_view": 5,
+        "slider_view": 4,
         "slider_view_mobile": 1.7,
         "card_radius": 16,
         "card_border_thickness": 0,
@@ -506,27 +545,27 @@
         "arrow_radius": 100,
         "arrow_hover_effect": "color",
         "arrow_shadow": true,
-        "badge_color": "#FFFFFF",
-        "badge_bg_color": "#FFFFFF",
-        "title_color": "#FFFFFF",
-        "text_color": "#FFFFFF",
+        "badge_color": "#ffffff",
+        "badge_bg_color": "#ffffff",
+        "title_color": "#ffffff",
+        "text_color": "#ffffff",
         "card_border_color": "#121212",
         "card_overlay_color": "#121212",
         "card_shadow_color": "#121212",
         "button_color": "#121212",
-        "button_hover_color": "#FFFFFF",
-        "button_bg_color": "#FFFFFF",
+        "button_hover_color": "#ffffff",
+        "button_bg_color": "#ffffff",
         "button_bg_hover_color": "#121212",
         "button_border_color": "#121212",
         "button_border_hover_color": "#121212",
         "arrow_color": "#121212",
-        "arrow_hover_color": "#FFFFFF",
-        "arrow_bg_color": "#FFFFFF",
+        "arrow_hover_color": "#ffffff",
+        "arrow_bg_color": "#ffffff",
         "arrow_bg_hover_color": "#121212",
         "arrow_border_color": "#121212",
         "arrow_border_hover_color": "#121212",
         "background_style": "solid",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)",
         "border_color": "#121212",
         "margin_top": 0,
@@ -632,7 +671,7 @@
         "content_radius": 40,
         "gap": 30,
         "gap_mobile": 15,
-        "background_color": "#F5F5F5",
+        "background_color": "#f5f5f5",
         "background_gradient": "",
         "border_color": "#000000",
         "content_bg": "",
