@@ -191,9 +191,9 @@
       ],
       "name": "SS - Hero pro #2 💎",
       "settings": {
-        "hero_height": "auto",
-        "hero_fixed_height": 600,
-        "hero_fixed_height_mobile": 600,
+        "hero_height": "fixed_height",
+        "hero_fixed_height": 700,
+        "hero_fixed_height_mobile": 300,
         "content_align": "left",
         "content_align_mobile": "center",
         "content_vertical_align": "center",
