@@ -361,6 +361,7 @@
       "blocks": {
         "slide_pjEwLb": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/hf_20260508_124748_2d1a36d4-24bd-4578-a317-a3d49458200f.png",
             "badge": "Badge",
@@ -373,8 +374,9 @@
         },
         "slide_C6C4zR": {
           "type": "slide",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/hf_20260508_125605_73b43867-53e9-40a1-b7ca-34f2293e86db.png",
+            "image": "shopify://shop_images/Design_sans_titre_4.png",
             "badge": "Badge",
             "title": "New Slide",
             "text": "<p>Text</p>",
@@ -399,7 +401,7 @@
         "slide_NEb3U8": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Design_sans_titre.png",
+            "image": "shopify://shop_images/Design_sans_titre_3.png",
             "badge": "Badge",
             "title": "New Slide",
             "text": "<p>Text</p>",
@@ -411,7 +413,7 @@
         "slide_4WxfxH": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Design_sans_titre.png",
+            "image": "shopify://shop_images/Design_sans_titre_2.png",
             "badge": "Badge",
             "title": "New Slide",
             "text": "<p>Text</p>",
@@ -423,6 +425,7 @@
         "slide_WiVAkL": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_1.png",
             "badge": "Badge",
             "title": "New Slide",
             "text": "<p>Text</p>",
