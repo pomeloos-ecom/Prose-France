@@ -1,0 +1,484 @@
+{% comment %} Prose — Collection Carousel {% endcomment %}
+
+<style>
+.pcc *, .pcc *::before, .pcc *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+.pcc {
+  padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px;
+  background: {{ section.settings.bg_color }};
+  font-family: var(--font-body-family, sans-serif);
+  overflow: hidden;
+}
+
+/* ── Header ──────────────────────────── */
+.pcc-head {
+  padding: 0 {{ section.settings.padding_horizontal }}px;
+  margin-bottom: 36px;
+  display: flex; align-items: flex-end;
+  justify-content: space-between; gap: 24px; flex-wrap: wrap;
+}
+@media(max-width:767px) {
+  .pcc-head { padding: 0 20px; }
+}
+.pcc-titles {}
+.pcc-eyebrow {
+  display: inline-block; font-size: 10px; font-weight: 700;
+  letter-spacing: .2em; text-transform: uppercase; color: {{ section.settings.accent_color }};
+  margin-bottom: 10px;
+}
+.pcc-title {
+  font-family: var(--font-heading-family, Georgia, serif);
+  font-size: clamp(26px, 3.5vw, 44px); font-weight: 700;
+  letter-spacing: -.02em; line-height: 1.1; color: {{ section.settings.text_color }};
+}
+
+/* Nav arrows */
+.pcc-nav { display: flex; gap: 8px; flex-shrink: 0; }
+.pcc-arrow {
+  width: 44px; height: 44px; border-radius: 50%;
+  border: 1px solid {{ section.settings.text_color | color_modify: 'alpha', 0.2 }};
+  background: transparent; cursor: pointer; display: flex;
+  align-items: center; justify-content: center;
+  color: {{ section.settings.text_color }}; transition: all .2s;
+}
+.pcc-arrow:hover {
+  background: {{ section.settings.accent_color }};
+  border-color: {{ section.settings.accent_color }};
+  color: #fff;
+}
+.pcc-arrow:disabled { opacity: .3; cursor: default; }
+.pcc-arrow svg { width: 18px; height: 18px; }
+
+/* ── Track wrapper ───────────────────── */
+.pcc-track-wrap {
+  padding: 0 {{ section.settings.padding_horizontal }}px;
+  position: relative;
+}
+@media(max-width:767px) {
+  .pcc-track-wrap { padding: 0 20px; }
+}
+
+.pcc-track {
+  display: flex;
+  gap: {{ section.settings.gap }}px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  cursor: grab;
+}
+.pcc-track:active { cursor: grabbing; }
+.pcc-track::-webkit-scrollbar { display: none; }
+
+/* ── Card ────────────────────────────── */
+.pcc-card {
+  flex: 0 0 calc((100% - {{ section.settings.gap | times: section.settings.visible_desktop | minus: section.settings.gap }}px) / {{ section.settings.visible_desktop }});
+  scroll-snap-align: start;
+  position: relative;
+  border-radius: {{ section.settings.card_radius }}px;
+  overflow: hidden;
+  text-decoration: none;
+  display: block;
+}
+@media(max-width:1023px) {
+  .pcc-card {
+    flex: 0 0 calc((100% - {{ section.settings.gap | times: section.settings.visible_tablet | minus: section.settings.gap }}px) / {{ section.settings.visible_tablet }});
+  }
+}
+@media(max-width:767px) {
+  .pcc-card {
+    flex: 0 0 calc((100% - {{ section.settings.gap | times: section.settings.visible_mobile | minus: section.settings.gap }}px) / {{ section.settings.visible_mobile }});
+  }
+}
+
+/* Image */
+.pcc-card-img {
+  width: 100%;
+  aspect-ratio: {{ section.settings.image_ratio }};
+  overflow: hidden; position: relative;
+  background: #e8e2da;
+}
+.pcc-card-img img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+  transition: transform .5s ease;
+}
+.pcc-card:hover .pcc-card-img img { transform: scale(1.05); }
+
+/* Placeholder */
+.pcc-ph {
+  width: 100%; height: 100%; position: absolute; inset: 0;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 10px; background: linear-gradient(135deg, #ede7de, #d9d0c5);
+  color: #9b9287; font-size: 11px; text-align: center;
+}
+.pcc-ph svg { width: 28px; height: 28px; opacity: .4; }
+
+/* Gradient overlay */
+.pcc-card-overlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,.75) 0%, rgba(0,0,0,.2) 45%, transparent 75%);
+  transition: opacity .3s;
+}
+.pcc-card:hover .pcc-card-overlay { opacity: 1.0; }
+
+/* Text */
+.pcc-card-body {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  padding: 20px 20px 20px;
+  z-index: 2;
+}
+.pcc-card-label {
+  display: block; font-size: 11px; font-weight: 700;
+  letter-spacing: .14em; text-transform: uppercase;
+  color: rgba(255,255,255,.65); margin-bottom: 6px;
+}
+.pcc-card-title {
+  font-family: var(--font-heading-family, Georgia, serif);
+  font-size: clamp(18px, 2vw, 24px); font-weight: 700;
+  color: #fff; line-height: 1.15; letter-spacing: -.01em;
+  margin-bottom: 12px;
+}
+.pcc-card-cta {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 11px; font-weight: 700; letter-spacing: .1em;
+  text-transform: uppercase; color: {{ section.settings.accent_color }};
+  opacity: 0; transform: translateY(6px);
+  transition: opacity .3s, transform .3s;
+}
+.pcc-card:hover .pcc-card-cta { opacity: 1; transform: none; }
+.pcc-card-cta svg { width: 12px; height: 12px; }
+
+/* ── Dots ────────────────────────────── */
+.pcc-dots {
+  display: flex; justify-content: center; gap: 6px;
+  margin-top: 24px; padding: 0 {{ section.settings.padding_horizontal }}px;
+}
+.pcc-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: {{ section.settings.text_color | color_modify: 'alpha', 0.2 }};
+  border: none; cursor: pointer; padding: 0;
+  transition: all .3s; flex-shrink: 0;
+}
+.pcc-dot.active {
+  width: 24px; border-radius: 3px;
+  background: {{ section.settings.accent_color }};
+}
+</style>
+
+{%- if section.blocks.size > 0 -%}
+<div class="pcc" id="pcc-{{ section.id }}">
+
+  <!-- Header -->
+  <div class="pcc-head">
+    <div class="pcc-titles">
+      {%- if section.settings.eyebrow != blank -%}
+        <span class="pcc-eyebrow">{{ section.settings.eyebrow }}</span>
+      {%- endif -%}
+      {%- if section.settings.title != blank -%}
+        <h2 class="pcc-title">{{ section.settings.title }}</h2>
+      {%- endif -%}
+    </div>
+    <div class="pcc-nav">
+      <button class="pcc-arrow" id="pcc-prev-{{ section.id }}" aria-label="Précédent">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <button class="pcc-arrow" id="pcc-next-{{ section.id }}" aria-label="Suivant">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Track -->
+  <div class="pcc-track-wrap">
+    <div class="pcc-track" id="pcc-track-{{ section.id }}">
+      {%- for block in section.blocks -%}
+        {%- assign col = collections[block.settings.collection] -%}
+        {%- assign col_url = col.url | default: '/collections/all' -%}
+        {%- assign col_title = block.settings.custom_title | default: col.title | default: 'Collection' -%}
+
+        <a href="{{ col_url }}" class="pcc-card" {{ block.shopify_attributes }}>
+          <div class="pcc-card-img">
+            {%- if block.settings.image != blank -%}
+              <img src="{{ block.settings.image | image_url: width: 800 }}"
+                   alt="{{ col_title }}" loading="lazy">
+            {%- elsif col.image != blank -%}
+              <img src="{{ col.image | image_url: width: 800 }}"
+                   alt="{{ col_title }}" loading="lazy">
+            {%- else -%}
+              <div class="pcc-ph">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><path d="M21 15l-5-5L5 21" stroke-linecap="round"/></svg>
+                <span>Ajouter une image</span>
+              </div>
+            {%- endif -%}
+            <div class="pcc-card-overlay"></div>
+            <div class="pcc-card-body">
+              {%- if block.settings.label != blank -%}
+                <span class="pcc-card-label">{{ block.settings.label }}</span>
+              {%- endif -%}
+              <div class="pcc-card-title">{{ col_title }}</div>
+              <span class="pcc-card-cta">
+                Voir la collection
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </span>
+            </div>
+          </div>
+        </a>
+      {%- endfor -%}
+    </div>
+  </div>
+
+  <!-- Dots -->
+  {%- if section.blocks.size > 1 -%}
+  <div class="pcc-dots" id="pcc-dots-{{ section.id }}">
+    {%- for block in section.blocks -%}
+      <button class="pcc-dot {% if forloop.first %}active{% endif %}"
+              data-index="{{ forloop.index0 }}" aria-label="Collection {{ forloop.index }}"></button>
+    {%- endfor -%}
+  </div>
+  {%- endif -%}
+
+</div>
+
+<script>
+(function(){
+  var id    = '{{ section.id }}';
+  var track = document.getElementById('pcc-track-' + id);
+  var prev  = document.getElementById('pcc-prev-' + id);
+  var next  = document.getElementById('pcc-next-' + id);
+  var dotsEl= document.getElementById('pcc-dots-' + id);
+  if (!track) return;
+
+  var cards = track.querySelectorAll('.pcc-card');
+  var total = cards.length;
+  var current = 0;
+
+  function cardWidth() {
+    return cards[0] ? cards[0].offsetWidth + {{ section.settings.gap }} : 0;
+  }
+
+  function scrollTo(index) {
+    current = Math.max(0, Math.min(index, total - 1));
+    track.scrollTo({ left: current * cardWidth(), behavior: 'smooth' });
+    updateDots();
+  }
+
+  function updateDots() {
+    if (!dotsEl) return;
+    dotsEl.querySelectorAll('.pcc-dot').forEach(function(d, i) {
+      d.classList.toggle('active', i === current);
+    });
+  }
+
+  if (prev) prev.addEventListener('click', function(){ scrollTo(current - 1); });
+  if (next) next.addEventListener('click', function(){ scrollTo(current + 1); });
+
+  if (dotsEl) {
+    dotsEl.querySelectorAll('.pcc-dot').forEach(function(d) {
+      d.addEventListener('click', function() {
+        scrollTo(parseInt(d.dataset.index));
+      });
+    });
+  }
+
+  /* Drag to scroll */
+  var isDown = false, startX, scrollLeft;
+  track.addEventListener('mousedown',  function(e){ isDown=true; startX=e.pageX-track.offsetLeft; scrollLeft=track.scrollLeft; track.style.userSelect='none'; });
+  track.addEventListener('mouseleave', function(){ isDown=false; track.style.userSelect=''; });
+  track.addEventListener('mouseup',    function(e){ isDown=false; track.style.userSelect=''; var moved=Math.abs(e.pageX-track.offsetLeft-startX); if(moved>5){ e.preventDefault(); } });
+  track.addEventListener('mousemove',  function(e){ if(!isDown)return; e.preventDefault(); var x=e.pageX-track.offsetLeft; track.scrollLeft=scrollLeft-(x-startX)*1.5; });
+
+  /* Update dot on scroll */
+  track.addEventListener('scroll', function(){
+    var cw = cardWidth();
+    if (cw > 0) current = Math.round(track.scrollLeft / cw);
+    updateDots();
+  }, { passive: true });
+})();
+</script>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Collection Carousel",
+  "tag": "div",
+  "max_blocks": 12,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Texte"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Surtitre",
+      "default": "Nos collections"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titre",
+      "default": "Explorer par univers"
+    },
+    {
+      "type": "header",
+      "content": "Affichage"
+    },
+    {
+      "type": "range",
+      "id": "visible_desktop",
+      "min": 2,
+      "max": 5,
+      "step": 1,
+      "default": 3,
+      "label": "Collections visibles — Desktop"
+    },
+    {
+      "type": "range",
+      "id": "visible_tablet",
+      "min": 1,
+      "max": 3,
+      "step": 1,
+      "default": 2,
+      "label": "Collections visibles — Tablette"
+    },
+    {
+      "type": "range",
+      "id": "visible_mobile",
+      "min": 1,
+      "max": 2,
+      "step": 0.5,
+      "default": 1,
+      "label": "Collections visibles — Mobile"
+    },
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "label": "Ratio image",
+      "options": [
+        { "value": "1/1",  "label": "Carré (1:1)" },
+        { "value": "3/4",  "label": "Portrait (3:4)" },
+        { "value": "4/3",  "label": "Paysage (4:3)" },
+        { "value": "2/3",  "label": "Portrait large (2:3)" },
+        { "value": "16/9", "label": "Cinéma (16:9)" }
+      ],
+      "default": "3/4"
+    },
+    {
+      "type": "range",
+      "id": "gap",
+      "min": 8,
+      "max": 40,
+      "step": 4,
+      "default": 16,
+      "unit": "px",
+      "label": "Espace entre les cartes"
+    },
+    {
+      "type": "range",
+      "id": "card_radius",
+      "min": 0,
+      "max": 24,
+      "step": 2,
+      "default": 8,
+      "unit": "px",
+      "label": "Rayon des coins"
+    },
+    {
+      "type": "header",
+      "content": "Espacement"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 160,
+      "step": 8,
+      "default": 80,
+      "unit": "px",
+      "label": "Padding haut"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 160,
+      "step": 8,
+      "default": 80,
+      "unit": "px",
+      "label": "Padding bas"
+    },
+    {
+      "type": "range",
+      "id": "padding_horizontal",
+      "min": 0,
+      "max": 120,
+      "step": 8,
+      "default": 48,
+      "unit": "px",
+      "label": "Padding horizontal (desktop)"
+    },
+    {
+      "type": "header",
+      "content": "Couleurs"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Fond de section",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Couleur du texte",
+      "default": "#0a0a0a"
+    },
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "Couleur accent",
+      "default": "#c9a96e"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "collection",
+      "name": "Collection",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image personnalisée (prioritaire)"
+        },
+        {
+          "type": "text",
+          "id": "custom_title",
+          "label": "Titre personnalisé (optionnel)"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Petit label au-dessus du titre",
+          "placeholder": "Ex : Nouveauté, Exclusif..."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection Carousel",
+      "blocks": [
+        { "type": "collection" },
+        { "type": "collection" },
+        { "type": "collection" }
+      ]
+    }
+  ]
+}
+{% endschema %}
