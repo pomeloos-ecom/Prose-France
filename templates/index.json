@@ -362,10 +362,10 @@
         "slide_ybiTbh": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/green_c253ac19-c4bb-4527-9405-2b7266b85d4a.png",
+            "image": "shopify://shop_images/hf_20260503_083817_46a22ba0-e632-4164-a44b-c2ea7ffd22c7.png",
             "title": "New Slide",
             "button": "Learn more",
-            "url": ""
+            "url": "shopify://products/bracelet-jubile"
           }
         },
         "slide_VKrbEP": {
@@ -383,7 +383,7 @@
             "image": "shopify://shop_images/0006_Calque-6.png",
             "title": "New Slide",
             "button": "Learn more",
-            "url": ""
+            "url": "shopify://products/bracelet-cuir-imitation-croco"
           }
         }
       },
@@ -401,23 +401,23 @@
         "card_padding_vertical_mobile": 24,
         "card_padding_horizontal": 40,
         "card_padding_horizontal_mobile": 30,
-        "card_radius": 0,
+        "card_radius": 36,
         "card_border_thickness": 0,
-        "card_shadow": false,
+        "card_shadow": true,
         "card_ratio": "portrait",
         "card_ratio_mobile": "portrait",
         "card_overlay": 0,
-        "content_horizontal_position": "center",
+        "content_horizontal_position": "start",
         "content_horizontal_position_mobile": "center",
         "content_vertical_position": "end",
         "content_vertical_position_mobile": "end",
-        "title_custom": false,
-        "title_font": "josefin_sans_n4",
+        "title_custom": true,
+        "title_font": "red_hat_display_n8",
         "title_size": 28,
         "title_size_mobile": 28,
         "title_height": 100,
-        "button_custom": false,
-        "button_font": "josefin_sans_n4",
+        "button_custom": true,
+        "button_font": "red_hat_display_n9",
         "button_size": 14,
         "button_size_mobile": 14,
         "button_height": 100,
