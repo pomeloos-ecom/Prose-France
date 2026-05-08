@@ -191,7 +191,14 @@
             "text": "Collections",
             "promo_text": "",
             "products_list": [],
-            "collections_list": [],
+            "collections_list": [
+              "justeiko-montre-automatique",
+              "masteiko-montre-automatique",
+              "nautiko-montre-automatique",
+              "seikoak-montre-automatique",
+              "seikona-montre-automatique",
+              "seikonaut-montre-automatique"
+            ],
             "heading_text": "",
             "submenu": "",
             "cta_text": "View All →",
