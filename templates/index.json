@@ -722,7 +722,7 @@
             "products_show": 10,
             "products": [],
             "custom_url": "",
-            "shape_color": "#f7f7f7",
+            "shape_color": "#f6efe3",
             "background_style": "solid",
             "background_color": "#ffffff",
             "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)"
@@ -750,10 +750,10 @@
             "products_show": 10,
             "products": [],
             "custom_url": "",
-            "shape_color": "#f7f7f7",
-            "background_style": "solid",
-            "background_color": "#ffffff",
-            "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)"
+            "shape_color": "#efefef",
+            "background_style": "gradient",
+            "background_color": "#87a5c8",
+            "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(242, 242, 242, 1) 100%)"
           }
         },
         "collection_MmVmj3": {
@@ -871,7 +871,7 @@
         "tab_font": "red_hat_display_n8",
         "tab_size": 16,
         "tab_size_mobile": 16,
-        "tab_advanced": false,
+        "tab_advanced": true,
         "tab_height": 100,
         "tab_background": true,
         "tab_radius": 4,
@@ -879,7 +879,7 @@
         "tab_padding_vertical": 12,
         "tab_padding_vertical_mobile": 12,
         "tab_padding_horizontal": 40,
-        "tab_padding_horizontal_mobile": 40,
+        "tab_padding_horizontal_mobile": 20,
         "slider_view": 4.5,
         "slider_view_mobile": 2,
         "slider_advanced": true,
@@ -1023,7 +1023,7 @@
         "padding_top": 52,
         "padding_bottom": 36,
         "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
+        "padding_horizontal_mobile": 2.5,
         "width": "page",
         "content_width": 1200,
         "border_thickness": 0,
