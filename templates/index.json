@@ -316,67 +316,184 @@
         "bg_color": "#f8f4ef"
       }
     },
-    "logo_list": {
-      "type": "logo-list",
+    "ss_text_block_pro_YKxwwe": {
+      "type": "ss-text-block-pro",
       "blocks": {
-        "logo_1": {
-          "type": "logo",
+        "subtitle_KcFAP6": {
+          "type": "subtitle",
+          "disabled": true,
           "settings": {
-            "height": 36,
-            "link": ""
+            "subtitle": "Subtitle",
+            "subtitle_custom": false,
+            "subtitle_font": "assistant_n4",
+            "subtitle_size": 20,
+            "subtitle_height": 100,
+            "subtitle_align": "center",
+            "subtitle_mt": 0,
+            "subtitle_color": "#000000"
           }
         },
-        "logo_2": {
-          "type": "logo",
+        "title_CMLUfW": {
+          "type": "title",
           "settings": {
-            "height": 36,
-            "link": ""
+            "title": "Découvrez nos collections",
+            "title_custom": true,
+            "title_font": "inter_n5",
+            "title_size": 40,
+            "title_height": 100,
+            "title_align": "center",
+            "title_mt": 12,
+            "title_color": "#000000"
           }
         },
-        "logo_3": {
-          "type": "logo",
+        "text_YdxVFk": {
+          "type": "text",
           "settings": {
-            "height": 36,
-            "link": ""
-          }
-        },
-        "logo_4": {
-          "type": "logo",
-          "settings": {
-            "height": 36,
-            "link": ""
-          }
-        },
-        "logo_5": {
-          "type": "logo",
-          "settings": {
-            "height": 36,
-            "link": ""
+            "text": "<p>Vous avez le choix entre six collections ou alors créer votre montre unique à partir de notre configurateur.</p>",
+            "text_custom": false,
+            "text_font": "assistant_n4",
+            "text_size": 20,
+            "text_height": 130,
+            "text_align": "center",
+            "text_mt": 16,
+            "text_color": "#000000"
           }
         }
       },
       "block_order": [
-        "logo_1",
-        "logo_2",
-        "logo_3",
-        "logo_4",
-        "logo_5"
+        "subtitle_KcFAP6",
+        "title_CMLUfW",
+        "text_YdxVFk"
       ],
+      "name": "SS - Text Block Pro",
       "settings": {
-        "layout": "marquee",
-        "grid_horizontal": 70,
-        "direction": "left",
-        "speed": 25,
-        "heading": "As seen in",
-        "heading_size": "subtitle-sm",
+        "image_width": 20,
+        "image_custom": false,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "image_radius": 12,
+        "image_ration": "none",
+        "image_location": "row",
+        "image_location_mobile": "column",
+        "content_padding_horizontal": 40,
+        "content_padding_vertical": 40,
+        "content_radius": 40,
+        "gap": 30,
+        "gap_mobile": 15,
+        "background_color": "#F5F5F5",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "content_bg": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "content_width": 120,
+        "border_thickness": 0
+      }
+    },
+    "collection_list_hbARfj": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_jbwp9L": {
+          "type": "collection",
+          "settings": {
+            "collection": "seikonaut-montre-automatique",
+            "title": "",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_B83yEK": {
+          "type": "collection",
+          "settings": {
+            "collection": "seikona-montre-automatique",
+            "title": "",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_ybbYnY": {
+          "type": "collection",
+          "settings": {
+            "collection": "seikona-montre-automatique",
+            "title": "",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_rKDHd6": {
+          "type": "collection",
+          "settings": {
+            "collection": "seikoak-montre-automatique",
+            "title": "",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_egV6F6": {
+          "type": "collection",
+          "settings": {
+            "collection": "nautiko-montre-automatique",
+            "title": "",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_XExBQa": {
+          "type": "collection",
+          "settings": {
+            "collection": "masteiko-montre-automatique",
+            "title": "",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_jbwp9L",
+        "collection_B83yEK",
+        "collection_ybbYnY",
+        "collection_rKDHd6",
+        "collection_egV6F6",
+        "collection_XExBQa"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "image_type": "collection",
+        "image_ratio": "portrait",
+        "show_products_count": false,
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "",
+        "heading_size": "title-md",
         "heading_alignment": "text-center md:items-center",
         "heading_tag": "h2",
         "subheading": "",
         "description": "",
-        "button_label": "",
-        "button_link": "",
-        "button_external": false,
-        "button_icon": true,
         "highlighted_text": "none",
         "highlighted_scribble": "circle",
         "color_text": "",
@@ -387,85 +504,11 @@
         "color_button_text": "",
         "color_button_background": "",
         "color_button_gradient": "",
-        "padding_top": 28,
-        "padding_bottom": 28,
-        "divider": true,
-        "full_width": true,
-        "rounded": false
-      }
-    },
-    "concept_video": {
-      "type": "video-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "L'art de créer une montre unique",
-            "heading_size": "title-lg tracking-heading",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>De la conception à la livraison, chaque pièce est une collaboration entre votre vision et notre expertise horlogère.</p>",
-            "text_size": "subtext-md",
-            "text_max_size": 36,
-            "text_font": "body",
-            "secondary_color": false,
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "En savoir plus",
-            "button_link": "/pages/about",
-            "button_style": "secondary",
-            "button_size": "md",
-            "button_external": false,
-            "button_icon": true
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "enable_video_autoplay": false,
-        "enable_video_looping": false,
-        "image_height": "adapt",
-        "video_width": "medium",
-        "layout": "video_first",
-        "text_alignment": "center",
-        "content_position": "md:items-center",
-        "video_url_mobile": "",
-        "image_height_mobile": "auto",
-        "text_alignment_mobile": "center",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_background_2": "",
-        "gradient_background_2": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 80,
-        "padding_bottom": 80,
+        "padding_top": 0,
+        "padding_bottom": 72,
         "divider": false,
         "full_width": false,
-        "rounded": false,
-        "enable_parallax": false,
-        "parallax_direction": "vertical"
+        "rounded": false
       }
     },
     "best_sellers": {
@@ -1090,8 +1133,8 @@
   "order": [
     "ss_hero_pro_2_tpx6Qt",
     "video_showcase",
-    "logo_list",
-    "concept_video",
+    "ss_text_block_pro_YKxwwe",
+    "collection_list_hbARfj",
     "best_sellers",
     "product_categories",
     "testimonials_section",
