@@ -560,13 +560,13 @@
             "url": "",
             "content_align": "bottom-center",
             "content_align_mobile": "bottom-center",
-            "sub_heading_color": "#FFFFFF",
+            "sub_heading_color": "#ffffff",
             "title_color": "#f8eedd",
-            "text_color": "#FFFFFF",
+            "text_color": "#ffffff",
             "button_color": "#573c2a",
             "button_hover_color": "#573c2a",
             "button_bg_color": "#f8eedd",
-            "button_bg_hover_color": "#FFFFFF",
+            "button_bg_hover_color": "#ffffff",
             "button_border_color": "#573c2a",
             "button_border_hover_color": "#573c2a"
           }
@@ -586,13 +586,13 @@
             "url": "",
             "content_align": "bottom-center",
             "content_align_mobile": "bottom-center",
-            "sub_heading_color": "#FFFFFF",
+            "sub_heading_color": "#ffffff",
             "title_color": "#f8eedd",
-            "text_color": "#FFFFFF",
+            "text_color": "#ffffff",
             "button_color": "#573c2a",
             "button_hover_color": "#573c2a",
             "button_bg_color": "#f8eedd",
-            "button_bg_hover_color": "#FFFFFF",
+            "button_bg_hover_color": "#ffffff",
             "button_border_color": "#573c2a",
             "button_border_hover_color": "#573c2a"
           }
@@ -612,13 +612,13 @@
             "url": "",
             "content_align": "bottom-center",
             "content_align_mobile": "bottom-center",
-            "sub_heading_color": "#FFFFFF",
+            "sub_heading_color": "#ffffff",
             "title_color": "#f8eedd",
-            "text_color": "#FFFFFF",
+            "text_color": "#ffffff",
             "button_color": "#573c2a",
             "button_hover_color": "#573c2a",
             "button_bg_color": "#f8eedd",
-            "button_bg_hover_color": "#FFFFFF",
+            "button_bg_hover_color": "#ffffff",
             "button_border_color": "#573c2a",
             "button_border_hover_color": "#573c2a"
           }
@@ -638,13 +638,13 @@
             "url": "",
             "content_align": "bottom-center",
             "content_align_mobile": "bottom-center",
-            "sub_heading_color": "#FFFFFF",
+            "sub_heading_color": "#ffffff",
             "title_color": "#f8eedd",
-            "text_color": "#FFFFFF",
+            "text_color": "#ffffff",
             "button_color": "#573c2a",
             "button_hover_color": "#573c2a",
             "button_bg_color": "#f8eedd",
-            "button_bg_hover_color": "#FFFFFF",
+            "button_bg_hover_color": "#ffffff",
             "button_border_color": "#573c2a",
             "button_border_hover_color": "#573c2a"
           }
@@ -663,13 +663,13 @@
             "url": "",
             "content_align": "bottom-center",
             "content_align_mobile": "bottom-center",
-            "sub_heading_color": "#FFFFFF",
+            "sub_heading_color": "#ffffff",
             "title_color": "#f8eedd",
-            "text_color": "#FFFFFF",
+            "text_color": "#ffffff",
             "button_color": "#573c2a",
             "button_hover_color": "#573c2a",
             "button_bg_color": "#f8eedd",
-            "button_bg_hover_color": "#FFFFFF",
+            "button_bg_hover_color": "#ffffff",
             "button_border_color": "#573c2a",
             "button_border_hover_color": "#573c2a"
           }
@@ -740,7 +740,7 @@
         "item_shadow_color": "#000000",
         "heading_color": "#000000",
         "overlay_color": "#000000",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 32,
@@ -967,21 +967,130 @@
         "rounded": false
       }
     },
-    "video_showcase": {
-      "type": "prose-video-showcase",
+    "ss_text_block_pro_fnTiDf": {
+      "type": "ss-text-block-pro",
+      "blocks": {
+        "subtitle_iKwR98": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "",
+            "subtitle_custom": false,
+            "subtitle_font": "assistant_n4",
+            "subtitle_size": 20,
+            "subtitle_height": 100,
+            "subtitle_align": "center",
+            "subtitle_mt": 0,
+            "subtitle_color": "#000000"
+          }
+        },
+        "title_LbWX9z": {
+          "type": "title",
+          "settings": {
+            "title": "DÉCOUVREZ LE SAVOIR-FAIRE PROSE",
+            "title_custom": true,
+            "title_font": "red_hat_display_n9",
+            "title_size": 40,
+            "title_height": 100,
+            "title_align": "center",
+            "title_mt": 12,
+            "title_color": "#000000"
+          }
+        },
+        "text_yK6XhG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Découvrez une sélection de modèles les plus appréciés par nos clients.d</p>",
+            "text_custom": false,
+            "text_font": "assistant_n4",
+            "text_size": 20,
+            "text_height": 130,
+            "text_align": "center",
+            "text_mt": 16,
+            "text_color": "#000000"
+          }
+        },
+        "button_9bDtaH": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "btn": "Learn More",
+            "btn_url": "",
+            "btn_custom": false,
+            "btn_font": "assistant_n4",
+            "btn_size": 22,
+            "btn_height": 150,
+            "btn_align": "center",
+            "btn_width": 200,
+            "btn_mt": 32,
+            "btn_padding_horizontal": 16,
+            "btn_padding_vertical": 12,
+            "btn_border_thickness": 1,
+            "btn_radius": 0,
+            "btn_color": "#000000",
+            "btn_hover_color": "#000000",
+            "btn_bg_color": "",
+            "btn_bg_hover_color": "",
+            "btn_border_color": "#000000",
+            "btn_border_hover_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_iKwR98",
+        "title_LbWX9z",
+        "text_yK6XhG",
+        "button_9bDtaH"
+      ],
+      "name": "SS - Text Block Pro",
       "settings": {
-        "eyebrow": "Notre concept",
-        "title": "Découvrez le savoir-faire Prose",
-        "video": "shopify://files/videos/TEST VSL.mp4",
-        "bg_color": "#f8f4ef"
+        "image_width": 20,
+        "image_custom": false,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "image_radius": 12,
+        "image_ration": "none",
+        "image_location": "row",
+        "image_location_mobile": "column",
+        "content_padding_horizontal": 40,
+        "content_padding_vertical": 40,
+        "content_radius": 40,
+        "gap": 30,
+        "gap_mobile": 15,
+        "background_color": "#f5f5f5",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "content_bg": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "content_width": 120,
+        "border_thickness": 0
+      }
+    },
+    "custom_liquid_aUHxXe": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "liquid": "{% comment %} DOCK — Video Section — Option A (épurée) {% endcomment %}\n<style>\n  .dock-video-wrap {\n    background: #f7f6f3;\n    padding: 0;\n    margin: 0 -48px;\n    font-family: Helvetica, Arial, sans-serif;\n  }\n  .dock-video-inner {\n    max-width: 860px;\n    margin: 0 auto;\n    padding: 0 24px;\n  }\n  .dock-video-player {\n    position: relative;\n    border-radius: 20px;\n    overflow: hidden;\n    background: #111;\n    aspect-ratio: 16/9;\n    border: 3px solid #E5D5B7;\n    cursor: pointer;\n  }\n  .dock-video-player video {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    display: block;\n  }\n  .dock-video-overlay {\n    position: absolute;\n    inset: 0;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    background: rgba(0,0,0,0.2);\n    transition: opacity 0.25s ease;\n    cursor: pointer;\n    z-index: 10;\n  }\n  .dock-video-play-btn {\n    width: 72px;\n    height: 72px;\n    border-radius: 50%;\n    background: #ffffff;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    pointer-events: none;\n  }\n  .dock-video-dur {\n    position: absolute;\n    bottom: 16px;\n    right: 20px;\n    font-size: 12px;\n    font-weight: 600;\n    color: rgba(255,255,255,0.55);\n    letter-spacing: 0.06em;\n    font-family: Helvetica, Arial, sans-serif;\n    pointer-events: none;\n    line-height: 1.5;\n  }\n  .dock-video-label {\n    position: absolute;\n    bottom: 16px;\n    left: 20px;\n    font-size: 11px;\n    font-weight: 400;\n    color: rgba(255,255,255,0.35);\n    text-transform: uppercase;\n    letter-spacing: 0.1em;\n    font-family: Helvetica, Arial, sans-serif;\n    pointer-events: none;\n    line-height: 1.5;\n  }\n  @media (max-width: 720px) {\n    .dock-video-wrap {\n      margin: 0 -24px;\n      padding: 0;\n    }\n    .dock-video-inner {\n      padding: 0 16px;\n    }\n    .dock-video-player {\n      border-radius: 14px;\n      border-width: 2px;\n    }\n  }\n</style>\n<div class=\"dock-video-wrap\">\n  <div class=\"dock-video-inner\">\n    <div class=\"dock-video-player\"\n         onclick=\"\n           var v = this.querySelector('video');\n           var o = this.querySelector('.dock-video-overlay');\n           if (o.style.display !== 'none') {\n             v.play();\n             o.style.display = 'none';\n           } else {\n             v.pause();\n             o.style.display = 'flex';\n           }\n         \">\n      <video\n        src=\"https://cdn.shopify.com/videos/c/o/v/5469984962b64a618dda6f0a19407216.mp4\"\n        poster=\"https://cdn.shopify.com/s/files/1/0947/2147/4892/files/hf_20260508_153433_50e39cfb-2f0b-4072-9ed9-b59a101eaa73.png?v=1778255736\"\n        playsinline\n        preload=\"none\"\n        onended=\"this.currentTime=0; this.parentNode.querySelector('.dock-video-overlay').style.display='flex';\"\n      ></video>\n      <div class=\"dock-video-overlay\">\n        <div class=\"dock-video-play-btn\">\n          <svg width=\"26\" height=\"26\" viewBox=\"0 0 26 26\" fill=\"#111\" style=\"margin-left:4px\">\n            <path d=\"M6 4l17 9-17 9V4z\"/>\n          </svg>\n        </div>\n      </div>\n      <div class=\"dock-video-label\"></div>\n      <div class=\"dock-video-dur\">0:30</div>\n    </div>\n  </div>\n</div>",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
       }
     },
     "why_choose_bento": {
       "type": "prose-why-choose-bento",
-      "settings": {
-        "card_1_image": "shopify://shop_images/0017_Calque-23.png",
-        "card_2_image": "shopify://shop_images/Proseikocopy2_93433eb7-f604-4ee9-8ea7-514a455b4dc3.jpg"
-      }
+      "settings": {}
     },
     "brand_benefits": {
       "type": "multicolumn",
@@ -1420,7 +1529,8 @@
     "ss_text_block_pro_dwTK8T",
     "best_sellers",
     "testimonials_section",
-    "video_showcase",
+    "ss_text_block_pro_fnTiDf",
+    "custom_liquid_aUHxXe",
     "why_choose_bento",
     "brand_benefits",
     "ugc_section",
