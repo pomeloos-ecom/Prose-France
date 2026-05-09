@@ -857,6 +857,7 @@
         "collection_7pN8jn",
         "collection_HwrHjH"
       ],
+      "disabled": true,
       "name": "SS - Featured collection (tabs) #6",
       "settings": {
         "content_max_width": 80,
@@ -1031,6 +1032,41 @@
         "lazy": true
       }
     },
+    "scrolling_text_wFHC46": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text_hraapQ": {
+          "type": "text",
+          "settings": {
+            "text": "OFFRE SPÉCIALE EN COURS",
+            "text_size": 50,
+            "text_font": "heading",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "text_hraapQ"
+      ],
+      "name": "t:sections.scrolling-text.presets.name",
+      "settings": {
+        "direction": "left",
+        "speed": 8,
+        "grid_horizontal": 70,
+        "enable_twin": false,
+        "enable_parallax": false,
+        "color_text": "#fffbeb",
+        "color_background": "#272727",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "divider": false,
+        "rounded": false
+      }
+    },
     "ss_featured_collection_tabs_6_HRh8yX": {
       "type": "ss-featured-collection-tabs-6",
       "blocks": {
@@ -1055,7 +1091,7 @@
             "text": "<p>PUIS FAITES DÉFILER LES MODÈLES</p>",
             "text_custom": true,
             "text_font": "red_hat_display_n8",
-            "text_size": 16,
+            "text_size": 24,
             "text_size_mobile": 18,
             "text_advanced": false,
             "text_height": 150,
@@ -2328,6 +2364,7 @@
     "ss_text_block_pro_dwTK8T",
     "best_sellers",
     "ss_featured_collection_tabs_6_tAfycF",
+    "scrolling_text_wFHC46",
     "ss_featured_collection_tabs_6_HRh8yX",
     "ss_media_grid_2_FP498d",
     "testimonials_section",
