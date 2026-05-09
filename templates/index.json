@@ -216,7 +216,7 @@
         "feature_text_height": 150,
         "stat_radius": 18,
         "stat_border_thickness": 1,
-        "counter_animation": true,
+        "counter_animation": false,
         "animation_duration": 2,
         "animation_duration_mobile": 2,
         "stat_percent_custom": false,
@@ -258,8 +258,9 @@
         "stat_border_opacity": 20,
         "background_style": "image",
         "image": "shopify://shop_images/hf_20260506_160429_0a04a785-a763-4221-9b0e-d92e91dffd0c.png",
-        "bg_overlay_color": "#000000",
-        "bg_overlay_opacity": 0,
+        "image_mobile": "shopify://shop_images/jamesbond.png",
+        "bg_overlay_color": "#fffbeb",
+        "bg_overlay_opacity": 40,
         "background_color": "#ffffff",
         "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)",
         "border_color": "#e5e5e5",
@@ -1090,14 +1091,14 @@
           "settings": {
             "text": "<p>PUIS FAITES DÉFILER LES MODÈLES</p>",
             "text_custom": true,
-            "text_font": "red_hat_display_n8",
+            "text_font": "red_hat_display_n9",
             "text_size": 24,
             "text_size_mobile": 16,
             "text_advanced": false,
             "text_height": 150,
             "text_mt": 12,
             "text_mt_mobile": 10,
-            "text_color": "#a38200"
+            "text_color": "#7c5347"
           }
         },
         "text_zUG78B": {
@@ -1123,7 +1124,7 @@
             "products_show": 10,
             "products": [],
             "custom_url": "",
-            "shape_color": "#f3f3f3",
+            "shape_color": "#fdfbf3",
             "background_style": "solid",
             "background_color": "#ffffff",
             "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)"
