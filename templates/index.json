@@ -1757,11 +1757,11 @@
         "text_yK6XhG": {
           "type": "text",
           "settings": {
-            "text": "<p>Prose, ce sont des montres personnalisées inspirées des designs les plus emblématiques de l’horlogerie.<br/><br/>Nous faisons le maximum pour vous offrir un assemblage artisanal, une qualité soignée et un rapport qualité/prix difficile à égaler pour des montres automatiques équipées de mouvements japonais.<br/><br/>De nombreux projets arrivent bientôt, et nous avons hâte de vous les faire découvrir.<br/><br/>Merci de faire partie de l’aventure PROSE.</p>",
+            "text": "<p>Les montres PROSE sont inspirées de designs célèbres et entièrement assemblées à la main par une équipe d'horlogers indépendants. Nous faisons le maximum pour vous offrir un rapport qualité/service/prix imbattable pour des montres automatiques équipées de mouvements japonais.</p>",
             "text_custom": false,
             "text_font": "assistant_n4",
             "text_size": 20,
-            "text_height": 100,
+            "text_height": 120,
             "text_align": "center",
             "text_mt": 16,
             "text_color": "#000000"
@@ -1824,7 +1824,7 @@
         "padding_bottom": 0,
         "padding_horizontal": 5,
         "padding_horizontal_mobile": 1.5,
-        "content_width": 120,
+        "content_width": 100,
         "border_thickness": 0
       }
     },
@@ -2179,9 +2179,10 @@
     "about_brand": {
       "type": "reveal-image-with-text",
       "settings": {
-        "content_width": "medium",
-        "heading": "L'histoire derrière chaque pièce",
-        "heading_size": "title-lg tracking-heading",
+        "image": "shopify://shop_images/hf_20260508_153411_76efdba6-ee86-48b7-82fa-b1cc4abe49ed.png",
+        "content_width": "large",
+        "heading": "Une montre Prose c'est un engagement",
+        "heading_size": "title-xl tracking-heading",
         "heading_alignment": "text-left",
         "heading_tag": "h2",
         "button_label": "Notre histoire",
