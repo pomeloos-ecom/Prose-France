@@ -1161,7 +1161,7 @@
           "type": "collection",
           "settings": {
             "tab": "SEIKONAUT",
-            "collection": "coups-de-coeur",
+            "collection": "seikona-montre-automatique",
             "products_show": 10,
             "products": [],
             "custom_url": "",
@@ -1175,7 +1175,7 @@
           "type": "collection",
           "settings": {
             "tab": "SEIKONA",
-            "collection": "coups-de-coeur",
+            "collection": "masteiko-montre-automatique",
             "products_show": 10,
             "products": [],
             "custom_url": "",
