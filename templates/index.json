@@ -1087,7 +1087,7 @@
           "settings": {
             "heading": "<p>CLIQUEZ SUR UNE COLLECTION</p>",
             "heading_custom": true,
-            "heading_font": "red_hat_display_n9",
+            "heading_font": "red_hat_display_n8",
             "heading_size": 42,
             "heading_size_mobile": 32,
             "heading_advanced": true,
@@ -1102,7 +1102,7 @@
           "settings": {
             "text": "<p>ET FAITES DÉFILER LES MODÈLES</p>",
             "text_custom": true,
-            "text_font": "red_hat_display_n8",
+            "text_font": "red_hat_display_i8",
             "text_size": 24,
             "text_size_mobile": 16,
             "text_advanced": false,
