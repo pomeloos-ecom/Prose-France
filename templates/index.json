@@ -1227,36 +1227,6 @@
             "background_color": "#ffceda",
             "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)"
           }
-        },
-        "collection_DdtVGE": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "tab": "ÉDITIONS LIMITÉES",
-            "collection": "",
-            "products_show": 10,
-            "products": [],
-            "custom_url": "",
-            "shape_color": "#f7f7f7",
-            "background_style": "solid",
-            "background_color": "#ffffff",
-            "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)"
-          }
-        },
-        "collection_YprejF": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "tab": "Third tab",
-            "collection": "",
-            "products_show": 10,
-            "products": [],
-            "custom_url": "",
-            "shape_color": "#f7f7f7",
-            "background_style": "solid",
-            "background_color": "#ffffff",
-            "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)"
-          }
         }
       },
       "block_order": [
@@ -1269,9 +1239,7 @@
         "collection_mNKEjm",
         "collection_zYQk4a",
         "collection_U7qdWL",
-        "collection_RfyAQi",
-        "collection_DdtVGE",
-        "collection_YprejF"
+        "collection_RfyAQi"
       ],
       "name": "SS - Featured collection (tabs) #6",
       "settings": {
