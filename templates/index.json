@@ -2316,10 +2316,10 @@
         "heading_size": "title-xl tracking-heading",
         "heading_alignment": "text-left",
         "heading_tag": "h2",
-        "button_label": "Notre histoire",
+        "button_label": "",
         "button_link": "/pages/about",
         "button_external": false,
-        "button_icon": true,
+        "button_icon": false,
         "color_text": "",
         "color_button_text": "",
         "color_button_background": "",
@@ -2345,7 +2345,7 @@
         "title_hH4dhw": {
           "type": "title",
           "settings": {
-            "title": "QUESTIONS FRÉQUENTES",
+            "title": "NOS VALEURS",
             "title_custom": true,
             "title_font": "red_hat_display_n9",
             "title_size": 34,
@@ -2355,11 +2355,23 @@
             "title_color": "#000000"
           }
         },
+        "subtitle_HCXaAA": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "En achetant une montre PROSE, vous offrez aussi du temps à ceux qui en ont besoin.",
+            "subtitle_custom": false,
+            "subtitle_font": "assistant_n4",
+            "subtitle_size": 20,
+            "subtitle_height": 100,
+            "subtitle_align": "center",
+            "subtitle_mt": 0,
+            "subtitle_color": "#000000"
+          }
+        },
         "text_Wahetm": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>Les montres PROSE sont inspirées de designs célèbres et entièrement assemblées à la main par une équipe d'horlogers indépendants. Nous faisons le maximum pour vous offrir un rapport qualité/service/prix imbattable pour des montres automatiques équipées de mouvements japonais.</p>",
+            "text": "<p>Une partie de nos bénéfices contribue à financer des programmes d’éducation dans des écoles défavorisées, en France et dans le monde, ainsi que l’association Mona Lisa, engagée contre l’isolement des personnes âgées en France.</p>",
             "text_custom": false,
             "text_font": "assistant_n4",
             "text_size": 20,
@@ -2398,8 +2410,113 @@
       "block_order": [
         "subtitle_8GQ6AK",
         "title_hH4dhw",
+        "subtitle_HCXaAA",
         "text_Wahetm",
         "button_AMAUnD"
+      ],
+      "name": "SS - Text Block Pro",
+      "settings": {
+        "image_width": 20,
+        "image_custom": false,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "image_radius": 12,
+        "image_ration": "none",
+        "image_location": "row",
+        "image_location_mobile": "column",
+        "content_padding_horizontal": 40,
+        "content_padding_vertical": 16,
+        "content_radius": 40,
+        "gap": 30,
+        "gap_mobile": 15,
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "content_bg": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "content_width": 100,
+        "border_thickness": 0
+      }
+    },
+    "ss_text_block_pro_aTEp6U": {
+      "type": "ss-text-block-pro",
+      "blocks": {
+        "subtitle_GTwGgQ": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "",
+            "subtitle_custom": false,
+            "subtitle_font": "assistant_n4",
+            "subtitle_size": 20,
+            "subtitle_height": 100,
+            "subtitle_align": "center",
+            "subtitle_mt": 0,
+            "subtitle_color": "#000000"
+          }
+        },
+        "title_MkTe6z": {
+          "type": "title",
+          "settings": {
+            "title": "QUESTIONS FRÉQUENTES",
+            "title_custom": true,
+            "title_font": "red_hat_display_n9",
+            "title_size": 34,
+            "title_height": 100,
+            "title_align": "center",
+            "title_mt": 12,
+            "title_color": "#000000"
+          }
+        },
+        "text_EHRHpG": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Les montres PROSE sont inspirées de designs célèbres et entièrement assemblées à la main par une équipe d'horlogers indépendants. Nous faisons le maximum pour vous offrir un rapport qualité/service/prix imbattable pour des montres automatiques équipées de mouvements japonais.</p>",
+            "text_custom": false,
+            "text_font": "assistant_n4",
+            "text_size": 20,
+            "text_height": 120,
+            "text_align": "center",
+            "text_mt": 16,
+            "text_color": "#000000"
+          }
+        },
+        "button_7iqmxz": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "btn": "Learn More",
+            "btn_url": "",
+            "btn_custom": false,
+            "btn_font": "assistant_n4",
+            "btn_size": 22,
+            "btn_height": 150,
+            "btn_align": "center",
+            "btn_width": 200,
+            "btn_mt": 32,
+            "btn_padding_horizontal": 16,
+            "btn_padding_vertical": 12,
+            "btn_border_thickness": 1,
+            "btn_radius": 0,
+            "btn_color": "#000000",
+            "btn_hover_color": "#000000",
+            "btn_bg_color": "",
+            "btn_bg_hover_color": "",
+            "btn_border_color": "#000000",
+            "btn_border_hover_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_GTwGgQ",
+        "title_MkTe6z",
+        "text_EHRHpG",
+        "button_7iqmxz"
       ],
       "name": "SS - Text Block Pro",
       "settings": {
@@ -2614,6 +2731,7 @@
     "ss_testimonial_8_tjEN6F",
     "about_brand",
     "ss_text_block_pro_ek9rQM",
+    "ss_text_block_pro_aTEp6U",
     "faq_section",
     "cta_final"
   ]
