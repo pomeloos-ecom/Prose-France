@@ -109,7 +109,6 @@
     },
     "header": {
       "type": "header",
-      "disabled": true,
       "settings": {
         "menu": "main-menu",
         "menu_mobile": "",
@@ -229,6 +228,7 @@
         "menu_item_zbMKQe",
         "menu_item_bT3WDA"
       ],
+      "disabled": true,
       "name": "SS - Header #19",
       "settings": {
         "transparent_bg": "all",
