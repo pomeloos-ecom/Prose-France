@@ -2349,7 +2349,7 @@
             "title_custom": true,
             "title_font": "red_hat_display_n9",
             "title_size": 34,
-            "title_height": 100,
+            "title_height": 150,
             "title_align": "center",
             "title_mt": 12,
             "title_color": "#000000"
@@ -2362,7 +2362,7 @@
             "subtitle_custom": false,
             "subtitle_font": "assistant_n4",
             "subtitle_size": 20,
-            "subtitle_height": 100,
+            "subtitle_height": 130,
             "subtitle_align": "center",
             "subtitle_mt": 0,
             "subtitle_color": "#000000"
@@ -2383,13 +2383,12 @@
         },
         "button_AMAUnD": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "btn": "Learn More",
+            "btn": "NOTRE HISTOIRE",
             "btn_url": "",
             "btn_custom": false,
             "btn_font": "assistant_n4",
-            "btn_size": 22,
+            "btn_size": 16,
             "btn_height": 150,
             "btn_align": "center",
             "btn_width": 200,
