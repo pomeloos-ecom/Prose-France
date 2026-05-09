@@ -1102,7 +1102,7 @@
           "settings": {
             "text": "<p>ET FAITES DÉFILER LES MODÈLES</p>",
             "text_custom": true,
-            "text_font": "serif",
+            "text_font": "lora_n7",
             "text_size": 24,
             "text_size_mobile": 16,
             "text_advanced": false,
