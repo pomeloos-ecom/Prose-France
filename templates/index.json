@@ -1091,7 +1091,7 @@
             "heading_size": 42,
             "heading_size_mobile": 32,
             "heading_advanced": true,
-            "heading_height": 50,
+            "heading_height": 100,
             "heading_mt": 0,
             "heading_mt_mobile": 0,
             "heading_color": "#121212"
