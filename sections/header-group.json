@@ -82,7 +82,7 @@
         "enable_country_selector": true,
         "transparent_color_text": "#1f1f1f",
         "color_text": "#171717",
-        "color_background": "#ffffff",
+        "color_background": "#f3f3f3",
         "padding_top": 10,
         "padding_bottom": 10,
         "full_width": true,
