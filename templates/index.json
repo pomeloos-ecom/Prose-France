@@ -2072,6 +2072,9 @@
         "column_UtB4Vy",
         "column_imPrX8"
       ],
+      "custom_css": [
+        ".multicolumn-card video,.multicolumn-card iframe,.multicolumn-card img {border-radius: 20px; overflow: hidden;}"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "gap": "large",
