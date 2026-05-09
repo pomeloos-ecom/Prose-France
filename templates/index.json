@@ -1100,9 +1100,9 @@
         "text_ULCaDV": {
           "type": "text",
           "settings": {
-            "text": "<p>ET FAITES DÉFILER LES MODÈLES</p>",
+            "text": "<p><strong>ET FAITES DÉFILER LES MODÈLES</strong></p>",
             "text_custom": true,
-            "text_font": "lora_n7",
+            "text_font": "lora_n5",
             "text_size": 24,
             "text_size_mobile": 16,
             "text_advanced": false,
