@@ -115,7 +115,7 @@
         "feature_text_color": "#FFFFFF",
         "bg_image_overlay_color": "#121212",
         "gradient_color": "linear-gradient(#0a0a0a00, #0a171700 9%, #0a0a0a00 41%, #0a0a0ab3 80%)",
-        "background_color": "#fdfbf3",
+        "background_color": "#f3f3f3",
         "background_gradient": "",
         "border_color": "#121212",
         "margin_top": 0,
@@ -1214,7 +1214,7 @@
             "products_show": 10,
             "products": [],
             "custom_url": "",
-            "shape_color": "#fdfbf3",
+            "shape_color": "#f3f3f3",
             "background_style": "solid",
             "background_color": "#ffffff",
             "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)"
@@ -1834,7 +1834,7 @@
         "title_LbWX9z": {
           "type": "title",
           "settings": {
-            "title": "DÉCOUVREZ LE SAVOIR-FAIRE PROSE",
+            "title": "DÉCOUVREZ LE CONCEPT PROSE",
             "title_custom": true,
             "title_font": "red_hat_display_n9",
             "title_size": 34,
@@ -1847,10 +1847,10 @@
         "text_yK6XhG": {
           "type": "text",
           "settings": {
-            "text": "<p>Les montres PROSE sont inspirées de designs célèbres et entièrement assemblées à la main par une équipe d'horlogers indépendants. Nous faisons le maximum pour vous offrir un rapport qualité/service/prix imbattable pour des montres automatiques équipées de mouvements japonais.</p>",
+            "text": "<p>Chaque montre PROSE est inspirée de designs célèbres et assemblée à la main<br/>par des horlogers indépendants pour offrir un excellent rapport qualité/service/prix.</p>",
             "text_custom": false,
             "text_font": "assistant_n4",
-            "text_size": 20,
+            "text_size": 18,
             "text_height": 120,
             "text_align": "center",
             "text_mt": 16,
@@ -1910,7 +1910,7 @@
         "content_bg": "",
         "margin_top": 0,
         "margin_bottom": 0,
-        "padding_top": 36,
+        "padding_top": 60,
         "padding_bottom": 0,
         "padding_horizontal": 5,
         "padding_horizontal_mobile": 0,
