@@ -718,7 +718,7 @@
           "type": "collection",
           "settings": {
             "tab": "NAUTIKO",
-            "collection": "coups-de-coeur",
+            "collection": "nautiko-montre-automatique",
             "products_show": 10,
             "products": [],
             "custom_url": "",
@@ -732,7 +732,7 @@
           "type": "collection",
           "settings": {
             "tab": "JUSTEIKO",
-            "collection": "coups-de-coeur",
+            "collection": "justeiko-montre-automatique",
             "products_show": 10,
             "products": [],
             "custom_url": "",
@@ -746,7 +746,7 @@
           "type": "collection",
           "settings": {
             "tab": "SEIKOAK",
-            "collection": "coups-de-coeur",
+            "collection": "seikoak-montre-automatique",
             "products_show": 10,
             "products": [],
             "custom_url": "",
