@@ -83,9 +83,9 @@
       ],
       "name": "SS - Hero #32",
       "settings": {
-        "layout_height": "full_screen",
-        "layout_fixed_height": 600,
-        "layout_fixed_height_mobile": 540,
+        "layout_height": "fixed_height",
+        "layout_fixed_height": 800,
+        "layout_fixed_height_mobile": 450,
         "layout_padding_horizontal": 50,
         "layout_padding_horizontal_mobile": 16,
         "layout_padding_vertical": 62,
