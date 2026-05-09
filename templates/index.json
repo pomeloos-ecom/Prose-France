@@ -1099,6 +1099,7 @@
         },
         "text_ULCaDV": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>ET FAITES DÉFILER LES MODÈLES</strong></p>",
             "text_custom": true,
@@ -1136,7 +1137,7 @@
             "products_show": 10,
             "products": [],
             "custom_url": "",
-            "shape_color": "#f9f4f0",
+            "shape_color": "#ffffff",
             "background_style": "solid",
             "background_color": "#ffffff",
             "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)"
