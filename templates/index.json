@@ -36,7 +36,7 @@
           "type": "heading",
           "settings": {
             "heading_up": "<p>VOTRE MONTRE</p>",
-            "heading_center": "AUTOMATIQUE, PERSONNALISÉE, ASSEMBLÉE À LA MAIN",
+            "heading_center": "AUTOMATIQUE, PERSONNALISÉE, SUR MESURE",
             "heading_down": "<h1>VOTRE HISTOIRE</h1>",
             "heading_custom": true,
             "heading_font": "red_hat_display_n9",
@@ -91,7 +91,7 @@
         "layout_padding_vertical": 62,
         "layout_padding_vertical_mobile": 32,
         "layout_radius": 16,
-        "bg_image": "shopify://shop_images/hf_20260509_155234_28a41d99-b773-412a-a429-6874e9c2adeb.png",
+        "bg_image": "shopify://shop_images/hf_20260509_225333_1c9cd6af-8250-40aa-8221-36bb3e47dce0.png",
         "bg_image_overlay": 0.2,
         "use_gradient": true,
         "content_align": "left",
