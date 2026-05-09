@@ -12,24 +12,6 @@
     "ss_hero_pro_2_zk86gf": {
       "type": "ss-hero-pro-2",
       "blocks": {
-        "heading_TeVL9x": {
-          "type": "heading",
-          "settings": {
-            "heading": "<h1>VOTRE MONTRE,</h1><h1><strong>VOTRE HISTOIRE</strong></h1>",
-            "heading_custom": true,
-            "heading_font": "red_hat_display_n9",
-            "heading_size": 52,
-            "heading_size_mobile": 32,
-            "heading_advanced": false,
-            "heading_height": 130,
-            "heading_mt": 16,
-            "heading_mt_mobile": 12,
-            "heading_color": "#121212",
-            "heading_accent_color_style": "solid",
-            "heading_accent_color": "#555555",
-            "heading_accent_gradient": "linear-gradient(135deg, #121212 0%, #555555 100%)"
-          }
-        },
         "review_hnAFka": {
           "type": "review",
           "settings": {
@@ -50,6 +32,24 @@
             "stars_color": "#ffffff",
             "stars_bg_color": "#24aa4d",
             "stars_bg_half_color": "#dddddd"
+          }
+        },
+        "heading_TeVL9x": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>VOTRE MONTRE,</h1><h1><strong>VOTRE HISTOIRE</strong></h1>",
+            "heading_custom": true,
+            "heading_font": "red_hat_display_n9",
+            "heading_size": 52,
+            "heading_size_mobile": 32,
+            "heading_advanced": false,
+            "heading_height": 130,
+            "heading_mt": 16,
+            "heading_mt_mobile": 12,
+            "heading_color": "#121212",
+            "heading_accent_color_style": "solid",
+            "heading_accent_color": "#555555",
+            "heading_accent_gradient": "linear-gradient(135deg, #121212 0%, #555555 100%)"
           }
         },
         "button_ed6DiT": {
@@ -74,7 +74,7 @@
             "button_radius": 3,
             "button_border_thickness": 1,
             "button_custom_styling": true,
-            "button_full_width_mobile": true,
+            "button_full_width_mobile": false,
             "button_color": "#ffffff",
             "button_hover_color": "#ffffff",
             "button_bg_color": "#121212",
@@ -178,8 +178,8 @@
         }
       },
       "block_order": [
-        "heading_TeVL9x",
         "review_hnAFka",
+        "heading_TeVL9x",
         "button_ed6DiT",
         "button_FM8M3A",
         "feature_NyKgrp",
