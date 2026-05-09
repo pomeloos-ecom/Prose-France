@@ -1808,6 +1808,109 @@
         "border_thickness": 0
       }
     },
+    "ss_text_block_pro_bCU3pT": {
+      "type": "ss-text-block-pro",
+      "blocks": {
+        "subtitle_wNrbCk": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "",
+            "subtitle_custom": false,
+            "subtitle_font": "assistant_n4",
+            "subtitle_size": 20,
+            "subtitle_height": 100,
+            "subtitle_align": "center",
+            "subtitle_mt": 0,
+            "subtitle_color": "#000000"
+          }
+        },
+        "title_RhEjW3": {
+          "type": "title",
+          "settings": {
+            "title": "LE PROCESSUS PROSE",
+            "title_custom": true,
+            "title_font": "red_hat_display_n9",
+            "title_size": 34,
+            "title_height": 100,
+            "title_align": "center",
+            "title_mt": 12,
+            "title_color": "#000000"
+          }
+        },
+        "text_tQhAae": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Chaque détail compte, et l'assemblage de votre montre se fera dans un de nos ateliers<br/>à travers le monde, ou spécifiquement en France, si vous en faites la demande.</p>",
+            "text_custom": false,
+            "text_font": "assistant_n4",
+            "text_size": 18,
+            "text_height": 120,
+            "text_align": "center",
+            "text_mt": 16,
+            "text_color": "#000000"
+          }
+        },
+        "button_KArA76": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "btn": "Learn More",
+            "btn_url": "",
+            "btn_custom": false,
+            "btn_font": "assistant_n4",
+            "btn_size": 22,
+            "btn_height": 150,
+            "btn_align": "center",
+            "btn_width": 200,
+            "btn_mt": 32,
+            "btn_padding_horizontal": 16,
+            "btn_padding_vertical": 12,
+            "btn_border_thickness": 1,
+            "btn_radius": 0,
+            "btn_color": "#000000",
+            "btn_hover_color": "#000000",
+            "btn_bg_color": "",
+            "btn_bg_hover_color": "",
+            "btn_border_color": "#000000",
+            "btn_border_hover_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_wNrbCk",
+        "title_RhEjW3",
+        "text_tQhAae",
+        "button_KArA76"
+      ],
+      "name": "SS - Text Block Pro",
+      "settings": {
+        "image_width": 20,
+        "image_custom": false,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "image_radius": 12,
+        "image_ration": "none",
+        "image_location": "row",
+        "image_location_mobile": "column",
+        "content_padding_horizontal": 40,
+        "content_padding_vertical": 40,
+        "content_radius": 40,
+        "gap": 30,
+        "gap_mobile": 15,
+        "background_color": "#f5f5f5",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "content_bg": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "content_width": 100,
+        "border_thickness": 0
+      }
+    },
     "custom_liquid_aUHxXe": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
@@ -1975,7 +2078,7 @@
         "columns": 3,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "heading": "Multicolumn",
+        "heading": "",
         "heading_size": "title-md",
         "heading_alignment": "text-center md:items-center",
         "heading_tag": "h2",
@@ -1995,7 +2098,7 @@
         "color_button_text": "",
         "color_button_background": "",
         "color_button_gradient": "",
-        "padding_top": 72,
+        "padding_top": 0,
         "padding_bottom": 72,
         "divider": false,
         "full_width": false,
@@ -2501,6 +2604,7 @@
     "ss_media_grid_2_FP498d",
     "testimonials_section",
     "ss_text_block_pro_fnTiDf",
+    "ss_text_block_pro_bCU3pT",
     "custom_liquid_aUHxXe",
     "multicolumn_with_icons_r7rrHt",
     "multicolumn_miRTrb",
