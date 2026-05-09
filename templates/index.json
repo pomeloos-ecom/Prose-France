@@ -1845,7 +1845,7 @@
         "title_RhEjW3": {
           "type": "title",
           "settings": {
-            "title": "LE PROCESSUS PROSE",
+            "title": "LE PROCESSUS",
             "title_custom": true,
             "title_font": "red_hat_display_n9",
             "title_size": 34,
@@ -2723,7 +2723,7 @@
         "content_radius": 40,
         "gap": 30,
         "gap_mobile": 15,
-        "background_color": "#F5F5F5",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "content_bg": "",
