@@ -1160,6 +1160,7 @@
         },
         "collection_mNKEjm": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "tab": "SEIKONAUT",
             "collection": "seikona-montre-automatique",
@@ -1176,7 +1177,7 @@
           "type": "collection",
           "settings": {
             "tab": "SEIKONA",
-            "collection": "masteiko-montre-automatique",
+            "collection": "seikona-montre-automatique",
             "products_show": 10,
             "products": [],
             "custom_url": "",
@@ -1190,7 +1191,7 @@
           "type": "collection",
           "settings": {
             "tab": "MASTEIKO",
-            "collection": "coups-de-coeur",
+            "collection": "masteiko-montre-automatique",
             "products_show": 10,
             "products": [],
             "custom_url": "",
