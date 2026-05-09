@@ -331,7 +331,7 @@
             "badge": "",
             "title": "Collection Naut",
             "text": "",
-            "button": "VOIR",
+            "button": "",
             "button_url": "",
             "content_bg_color": "#573431"
           }
@@ -343,7 +343,7 @@
             "badge": "Badge",
             "title": "New Slide",
             "text": "<p>Text</p>",
-            "button": "View",
+            "button": "",
             "button_url": "",
             "content_bg_color": "#fdefce"
           }
@@ -355,7 +355,7 @@
             "badge": "Badge",
             "title": "New Slide",
             "text": "<p>Text</p>",
-            "button": "View",
+            "button": "",
             "button_url": "",
             "content_bg_color": "#121212"
           }
@@ -367,7 +367,7 @@
             "badge": "Badge",
             "title": "New Slide",
             "text": "<p>Text</p>",
-            "button": "View",
+            "button": "",
             "button_url": "",
             "content_bg_color": "#121212"
           }
@@ -379,7 +379,7 @@
             "badge": "Badge",
             "title": "New Slide",
             "text": "<p>Text</p>",
-            "button": "View",
+            "button": "",
             "button_url": "",
             "content_bg_color": "#121212"
           }
@@ -391,7 +391,7 @@
             "badge": "Badge",
             "title": "New Slide",
             "text": "<p>Text</p>",
-            "button": "View",
+            "button": "",
             "button_url": "",
             "content_bg_color": "#121212"
           }
@@ -405,6 +405,7 @@
         "slide_yfG48A",
         "slide_hgmcWy"
       ],
+      "disabled": true,
       "name": "SS - Slider #2 pro",
       "settings": {
         "slider_view": 4,
@@ -434,7 +435,7 @@
         "title_custom": true,
         "title_font": "red_hat_display_n9",
         "title_size": 16,
-        "title_size_mobile": 20,
+        "title_size_mobile": 15,
         "title_height": 130,
         "text_custom": false,
         "text_font": "josefin_sans_n4",
