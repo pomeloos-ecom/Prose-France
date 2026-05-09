@@ -1004,7 +1004,7 @@
           "type": "text",
           "settings": {
             "text": "OFFRE SPÉCIALE EN COURS",
-            "text_size": 50,
+            "text_size": 26,
             "text_font": "heading",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
@@ -1026,8 +1026,8 @@
         "gradient_background": "",
         "color_highlight": "",
         "gradient_highlight": "",
-        "padding_top": 16,
-        "padding_bottom": 16,
+        "padding_top": 32,
+        "padding_bottom": 32,
         "divider": false,
         "rounded": false
       }
