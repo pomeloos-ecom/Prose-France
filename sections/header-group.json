@@ -63,50 +63,6 @@
         "rounded": true
       }
     },
-    "ss_scrolling_announcement_bar_NGAdXP": {
-      "type": "ss-scrolling-announcement-bar",
-      "blocks": {
-        "text_rjXJeF": {
-          "type": "text",
-          "settings": {
-            "text": "SATISFAIT OU REMBOURSÉ"
-          }
-        },
-        "text_wppfWk": {
-          "type": "text",
-          "settings": {
-            "text": "LIVRAISON GRATUITE"
-          }
-        },
-        "text_3FmrJL": {
-          "type": "text",
-          "settings": {
-            "text": "GARANTIE 2 ANS INCLUSE"
-          }
-        }
-      },
-      "block_order": [
-        "text_rjXJeF",
-        "text_wppfWk",
-        "text_3FmrJL"
-      ],
-      "disabled": true,
-      "name": "SS - Scrolling Announcement Bar",
-      "settings": {
-        "insert_css_class_target": "",
-        "text_size": 12,
-        "ss_font_family": "montserrat_n4",
-        "link": "",
-        "animation_duration": 70,
-        "animation_direction": "right",
-        "pause_hover": false,
-        "bg": "#000000",
-        "text_color": "#ffffff",
-        "hover_opacity": 90,
-        "padding_horizontal": 2,
-        "padding_vertical": 1
-      }
-    },
     "header": {
       "type": "header",
       "settings": {
@@ -127,8 +83,8 @@
         "transparent_color_text": "#1f1f1f",
         "color_text": "#171717",
         "color_background": "#ffffff",
-        "padding_top": 32,
-        "padding_bottom": 32,
+        "padding_top": 10,
+        "padding_bottom": 10,
         "full_width": true,
         "rounded": false
       }
@@ -342,7 +298,6 @@
   },
   "order": [
     "announcement-bar",
-    "ss_scrolling_announcement_bar_NGAdXP",
     "header",
     "ss_header_19_JGWpzN"
   ]
