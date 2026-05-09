@@ -367,85 +367,6 @@
         "section_radius": 0
       }
     },
-    "logo_list": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_1": {
-          "type": "logo",
-          "settings": {
-            "height": 36,
-            "link": ""
-          }
-        },
-        "logo_2": {
-          "type": "logo",
-          "settings": {
-            "height": 36,
-            "link": ""
-          }
-        },
-        "logo_3": {
-          "type": "logo",
-          "settings": {
-            "height": 36,
-            "link": ""
-          }
-        },
-        "logo_4": {
-          "type": "logo",
-          "settings": {
-            "height": 36,
-            "link": ""
-          }
-        },
-        "logo_5": {
-          "type": "logo",
-          "settings": {
-            "height": 36,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_1",
-        "logo_2",
-        "logo_3",
-        "logo_4",
-        "logo_5"
-      ],
-      "disabled": true,
-      "settings": {
-        "layout": "marquee",
-        "grid_horizontal": 70,
-        "direction": "left",
-        "speed": 25,
-        "heading": "As seen in",
-        "heading_size": "subtitle-sm",
-        "heading_alignment": "text-center md:items-center",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "",
-        "button_label": "",
-        "button_link": "",
-        "button_external": false,
-        "button_icon": true,
-        "highlighted_text": "none",
-        "highlighted_scribble": "circle",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 28,
-        "padding_bottom": 28,
-        "divider": true,
-        "full_width": true,
-        "rounded": false
-      }
-    },
     "ss_slider_2_pro_Pr9P4U": {
       "type": "ss-slider-2-pro",
       "blocks": {
@@ -1193,6 +1114,7 @@
         },
         "text_zUG78B": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Cliquez sur le nom d'une collection pour découvrir les modèles qui s'y trouvent.</p>",
             "text_custom": false,
@@ -2527,7 +2449,6 @@
   "order": [
     "ss_hero_32_Lb9Emg",
     "ss_hero_pro_2_zk86gf",
-    "logo_list",
     "ss_slider_2_pro_Pr9P4U",
     "ss_text_block_pro_dwTK8T",
     "best_sellers",
