@@ -1102,14 +1102,14 @@
           "settings": {
             "text": "<p>ET FAITES DÉFILER LES MODÈLES</p>",
             "text_custom": true,
-            "text_font": "red_hat_display_i8",
+            "text_font": "serif",
             "text_size": 24,
             "text_size_mobile": 16,
             "text_advanced": false,
             "text_height": 150,
             "text_mt": 12,
             "text_mt_mobile": 10,
-            "text_color": "#000000"
+            "text_color": "#4d4949"
           }
         },
         "text_zUG78B": {
