@@ -2531,7 +2531,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Votre montre unique vous attend.</strong>",
+            "heading": "<strong>Votre montre unique vous attend. k</strong>",
             "heading_size": "title-xl tracking-heading",
             "heading_tag": "h2",
             "highlighted_text": "none",
