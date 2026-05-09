@@ -233,9 +233,9 @@
       "settings": {
         "transparent_bg": "all",
         "logo": "shopify://shop_images/PROSE_-_BRAND_27.png",
-        "logo_mobile": "shopify://shop_images/PROSE_-_BRAND_25.png",
+        "logo_mobile": "shopify://shop_images/PROSE_-_BRAND_27.png",
         "logo_width": 100,
-        "logo_width_mobile": 50,
+        "logo_width_mobile": 100,
         "name_custom": false,
         "name_font": "josefin_sans_n4",
         "name_size": 20,
