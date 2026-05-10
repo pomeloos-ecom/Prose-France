@@ -234,7 +234,7 @@
             "background_gradient": "radial-gradient(rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 1) 42%, rgba(65, 136, 131, 1) 100%)"
           }
         },
-        "collection_jj49yj": {
+        "collection_HLg3Hw": {
           "type": "collection",
           "settings": {
             "tab": "JUSTEIKO",
@@ -242,13 +242,13 @@
             "products_show": 10,
             "products": [],
             "custom_url": "",
-            "shape_color": "#e3dac9",
+            "shape_color": "#f9f4f0",
             "background_style": "gradient",
-            "background_color": "#fffaf5",
-            "background_gradient": "radial-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 45%, rgba(226, 190, 123, 1) 100%)"
+            "background_color": "#f9f4f0",
+            "background_gradient": "radial-gradient(rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 1) 42%, rgba(190, 18, 60, 1) 100%)"
           }
         },
-        "collection_FJHg3V": {
+        "collection_RW8EnJ": {
           "type": "collection",
           "settings": {
             "tab": "SEIKOAK",
@@ -256,10 +256,24 @@
             "products_show": 10,
             "products": [],
             "custom_url": "",
-            "shape_color": "#efefef",
+            "shape_color": "#f9f4f0",
             "background_style": "gradient",
-            "background_color": "#87a5c8",
-            "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(242, 242, 242, 1) 100%)"
+            "background_color": "#f9f4f0",
+            "background_gradient": "radial-gradient(rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 1) 42%, rgba(68, 89, 116, 1) 100%)"
+          }
+        },
+        "collection_qbNMx9": {
+          "type": "collection",
+          "settings": {
+            "tab": "SEIKONA",
+            "collection": "seikoak-montre-automatique",
+            "products_show": 10,
+            "products": [],
+            "custom_url": "",
+            "shape_color": "#f9f4f0",
+            "background_style": "gradient",
+            "background_color": "#f9f4f0",
+            "background_gradient": "radial-gradient(rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 1) 42%, rgba(61, 100, 39, 1) 100%)"
           }
         },
         "collection_mNKEjm": {
@@ -267,20 +281,6 @@
           "disabled": true,
           "settings": {
             "tab": "SEIKONAUT",
-            "collection": "seikona-montre-automatique",
-            "products_show": 10,
-            "products": [],
-            "custom_url": "",
-            "shape_color": "#f7f7f7",
-            "background_style": "solid",
-            "background_color": "#ffffff",
-            "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)"
-          }
-        },
-        "collection_zYQk4a": {
-          "type": "collection",
-          "settings": {
-            "tab": "SEIKONA",
             "collection": "seikona-montre-automatique",
             "products_show": 10,
             "products": [],
@@ -326,10 +326,10 @@
         "text_ULCaDV",
         "text_zUG78B",
         "collection_NrVjiQ",
-        "collection_jj49yj",
-        "collection_FJHg3V",
+        "collection_HLg3Hw",
+        "collection_RW8EnJ",
+        "collection_qbNMx9",
         "collection_mNKEjm",
-        "collection_zYQk4a",
         "collection_U7qdWL",
         "collection_RfyAQi"
       ],
