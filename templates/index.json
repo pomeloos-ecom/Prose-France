@@ -93,7 +93,7 @@
         "layout_radius": 16,
         "bg_image": "shopify://shop_images/hf_20260509_225333_1c9cd6af-8250-40aa-8221-36bb3e47dce0.png",
         "bg_image_mobile": "shopify://shop_images/hf_20260509_221458_bbdde311-3fb3-474f-883c-e633f582be0b.png",
-        "bg_image_overlay": 0.2,
+        "bg_image_overlay": 0,
         "use_gradient": true,
         "content_align": "left",
         "content_align_mobile": "left",
