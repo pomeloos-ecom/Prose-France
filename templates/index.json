@@ -230,7 +230,7 @@
             "custom_url": "",
             "shape_color": "#f9f4f0",
             "background_style": "solid",
-            "background_color": "#f9f4f0",
+            "background_color": "#be123c",
             "background_gradient": "linear-gradient(0deg, rgba(152, 18, 18, 1) 3%, rgba(217, 140, 140, 1) 15%, rgba(255, 255, 255, 1) 25%, rgba(249, 244, 240, 1) 100%)"
           }
         },
