@@ -220,6 +220,20 @@
             "text_color": "#121212"
           }
         },
+        "collection_HLg3Hw": {
+          "type": "collection",
+          "settings": {
+            "tab": "JUSTEIKO",
+            "collection": "justeiko-montre-automatique",
+            "products_show": 10,
+            "products": [],
+            "custom_url": "",
+            "shape_color": "#f9f4f0",
+            "background_style": "gradient",
+            "background_color": "#f9f4f0",
+            "background_gradient": "linear-gradient(0deg, rgba(152, 18, 18, 1) 3%, rgba(217, 140, 140, 1) 15%, rgba(255, 255, 255, 1) 25%, rgba(249, 244, 240, 1) 100%)"
+          }
+        },
         "collection_NrVjiQ": {
           "type": "collection",
           "settings": {
@@ -232,20 +246,6 @@
             "background_style": "gradient",
             "background_color": "#f9f4f0",
             "background_gradient": "linear-gradient(0deg, rgba(65, 136, 131, 1), rgba(167, 221, 215, 1) 18%, rgba(249, 244, 240, 1) 32%, rgba(249, 244, 240, 1) 100%)"
-          }
-        },
-        "collection_HLg3Hw": {
-          "type": "collection",
-          "settings": {
-            "tab": "JUSTEIKO",
-            "collection": "justeiko-montre-automatique",
-            "products_show": 10,
-            "products": [],
-            "custom_url": "",
-            "shape_color": "#f9f4f0",
-            "background_style": "gradient",
-            "background_color": "#f9f4f0",
-            "background_gradient": "radial-gradient(rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 1) 42%, rgba(170, 82, 104, 1) 100%)"
           }
         },
         "collection_RW8EnJ": {
@@ -325,8 +325,8 @@
         "heading_Jj7UUk",
         "text_ULCaDV",
         "text_zUG78B",
-        "collection_NrVjiQ",
         "collection_HLg3Hw",
+        "collection_NrVjiQ",
         "collection_RW8EnJ",
         "collection_qbNMx9",
         "collection_mNKEjm",
