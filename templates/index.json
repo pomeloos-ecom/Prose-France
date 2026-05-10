@@ -116,7 +116,7 @@
         "feature_text_color": "#ffffff",
         "bg_image_overlay_color": "#121212",
         "gradient_color": "linear-gradient(#0a0a0a00, #0a171700 9%, #0a0a0a00 41%, #0a0a0ab3 80%)",
-        "background_color": "#ffffff",
+        "background_color": "#f9f4f0",
         "background_gradient": "",
         "border_color": "#121212",
         "margin_top": 0,
@@ -335,7 +335,7 @@
       ],
       "custom_css": [
         "* {box-sizing: border-box;}",
-        "@media screen and (min-width: 750px) {{background-color: #ffffff !important; padding-left: 2rem !important; padding-right: 2rem !important; }}"
+        "@media screen and (min-width: 750px) {{background-color: #F9F4F0 !important; padding-left: 2rem !important; padding-right: 2rem !important; }}"
       ],
       "name": "SS - Featured collection (tabs) #6",
       "settings": {
