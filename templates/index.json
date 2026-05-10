@@ -231,7 +231,7 @@
             "shape_color": "#f9f4f0",
             "background_style": "gradient",
             "background_color": "#f9f4f0",
-            "background_gradient": "radial-gradient(rgba(249, 244, 240, 1) 1%, rgba(249, 244, 240, 1) 42%, rgba(65, 136, 131, 1) 100%)"
+            "background_gradient": "radial-gradient(rgba(249, 244, 240, 1) 38%, rgba(65, 136, 131, 1) 100%)"
           }
         },
         "collection_HLg3Hw": {
