@@ -239,7 +239,7 @@
           "settings": {
             "tab": "NAUTIKO",
             "collection": "nautiko-montre-automatique",
-            "products_show": 10,
+            "products_show": 8,
             "products": [],
             "custom_url": "",
             "shape_color": "#f9f4f0",
