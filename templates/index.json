@@ -356,7 +356,7 @@
         "tab_height": 100,
         "tab_background": true,
         "tab_radius": 0,
-        "tab_border_thickness": 2,
+        "tab_border_thickness": 1,
         "tab_padding_vertical": 12,
         "tab_padding_vertical_mobile": 12,
         "tab_padding_horizontal": 40,
