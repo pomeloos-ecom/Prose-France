@@ -335,8 +335,7 @@
       ],
       "custom_css": [
         "* {box-sizing: border-box;}",
-        " {background-color: #ffffff !important; padding-left: 2rem !important; padding-right: 2rem !important;}",
-        "@media screen and (max-width: 749px) {{background-color: #ffffff !important; padding-left: 0.5rem !important; padding-right: 0.5rem !important; }}"
+        "@media screen and (min-width: 750px) {{background-color: #ffffff !important; padding-left: 2rem !important; padding-right: 2rem !important; }}"
       ],
       "name": "SS - Featured collection (tabs) #6",
       "settings": {
