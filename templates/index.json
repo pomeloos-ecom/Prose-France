@@ -449,7 +449,7 @@
         "button_mt_mobile": 16,
         "button_full_mobile": false,
         "arrow_show_desktop": true,
-        "arrow_show_mobile": false,
+        "arrow_show_mobile": true,
         "arrow_size": 48,
         "arrow_size_mobile": 38,
         "arrow_icon_size": 10,
