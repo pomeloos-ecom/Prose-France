@@ -1884,6 +1884,9 @@
         "text_yK6XhG",
         "button_9bDtaH"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {& {display: none !important; }}"
+      ],
       "name": "SS - Text Block Pro",
       "settings": {
         "image_width": 20,
