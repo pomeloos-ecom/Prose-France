@@ -659,6 +659,7 @@
         },
         "button_9bDtaH": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "btn": "CONFIGURER UNE MONTRE",
             "btn_url": "",
@@ -683,6 +684,7 @@
         },
         "text_rjtqKW": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>ou</p>",
             "text_custom": false,
@@ -696,6 +698,7 @@
         },
         "button_m3YhC8": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "btn": "CONFIGURER UNE MONTRE",
             "btn_url": "",
@@ -1441,6 +1444,7 @@
         "column_cyGefU",
         "column_wcLHkQ"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn-with-icons.presets.name",
       "settings": {
         "style": "with-border",
