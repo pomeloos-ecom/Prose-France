@@ -245,7 +245,7 @@
             "shape_color": "#f9f4f0",
             "background_style": "gradient",
             "background_color": "#f9f4f0",
-            "background_gradient": "radial-gradient(rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 1) 42%, rgba(190, 18, 60, 1) 100%)"
+            "background_gradient": "radial-gradient(rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 1) 42%, rgba(170, 82, 104, 1) 100%)"
           }
         },
         "collection_RW8EnJ": {
@@ -266,7 +266,7 @@
           "type": "collection",
           "settings": {
             "tab": "SEIKONA",
-            "collection": "seikoak-montre-automatique",
+            "collection": "seikona-montre-automatique",
             "products_show": 10,
             "products": [],
             "custom_url": "",
