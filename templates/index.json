@@ -231,7 +231,7 @@
             "shape_color": "#f9f4f0",
             "background_style": "gradient",
             "background_color": "#f9f4f0",
-            "background_gradient": "radial-gradient(rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 1) 42%, rgba(65, 136, 131, 1) 100%)"
+            "background_gradient": "radial-gradient(rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 1) 68%, rgba(136, 143, 154, 1) 100%)"
           }
         },
         "collection_HLg3Hw": {
@@ -291,7 +291,7 @@
             "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)"
           }
         },
-        "collection_U7qdWL": {
+        "collection_C7jHRM": {
           "type": "collection",
           "settings": {
             "tab": "MASTEIKO",
@@ -299,10 +299,10 @@
             "products_show": 10,
             "products": [],
             "custom_url": "",
-            "shape_color": "#f7f7f7",
-            "background_style": "solid",
-            "background_color": "#ffffff",
-            "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)"
+            "shape_color": "#f9f4f0",
+            "background_style": "gradient",
+            "background_color": "#f9f4f0",
+            "background_gradient": "radial-gradient(rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 1) 42%, rgba(65, 136, 131, 1) 100%)"
           }
         },
         "collection_RfyAQi": {
@@ -330,7 +330,7 @@
         "collection_RW8EnJ",
         "collection_qbNMx9",
         "collection_mNKEjm",
-        "collection_U7qdWL",
+        "collection_C7jHRM",
         "collection_RfyAQi"
       ],
       "custom_css": [
