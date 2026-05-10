@@ -1885,7 +1885,113 @@
         "button_9bDtaH"
       ],
       "custom_css": [
-        "@media screen and (max-width: 749px) {& {display: none !important; }}"
+        "@media screen and (max-width: 749px) {* {display: none !important; } {padding: 0 !important; margin: 0 !important; height: 0 !important; overflow: hidden !important; }}"
+      ],
+      "name": "SS - Text Block Pro",
+      "settings": {
+        "image_width": 20,
+        "image_custom": false,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "image_radius": 12,
+        "image_ration": "none",
+        "image_location": "row",
+        "image_location_mobile": "column",
+        "content_padding_horizontal": 40,
+        "content_padding_vertical": 40,
+        "content_radius": 40,
+        "gap": 30,
+        "gap_mobile": 15,
+        "background_color": "#f9f4f0",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "content_bg": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "content_width": 100,
+        "border_thickness": 0
+      }
+    },
+    "ss_text_block_pro_VpRFRn": {
+      "type": "ss-text-block-pro",
+      "blocks": {
+        "subtitle_VDGgTk": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "",
+            "subtitle_custom": false,
+            "subtitle_font": "assistant_n4",
+            "subtitle_size": 20,
+            "subtitle_height": 100,
+            "subtitle_align": "center",
+            "subtitle_mt": 0,
+            "subtitle_color": "#000000"
+          }
+        },
+        "title_rgQPe6": {
+          "type": "title",
+          "settings": {
+            "title": "DÉCOUVREZ LE CONCEPT PROSE",
+            "title_custom": true,
+            "title_font": "red_hat_display_n9",
+            "title_size": 34,
+            "title_height": 100,
+            "title_align": "left",
+            "title_mt": 12,
+            "title_color": "#000000"
+          }
+        },
+        "text_Ntnzap": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Chaque montre PROSE est inspirée de designs célèbres et assemblée à la main<br/>par des horlogers indépendants pour offrir un excellent rapport qualité/service/prix.</p>",
+            "text_custom": false,
+            "text_font": "assistant_n4",
+            "text_size": 18,
+            "text_height": 120,
+            "text_align": "left",
+            "text_mt": 16,
+            "text_color": "#000000"
+          }
+        },
+        "button_YKzFEC": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "btn": "Learn More",
+            "btn_url": "",
+            "btn_custom": false,
+            "btn_font": "assistant_n4",
+            "btn_size": 22,
+            "btn_height": 150,
+            "btn_align": "center",
+            "btn_width": 200,
+            "btn_mt": 32,
+            "btn_padding_horizontal": 16,
+            "btn_padding_vertical": 12,
+            "btn_border_thickness": 1,
+            "btn_radius": 0,
+            "btn_color": "#000000",
+            "btn_hover_color": "#000000",
+            "btn_bg_color": "",
+            "btn_bg_hover_color": "",
+            "btn_border_color": "#000000",
+            "btn_border_hover_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_VDGgTk",
+        "title_rgQPe6",
+        "text_Ntnzap",
+        "button_YKzFEC"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {* {display: none !important; } {padding: 0 !important; margin: 0 !important; height: 0 !important; overflow: hidden !important; }}"
       ],
       "name": "SS - Text Block Pro",
       "settings": {
@@ -2936,6 +3042,7 @@
     "ss_media_grid_2_FP498d",
     "testimonials_section",
     "ss_text_block_pro_fnTiDf",
+    "ss_text_block_pro_VpRFRn",
     "custom_liquid_aUHxXe",
     "ss_text_block_pro_bCU3pT",
     "multicolumn_miRTrb",
