@@ -176,13 +176,13 @@
         "heading_Jj7UUk": {
           "type": "heading",
           "settings": {
-            "heading": "<p>CLIQUEZ SUR UNE COLLECTION</p>",
+            "heading": "<p>CLIQUEZ SUR <br/>UNE COLLECTION</p>",
             "heading_custom": true,
             "heading_font": "red_hat_display_n8",
-            "heading_size": 40,
-            "heading_size_mobile": 32,
+            "heading_size": 34,
+            "heading_size_mobile": 30,
             "heading_advanced": true,
-            "heading_height": 100,
+            "heading_height": 130,
             "heading_mt": 0,
             "heading_mt_mobile": 0,
             "heading_color": "#121212"
