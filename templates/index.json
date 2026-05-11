@@ -178,7 +178,7 @@
           "settings": {
             "heading": "<p>CLIQUEZ SUR UNE COLLECTION</p>",
             "heading_custom": true,
-            "heading_font": "red_hat_display_n9",
+            "heading_font": "red_hat_display_n8",
             "heading_size": 40,
             "heading_size_mobile": 32,
             "heading_advanced": true,
@@ -335,7 +335,7 @@
       ],
       "custom_css": [
         "* {box-sizing: border-box;}",
-        "@media screen and (min-width: 750px) {{background-color: #F9F4F0 !important; padding-left: 2rem !important; padding-right: 2rem !important; }}"
+        "@media screen and (min-width: 750px) {{background-color: #f9f4f0 !important; padding-left: 2rem !important; padding-right: 2rem !important; }}"
       ],
       "name": "SS - Featured collection (tabs) #6",
       "settings": {
@@ -565,7 +565,7 @@
       "name": "SS - Hero #32",
       "settings": {
         "layout_height": "fixed_height",
-        "layout_fixed_height": 220,
+        "layout_fixed_height": 290,
         "layout_fixed_height_mobile": 260,
         "layout_padding_horizontal": 50,
         "layout_padding_horizontal_mobile": 16,
