@@ -1973,6 +1973,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "transparent_header": false,
         "image_height": "600px",
