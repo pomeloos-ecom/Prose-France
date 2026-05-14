@@ -178,7 +178,7 @@
           "settings": {
             "collection": "collection-test",
             "image": "shopify://shop_images/JSTK.jpg",
-            "title": "",
+            "title": "Collection Poeme",
             "description": "",
             "overlay_content": false,
             "color_text": "#ffffff",
@@ -191,7 +191,7 @@
           "settings": {
             "collection": "collection-test",
             "image": "shopify://shop_images/MSTK.jpg",
-            "title": "",
+            "title": "Collection Verset",
             "description": "",
             "overlay_content": false,
             "color_text": "#ffffff",
