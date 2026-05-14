@@ -170,231 +170,128 @@
         "rounded": false
       }
     },
-    "ss_text_block_pro_8xHjQd": {
-      "type": "ss-text-block-pro",
+    "ss_image_grid_pro_rbD3dE": {
+      "type": "ss-image-grid-pro",
       "blocks": {
-        "subtitle_V88YcN": {
-          "type": "subtitle",
+        "item_wpaLCT": {
+          "type": "item",
           "settings": {
-            "subtitle": "",
-            "subtitle_custom": false,
-            "subtitle_font": "assistant_n4",
-            "subtitle_size": 20,
-            "subtitle_height": 100,
-            "subtitle_align": "center",
-            "subtitle_mt": 0,
-            "subtitle_color": "#000000"
+            "product": "",
+            "image": "shopify://shop_images/NTK.jpg",
+            "title": "<h2>POEME</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
           }
         },
-        "title_3FGxHh": {
-          "type": "title",
+        "item_NpKrWX": {
+          "type": "item",
           "settings": {
-            "title": "DÉCOUVREZ LE CONCEPT PROSE",
-            "title_custom": true,
-            "title_font": "red_hat_display_n9",
-            "title_size": 34,
-            "title_height": 100,
-            "title_align": "left",
-            "title_mt": 12,
-            "title_color": "#000000"
+            "product": "",
+            "image": "shopify://shop_images/MSTK.jpg",
+            "title": "<h2>VERSET</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
           }
         },
-        "text_M4aKFf": {
-          "type": "text",
+        "item_KWC4Nt": {
+          "type": "item",
           "settings": {
-            "text": "<p>Chaque montre PROSE est inspirée de designs célèbres et assemblée à la main<br/>par des horlogers indépendants pour offrir un excellent rapport qualité/service/prix.</p>",
-            "text_custom": false,
-            "text_font": "assistant_n4",
-            "text_size": 18,
-            "text_height": 120,
-            "text_align": "left",
-            "text_mt": 16,
-            "text_color": "#000000"
+            "product": "",
+            "image": "shopify://shop_images/SKNT.jpg",
+            "title": "<h2>SONNET</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
           }
         },
-        "button_NaCAxn": {
-          "type": "button",
-          "disabled": true,
+        "item_bjA6kp": {
+          "type": "item",
           "settings": {
-            "btn": "Learn More",
-            "btn_url": "",
-            "btn_custom": false,
-            "btn_font": "assistant_n4",
-            "btn_size": 22,
-            "btn_height": 150,
-            "btn_align": "center",
-            "btn_width": 200,
-            "btn_mt": 32,
-            "btn_padding_horizontal": 16,
-            "btn_padding_vertical": 12,
-            "btn_border_thickness": 1,
-            "btn_radius": 0,
-            "btn_color": "#000000",
-            "btn_hover_color": "#000000",
-            "btn_bg_color": "",
-            "btn_bg_hover_color": "",
-            "btn_border_color": "#000000",
-            "btn_border_hover_color": ""
+            "product": "",
+            "image": "shopify://shop_images/JSTK.jpg",
+            "title": "<h2>RIME</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
           }
         }
       },
       "block_order": [
-        "subtitle_V88YcN",
-        "title_3FGxHh",
-        "text_M4aKFf",
-        "button_NaCAxn"
+        "item_wpaLCT",
+        "item_NpKrWX",
+        "item_KWC4Nt",
+        "item_bjA6kp"
       ],
-      "custom_css": [],
-      "name": "COLLECTIONS",
+      "name": "SS - Image Grid Pro",
       "settings": {
-        "image_width": 20,
-        "image_custom": false,
-        "image_height_desktop": 400,
-        "image_height_mobile": 200,
-        "image_radius": 12,
-        "image_ration": "none",
-        "image_location": "row",
-        "image_location_mobile": "column",
-        "content_padding_horizontal": 40,
-        "content_padding_vertical": 40,
-        "content_radius": 40,
-        "gap": 30,
-        "gap_mobile": 15,
-        "background_color": "#f9f4f0",
+        "layout_gap": 30,
+        "layout_gap_mobile": 20,
+        "layout_padding_vertical": 50,
+        "layout_padding_vertical_mobile": 20,
+        "layout_padding_horizontal": 50,
+        "layout_padding_horizontal_mobile": 20,
+        "layout_radius": 0,
+        "layout_border_thickness": 0,
+        "two_column_mobile": false,
+        "card_padding_vertical": 16,
+        "card_padding_vertical_mobile": 16,
+        "card_padding_horizontal": 16,
+        "card_padding_horizontal_mobile": 16,
+        "card_radius": 0,
+        "card_border_thickness": 0,
+        "overlay": 0.2,
+        "card_image_ratio": "portrait",
+        "card_image_ratio_mobile": "landscape",
+        "content_vertical_align": "end",
+        "content_vertical_align_mobile": "end",
+        "title_custom": true,
+        "title_font": "red_hat_display_n7",
+        "title_size": 36,
+        "title_size_mobile": 30,
+        "title_height": 130,
+        "title_align": "left",
+        "title_align_mobile": "left",
+        "button_custom": true,
+        "button_font": "red_hat_display_n5",
+        "button_size": 14,
+        "button_size_mobile": 14,
+        "button_height": 100,
+        "button_padding_vertical": 16,
+        "button_padding_vertical_mobile": 16,
+        "button_padding_horizontal": 30,
+        "button_padding_horizontal_mobile": 50,
+        "button_radius": 0,
+        "button_border_thickness": 0,
+        "button_mt": 16,
+        "button_align": "left",
+        "button_align_mobile": "left",
+        "button_ellipse": false,
+        "button_icon": false,
+        "button_gap": 28,
+        "button_shadow": false,
+        "layout_bg_color": "#f9f4f1",
+        "layout_border_color": "#000000",
+        "card_border_color": "#000000",
+        "overlay_color": "#000000",
+        "title_color": "#ffffff",
+        "button_color": "#191919",
+        "button_hover_color": "#FFFFFF",
+        "button_bg_color": "#ffffff",
+        "button_bg_hover_color": "#000000",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "button_shadow_color": "#000000",
+        "background_color": "#FFFFFF",
         "background_gradient": "",
         "border_color": "#000000",
-        "content_bg": "",
         "margin_top": 0,
         "margin_bottom": 0,
-        "padding_top": 60,
-        "padding_bottom": 0,
-        "padding_horizontal": 5,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 0,
         "padding_horizontal_mobile": 0,
-        "content_width": 100,
-        "border_thickness": 0
-      }
-    },
-    "collection_list_gtpdMx": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_GP9VcQ": {
-          "type": "collection",
-          "settings": {
-            "collection": "collection-test",
-            "image": "shopify://shop_images/JSTK.jpg",
-            "title": "Collection Poeme",
-            "description": "",
-            "overlay_content": false,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_VLz3tq": {
-          "type": "collection",
-          "settings": {
-            "collection": "collection-test",
-            "image": "shopify://shop_images/MSTK.jpg",
-            "title": "Collection Verset",
-            "description": "",
-            "overlay_content": false,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_YpMW88": {
-          "type": "collection",
-          "settings": {
-            "collection": "collection-test",
-            "image": "shopify://shop_images/NTK.jpg",
-            "title": "",
-            "description": "",
-            "overlay_content": false,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_FRfYp7": {
-          "type": "collection",
-          "settings": {
-            "collection": "collection-test",
-            "image": "shopify://shop_images/SKNT.jpg",
-            "title": "",
-            "description": "",
-            "overlay_content": false,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_fGKWCn": {
-          "type": "collection",
-          "settings": {
-            "collection": "collection-test",
-            "image": "shopify://shop_images/SKNA.jpg",
-            "title": "",
-            "description": "",
-            "overlay_content": false,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_yzhgrb": {
-          "type": "collection",
-          "settings": {
-            "collection": "collection-test",
-            "image": "shopify://shop_images/MSTK.jpg",
-            "title": "",
-            "description": "",
-            "overlay_content": false,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "collection_GP9VcQ",
-        "collection_VLz3tq",
-        "collection_YpMW88",
-        "collection_FRfYp7",
-        "collection_fGKWCn",
-        "collection_yzhgrb"
-      ],
-      "name": "t:sections.collection-list.presets.name",
-      "settings": {
-        "columns": 5,
-        "carousel_on_desktop": false,
-        "image_type": "collection",
-        "image_ratio": "square",
-        "show_products_count": true,
-        "show_view_all": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "heading": "Collections",
-        "heading_size": "title-md",
-        "heading_alignment": "text-left md:items-end md:flex-row",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "",
-        "highlighted_text": "none",
-        "highlighted_scribble": "circle",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
         "full_width": false,
-        "rounded": false
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
       }
     },
     "ss_featured_collection_tabs_6_HRh8yX": {
@@ -560,6 +457,7 @@
         "collection_C7jHRM",
         "collection_RfyAQi"
       ],
+      "disabled": true,
       "custom_css": [
         "* {box-sizing: border-box;}",
         "@media screen and (min-width: 750px) {{background-color: #f9f4f0 !important; padding-left: 2rem !important; padding-right: 2rem !important; }}"
@@ -1911,6 +1809,7 @@
         "text_alignment": "left",
         "content_position": "align-self-center",
         "video_mobile": "shopify://files/videos/e41a00f3-3bfc-4cef-a600-7122978fa3a4.mp4",
+        "video_url_mobile": "",
         "image_height_mobile": "auto",
         "text_alignment_mobile": "left",
         "color_text": "",
@@ -2308,8 +2207,7 @@
   "order": [
     "ss_hero_32_Lb9Emg",
     "scrolling_text_wFHC46",
-    "ss_text_block_pro_8xHjQd",
-    "collection_list_gtpdMx",
+    "ss_image_grid_pro_rbD3dE",
     "ss_featured_collection_tabs_6_HRh8yX",
     "ss_hero_32_3ibW8R",
     "ss_text_block_pro_fnTiDf",
