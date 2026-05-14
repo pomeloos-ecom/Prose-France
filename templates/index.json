@@ -180,7 +180,7 @@
             "image": "shopify://shop_images/NTK.jpg",
             "title": "<h2>POEME</h2>",
             "url": "",
-            "button": "SHOP"
+            "button": "DÉCOUVRIR"
           }
         },
         "item_NpKrWX": {
@@ -188,9 +188,9 @@
           "settings": {
             "product": "",
             "image": "shopify://shop_images/MSTK.jpg",
-            "title": "<h2>Clothing</h2>",
+            "title": "<h2>VERSET</h2>",
             "url": "",
-            "button": "SHOP"
+            "button": "DÉCOUVRIR"
           }
         },
         "item_KWC4Nt": {
@@ -198,9 +198,9 @@
           "settings": {
             "product": "",
             "image": "shopify://shop_images/SKNT.jpg",
-            "title": "<h2>Outdoor</h2>",
+            "title": "<h2>SONNET</h2>",
             "url": "",
-            "button": "SHOP"
+            "button": "DÉCOUVRIR"
           }
         },
         "item_bjA6kp": {
@@ -208,9 +208,9 @@
           "settings": {
             "product": "",
             "image": "shopify://shop_images/JSTK.jpg",
-            "title": "<h2>Swim</h2>",
+            "title": "<h2>RIME</h2>",
             "url": "",
-            "button": "SHOP"
+            "button": "DÉCOUVRIR"
           }
         }
       },
@@ -239,24 +239,24 @@
         "card_border_thickness": 0,
         "overlay": 0.2,
         "card_image_ratio": "portrait",
-        "card_image_ratio_mobile": "portrait",
+        "card_image_ratio_mobile": "landscape",
         "content_vertical_align": "end",
         "content_vertical_align_mobile": "end",
-        "title_custom": false,
-        "title_font": "josefin_sans_n4",
+        "title_custom": true,
+        "title_font": "red_hat_display_n7",
         "title_size": 36,
-        "title_size_mobile": 40,
+        "title_size_mobile": 33,
         "title_height": 130,
         "title_align": "left",
         "title_align_mobile": "left",
-        "button_custom": false,
-        "button_font": "josefin_sans_n4",
+        "button_custom": true,
+        "button_font": "red_hat_display_n5",
         "button_size": 14,
         "button_size_mobile": 14,
         "button_height": 100,
         "button_padding_vertical": 16,
         "button_padding_vertical_mobile": 16,
-        "button_padding_horizontal": 50,
+        "button_padding_horizontal": 30,
         "button_padding_horizontal_mobile": 50,
         "button_radius": 0,
         "button_border_thickness": 0,
@@ -292,129 +292,6 @@
         "content_width": 120,
         "border_thickness": 0,
         "lazy": true
-      }
-    },
-    "collection_list_gtpdMx": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_GP9VcQ": {
-          "type": "collection",
-          "settings": {
-            "collection": "collection-test",
-            "image": "shopify://shop_images/JSTK.jpg",
-            "title": "Collection Poeme",
-            "description": "",
-            "overlay_content": false,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_VLz3tq": {
-          "type": "collection",
-          "settings": {
-            "collection": "collection-test",
-            "image": "shopify://shop_images/MSTK.jpg",
-            "title": "Collection Verset",
-            "description": "",
-            "overlay_content": false,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_YpMW88": {
-          "type": "collection",
-          "settings": {
-            "collection": "collection-test",
-            "image": "shopify://shop_images/NTK.jpg",
-            "title": "",
-            "description": "",
-            "overlay_content": false,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_FRfYp7": {
-          "type": "collection",
-          "settings": {
-            "collection": "collection-test",
-            "image": "shopify://shop_images/SKNT.jpg",
-            "title": "",
-            "description": "",
-            "overlay_content": false,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_fGKWCn": {
-          "type": "collection",
-          "settings": {
-            "collection": "collection-test",
-            "image": "shopify://shop_images/SKNA.jpg",
-            "title": "",
-            "description": "",
-            "overlay_content": false,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_yzhgrb": {
-          "type": "collection",
-          "settings": {
-            "collection": "collection-test",
-            "image": "shopify://shop_images/MSTK.jpg",
-            "title": "",
-            "description": "",
-            "overlay_content": false,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "collection_GP9VcQ",
-        "collection_VLz3tq",
-        "collection_YpMW88",
-        "collection_FRfYp7",
-        "collection_fGKWCn",
-        "collection_yzhgrb"
-      ],
-      "name": "t:sections.collection-list.presets.name",
-      "settings": {
-        "columns": 5,
-        "carousel_on_desktop": false,
-        "image_type": "collection",
-        "image_ratio": "square",
-        "show_products_count": true,
-        "show_view_all": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "heading": "Collections",
-        "heading_size": "title-md",
-        "heading_alignment": "text-left md:items-end md:flex-row",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "",
-        "highlighted_text": "none",
-        "highlighted_scribble": "circle",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
       }
     },
     "ss_featured_collection_tabs_6_HRh8yX": {
@@ -2330,7 +2207,6 @@
     "ss_hero_32_Lb9Emg",
     "scrolling_text_wFHC46",
     "ss_image_grid_pro_rbD3dE",
-    "collection_list_gtpdMx",
     "ss_featured_collection_tabs_6_HRh8yX",
     "ss_hero_32_3ibW8R",
     "ss_text_block_pro_fnTiDf",
