@@ -1721,6 +1721,84 @@
         "rounded": false
       }
     },
+    "video_with_text_gTkrWr": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_Ck6pET": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>SOUTENIR DES ATELIERS FRANÇAIS</strong>",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_9KkRgh": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><em><strong>PROSE, c’est aussi des ateliers qui font de leur mieux pour vous satisfaire : en Espagne, en Asie, mais aussi en France.</strong></em></h6><p>Et si vous le souhaitez, vous pouvez demander un assemblage réalisé en France, à Paris dans le 17e arrondissement ou à Metz, par une équipe d’horlogers diplômés.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_w9n77Q": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "primary",
+            "button_size": "md",
+            "button_external": false,
+            "button_icon": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ck6pET",
+        "text_9KkRgh",
+        "button_w9n77Q"
+      ],
+      "name": "t:sections.video-with-text.presets.name",
+      "settings": {
+        "video": "shopify://files/videos/e41a00f3-3bfc-4cef-a600-7122978fa3a4.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "image_height": "adapt",
+        "video_width": "medium",
+        "layout": "video_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "video_mobile": "shopify://files/videos/e41a00f3-3bfc-4cef-a600-7122978fa3a4.mp4",
+        "video_url_mobile": "",
+        "image_height_mobile": "auto",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "#f9f4f1",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
     "about_brand": {
       "type": "reveal-image-with-text",
       "settings": {
@@ -1855,84 +1933,6 @@
         "padding_horizontal_mobile": 0,
         "content_width": 100,
         "border_thickness": 0
-      }
-    },
-    "video_with_text_gTkrWr": {
-      "type": "video-with-text",
-      "blocks": {
-        "heading_Ck6pET": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>SOUTENIR DES ATELIERS FRANÇAIS</strong>",
-            "heading_size": "title-md",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "text_9KkRgh": {
-          "type": "text",
-          "settings": {
-            "text": "<h6><em><strong>PROSE, c’est aussi des ateliers qui font de leur mieux pour vous satisfaire : en Espagne, en Asie, mais aussi en France.</strong></em></h6><p>Et si vous le souhaitez, vous pouvez demander un assemblage réalisé en France, à Paris dans le 17e arrondissement ou à Metz, par une équipe d’horlogers diplômés.</p>",
-            "text_size": "subtext-md",
-            "text_max_size": 32,
-            "text_font": "body",
-            "secondary_color": false,
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "button_w9n77Q": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "primary",
-            "button_size": "md",
-            "button_external": false,
-            "button_icon": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_Ck6pET",
-        "text_9KkRgh",
-        "button_w9n77Q"
-      ],
-      "name": "t:sections.video-with-text.presets.name",
-      "settings": {
-        "video": "shopify://files/videos/e41a00f3-3bfc-4cef-a600-7122978fa3a4.mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "enable_video_autoplay": true,
-        "enable_video_looping": true,
-        "image_height": "adapt",
-        "video_width": "medium",
-        "layout": "video_first",
-        "text_alignment": "left",
-        "content_position": "align-self-center",
-        "video_mobile": "shopify://files/videos/e41a00f3-3bfc-4cef-a600-7122978fa3a4.mp4",
-        "video_url_mobile": "",
-        "image_height_mobile": "auto",
-        "text_alignment_mobile": "left",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_background_2": "",
-        "gradient_background_2": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false,
-        "enable_parallax": false,
-        "parallax_direction": "vertical"
       }
     },
     "ss_text_block_pro_aTEp6U": {
@@ -2228,84 +2228,6 @@
         "content_width": 120,
         "border_thickness": 0
       }
-    },
-    "cta_final": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "COMMENCER VOTRE PROJET",
-            "subheading_size": "subtitle-sm",
-            "secondary_color": false
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Votre montre unique vous attend. kOK</strong>",
-            "heading_size": "title-xl tracking-heading",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Rejoignez des centaines de clients qui ont fait confiance à Prose pour leur pièce d'exception.</p>",
-            "text_size": "subtext-md",
-            "text_max_size": 36,
-            "text_font": "body",
-            "secondary_color": false,
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Créer ma montre",
-            "button_link": "/collections/all",
-            "button_style": "primary",
-            "button_size": "md",
-            "button_external": false,
-            "button_icon": true
-          }
-        }
-      },
-      "block_order": [
-        "subheading",
-        "heading",
-        "text",
-        "button"
-      ],
-      "disabled": true,
-      "settings": {
-        "transparent_header": false,
-        "image_height": "600px",
-        "content_width": "large",
-        "content_position": "md:items-center md:justify-center",
-        "text_alignment": "center",
-        "image_height_mobile": "500px",
-        "content_position_mobile": "items-center justify-center",
-        "text_alignment_mobile": "center",
-        "color_text": "#ffffff",
-        "color_highlight": "#c9a96e",
-        "gradient_highlight": "",
-        "color_button_text": "#171717",
-        "color_button_background": "#ffffff",
-        "color_button_gradient": "",
-        "color_overlay": "#171717",
-        "overlay_opacity": 55,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "divider": false,
-        "full_width": true,
-        "rounded": false,
-        "enable_parallax": false,
-        "parallax_direction": "vertical"
-      }
     }
   },
   "order": [
@@ -2323,12 +2245,11 @@
     "multicolumn_miRTrb",
     "ss_testimonial_8_tjEN6F",
     "multicolumn_with_icons_r7rrHt",
+    "video_with_text_gTkrWr",
     "about_brand",
     "ss_text_block_pro_ek9rQM",
-    "video_with_text_gTkrWr",
     "ss_text_block_pro_aTEp6U",
     "faq_section",
-    "ss_text_block_pro_RthbcJ",
-    "cta_final"
+    "ss_text_block_pro_RthbcJ"
   ]
 }
