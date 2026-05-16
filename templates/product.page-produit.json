@@ -551,81 +551,6 @@
             "text_color": "#121212"
           }
         },
-        "tab_ENaErq": {
-          "type": "tab",
-          "settings": {
-            "tab": "NOTRE CONCEPT"
-          }
-        },
-        "faq_item_h79pQL": {
-          "type": "faq_item",
-          "settings": {
-            "question": "Le concept Prose ?",
-            "answer": "<p>C’est une montre assemblée à la main, équipée d’un mouvement automatique, avec des pièces dont le design s’inspire de modèles iconiques.<br/><br/>Notre objectif : vous offrir le meilleur rapport qualité-prix possible pour une montre automatique de qualité, sans dépendre d’un budget inaccessible.</p>"
-          }
-        },
-        "faq_item_tTYVbx": {
-          "type": "faq_item",
-          "settings": {
-            "question": "Comment se passe l'assemblage de ma montre ?",
-            "answer": "<p><strong>Chaque montre est assemblée après votre commande.</strong></p><p>Nous produisons et stockons les pièces détachées nécessaires à sa fabrication. Nos horlogers réunissent ensuite les composants de votre montre, procèdent à son assemblage, puis la confient à notre partenaire logistique, chargé de vous l’expédier.</p>"
-          }
-        },
-        "faq_item_ECef83": {
-          "type": "faq_item",
-          "settings": {
-            "question": "Où sont situés vos ateliers ?",
-            "answer": "<p>Nous disposons de plusieurs ateliers afin de répondre à une demande internationale, notamment en Chine, en Espagne et en France.</p><p>En France, nous travaillons avec deux ateliers indépendants partenaires : l’un à Paris, dans le 17e arrondissement, et l’autre à Metz, dans l’est de la France.</p>"
-          }
-        },
-        "faq_item_yy6QML": {
-          "type": "faq_item",
-          "settings": {
-            "question": "Puis je demander un assemblage en France ?",
-            "answer": "<p><strong>Par défaut, nous privilégions un assemblage en France pour nos clients français.<br/></strong>Pour le garantir, vous pouvez le préciser à notre service client ou sélectionner l’option <strong>“Assemblage Made in France & étanchéité renforcée”</strong>.<br/>Dans tous les cas, nos exigences qualité restent les mêmes, quel que soit l’atelier d’assemblage.</p>"
-          }
-        },
-        "tab_gzPaAG": {
-          "type": "tab",
-          "settings": {
-            "tab": "VOTRE MONTRE"
-          }
-        },
-        "faq_item_DXBVeh": {
-          "type": "faq_item",
-          "settings": {
-            "question": "Puis je régler la taille de ma montre ?",
-            "answer": ""
-          }
-        },
-        "faq_item_DczaJ3": {
-          "type": "faq_item",
-          "settings": {
-            "question": "Puis je personnaliser ma montre ?",
-            "answer": "<p>Answer</p>"
-          }
-        },
-        "faq_item_ga6KwJ": {
-          "type": "faq_item",
-          "settings": {
-            "question": "Quelle est la durée garantie de ma montre ?",
-            "answer": "<p>Toutes les montres PROSE sont garanties pendant trois ans. Cette garantie couvre les défauts de fonctionnement non liés à une mauvaise utilisation, à un choc ou à une usure anormale de la montre.</p>"
-          }
-        },
-        "faq_item_RUdFRX": {
-          "type": "faq_item",
-          "settings": {
-            "question": "Puis-je personnaliser le logo ?",
-            "answer": "<p>Answer</p>"
-          }
-        },
-        "faq_item_VY3Vzk": {
-          "type": "faq_item",
-          "settings": {
-            "question": "MA MONTRE EST-ELLE ÉTANCHE ?",
-            "answer": "<p><strong>Par défaut, toutes les montres PROSE sont résistantes à l’eau.<br/><br/></strong>Avec l’option <strong>étanchéité renforcée</strong>, vous pouvez porter votre montre lors d’une baignade, jusqu’à <strong>5 mètres de profondeur maximum</strong>.<br/><br/>Avant tout contact avec l’eau, veillez toujours à <strong>bien visser la couronne</strong>. Nous déconseillons toutefois de plonger avec votre montre.<br/>L’étanchéité doit être contrôlée tous les <strong>12 mois</strong> pour maintenir la garantie. Notre service client pourra vous accompagner si vous souhaitez faire réaliser ce contrôle.</p>"
-          }
-        },
         "tab_H9h6hG": {
           "type": "tab",
           "settings": {
@@ -645,25 +570,102 @@
             "question": "Question",
             "answer": "<p>Answer</p>"
           }
+        },
+        "tab_gzPaAG": {
+          "type": "tab",
+          "settings": {
+            "tab": "VOTRE MONTRE"
+          }
+        },
+        "faq_item_DXBVeh": {
+          "type": "faq_item",
+          "settings": {
+            "question": "COMMENT REGLER LA TAILLE DE MA MONTRE ?",
+            "answer": "<p>Nos montres sont livrées avec un kit de réglage pour ajuster le bracelet à votre poignet. Il vous suffit de suivre les instructions : même sans expérience, cela ne vous prendra pas plus de cinq minutes.</p>"
+          }
+        },
+        "faq_item_DczaJ3": {
+          "type": "faq_item",
+          "settings": {
+            "question": "COMMENT PERSONNALISER MA MONTRE ?",
+            "answer": "<p>Vous avez trois solutions :<br/></p><ol><li>Acheter de nouveaux bracelets dans notre collection accessoires.<br/></li><li>Personnaliser le logo en contactant notre service client pour avoir une montre sans logo ou avec un logo sur mesure.<br/></li><li><strong>Utiliser notre configurateur pour créer une montre</strong> étape par étape en choisissant chaque composant.</li></ol>"
+          }
+        },
+        "faq_item_ga6KwJ": {
+          "type": "faq_item",
+          "settings": {
+            "question": "DUREE DE GARANTIE DE MA MONTRE ?",
+            "answer": "<p>Toutes les montres PROSE sont garanties pendant trois ans. Cette garantie couvre les défauts de fonctionnement non liés à une mauvaise utilisation, à un choc ou à une usure anormale de la montre.</p>"
+          }
+        },
+        "faq_item_RUdFRX": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "Puis-je personnaliser le logo ?",
+            "answer": "<p>Answer</p>"
+          }
+        },
+        "faq_item_VY3Vzk": {
+          "type": "faq_item",
+          "settings": {
+            "question": "MA MONTRE EST-ELLE ÉTANCHE ?",
+            "answer": "<p><strong>Par défaut, toutes les montres PROSE sont résistantes à l’eau.<br/><br/></strong>Avec l’option <strong>étanchéité renforcée</strong>, vous pouvez porter votre montre lors d’une baignade, jusqu’à <strong>5 mètres de profondeur maximum</strong>.<br/><br/>Avant tout contact avec l’eau, veillez toujours à <strong>bien visser la couronne</strong>. Nous déconseillons toutefois de plonger avec votre montre.<br/>L’étanchéité doit être contrôlée tous les <strong>12 mois</strong> pour maintenir la garantie. Notre service client pourra vous accompagner si vous souhaitez faire réaliser ce contrôle.</p>"
+          }
+        },
+        "tab_ENaErq": {
+          "type": "tab",
+          "settings": {
+            "tab": "NOTRE CONCEPT"
+          }
+        },
+        "faq_item_h79pQL": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "Le concept Prose ?",
+            "answer": "<p>C’est une montre assemblée à la main, équipée d’un mouvement automatique, avec des pièces dont le design s’inspire de modèles iconiques.<br/><br/>Notre objectif : vous offrir le meilleur rapport qualité-prix possible pour une montre automatique de qualité, sans dépendre d’un budget inaccessible.</p>"
+          }
+        },
+        "faq_item_tTYVbx": {
+          "type": "faq_item",
+          "settings": {
+            "question": "COMMENT SE PASSE L'ASSEMBLAGE D'UNE MONTRE ?",
+            "answer": "<p><strong>Chaque montre est assemblée après votre commande.</strong></p><p>Nous produisons et stockons les pièces détachées nécessaires à sa fabrication. Nos horlogers réunissent ensuite les composants de votre montre, procèdent à son assemblage, puis la confient à notre partenaire logistique, chargé de vous l’expédier.</p>"
+          }
+        },
+        "faq_item_ECef83": {
+          "type": "faq_item",
+          "settings": {
+            "question": "OÙ SONT SITUÉS VOS ATELIERS ?",
+            "answer": "<p>Nous disposons de plusieurs ateliers afin de répondre à une demande internationale, notamment en Chine, en Espagne et en France.</p><p>En France, nous travaillons avec deux ateliers indépendants partenaires : l’un à Paris, dans le 17e arrondissement, et l’autre à Metz, dans l’est de la France.</p>"
+          }
+        },
+        "faq_item_yy6QML": {
+          "type": "faq_item",
+          "settings": {
+            "question": "PUIS-JE DEMANDER UN ASSEMBLAGE EN FRANCE ?",
+            "answer": "<p><strong>Par défaut, nous privilégions un assemblage en France pour nos clients français.<br/></strong>Pour le garantir, vous pouvez le préciser à notre service client ou sélectionner l’option <strong>“Assemblage Made in France & étanchéité renforcée”</strong>.<br/>Dans tous les cas, nos exigences qualité restent les mêmes, quel que soit l’atelier d’assemblage.</p>"
+          }
         }
       },
       "block_order": [
         "heading_jTy94J",
         "text_AaL7ea",
-        "tab_ENaErq",
-        "faq_item_h79pQL",
-        "faq_item_tTYVbx",
-        "faq_item_ECef83",
-        "faq_item_yy6QML",
+        "tab_H9h6hG",
+        "faq_item_CQfkXd",
+        "faq_item_NmjD9i",
         "tab_gzPaAG",
         "faq_item_DXBVeh",
         "faq_item_DczaJ3",
         "faq_item_ga6KwJ",
         "faq_item_RUdFRX",
         "faq_item_VY3Vzk",
-        "tab_H9h6hG",
-        "faq_item_CQfkXd",
-        "faq_item_NmjD9i"
+        "tab_ENaErq",
+        "faq_item_h79pQL",
+        "faq_item_tTYVbx",
+        "faq_item_ECef83",
+        "faq_item_yy6QML"
       ],
       "name": "SS - FAQ #17",
       "settings": {
@@ -706,12 +708,12 @@
         "answer_size_mobile": 14,
         "answer_height": 150,
         "answer_padding_top": 30,
-        "toggles_bg_color": "#F7F7F7",
+        "toggles_bg_color": "#f7f7f7",
         "toggle_bg_color": "#121212",
         "toggle_bg_gradient": "",
         "toggle_color": "#121212",
-        "toggle_active_color": "#FFFFFF",
-        "item_border_color": "#E2E2E2",
+        "toggle_active_color": "#ffffff",
+        "item_border_color": "#e2e2e2",
         "question_color": "#121212",
         "answer_color": "#121212",
         "icon_color": "#121212",
