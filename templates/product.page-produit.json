@@ -193,9 +193,12 @@
         "complementary",
         "sticky_buy_button"
       ],
+      "custom_css": [
+        "@media screen and (min-width: 990px) {.page-width {max-width: 70%; margin: 0 auto; }}"
+      ],
       "settings": {
         "enable_sticky_info": true,
-        "media_size": 66,
+        "media_size": 60,
         "gallery_layout": "thumbnail",
         "thumbnail_position": "below",
         "image_ratio": "adapt_first",
@@ -681,8 +684,8 @@
         "toggle_padding_vertical": 12,
         "toggle_padding_vertical_mobile": 10,
         "toggle_radius": 100,
-        "toggle_custom": false,
-        "toggle_font": "josefin_sans_n4",
+        "toggle_custom": true,
+        "toggle_font": "red_hat_display_n7",
         "toggle_size": 14,
         "toggle_size_mobile": 14,
         "toggle_height": 130,
@@ -708,10 +711,10 @@
         "answer_size_mobile": 14,
         "answer_height": 150,
         "answer_padding_top": 30,
-        "toggles_bg_color": "#bbaba3",
+        "toggles_bg_color": "#d5d5d5",
         "toggle_bg_color": "#121212",
         "toggle_bg_gradient": "",
-        "toggle_color": "#ffffff",
+        "toggle_color": "#323232",
         "toggle_active_color": "#ffffff",
         "item_border_color": "#e2e2e2",
         "question_color": "#121212",
