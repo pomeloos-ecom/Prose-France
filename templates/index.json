@@ -279,6 +279,7 @@
       "blocks": {
         "item_wpaLCT": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "product": "",
             "image": "shopify://shop_images/NTK.jpg",
@@ -289,6 +290,7 @@
         },
         "item_NpKrWX": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "product": "",
             "image": "shopify://shop_images/MSTK.jpg",
@@ -299,6 +301,7 @@
         },
         "item_KWC4Nt": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "product": "",
             "image": "shopify://shop_images/SKNT.jpg",
@@ -345,6 +348,310 @@
         "item_bjA6kp",
         "item_LWJDKA",
         "item_pgt39f"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {* {display: none !important; } {padding: 0 !important; margin: 0 !important; height: 0 !important; overflow: hidden !important; }}"
+      ],
+      "name": "COLLECTION PART 1 - PC",
+      "settings": {
+        "layout_gap": 30,
+        "layout_gap_mobile": 20,
+        "layout_padding_vertical": 50,
+        "layout_padding_vertical_mobile": 20,
+        "layout_padding_horizontal": 50,
+        "layout_padding_horizontal_mobile": 20,
+        "layout_radius": 0,
+        "layout_border_thickness": 0,
+        "two_column_mobile": false,
+        "card_padding_vertical": 16,
+        "card_padding_vertical_mobile": 16,
+        "card_padding_horizontal": 16,
+        "card_padding_horizontal_mobile": 16,
+        "card_radius": 16,
+        "card_border_thickness": 0,
+        "overlay": 0.2,
+        "card_image_ratio": "portrait",
+        "card_image_ratio_mobile": "landscape",
+        "content_vertical_align": "end",
+        "content_vertical_align_mobile": "end",
+        "title_custom": true,
+        "title_font": "red_hat_display_n7",
+        "title_size": 36,
+        "title_size_mobile": 30,
+        "title_height": 130,
+        "title_align": "left",
+        "title_align_mobile": "left",
+        "button_custom": true,
+        "button_font": "red_hat_display_n5",
+        "button_size": 14,
+        "button_size_mobile": 14,
+        "button_height": 100,
+        "button_padding_vertical": 16,
+        "button_padding_vertical_mobile": 16,
+        "button_padding_horizontal": 30,
+        "button_padding_horizontal_mobile": 50,
+        "button_radius": 0,
+        "button_border_thickness": 0,
+        "button_mt": 16,
+        "button_align": "left",
+        "button_align_mobile": "left",
+        "button_ellipse": false,
+        "button_icon": false,
+        "button_gap": 28,
+        "button_shadow": false,
+        "layout_bg_color": "#f9f4f1",
+        "layout_border_color": "#000000",
+        "card_border_color": "#000000",
+        "overlay_color": "#000000",
+        "title_color": "#ffffff",
+        "button_color": "#191919",
+        "button_hover_color": "#ffffff",
+        "button_bg_color": "#ffffff",
+        "button_bg_hover_color": "#000000",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "button_shadow_color": "#000000",
+        "background_color": "#f9f4f1",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "ss_image_grid_pro_QgjQcE": {
+      "type": "ss-image-grid-pro",
+      "blocks": {
+        "item_AMxGFy": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/NTK.jpg",
+            "title": "<h2>POEME</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_wD8Aj3": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/MSTK.jpg",
+            "title": "<h2>VERSET</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_ThB9NC": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/SKNT.jpg",
+            "title": "<h2>SONNET</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_CPdXgd": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/JSTK.jpg",
+            "title": "<h2>RIME</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_34q94d": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/SKNA.jpg",
+            "title": "<h2>FABLE</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_N76Ymm": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/SKOAK.jpg",
+            "title": "<h2>RIME</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        }
+      },
+      "block_order": [
+        "item_AMxGFy",
+        "item_wD8Aj3",
+        "item_ThB9NC",
+        "item_CPdXgd",
+        "item_34q94d",
+        "item_N76Ymm"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {* {display: none !important; } {padding: 0 !important; margin: 0 !important; height: 0 !important; overflow: hidden !important; }}"
+      ],
+      "name": "COLLECTION PART 2 - PC",
+      "settings": {
+        "layout_gap": 30,
+        "layout_gap_mobile": 20,
+        "layout_padding_vertical": 50,
+        "layout_padding_vertical_mobile": 20,
+        "layout_padding_horizontal": 50,
+        "layout_padding_horizontal_mobile": 20,
+        "layout_radius": 0,
+        "layout_border_thickness": 0,
+        "two_column_mobile": false,
+        "card_padding_vertical": 16,
+        "card_padding_vertical_mobile": 16,
+        "card_padding_horizontal": 16,
+        "card_padding_horizontal_mobile": 16,
+        "card_radius": 16,
+        "card_border_thickness": 0,
+        "overlay": 0.2,
+        "card_image_ratio": "portrait",
+        "card_image_ratio_mobile": "landscape",
+        "content_vertical_align": "end",
+        "content_vertical_align_mobile": "end",
+        "title_custom": true,
+        "title_font": "red_hat_display_n7",
+        "title_size": 36,
+        "title_size_mobile": 30,
+        "title_height": 130,
+        "title_align": "left",
+        "title_align_mobile": "left",
+        "button_custom": true,
+        "button_font": "red_hat_display_n5",
+        "button_size": 14,
+        "button_size_mobile": 14,
+        "button_height": 100,
+        "button_padding_vertical": 16,
+        "button_padding_vertical_mobile": 16,
+        "button_padding_horizontal": 30,
+        "button_padding_horizontal_mobile": 50,
+        "button_radius": 0,
+        "button_border_thickness": 0,
+        "button_mt": 16,
+        "button_align": "left",
+        "button_align_mobile": "left",
+        "button_ellipse": false,
+        "button_icon": false,
+        "button_gap": 28,
+        "button_shadow": false,
+        "layout_bg_color": "#f9f4f1",
+        "layout_border_color": "#000000",
+        "card_border_color": "#000000",
+        "overlay_color": "#000000",
+        "title_color": "#ffffff",
+        "button_color": "#191919",
+        "button_hover_color": "#ffffff",
+        "button_bg_color": "#ffffff",
+        "button_bg_hover_color": "#000000",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "button_shadow_color": "#000000",
+        "background_color": "#f9f4f1",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "ss_image_grid_pro_iMJwU4": {
+      "type": "ss-image-grid-pro",
+      "blocks": {
+        "item_GR9f6E": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/NTK.jpg",
+            "title": "<h2>POEME</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_HiaNy9": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/MSTK.jpg",
+            "title": "<h2>VERSET</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_xeQeQh": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/SKNT.jpg",
+            "title": "<h2>SONNET</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_hnFebp": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/JSTK.jpg",
+            "title": "<h2>RIME</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_48hTYU": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/SKNA.jpg",
+            "title": "<h2>FABLE</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_JfMTEi": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/SKOAK.jpg",
+            "title": "<h2>RIME</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        }
+      },
+      "block_order": [
+        "item_GR9f6E",
+        "item_HiaNy9",
+        "item_xeQeQh",
+        "item_hnFebp",
+        "item_48hTYU",
+        "item_JfMTEi"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {* {display: none !important; } {padding: 0 !important; margin: 0 !important; height: 0 !important; overflow: hidden !important; }}"
       ],
       "name": "SS - Image Grid Pro",
       "settings": {
@@ -2349,6 +2656,8 @@
     "scrolling_text_wFHC46",
     "ss_text_block_pro_BKy9b4",
     "ss_image_grid_pro_rbD3dE",
+    "ss_image_grid_pro_QgjQcE",
+    "ss_image_grid_pro_iMJwU4",
     "ss_featured_collection_tabs_6_HRh8yX",
     "ss_hero_32_3ibW8R",
     "image_with_text_overlay_yGJHMK",
