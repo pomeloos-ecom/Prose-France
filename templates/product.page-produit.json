@@ -211,6 +211,112 @@
         "rounded": false
       }
     },
+    "ss_text_block_pro_Ey7L8z": {
+      "type": "ss-text-block-pro",
+      "blocks": {
+        "subtitle_RMBmPB": {
+          "type": "subtitle",
+          "disabled": true,
+          "settings": {
+            "subtitle": "",
+            "subtitle_custom": false,
+            "subtitle_font": "assistant_n4",
+            "subtitle_size": 20,
+            "subtitle_height": 100,
+            "subtitle_align": "center",
+            "subtitle_mt": 0,
+            "subtitle_color": "#000000"
+          }
+        },
+        "title_K6PjnM": {
+          "type": "title",
+          "settings": {
+            "title": "CHAQUE DÉTAIL COMPTE",
+            "title_custom": true,
+            "title_font": "red_hat_display_n9",
+            "title_size": 34,
+            "title_height": 100,
+            "title_align": "center",
+            "title_mt": 12,
+            "title_color": "#000000"
+          }
+        },
+        "text_CahaGk": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Toutes nos montres sont assemblées à la main après votre commande. Vous pouvez choisir parmi des designs proposés ou créer votre propre montre à l'aide de notre configurateur.</p>",
+            "text_custom": false,
+            "text_font": "assistant_n4",
+            "text_size": 18,
+            "text_height": 120,
+            "text_align": "center",
+            "text_mt": 16,
+            "text_color": "#000000"
+          }
+        },
+        "button_66NrVq": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "btn": "Learn More",
+            "btn_url": "",
+            "btn_custom": false,
+            "btn_font": "assistant_n4",
+            "btn_size": 22,
+            "btn_height": 150,
+            "btn_align": "center",
+            "btn_width": 200,
+            "btn_mt": 32,
+            "btn_padding_horizontal": 16,
+            "btn_padding_vertical": 12,
+            "btn_border_thickness": 1,
+            "btn_radius": 0,
+            "btn_color": "#000000",
+            "btn_hover_color": "#000000",
+            "btn_bg_color": "",
+            "btn_bg_hover_color": "",
+            "btn_border_color": "#000000",
+            "btn_border_hover_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_RMBmPB",
+        "title_K6PjnM",
+        "text_CahaGk",
+        "button_66NrVq"
+      ],
+      "custom_css": [],
+      "name": "Name Collection",
+      "settings": {
+        "image_width": 20,
+        "image_custom": false,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "image_radius": 12,
+        "image_ration": "none",
+        "image_location": "row",
+        "image_location_mobile": "column",
+        "content_padding_horizontal": 40,
+        "content_padding_vertical": 40,
+        "content_radius": 40,
+        "gap": 30,
+        "gap_mobile": 15,
+        "background_color": "#f9f4f0",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "content_bg": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "content_width": 100,
+        "border_thickness": 0
+      }
+    },
     "multicolumn_A4RhUR": {
       "type": "multicolumn",
       "blocks": {
@@ -415,6 +521,7 @@
   },
   "order": [
     "main-product",
+    "ss_text_block_pro_Ey7L8z",
     "multicolumn_A4RhUR",
     "help-drawer"
   ]
