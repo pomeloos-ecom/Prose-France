@@ -96,6 +96,186 @@
         "rounded": false
       }
     },
+    "ss_faq_17_h97PBj": {
+      "type": "ss-faq-17",
+      "blocks": {
+        "heading_9mXxAe": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>VOS QUESTIONS</h2>",
+            "heading_custom": true,
+            "heading_font": "red_hat_display_n9",
+            "heading_size": 40,
+            "heading_size_mobile": 32,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
+            "heading_color": "#121212"
+          }
+        },
+        "text_bAcEhV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share details about your brand with customers. Introduce products, make announcements, or greet visitors to your store.</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 15,
+            "text_size_mobile": 15,
+            "text_height": 150,
+            "text_mt": 30,
+            "text_mt_mobile": 20,
+            "text_color": "#121212"
+          }
+        },
+        "tab_WfzmBk": {
+          "type": "tab",
+          "settings": {
+            "tab": "General information"
+          }
+        },
+        "faq_item_fWzaWW": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Answer</p>"
+          }
+        },
+        "faq_item_M9RK6A": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Questionk",
+            "answer": "<p>Answer</p>"
+          }
+        },
+        "faq_item_PbRXEf": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Answer</p>"
+          }
+        },
+        "tab_FfqmM7": {
+          "type": "tab",
+          "settings": {
+            "tab": "Product information"
+          }
+        },
+        "faq_item_FHGfCX": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Answer</p>"
+          }
+        },
+        "faq_item_XHbRpW": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Answer</p>"
+          }
+        },
+        "tab_tbTKAe": {
+          "type": "tab",
+          "settings": {
+            "tab": "Shipping & Delivery"
+          }
+        },
+        "faq_item_m9rbXi": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Answer</p>"
+          }
+        },
+        "faq_item_RPqrtr": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Answer</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9mXxAe",
+        "text_bAcEhV",
+        "tab_WfzmBk",
+        "faq_item_fWzaWW",
+        "faq_item_M9RK6A",
+        "faq_item_PbRXEf",
+        "tab_FfqmM7",
+        "faq_item_FHGfCX",
+        "faq_item_XHbRpW",
+        "tab_tbTKAe",
+        "faq_item_m9rbXi",
+        "faq_item_RPqrtr"
+      ],
+      "name": "SS - FAQ #17",
+      "settings": {
+        "content_max_width": 60,
+        "content_align": "center",
+        "content_align_mobile": "center",
+        "toggles_gap": 16,
+        "toggles_gap_mobile": 12,
+        "toggles_mt": 32,
+        "toggles_mt_mobile": 24,
+        "toggle_padding_horizontal": 26,
+        "toggle_padding_horizontal_mobile": 20,
+        "toggle_padding_vertical": 12,
+        "toggle_padding_vertical_mobile": 10,
+        "toggle_radius": 100,
+        "toggle_custom": false,
+        "toggle_font": "josefin_sans_n4",
+        "toggle_size": 14,
+        "toggle_size_mobile": 14,
+        "toggle_height": 130,
+        "tabs_mt": 24,
+        "tabs_mt_mobile": 24,
+        "item_mt": 12,
+        "item_mt_mobile": 12,
+        "item_padding_horizontal": 0,
+        "item_padding_horizontal_mobile": 0,
+        "item_padding_vertical": 20,
+        "item_padding_vertical_mobile": 14,
+        "item_border_thickness": 1,
+        "question_custom": false,
+        "question_font": "josefin_sans_n4",
+        "question_size": 16,
+        "question_size_mobile": 14,
+        "question_height": 150,
+        "icon_size": 26,
+        "icon_size_mobile": 24,
+        "answer_custom": false,
+        "answer_font": "josefin_sans_n4",
+        "answer_size": 14,
+        "answer_size_mobile": 14,
+        "answer_height": 150,
+        "answer_padding_top": 30,
+        "toggles_bg_color": "#F7F7F7",
+        "toggle_bg_color": "#121212",
+        "toggle_bg_gradient": "",
+        "toggle_color": "#121212",
+        "toggle_active_color": "#FFFFFF",
+        "item_border_color": "#E2E2E2",
+        "question_color": "#121212",
+        "answer_color": "#121212",
+        "icon_color": "#121212",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 800,
+        "border_thickness": 0,
+        "section_radius": 0
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -177,6 +357,7 @@
   },
   "order": [
     "multicolumn-with-icons",
+    "ss_faq_17_h97PBj",
     "footer",
     "footer-copyright"
   ]
