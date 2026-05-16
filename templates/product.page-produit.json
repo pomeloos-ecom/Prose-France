@@ -12,13 +12,6 @@
     "main-product": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_size": "text-base"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -28,20 +21,11 @@
             "show_rating": true
           }
         },
-        "description": {
-          "type": "description",
+        "vendor": {
+          "type": "text",
           "settings": {
+            "text": "{{ product.vendor }}",
             "text_size": "text-base"
-          }
-        },
-        "countdown": {
-          "type": "countdown",
-          "settings": {
-            "heading": "Hurry up!",
-            "subheading": "Sale end in:",
-            "color_text": "#e11d48",
-            "color_background": "#fff1f2",
-            "gradient_background": ""
           }
         },
         "variant_picker": {
@@ -54,20 +38,101 @@
             "size_chart": ""
           }
         },
-        "inventory": {
-          "type": "inventory",
-          "settings": {
-            "inventory_threshold": 15,
-            "show_inventory_transfer": true,
-            "color_scheme": "accent-1"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_quantity_selector": true,
             "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
+            "show_gift_card_recipient": true,
+            "enable_back_in_stock": false,
+            "show_back_in_stock_name": false,
+            "show_back_in_stock_phone": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "text_size": "text-base"
+          }
+        },
+        "collapsible_tab_ndQmb6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "wash",
+            "heading": "Ma montre est-elle étanche ?",
+            "content": "<p>Votre montre est conçue pour résister aux conditions du quotidien : éclaboussures, pluie ou un passage rapide sous l’eau claire.<br/><br/>En revanche, si vous prévoyez de l’exposer à des situations plus exigeantes, comme la baignade en piscine, nous pouvons renforcer son étanchéité en ajoutant des joints supplémentaires.</p><p>⚠️ Pensez toujours à bien revisser la couronne avant utilisation.<br/><br/>⚠️ Si vous souhaitez cette option d’étanchéité renforcée, il vous suffit de nous le signaler par e-mail ou WhatsApp dans les 24 heures suivant votre commande, afin que nous transmettions la demande à notre atelier.</p>",
+            "page": "",
+            "liquid": ""
+          }
+        },
+        "collapsible_tab_FHKxkt": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "heart",
+            "heading": "Pourquoi choisir Proseiko ?",
+            "content": "<p>Proseiko est<strong> le leader français de la montre automatique personnalisée. </strong>Nos ateliers assemblent chaque pièce à la main, sur commande, avec des <strong>matériaux de qualité. </strong>Nous offrons le <strong>meilleur rapport service-qualité-prix </strong>du marché, soutenus par une équipe locale réactive et déjà plus de 10 000 clients satisfaits. Avec Proseiko, vous avez la garantie de recevoir une montre unique, fidèle à vos attentes.</p>",
+            "page": "",
+            "liquid": ""
+          }
+        },
+        "collapsible_tab_PCcBjL": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "recycling",
+            "heading": "Que signifie \"montre automatique\" ?",
+            "content": "<p>Une montre automatique fonctionne sans pile : <strong>elle se recharge seule grâce aux mouvements de votre poignet.</strong> Tant que vous la portez chaque jour, elle continue de fonctionner. Si vous la laissez au repos plus de 42 heures, elle s’arrête simplement et repart dès que vous la remettez ou en tournant légèrement la couronne. Ce type de mécanisme, issu du <strong>savoir-faire horloger traditionnel</strong>, est plus complexe et raffiné qu’un mécanisme à quartz classique (pile).</p>",
+            "page": "",
+            "liquid": ""
+          }
+        },
+        "collapsible_tab_ANeeff": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "return",
+            "heading": "Satisfait ou remboursé",
+            "content": "<p>Vous avez 30 jours après la réception pour changer d’avis. Si la montre ne vous plaît pas, il suffit de nous la renvoyer et vous serez remboursé en totalité.</p>",
+            "page": "",
+            "liquid": ""
+          }
+        },
+        "collapsible_tab_R8qbte": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "watch",
+            "heading": "Composants et matériaux",
+            "content": "<ul><li>Mouvement Seiko authentique</li><li><strong>Verre Saphir</strong>, anti rayures avec traitement anti-reflets</li><li>Acier <strong>inoxydable</strong> 316L</li></ul>",
+            "page": "",
+            "liquid": ""
+          }
+        },
+        "collapsible_tab_7if77r": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "file_text",
+            "heading": "Description",
+            "content": "",
+            "page": "",
+            "liquid": "<div class=\"product-description\">\n  {{ product.description }}\n</div>"
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "settings": {
+            "heading": "Hurry up!",
+            "subheading": "Sale end in:",
+            "color_text": "#e11d48",
+            "color_background": "#fff1f2",
+            "gradient_background": ""
+          }
+        },
+        "inventory": {
+          "type": "inventory",
+          "disabled": true,
+          "settings": {
+            "inventory_threshold": 15,
+            "show_inventory_transfer": true,
+            "show_inventory_quantity": "low",
+            "color_scheme": "accent-1"
           }
         },
         "pickup_availability": {
@@ -99,13 +164,19 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
-        "description",
-        "countdown",
+        "vendor",
         "variant_picker",
-        "inventory",
         "buy_buttons",
+        "description",
+        "collapsible_tab_ndQmb6",
+        "collapsible_tab_FHKxkt",
+        "collapsible_tab_PCcBjL",
+        "collapsible_tab_ANeeff",
+        "collapsible_tab_R8qbte",
+        "collapsible_tab_7if77r",
+        "countdown",
+        "inventory",
         "pickup_availability",
         "share",
         "complementary",
@@ -116,11 +187,13 @@
         "media_size": 66,
         "gallery_layout": "scroll",
         "thumbnail_position": "beside",
+        "image_ratio": "adapt_first",
         "image_zoom": "lightbox",
         "hide_variants": false,
         "enable_video_autoplay": true,
         "enable_video_looping": true,
         "mobile_layout": "full_width",
+        "image_ratio_mobile": "adapt_first",
         "mobile_thumbnail": false,
         "padding_top": 0,
         "padding_bottom": 84,
