@@ -202,6 +202,129 @@
         "rounded": false
       }
     },
+    "multicolumn_A4RhUR": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_GfFVdK": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "landscape",
+            "video": "shopify://files/videos/hf_20260509_165219_9bf2bf6c-925e-40a3-9846-dc8bd88cb6e6.mp4",
+            "heading": "Example title",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_fAcYbm": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "landscape",
+            "video": "shopify://files/videos/Shootdavid.mp4",
+            "heading": "Example title",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_dfLGVP": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "landscape",
+            "video": "shopify://files/videos/9fa5f1cbalkkjhb89710f4f593d23.HD-1080p-2.5Mbps-67211903.mp4",
+            "heading": "Example title",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_J33yna": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "landscape",
+            "video": "shopify://files/videos/85670015b96c4211892294c733b0049d.HD-1080p-4.8Mbps-53608315.mp4",
+            "heading": "Example title",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_GfFVdK",
+        "column_fAcYbm",
+        "column_dfLGVP",
+        "column_J33yna"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "small",
+        "columns": 4,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Multicolumn",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
     "help-drawer": {
       "type": "help-drawer",
       "blocks": {
@@ -280,6 +403,7 @@
   },
   "order": [
     "main-product",
+    "multicolumn_A4RhUR",
     "help-drawer"
   ]
 }
