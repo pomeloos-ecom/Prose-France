@@ -1,0 +1,2679 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ss_hero_32_Lb9Emg": {
+      "type": "ss-hero-32",
+      "blocks": {
+        "review_MPHJQb": {
+          "type": "review",
+          "settings": {
+            "stars_count": 4.5,
+            "stars_size": 18,
+            "stars_size_mobile": 16,
+            "stars_text": "<p>4.6/5 sur plus de 500 avis</p>",
+            "review_custom": false,
+            "review_font": "josefin_sans_n4",
+            "review_size": 14,
+            "review_size_mobile": 13,
+            "review_height": 130,
+            "review_mt": 0,
+            "review_mt_mobile": 0,
+            "review_color": "#ffffff",
+            "stars_color": "#ffffff",
+            "stars_bg_color": "#00b67a",
+            "stars_bg_half_color": "#dddddd"
+          }
+        },
+        "heading_JHfcHE": {
+          "type": "heading",
+          "settings": {
+            "heading_up": "<p>VOTRE MONTRE</p>",
+            "heading_center": "AUTOMATIQUE, PERSONNALISÉE, SUR MESURE",
+            "heading_down": "<h1>VOTRE HISTOIRE</h1>",
+            "heading_custom": true,
+            "heading_font": "red_hat_display_n9",
+            "heading_size": 64,
+            "heading_size_mobile": 36,
+            "heading_height": 130,
+            "heading_mt": 24,
+            "heading_mt_mobile": 16,
+            "heading_color": "#ffffff"
+          }
+        },
+        "button_9MVYXg": {
+          "type": "button",
+          "settings": {
+            "button": "VOIR LES MODÈLES",
+            "url": "",
+            "button_custom": true,
+            "button_font": "red_hat_display_n7",
+            "button_size": 16,
+            "button_size_mobile": 14,
+            "button_height": 100,
+            "button_padding_horizontal": 32,
+            "button_padding_horizontal_mobile": 32,
+            "button_padding_vertical": 16,
+            "button_padding_vertical_mobile": 16,
+            "button_radius": 0,
+            "button_border_thickness": 0,
+            "button_mt": 24,
+            "button_mt_mobile": 16,
+            "button_style": "non_outline",
+            "button_color": "#121212",
+            "button_hover_color": "#ffffff",
+            "button_bg_color": "#ffffff",
+            "button_bg_hover_color": "#121212",
+            "button_border_color": "#121212",
+            "button_border_hover_color": "#121212"
+          }
+        }
+      },
+      "block_order": [
+        "review_MPHJQb",
+        "heading_JHfcHE",
+        "button_9MVYXg"
+      ],
+      "name": "SS - Hero #32",
+      "settings": {
+        "layout_height": "fixed_height",
+        "layout_fixed_height": 800,
+        "layout_fixed_height_mobile": 450,
+        "layout_padding_horizontal": 50,
+        "layout_padding_horizontal_mobile": 16,
+        "layout_padding_vertical": 62,
+        "layout_padding_vertical_mobile": 32,
+        "layout_radius": 16,
+        "bg_image": "shopify://shop_images/banner-prose.png",
+        "bg_image_mobile": "shopify://shop_images/banner-phone-prose.png",
+        "bg_image_overlay": 0,
+        "use_gradient": true,
+        "content_align": "left",
+        "content_align_mobile": "left",
+        "content_vertical_align": "end",
+        "content_vertical_align_mobile": "end",
+        "features_mt": 24,
+        "features_mt_mobile": 12,
+        "feature_gap": 8,
+        "feature_gap_mobile": 8,
+        "feature_mt": 4,
+        "feature_mt_mobile": 4,
+        "feature_icon_size": 16,
+        "feature_icon_size_mobile": 16,
+        "feature_text_custom": false,
+        "feature_text_font": "josefin_sans_n4",
+        "feature_text_size": 16,
+        "feature_text_size_mobile": 16,
+        "feature_text_height": 150,
+        "feature_icon_color": "#ffffff",
+        "feature_text_color": "#ffffff",
+        "bg_image_overlay_color": "#121212",
+        "gradient_color": "linear-gradient(#0a0a0a00, #0a171700 9%, #0a0a0a00 41%, #0a0a0ab3 80%)",
+        "background_color": "#f9f4f0",
+        "background_gradient": "",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 4,
+        "padding_bottom": 36,
+        "padding_horizontal": 2,
+        "padding_horizontal_mobile": 0.5,
+        "full_width": true,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": false
+      }
+    },
+    "scrolling_text_wFHC46": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text_hraapQ": {
+          "type": "text",
+          "settings": {
+            "text": "OFFRE SPÉCIALE EN COURS",
+            "text_size": 26,
+            "text_font": "heading",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "text_hraapQ"
+      ],
+      "disabled": true,
+      "name": "t:sections.scrolling-text.presets.name",
+      "settings": {
+        "direction": "left",
+        "speed": 8,
+        "grid_horizontal": 70,
+        "enable_twin": false,
+        "enable_parallax": false,
+        "color_text": "#fffbeb",
+        "color_background": "#272727",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "padding_top": 40,
+        "padding_bottom": 32,
+        "divider": false,
+        "rounded": false
+      }
+    },
+    "ss_text_block_pro_BKy9b4": {
+      "type": "ss-text-block-pro",
+      "blocks": {
+        "subtitle_rHkeXh": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "",
+            "subtitle_custom": false,
+            "subtitle_font": "assistant_n4",
+            "subtitle_size": 20,
+            "subtitle_height": 100,
+            "subtitle_align": "center",
+            "subtitle_mt": 0,
+            "subtitle_color": "#000000"
+          }
+        },
+        "title_gNF6gj": {
+          "type": "title",
+          "settings": {
+            "title": "DÉCOUVREZ NOS COLLECTIONS",
+            "title_custom": true,
+            "title_font": "red_hat_display_n9",
+            "title_size": 34,
+            "title_height": 100,
+            "title_align": "center",
+            "title_mt": 12,
+            "title_color": "#000000"
+          }
+        },
+        "text_yrD83k": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Toutes nos montres sont assemblées à la main après votre commande. Vous pouvez choisir parmi des designs proposés ou créer votre propre montre à l'aide de notre configurateur.</p>",
+            "text_custom": false,
+            "text_font": "assistant_n4",
+            "text_size": 18,
+            "text_height": 120,
+            "text_align": "center",
+            "text_mt": 16,
+            "text_color": "#000000"
+          }
+        },
+        "button_T8kLib": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "btn": "Learn More",
+            "btn_url": "",
+            "btn_custom": false,
+            "btn_font": "assistant_n4",
+            "btn_size": 22,
+            "btn_height": 150,
+            "btn_align": "center",
+            "btn_width": 200,
+            "btn_mt": 32,
+            "btn_padding_horizontal": 16,
+            "btn_padding_vertical": 12,
+            "btn_border_thickness": 1,
+            "btn_radius": 0,
+            "btn_color": "#000000",
+            "btn_hover_color": "#000000",
+            "btn_bg_color": "",
+            "btn_bg_hover_color": "",
+            "btn_border_color": "#000000",
+            "btn_border_hover_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_rHkeXh",
+        "title_gNF6gj",
+        "text_yrD83k",
+        "button_T8kLib"
+      ],
+      "custom_css": [],
+      "name": "Name Collection",
+      "settings": {
+        "image_width": 20,
+        "image_custom": false,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "image_radius": 12,
+        "image_ration": "none",
+        "image_location": "row",
+        "image_location_mobile": "column",
+        "content_padding_horizontal": 40,
+        "content_padding_vertical": 40,
+        "content_radius": 40,
+        "gap": 30,
+        "gap_mobile": 15,
+        "background_color": "#f9f4f0",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "content_bg": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "content_width": 100,
+        "border_thickness": 0
+      }
+    },
+    "ss_image_grid_pro_rbD3dE": {
+      "type": "ss-image-grid-pro",
+      "blocks": {
+        "item_wpaLCT": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/NTK.jpg",
+            "title": "<h2>POEME</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_NpKrWX": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/MSTK.jpg",
+            "title": "<h2>VERSET</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_KWC4Nt": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/SKNT.jpg",
+            "title": "<h2>SONNET</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_bjA6kp": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/JSTK.jpg",
+            "title": "<h2>RIME</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_LWJDKA": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/SKNA.jpg",
+            "title": "<h2>FABLE</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_pgt39f": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/SKOAK.jpg",
+            "title": "<h2>RIME</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        }
+      },
+      "block_order": [
+        "item_wpaLCT",
+        "item_NpKrWX",
+        "item_KWC4Nt",
+        "item_bjA6kp",
+        "item_LWJDKA",
+        "item_pgt39f"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {* {display: none !important; } {padding: 0 !important; margin: 0 !important; height: 0 !important; overflow: hidden !important; }}"
+      ],
+      "name": "COLLECTION PART 1 - PC",
+      "settings": {
+        "layout_gap": 30,
+        "layout_gap_mobile": 20,
+        "layout_padding_vertical": 50,
+        "layout_padding_vertical_mobile": 20,
+        "layout_padding_horizontal": 50,
+        "layout_padding_horizontal_mobile": 20,
+        "layout_radius": 0,
+        "layout_border_thickness": 0,
+        "two_column_mobile": false,
+        "card_padding_vertical": 16,
+        "card_padding_vertical_mobile": 16,
+        "card_padding_horizontal": 16,
+        "card_padding_horizontal_mobile": 16,
+        "card_radius": 16,
+        "card_border_thickness": 0,
+        "overlay": 0.2,
+        "card_image_ratio": "square",
+        "card_image_ratio_mobile": "landscape",
+        "content_vertical_align": "end",
+        "content_vertical_align_mobile": "end",
+        "title_custom": true,
+        "title_font": "red_hat_display_n7",
+        "title_size": 36,
+        "title_size_mobile": 30,
+        "title_height": 130,
+        "title_align": "left",
+        "title_align_mobile": "left",
+        "button_custom": true,
+        "button_font": "red_hat_display_n5",
+        "button_size": 14,
+        "button_size_mobile": 14,
+        "button_height": 100,
+        "button_padding_vertical": 16,
+        "button_padding_vertical_mobile": 16,
+        "button_padding_horizontal": 30,
+        "button_padding_horizontal_mobile": 50,
+        "button_radius": 0,
+        "button_border_thickness": 0,
+        "button_mt": 16,
+        "button_align": "left",
+        "button_align_mobile": "left",
+        "button_ellipse": false,
+        "button_icon": false,
+        "button_gap": 28,
+        "button_shadow": false,
+        "layout_bg_color": "#f9f4f1",
+        "layout_border_color": "#000000",
+        "card_border_color": "#000000",
+        "overlay_color": "#000000",
+        "title_color": "#ffffff",
+        "button_color": "#191919",
+        "button_hover_color": "#ffffff",
+        "button_bg_color": "#ffffff",
+        "button_bg_hover_color": "#000000",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "button_shadow_color": "#000000",
+        "background_color": "#f9f4f1",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "ss_image_grid_pro_QgjQcE": {
+      "type": "ss-image-grid-pro",
+      "blocks": {
+        "item_AMxGFy": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/NTK.jpg",
+            "title": "<h2>POEME</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_wD8Aj3": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/MSTK.jpg",
+            "title": "<h2>VERSET</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_ThB9NC": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/SKNT.jpg",
+            "title": "<h2>SONNET</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_CPdXgd": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/JSTK.jpg",
+            "title": "<h2>RIME</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_34q94d": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/SKNA.jpg",
+            "title": "<h2>FABLE</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_N76Ymm": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/SKOAK.jpg",
+            "title": "<h2>RIME</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        }
+      },
+      "block_order": [
+        "item_AMxGFy",
+        "item_wD8Aj3",
+        "item_ThB9NC",
+        "item_CPdXgd",
+        "item_34q94d",
+        "item_N76Ymm"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {* {display: none !important; } {padding: 0 !important; margin: 0 !important; height: 0 !important; overflow: hidden !important; }}"
+      ],
+      "name": "COLLECTION PART 2 - PC",
+      "settings": {
+        "layout_gap": 30,
+        "layout_gap_mobile": 20,
+        "layout_padding_vertical": 50,
+        "layout_padding_vertical_mobile": 20,
+        "layout_padding_horizontal": 50,
+        "layout_padding_horizontal_mobile": 20,
+        "layout_radius": 0,
+        "layout_border_thickness": 0,
+        "two_column_mobile": false,
+        "card_padding_vertical": 16,
+        "card_padding_vertical_mobile": 16,
+        "card_padding_horizontal": 16,
+        "card_padding_horizontal_mobile": 16,
+        "card_radius": 16,
+        "card_border_thickness": 0,
+        "overlay": 0.2,
+        "card_image_ratio": "square",
+        "card_image_ratio_mobile": "landscape",
+        "content_vertical_align": "end",
+        "content_vertical_align_mobile": "end",
+        "title_custom": true,
+        "title_font": "red_hat_display_n7",
+        "title_size": 36,
+        "title_size_mobile": 30,
+        "title_height": 130,
+        "title_align": "left",
+        "title_align_mobile": "left",
+        "button_custom": true,
+        "button_font": "red_hat_display_n5",
+        "button_size": 14,
+        "button_size_mobile": 14,
+        "button_height": 100,
+        "button_padding_vertical": 16,
+        "button_padding_vertical_mobile": 16,
+        "button_padding_horizontal": 30,
+        "button_padding_horizontal_mobile": 50,
+        "button_radius": 0,
+        "button_border_thickness": 0,
+        "button_mt": 16,
+        "button_align": "left",
+        "button_align_mobile": "left",
+        "button_ellipse": false,
+        "button_icon": false,
+        "button_gap": 28,
+        "button_shadow": false,
+        "layout_bg_color": "#f9f4f1",
+        "layout_border_color": "#000000",
+        "card_border_color": "#000000",
+        "overlay_color": "#000000",
+        "title_color": "#ffffff",
+        "button_color": "#191919",
+        "button_hover_color": "#ffffff",
+        "button_bg_color": "#ffffff",
+        "button_bg_hover_color": "#000000",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "button_shadow_color": "#000000",
+        "background_color": "#f9f4f1",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "ss_image_grid_pro_iMJwU4": {
+      "type": "ss-image-grid-pro",
+      "blocks": {
+        "item_GR9f6E": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/NTK.jpg",
+            "title": "<h2>POEME</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_HiaNy9": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/MSTK.jpg",
+            "title": "<h2>VERSET</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_xeQeQh": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/SKNT.jpg",
+            "title": "<h2>SONNET</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_hnFebp": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/JSTK.jpg",
+            "title": "<h2>RIME</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_48hTYU": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/SKNA.jpg",
+            "title": "<h2>FABLE</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_JfMTEi": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/SKOAK.jpg",
+            "title": "<h2>RIME</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        }
+      },
+      "block_order": [
+        "item_GR9f6E",
+        "item_HiaNy9",
+        "item_xeQeQh",
+        "item_hnFebp",
+        "item_48hTYU",
+        "item_JfMTEi"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {* {display: none !important; } {padding: 0 !important; margin: 0 !important; height: 0 !important; overflow: hidden !important; }}"
+      ],
+      "name": "SS - Image Grid Pro",
+      "settings": {
+        "layout_gap": 30,
+        "layout_gap_mobile": 20,
+        "layout_padding_vertical": 50,
+        "layout_padding_vertical_mobile": 20,
+        "layout_padding_horizontal": 50,
+        "layout_padding_horizontal_mobile": 20,
+        "layout_radius": 0,
+        "layout_border_thickness": 0,
+        "two_column_mobile": false,
+        "card_padding_vertical": 16,
+        "card_padding_vertical_mobile": 16,
+        "card_padding_horizontal": 16,
+        "card_padding_horizontal_mobile": 16,
+        "card_radius": 16,
+        "card_border_thickness": 0,
+        "overlay": 0.2,
+        "card_image_ratio": "portrait",
+        "card_image_ratio_mobile": "landscape",
+        "content_vertical_align": "end",
+        "content_vertical_align_mobile": "end",
+        "title_custom": true,
+        "title_font": "red_hat_display_n7",
+        "title_size": 36,
+        "title_size_mobile": 30,
+        "title_height": 130,
+        "title_align": "left",
+        "title_align_mobile": "left",
+        "button_custom": true,
+        "button_font": "red_hat_display_n5",
+        "button_size": 14,
+        "button_size_mobile": 14,
+        "button_height": 100,
+        "button_padding_vertical": 16,
+        "button_padding_vertical_mobile": 16,
+        "button_padding_horizontal": 30,
+        "button_padding_horizontal_mobile": 50,
+        "button_radius": 0,
+        "button_border_thickness": 0,
+        "button_mt": 16,
+        "button_align": "left",
+        "button_align_mobile": "left",
+        "button_ellipse": false,
+        "button_icon": false,
+        "button_gap": 28,
+        "button_shadow": false,
+        "layout_bg_color": "#f9f4f1",
+        "layout_border_color": "#000000",
+        "card_border_color": "#000000",
+        "overlay_color": "#000000",
+        "title_color": "#ffffff",
+        "button_color": "#191919",
+        "button_hover_color": "#ffffff",
+        "button_bg_color": "#ffffff",
+        "button_bg_hover_color": "#000000",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "button_shadow_color": "#000000",
+        "background_color": "#f9f4f1",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "ss_featured_collection_tabs_6_HRh8yX": {
+      "type": "ss-featured-collection-tabs-6",
+      "blocks": {
+        "heading_Jj7UUk": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>CLIQUEZ SUR <br/>UNE COLLECTION</p>",
+            "heading_custom": true,
+            "heading_font": "red_hat_display_n8",
+            "heading_size": 34,
+            "heading_size_mobile": 30,
+            "heading_advanced": true,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
+            "heading_color": "#121212"
+          }
+        },
+        "text_ULCaDV": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>ET FAITES DÉFILER LES MODÈLES</strong></p>",
+            "text_custom": true,
+            "text_font": "lora_n5",
+            "text_size": 24,
+            "text_size_mobile": 16,
+            "text_advanced": false,
+            "text_height": 150,
+            "text_mt": 12,
+            "text_mt_mobile": 10,
+            "text_color": "#4d4949"
+          }
+        },
+        "text_zUG78B": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Cliquez sur le nom d'une collection pour découvrir les modèles qui s'y trouvent.</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 16,
+            "text_size_mobile": 14,
+            "text_advanced": false,
+            "text_height": 150,
+            "text_mt": 12,
+            "text_mt_mobile": 10,
+            "text_color": "#121212"
+          }
+        },
+        "collection_NrVjiQ": {
+          "type": "collection",
+          "settings": {
+            "tab": "NAUTIKO",
+            "collection": "nautiko-montre-automatique",
+            "products_show": 8,
+            "products": [],
+            "custom_url": "",
+            "shape_color": "#f9f4f0",
+            "background_style": "solid",
+            "background_color": "#f9f4f0",
+            "background_gradient": "linear-gradient(0deg, rgba(65, 136, 131, 1), rgba(167, 221, 215, 1) 18%, rgba(249, 244, 240, 1) 32%, rgba(249, 244, 240, 1) 100%)"
+          }
+        },
+        "collection_HLg3Hw": {
+          "type": "collection",
+          "settings": {
+            "tab": "JUSTEIKO",
+            "collection": "justeiko-montre-automatique",
+            "products_show": 10,
+            "products": [],
+            "custom_url": "",
+            "shape_color": "#f9f4f0",
+            "background_style": "solid",
+            "background_color": "#f9f4f0",
+            "background_gradient": "linear-gradient(0deg, rgba(152, 18, 18, 1) 3%, rgba(217, 140, 140, 1) 15%, rgba(255, 255, 255, 1) 25%, rgba(249, 244, 240, 1) 100%)"
+          }
+        },
+        "collection_RW8EnJ": {
+          "type": "collection",
+          "settings": {
+            "tab": "SEIKOAK",
+            "collection": "seikoak-montre-automatique",
+            "products_show": 10,
+            "products": [],
+            "custom_url": "",
+            "shape_color": "#f9f4f0",
+            "background_style": "solid",
+            "background_color": "#f9f4f0",
+            "background_gradient": "radial-gradient(rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 1) 42%, rgba(68, 89, 116, 1) 100%)"
+          }
+        },
+        "collection_qbNMx9": {
+          "type": "collection",
+          "settings": {
+            "tab": "SEIKONA",
+            "collection": "seikona-montre-automatique",
+            "products_show": 10,
+            "products": [],
+            "custom_url": "",
+            "shape_color": "#f9f4f0",
+            "background_style": "solid",
+            "background_color": "#f9f4f0",
+            "background_gradient": "radial-gradient(rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 1) 42%, rgba(61, 100, 39, 1) 100%)"
+          }
+        },
+        "collection_mNKEjm": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "tab": "SEIKONAUT",
+            "collection": "seikona-montre-automatique",
+            "products_show": 10,
+            "products": [],
+            "custom_url": "",
+            "shape_color": "#f7f7f7",
+            "background_style": "solid",
+            "background_color": "#ffffff",
+            "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)"
+          }
+        },
+        "collection_C7jHRM": {
+          "type": "collection",
+          "settings": {
+            "tab": "MASTEIKO",
+            "collection": "masteiko-montre-automatique",
+            "products_show": 10,
+            "products": [],
+            "custom_url": "",
+            "shape_color": "#f9f4f0",
+            "background_style": "solid",
+            "background_color": "#f9f4f0",
+            "background_gradient": "radial-gradient(rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 1) 42%, rgba(65, 136, 131, 1) 100%)"
+          }
+        },
+        "collection_RfyAQi": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "tab": "COUPS DE COEUR",
+            "collection": "coups-de-coeur",
+            "products_show": 10,
+            "products": [],
+            "custom_url": "",
+            "shape_color": "#be123c",
+            "background_style": "solid",
+            "background_color": "#ffceda",
+            "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Jj7UUk",
+        "text_ULCaDV",
+        "text_zUG78B",
+        "collection_NrVjiQ",
+        "collection_HLg3Hw",
+        "collection_RW8EnJ",
+        "collection_qbNMx9",
+        "collection_mNKEjm",
+        "collection_C7jHRM",
+        "collection_RfyAQi"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "* {box-sizing: border-box;}",
+        "@media screen and (min-width: 750px) {{background-color: #f9f4f0 !important; padding-left: 2rem !important; padding-right: 2rem !important; }}"
+      ],
+      "name": "SS - Featured collection (tabs) #6",
+      "settings": {
+        "content_max_width": 80,
+        "content_align": "center",
+        "content_align_mobile": "center",
+        "tabs_advanced": true,
+        "tabs_gap": 10,
+        "tabs_gap_mobile": 8,
+        "tabs_mt": 32,
+        "tabs_mt_mobile": 32,
+        "tab_custom": true,
+        "tab_font": "serif",
+        "tab_size": 16,
+        "tab_size_mobile": 14,
+        "tab_advanced": true,
+        "tab_height": 100,
+        "tab_background": true,
+        "tab_radius": 0,
+        "tab_border_thickness": 1,
+        "tab_padding_vertical": 12,
+        "tab_padding_vertical_mobile": 12,
+        "tab_padding_horizontal": 40,
+        "tab_padding_horizontal_mobile": 20,
+        "slider_view": 5,
+        "slider_view_mobile": 2,
+        "slider_advanced": true,
+        "slider_gap": 90,
+        "slider_gap_mobile": 20,
+        "slider_mt": 40,
+        "slider_mt_mobile": 32,
+        "slide_content_align": "center",
+        "slide_content_align_mobile": "center",
+        "slide_content_advanced": true,
+        "slide_content_padding_horizontal": 0,
+        "slide_content_padding_horizontal_mobile": 0,
+        "slide_content_padding_vertical": 20,
+        "slide_content_padding_vertical_mobile": 16,
+        "image_ratio": "portrait",
+        "image_ratio_mobile": "portrait",
+        "image_hover_type": "zoom",
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 15,
+        "title_size_mobile": 18,
+        "title_height": 130,
+        "show_vendor": false,
+        "vendor_custom": false,
+        "vendor_font": "josefin_sans_n4",
+        "vendor_size": 14,
+        "vendor_size_mobile": 14,
+        "vendor_advanced": false,
+        "vendor_height": 150,
+        "vendor_mt": 16,
+        "vendor_mt_mobile": 16,
+        "show_details": false,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 16,
+        "text_size_mobile": 16,
+        "text_advanced": false,
+        "text_height": 150,
+        "text_mt": 16,
+        "text_mt_mobile": 16,
+        "show_price": true,
+        "price_custom": false,
+        "price_font": "josefin_sans_n4",
+        "price_size": 16,
+        "price_size_mobile": 16,
+        "price_advanced": false,
+        "price_height": 150,
+        "price_mt": 16,
+        "price_mt_mobile": 16,
+        "price_compare": true,
+        "product_button": "DÉCOUVRIR",
+        "product_button_open_in_new_tab": false,
+        "product_button_style": "non_outline",
+        "product_button_custom": true,
+        "product_button_font": "red_hat_display_n9",
+        "product_button_size": 16,
+        "product_button_size_mobile": 15,
+        "product_button_advanced": true,
+        "product_button_height": 100,
+        "product_button_padding_vertical": 16,
+        "product_button_padding_vertical_mobile": 16,
+        "product_button_padding_horizontal": 14,
+        "product_button_padding_horizontal_mobile": 14,
+        "product_button_radius": 0,
+        "product_button_border_thickness": 1,
+        "product_button_mt": 16,
+        "product_button_mt_mobile": 16,
+        "product_button_full_mobile": false,
+        "use_button": true,
+        "button": "VOIR LA COLLECTION",
+        "button_open_in_new_tab": false,
+        "button_style": "outline_arrow",
+        "button_custom": true,
+        "button_font": "red_hat_display_n8",
+        "button_size": 14,
+        "button_size_mobile": 14,
+        "button_advanced": true,
+        "button_height": 100,
+        "button_padding_vertical": 14,
+        "button_padding_vertical_mobile": 16,
+        "button_padding_horizontal": 14,
+        "button_padding_horizontal_mobile": 14,
+        "button_radius": 0,
+        "button_border_thickness": 2,
+        "button_mt": 16,
+        "button_mt_mobile": 16,
+        "button_full_mobile": false,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "arrow_size": 48,
+        "arrow_size_mobile": 38,
+        "arrow_icon_size": 10,
+        "arrow_icon_size_mobile": 8,
+        "arrow_border_thickness": 0,
+        "arrow_radius": 100,
+        "arrow_hover_effect": "color",
+        "navigation_mt_mobile": 20,
+        "arrow_horizontal_position": 25,
+        "arrow_vertical_position": 75,
+        "color_mode": "advanced",
+        "color_primary": "#121212",
+        "color_secondary": "#fffbf4",
+        "color_accent": "#121212",
+        "title_color": "#121212",
+        "vendor_color": "#5e5e5e",
+        "text_color": "#121212",
+        "price_color": "#121212",
+        "price_original_color": "#a8a8a8",
+        "tab_color": "#707070",
+        "tab_hover_color": "#121212",
+        "tab_active_color": "#ffffff",
+        "tab_bg_color": "#ffffff",
+        "tab_bg_hover_color": "#f5f5f5",
+        "tab_bg_active_color": "#2d2d2d",
+        "tab_border_color": "#171717",
+        "tab_border_hover_color": "#121212",
+        "tab_border_active_color": "#121212",
+        "product_button_color": "#ffffff",
+        "product_button_hover_color": "#ffffff",
+        "product_button_bg_color": "#292b2f",
+        "product_button_bg_hover_color": "#2c2c2c",
+        "product_button_border_color": "#121212",
+        "product_button_border_hover_color": "#2c2c2c",
+        "button_color": "#292b2f",
+        "button_hover_color": "#ffffff",
+        "button_bg_color": "rgba(0,0,0,0)",
+        "button_bg_hover_color": "#121212",
+        "button_border_color": "rgba(0,0,0,0)",
+        "button_border_hover_color": "#121212",
+        "arrow_color": "#fffbeb",
+        "arrow_hover_color": "#7b7b7b",
+        "arrow_bg_color": "#272727",
+        "arrow_bg_hover_color": "#f5f5f5",
+        "arrow_border_color": "#cfcfcf",
+        "arrow_border_hover_color": "#121212",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 100,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 2,
+        "width": "page",
+        "content_width": 1100,
+        "border_thickness": 0,
+        "section_radius": 16,
+        "lazy": true
+      }
+    },
+    "ss_hero_32_3ibW8R": {
+      "type": "ss-hero-32",
+      "blocks": {
+        "heading_6DwLeD": {
+          "type": "heading",
+          "settings": {
+            "heading_up": "<p>CONFIGUREZ</p>",
+            "heading_center": "VOTRE MONTRE, UNE PIÈCE UNIQUE",
+            "heading_down": "",
+            "heading_custom": true,
+            "heading_font": "red_hat_display_n9",
+            "heading_size": 40,
+            "heading_size_mobile": 30,
+            "heading_height": 130,
+            "heading_mt": 24,
+            "heading_mt_mobile": 16,
+            "heading_color": "#ffffff"
+          }
+        },
+        "text_N4Mzyd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Créer une montre sur mesure<br/>à l'aide de notre configurateur</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 16,
+            "text_size_mobile": 16,
+            "text_height": 150,
+            "text_mt": 24,
+            "text_mt_mobile": 16,
+            "text_width": 40,
+            "text_color": "#ffffff"
+          }
+        },
+        "button_TdTkb4": {
+          "type": "button",
+          "settings": {
+            "button": "CONFIGURER UNE MONTRE",
+            "url": "",
+            "button_custom": true,
+            "button_font": "red_hat_display_n5",
+            "button_size": 16,
+            "button_size_mobile": 13,
+            "button_height": 100,
+            "button_padding_horizontal": 32,
+            "button_padding_horizontal_mobile": 32,
+            "button_padding_vertical": 16,
+            "button_padding_vertical_mobile": 16,
+            "button_radius": 0,
+            "button_border_thickness": 0,
+            "button_mt": 24,
+            "button_mt_mobile": 16,
+            "button_style": "non_outline",
+            "button_color": "#121212",
+            "button_hover_color": "#ffffff",
+            "button_bg_color": "#ffffff",
+            "button_bg_hover_color": "#121212",
+            "button_border_color": "#121212",
+            "button_border_hover_color": "#121212"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6DwLeD",
+        "text_N4Mzyd",
+        "button_TdTkb4"
+      ],
+      "name": "SS - Hero #32",
+      "settings": {
+        "layout_height": "fixed_height",
+        "layout_fixed_height": 350,
+        "layout_fixed_height_mobile": 260,
+        "layout_padding_horizontal": 50,
+        "layout_padding_horizontal_mobile": 16,
+        "layout_padding_vertical": 0,
+        "layout_padding_vertical_mobile": 32,
+        "layout_radius": 16,
+        "bg_image": "shopify://shop_images/hf_20260509_231606_0c7b39c7-224f-45a5-bf81-7aff377bf138_1.png",
+        "bg_image_mobile": "shopify://shop_images/hf_20260515_143017_e6c6b596-da83-4410-a63e-222009c56342_1.png",
+        "bg_image_overlay": 0,
+        "use_gradient": true,
+        "content_align": "left",
+        "content_align_mobile": "left",
+        "content_vertical_align": "start",
+        "content_vertical_align_mobile": "center",
+        "features_mt": 24,
+        "features_mt_mobile": 12,
+        "feature_gap": 8,
+        "feature_gap_mobile": 8,
+        "feature_mt": 4,
+        "feature_mt_mobile": 4,
+        "feature_icon_size": 16,
+        "feature_icon_size_mobile": 16,
+        "feature_text_custom": false,
+        "feature_text_font": "josefin_sans_n4",
+        "feature_text_size": 16,
+        "feature_text_size_mobile": 16,
+        "feature_text_height": 150,
+        "feature_icon_color": "#ffffff",
+        "feature_text_color": "#ffffff",
+        "bg_image_overlay_color": "#121212",
+        "gradient_color": "linear-gradient(#0a0a0a00, #0a171700 9%, #0a0a0a00 41%, #0a0a0ab3 80%)",
+        "background_color": "#f9f4f0",
+        "background_gradient": "",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 1,
+        "padding_top": 4,
+        "padding_bottom": 36,
+        "padding_horizontal": 2,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": false
+      }
+    },
+    "image_with_text_overlay_yGJHMK": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_mKa3zd": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "NOUVEAU | ÉDITION LIMITÉE",
+            "subheading_size": "subtitle-md",
+            "secondary_color": false
+          }
+        },
+        "heading_FjYKaj": {
+          "type": "heading",
+          "settings": {
+            "heading": "DÉCOUVREZ LA NOUVELLE  DWELEIKO",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_mHKFPx": {
+          "type": "button",
+          "settings": {
+            "button_label": "DÉCOUVRIR",
+            "button_link": "shopify://collections/dwelleiko-montre-automatique",
+            "button_style": "primary",
+            "button_size": "sm",
+            "button_external": false,
+            "button_icon": false
+          }
+        },
+        "link_LGeDmi": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "label": "DÉCOUVRIR",
+            "link": "shopify://collections/dwelleiko-montre-automatique",
+            "external": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_mKa3zd",
+        "heading_FjYKaj",
+        "button_mHKFPx",
+        "link_LGeDmi"
+      ],
+      "name": "t:sections.image-with-text-overlay.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/Design_sans_titre_11.jpg",
+        "image_height": "adapt",
+        "content_width": "small",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "image_mobile": "shopify://shop_images/dwell_mobile_no_text_b13bcdab-1a67-467a-b3b0-e2c69f350ae2.jpg",
+        "image_height_mobile": "adapt",
+        "content_position_mobile": "items-start justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#171717",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 20,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
+    "multicolumn_with_icons_r7rrHt": {
+      "type": "multicolumn-with-icons",
+      "blocks": {
+        "column_qTBqtp": {
+          "type": "column",
+          "settings": {
+            "icon": "return",
+            "custom_icon": "<svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1000.000000pt\" height=\"1000.000000pt\" viewbox=\"0 0 1000.000000 1000.000000\" preserveaspectratio=\"xMidYMid meet\">\n\n<g transform=\"translate(0.000000,1000.000000) scale(0.100000,-0.100000)\" fill=\"#000000\" stroke=\"none\">\n<path d=\"M3101 9964 c-41 -17 -64 -41 -235 -243 -494 -583 -986 -1251 -1333\n-1811 -319 -514 -594 -1079 -721 -1481 -117 -368 -151 -627 -132 -989 42 -799\n267 -1389 690 -1810 333 -331 771 -529 1340 -605 165 -23 608 -31 778 -16 261\n24 542 83 737 156 126 47 336 151 440 219 228 149 445 373 594 614 196 316\n318 689 377 1157 26 203 26 666 1 820 -129 766 -634 1742 -1515 2925 -272 365\n-746 949 -843 1037 -48 44 -116 54 -178 27z m154 -502 c759 -917 1386 -1845\n1716 -2540 158 -331 275 -665 325 -932 75 -392 15 -1023 -136 -1430 -213 -577\n-606 -950 -1184 -1125 -456 -137 -1093 -142 -1581 -10 -893 241 -1385 1021\n-1385 2196 0 198 14 316 60 505 200 828 931 2037 2030 3357 36 42 67 77 70 77\n3 -1 41 -45 85 -98z\"></path>\n<path d=\"M1456 6150 c-38 -12 -93 -66 -105 -104 -39 -123 -49 -594 -17 -831\n115 -855 556 -1376 1291 -1525 55 -12 132 -23 171 -27 84 -7 130 10 172 65 23\n30 27 45 27 98 0 107 -52 154 -192 173 -676 93 -1053 522 -1143 1301 -15 131\n-15 463 0 588 15 126 9 162 -37 212 -47 53 -102 69 -167 50z\"></path>\n<path d=\"M7745 6961 c-97 -61 -525 -590 -761 -941 -380 -565 -593 -1045 -645\n-1456 -14 -117 -7 -399 15 -549 86 -585 343 -995 751 -1195 226 -111 419 -153\n710 -153 297 0 498 41 719 147 502 241 786 806 786 1562 0 241 -35 416 -137\n684 -178 468 -543 1054 -993 1595 -249 299 -278 325 -365 325 -32 0 -61 -7\n-80 -19z m234 -576 c518 -636 871 -1253 977 -1705 47 -199 42 -500 -11 -766\n-89 -444 -315 -729 -673 -850 -139 -47 -259 -64 -441 -64 -259 1 -399 28 -566\n110 -277 136 -445 358 -536 708 -66 255 -84 628 -41 827 105 487 460 1104\n1037 1804 l100 122 28 -33 c16 -18 72 -87 126 -153z\"></path>\n<path d=\"M8425 4644 c-89 -46 -96 -68 -89 -281 7 -198 -3 -264 -53 -371 -34\n-73 -138 -177 -223 -224 -86 -48 -209 -85 -322 -99 -131 -15 -159 -24 -197\n-63 -64 -66 -60 -167 10 -230 46 -42 86 -51 194 -42 183 14 436 102 569 199\n265 192 391 497 356 863 -5 61 -15 127 -21 145 -31 93 -144 145 -224 103z\"></path>\n<path d=\"M5414 3301 c-33 -20 -126 -127 -271 -311 -383 -488 -675 -1006 -767\n-1362 -40 -154 -49 -262 -37 -434 28 -390 129 -662 324 -870 117 -126 236\n-201 407 -258 316 -105 706 -84 985 54 287 142 477 402 560 768 56 246 59 520\n7 724 -89 347 -316 765 -692 1273 -143 193 -319 404 -351 420 -40 21 -127 19\n-165 -4z m241 -602 c345 -461 553 -835 642 -1155 25 -90 28 -113 27 -259 -1\n-182 -18 -301 -65 -440 -42 -125 -89 -205 -176 -296 -60 -63 -91 -86 -166\n-123 -146 -73 -306 -103 -482 -92 -509 32 -765 358 -765 972 0 106 5 150 24\n227 75 296 306 714 634 1150 164 218 164 218 181 204 8 -7 73 -91 146 -188z\"></path>\n<path d=\"M5107 1486 c-53 -20 -67 -33 -98 -101 -80 -169 -72 -350 22 -496 41\n-64 153 -168 213 -198 84 -41 176 -21 223 48 58 85 35 168 -67 244 -36 27 -75\n65 -87 85 -29 47 -30 114 -3 182 25 64 25 103 -1 156 -35 74 -124 109 -202 80z\"></path>\n</g>\n</svg>",
+            "heading": "Résistant à l'eau",
+            "text": "<p>Notre atelier français garantit<br/>l'étanchéité si vous en avez besoin.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_cyGefU": {
+          "type": "column",
+          "settings": {
+            "icon": "time",
+            "custom_icon": "<svg fill=\"#000000\" height=\"800px\" width=\"800px\" version=\"1.1\" id=\"Capa_1\" xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 430.851 430.851\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<g>\n\t<path d=\"M430.851,157.435c0-58.88-47.909-106.782-106.797-106.782H106.796c-28.521,0-55.339,11.103-75.517,31.265\n\t\tC11.108,102.089,0,128.908,0,157.437l0.004,115.97c0,58.885,47.907,106.792,106.792,106.792h217.262\n\t\tc58.885,0,106.791-47.907,106.792-106.792l0,0L430.851,157.435z M324.054,62.653c52.271,0,94.797,42.519,94.797,94.781\n\t\tl-0.001,66.831c-17.814-34.223-53.617-57.651-94.793-57.651h-28.465V62.653H324.054z M106.797,252.228\n\t\tc-29.351,0-57.049-13.675-74.958-36.777c17.354-22.393,44.498-36.836,74.956-36.836h217.262c30.46,0,57.607,14.446,74.961,36.842\n\t\tc-2.443,3.155-5.099,6.178-7.938,9.016c-17.886,17.898-41.69,27.755-67.027,27.755H106.797z M147.259,62.653h136.333v103.961\n\t\tH147.259V62.653z M12,157.435c0-25.322,9.86-49.127,27.763-67.03c17.911-17.896,41.717-27.751,67.034-27.751h28.463v103.961\n\t\th-28.464c-41.176,0-76.98,23.428-94.793,57.653L12,157.435z M12.004,273.406c0-17.316,4.671-33.559,12.813-47.544\n\t\tc20.2,24.166,50.232,38.366,81.98,38.366h128.806v103.97H106.795C54.527,368.198,12.004,325.674,12.004,273.406z M324.057,368.198\n\t\th-76.454v-103.97h76.45c28.544,0,55.363-11.106,75.514-31.271c2.265-2.264,4.423-4.637,6.472-7.09\n\t\tc8.14,13.984,12.81,30.226,12.81,47.54C418.849,325.674,376.325,368.198,324.057,368.198z\"></path>\n\t<path d=\"M183.722,76.827c-11.524,0-20.899,9.375-20.899,20.9v33.553c0,11.524,9.375,20.9,20.899,20.9\n\t\tc11.524,0,20.9-9.375,20.9-20.9V97.727C204.622,86.202,195.247,76.827,183.722,76.827z M192.622,131.28c0,4.907-3.993,8.9-8.9,8.9\n\t\ts-8.899-3.993-8.899-8.9V97.727c0-4.907,3.992-8.9,8.899-8.9s8.9,3.993,8.9,8.9V131.28z\"></path>\n\t<path d=\"M130.747,291.083c-3.313,0-6,2.687-6,6v38.259c0,3.313,2.687,6,6,6s6-2.687,6-6v-38.259\n\t\tC136.747,293.77,134.061,291.083,130.747,291.083z\"></path>\n\t<path d=\"M315.507,291.083c-3.313,0-6,2.687-6,6v38.259c0,3.313,2.687,6,6,6s6-2.687,6-6v-38.259\n\t\tC321.507,293.77,318.821,291.083,315.507,291.083z\"></path>\n\t<path d=\"M278.555,291.083c-3.313,0-6,2.687-6,6v38.259c0,3.313,2.687,6,6,6s6-2.687,6-6v-38.259\n\t\tC284.555,293.77,281.869,291.083,278.555,291.083z\"></path>\n\t<path d=\"M167.699,291.083c-3.313,0-6,2.687-6,6v38.259c0,3.313,2.687,6,6,6s6-2.687,6-6v-38.259\n\t\tC173.699,293.77,171.013,291.083,167.699,291.083z\"></path>\n\t<path d=\"M204.651,291.083c-3.313,0-6,2.687-6,6v38.259c0,3.313,2.687,6,6,6s6-2.687,6-6v-38.259\n\t\tC210.651,293.77,207.965,291.083,204.651,291.083z\"></path>\n</g>\n</svg>",
+            "heading": "Taille réglable",
+            "text": "<p>Tous les bracelets de nos montres sont<br/>ajustables avec un outil joint dans chaque colis</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_wcLHkQ": {
+          "type": "column",
+          "settings": {
+            "icon": "return",
+            "custom_icon": "",
+            "heading": "Garantie 3 ans",
+            "text": "<p>Nos horlogers, à Paris et à Metz, prennent<br/>en charge la moindre réparation pendant 3 ans.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_qTBqtp",
+        "column_cyGefU",
+        "column_wcLHkQ"
+      ],
+      "name": "t:sections.multicolumn-with-icons.presets.name",
+      "settings": {
+        "style": "with-border",
+        "columns": 3,
+        "text_alignment": "center",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#f9f4f1",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 60,
+        "padding_bottom": 28,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "ss_text_block_pro_fnTiDf": {
+      "type": "ss-text-block-pro",
+      "blocks": {
+        "subtitle_iKwR98": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "",
+            "subtitle_custom": false,
+            "subtitle_font": "assistant_n4",
+            "subtitle_size": 20,
+            "subtitle_height": 100,
+            "subtitle_align": "center",
+            "subtitle_mt": 0,
+            "subtitle_color": "#000000"
+          }
+        },
+        "title_LbWX9z": {
+          "type": "title",
+          "settings": {
+            "title": "DÉCOUVREZ LE CONCEPT PROSE",
+            "title_custom": true,
+            "title_font": "red_hat_display_n9",
+            "title_size": 34,
+            "title_height": 100,
+            "title_align": "center",
+            "title_mt": 12,
+            "title_color": "#000000"
+          }
+        },
+        "text_yK6XhG": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Notre concept est simple : créer une montre qui vous ressemble, sans compromis sur la qualité.</strong></p>",
+            "text_custom": false,
+            "text_font": "assistant_n4",
+            "text_size": 18,
+            "text_height": 120,
+            "text_align": "center",
+            "text_mt": 16,
+            "text_color": "#000000"
+          }
+        },
+        "text_i98pTG": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Chaque modèle est assemblé à la main après votre commande, avec soin, par de véritables horlogers en France et à l’international.</p><p>Nos montres s’inspirent de designs iconiques, mais chaque détail est retravaillé pour vous proposer une pièce unique, accessible et personnalisable.<br/>De la fabrication de nos propres pièces détachées jusqu’à l’assemblage final, notre objectif reste le même : vous proposer le meilleur rapport service, qualité et prix du marché pour une montre automatique assemblée à la main.</p>",
+            "text_custom": false,
+            "text_font": "assistant_n4",
+            "text_size": 16,
+            "text_height": 130,
+            "text_align": "center",
+            "text_mt": 16,
+            "text_color": "#000000"
+          }
+        },
+        "button_9bDtaH": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "btn": "CONFIGURER UNE MONTRE",
+            "btn_url": "",
+            "btn_custom": true,
+            "btn_font": "red_hat_display_n8",
+            "btn_size": 16,
+            "btn_height": 100,
+            "btn_align": "center",
+            "btn_width": 280,
+            "btn_mt": 32,
+            "btn_padding_horizontal": 16,
+            "btn_padding_vertical": 12,
+            "btn_border_thickness": 1,
+            "btn_radius": 8,
+            "btn_color": "#000000",
+            "btn_hover_color": "#000000",
+            "btn_bg_color": "#ffffff",
+            "btn_bg_hover_color": "",
+            "btn_border_color": "#5b5b5b",
+            "btn_border_hover_color": ""
+          }
+        },
+        "text_rjtqKW": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>ou</p>",
+            "text_custom": false,
+            "text_font": "assistant_n4",
+            "text_size": 20,
+            "text_height": 50,
+            "text_align": "center",
+            "text_mt": 12,
+            "text_color": "#000000"
+          }
+        },
+        "button_m3YhC8": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "btn": "CONFIGURER UNE MONTRE",
+            "btn_url": "",
+            "btn_custom": true,
+            "btn_font": "red_hat_display_n8",
+            "btn_size": 16,
+            "btn_height": 100,
+            "btn_align": "center",
+            "btn_width": 280,
+            "btn_mt": 12,
+            "btn_padding_horizontal": 16,
+            "btn_padding_vertical": 12,
+            "btn_border_thickness": 1,
+            "btn_radius": 8,
+            "btn_color": "#000000",
+            "btn_hover_color": "#000000",
+            "btn_bg_color": "#ffffff",
+            "btn_bg_hover_color": "",
+            "btn_border_color": "#5b5b5b",
+            "btn_border_hover_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_iKwR98",
+        "title_LbWX9z",
+        "text_yK6XhG",
+        "text_i98pTG",
+        "button_9bDtaH",
+        "text_rjtqKW",
+        "button_m3YhC8"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {* {display: none !important; } {padding: 0 !important; margin: 0 !important; height: 0 !important; overflow: hidden !important; }}"
+      ],
+      "name": "SS - Text Block Pro PC",
+      "settings": {
+        "image_width": 20,
+        "image_custom": false,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "image_radius": 12,
+        "image_ration": "none",
+        "image_location": "row",
+        "image_location_mobile": "column",
+        "content_padding_horizontal": 40,
+        "content_padding_vertical": 40,
+        "content_radius": 40,
+        "gap": 30,
+        "gap_mobile": 15,
+        "background_color": "#f9f4f0",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "content_bg": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "content_width": 100,
+        "border_thickness": 0
+      }
+    },
+    "ss_text_block_pro_VpRFRn": {
+      "type": "ss-text-block-pro",
+      "blocks": {
+        "subtitle_VDGgTk": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "",
+            "subtitle_custom": false,
+            "subtitle_font": "assistant_n4",
+            "subtitle_size": 20,
+            "subtitle_height": 100,
+            "subtitle_align": "center",
+            "subtitle_mt": 0,
+            "subtitle_color": "#000000"
+          }
+        },
+        "title_rgQPe6": {
+          "type": "title",
+          "settings": {
+            "title": "DÉCOUVREZ LE CONCEPT PROSE",
+            "title_custom": true,
+            "title_font": "red_hat_display_n9",
+            "title_size": 34,
+            "title_height": 100,
+            "title_align": "left",
+            "title_mt": 12,
+            "title_color": "#000000"
+          }
+        },
+        "text_Ntnzap": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Chaque montre PROSE est inspirée de designs célèbres et assemblée à la main<br/>par des horlogers indépendants pour offrir un excellent rapport qualité/service/prix.</p>",
+            "text_custom": false,
+            "text_font": "assistant_n4",
+            "text_size": 18,
+            "text_height": 120,
+            "text_align": "left",
+            "text_mt": 16,
+            "text_color": "#000000"
+          }
+        },
+        "button_YKzFEC": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "btn": "Learn More",
+            "btn_url": "",
+            "btn_custom": false,
+            "btn_font": "assistant_n4",
+            "btn_size": 22,
+            "btn_height": 150,
+            "btn_align": "center",
+            "btn_width": 200,
+            "btn_mt": 32,
+            "btn_padding_horizontal": 16,
+            "btn_padding_vertical": 12,
+            "btn_border_thickness": 1,
+            "btn_radius": 0,
+            "btn_color": "#000000",
+            "btn_hover_color": "#000000",
+            "btn_bg_color": "",
+            "btn_bg_hover_color": "",
+            "btn_border_color": "#000000",
+            "btn_border_hover_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_VDGgTk",
+        "title_rgQPe6",
+        "text_Ntnzap",
+        "button_YKzFEC"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {* {display: none !important; } {padding: 0 !important; margin: 0 !important; height: 0 !important; overflow: hidden !important; }}"
+      ],
+      "name": "SS -  Block Pro Mobile",
+      "settings": {
+        "image_width": 20,
+        "image_custom": false,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "image_radius": 12,
+        "image_ration": "none",
+        "image_location": "row",
+        "image_location_mobile": "column",
+        "content_padding_horizontal": 40,
+        "content_padding_vertical": 40,
+        "content_radius": 40,
+        "gap": 30,
+        "gap_mobile": 15,
+        "background_color": "#f9f4f0",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "content_bg": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "content_width": 100,
+        "border_thickness": 0
+      }
+    },
+    "custom_liquid_aUHxXe": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "liquid": "{% comment %} DOCK — Video Section — Option A (épurée) {% endcomment %}\n<style>\n  .dock-video-wrap {\n    background: #f7f6f3;\n    padding: 0;\n    margin: 0 -48px;\n    font-family: Helvetica, Arial, sans-serif;\n  }\n  .dock-video-inner {\n    max-width: 860px;\n    margin: 0 auto;\n    padding: 0 24px;\n  }\n  .dock-video-player {\n    position: relative;\n    border-radius: 20px;\n    overflow: hidden;\n    background: #111;\n    aspect-ratio: 16/9;\n    border: 3px solid #E5D5B7;\n    cursor: pointer;\n  }\n  .dock-video-player video {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    display: block;\n  }\n  .dock-video-overlay {\n    position: absolute;\n    inset: 0;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    background: rgba(0,0,0,0.2);\n    transition: opacity 0.25s ease;\n    cursor: pointer;\n    z-index: 10;\n  }\n  .dock-video-play-btn {\n    width: 72px;\n    height: 72px;\n    border-radius: 50%;\n    background: #ffffff;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    pointer-events: none;\n  }\n  .dock-video-dur {\n    position: absolute;\n    bottom: 16px;\n    right: 20px;\n    font-size: 12px;\n    font-weight: 600;\n    color: rgba(255,255,255,0.55);\n    letter-spacing: 0.06em;\n    font-family: Helvetica, Arial, sans-serif;\n    pointer-events: none;\n    line-height: 1.5;\n  }\n  .dock-video-label {\n    position: absolute;\n    bottom: 16px;\n    left: 20px;\n    font-size: 11px;\n    font-weight: 400;\n    color: rgba(255,255,255,0.35);\n    text-transform: uppercase;\n    letter-spacing: 0.1em;\n    font-family: Helvetica, Arial, sans-serif;\n    pointer-events: none;\n    line-height: 1.5;\n  }\n  @media (max-width: 720px) {\n    .dock-video-wrap {\n      margin: 0 -24px;\n      padding: 0;\n    }\n    .dock-video-inner {\n      padding: 0 16px;\n    }\n    .dock-video-player {\n      border-radius: 14px;\n      border-width: 2px;\n    }\n  }\n</style>\n<div class=\"dock-video-wrap\">\n  <div class=\"dock-video-inner\">\n    <div class=\"dock-video-player\"\n         onclick=\"\n           var v = this.querySelector('video');\n           var o = this.querySelector('.dock-video-overlay');\n           if (o.style.display !== 'none') {\n             v.play();\n             o.style.display = 'none';\n           } else {\n             v.pause();\n             o.style.display = 'flex';\n           }\n         \">\n      <video\n        src=\"https://cdn.shopify.com/videos/c/o/v/5469984962b64a618dda6f0a19407216.mp4\"\n        poster=\"https://cdn.shopify.com/s/files/1/0947/2147/4892/files/hf_20260508_222216_5b1a30ac-5fc8-4f17-bb56-e23887c56c3a.png?v=1778279168\"\n        playsinline\n        preload=\"none\"\n        onended=\"this.currentTime=0; this.parentNode.querySelector('.dock-video-overlay').style.display='flex';\"\n      ></video>\n      <div class=\"dock-video-overlay\">\n        <div class=\"dock-video-play-btn\">\n          <svg width=\"26\" height=\"26\" viewBox=\"0 0 26 26\" fill=\"#111\" style=\"margin-left:4px\">\n            <path d=\"M6 4l17 9-17 9V4z\"/>\n          </svg>\n        </div>\n      </div>\n      <div class=\"dock-video-label\"></div>\n      <div class=\"dock-video-dur\">0:30</div>\n    </div>\n  </div>\n</div>",
+        "color_text": "",
+        "color_background": "#f9f4f0",
+        "gradient_background": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 0,
+        "padding_bottom": 52,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "ss_text_block_pro_bCU3pT": {
+      "type": "ss-text-block-pro",
+      "blocks": {
+        "subtitle_wNrbCk": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "",
+            "subtitle_custom": false,
+            "subtitle_font": "assistant_n4",
+            "subtitle_size": 20,
+            "subtitle_height": 100,
+            "subtitle_align": "center",
+            "subtitle_mt": 0,
+            "subtitle_color": "#000000"
+          }
+        },
+        "title_RhEjW3": {
+          "type": "title",
+          "settings": {
+            "title": "LE PROCESSUS",
+            "title_custom": true,
+            "title_font": "red_hat_display_n9",
+            "title_size": 34,
+            "title_height": 100,
+            "title_align": "left",
+            "title_mt": 12,
+            "title_color": "#000000"
+          }
+        },
+        "text_tQhAae": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Chaque détail compte, et l'assemblage de votre montre se fera dans un de nos ateliers<br/>à travers le monde, ou spécifiquement en France, si vous en faites la demande. </p>",
+            "text_custom": false,
+            "text_font": "assistant_n4",
+            "text_size": 18,
+            "text_height": 120,
+            "text_align": "left",
+            "text_mt": 16,
+            "text_color": "#000000"
+          }
+        },
+        "button_KArA76": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "btn": "Learn More",
+            "btn_url": "",
+            "btn_custom": false,
+            "btn_font": "assistant_n4",
+            "btn_size": 22,
+            "btn_height": 150,
+            "btn_align": "center",
+            "btn_width": 200,
+            "btn_mt": 32,
+            "btn_padding_horizontal": 16,
+            "btn_padding_vertical": 12,
+            "btn_border_thickness": 1,
+            "btn_radius": 0,
+            "btn_color": "#000000",
+            "btn_hover_color": "#000000",
+            "btn_bg_color": "",
+            "btn_bg_hover_color": "",
+            "btn_border_color": "#000000",
+            "btn_border_hover_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_wNrbCk",
+        "title_RhEjW3",
+        "text_tQhAae",
+        "button_KArA76"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {* {display: none !important; } {padding: 0 !important; margin: 0 !important; height: 0 !important; overflow: hidden !important; }}"
+      ],
+      "name": "Block Pro Mobile",
+      "settings": {
+        "image_width": 20,
+        "image_custom": false,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "image_radius": 12,
+        "image_ration": "none",
+        "image_location": "row",
+        "image_location_mobile": "column",
+        "content_padding_horizontal": 40,
+        "content_padding_vertical": 40,
+        "content_radius": 40,
+        "gap": 30,
+        "gap_mobile": 15,
+        "background_color": "#f9f4f0",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "content_bg": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "content_width": 100,
+        "border_thickness": 0
+      }
+    },
+    "ss_text_block_pro_fXFdcF": {
+      "type": "ss-text-block-pro",
+      "blocks": {
+        "subtitle_FKdTWP": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "",
+            "subtitle_custom": false,
+            "subtitle_font": "assistant_n4",
+            "subtitle_size": 20,
+            "subtitle_height": 100,
+            "subtitle_align": "center",
+            "subtitle_mt": 0,
+            "subtitle_color": "#000000"
+          }
+        },
+        "title_gXwREb": {
+          "type": "title",
+          "settings": {
+            "title": "LE PROCESSUS",
+            "title_custom": true,
+            "title_font": "red_hat_display_n9",
+            "title_size": 34,
+            "title_height": 100,
+            "title_align": "center",
+            "title_mt": 12,
+            "title_color": "#000000"
+          }
+        },
+        "text_XwfyVB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Chaque détail compte, et l'assemblage de votre montre se fera dans un de nos ateliers<br/>à travers le monde, ou spécifiquement en France, si vous en faites la demande. </p>",
+            "text_custom": false,
+            "text_font": "assistant_n4",
+            "text_size": 18,
+            "text_height": 120,
+            "text_align": "center",
+            "text_mt": 16,
+            "text_color": "#000000"
+          }
+        },
+        "button_hYMR9y": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "btn": "Learn More",
+            "btn_url": "",
+            "btn_custom": false,
+            "btn_font": "assistant_n4",
+            "btn_size": 22,
+            "btn_height": 150,
+            "btn_align": "center",
+            "btn_width": 200,
+            "btn_mt": 32,
+            "btn_padding_horizontal": 16,
+            "btn_padding_vertical": 12,
+            "btn_border_thickness": 1,
+            "btn_radius": 0,
+            "btn_color": "#000000",
+            "btn_hover_color": "#000000",
+            "btn_bg_color": "",
+            "btn_bg_hover_color": "",
+            "btn_border_color": "#000000",
+            "btn_border_hover_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_FKdTWP",
+        "title_gXwREb",
+        "text_XwfyVB",
+        "button_hYMR9y"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {* {display: none !important; } {padding: 0 !important; margin: 0 !important; height: 0 !important; overflow: hidden !important; }}"
+      ],
+      "name": "Block Pro PC",
+      "settings": {
+        "image_width": 20,
+        "image_custom": false,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "image_radius": 12,
+        "image_ration": "none",
+        "image_location": "row",
+        "image_location_mobile": "column",
+        "content_padding_horizontal": 40,
+        "content_padding_vertical": 40,
+        "content_radius": 40,
+        "gap": 30,
+        "gap_mobile": 15,
+        "background_color": "#f9f4f0",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "content_bg": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "content_width": 100,
+        "border_thickness": 0
+      }
+    },
+    "multicolumn_miRTrb": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_f8Rc4W": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "adapt",
+            "video": "shopify://files/videos/0320-1_992ab6ef-e520-49a0-8755-4fa7250ec8c4 (1) (1).mp4",
+            "heading": "<strong>CHOISISSEZ UN MODÈLE</strong>",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Vous avez le choix entre un design de notre catalogue, ou un modèle unique qui vous ressemble à l'aide de notre configurateur.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_UtB4Vy": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "adapt",
+            "video": "shopify://files/videos/hf_20260509_165219_9bf2bf6c-925e-40a3-9846-dc8bd88cb6e6.mp4",
+            "heading": "<strong>NOUS RÉUNISSONS LES PIÈCES</strong>",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Immédiatement après votre commande, nous nous procurons les pièces nécessaires à l'assemblage de votre montre.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_imPrX8": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "adapt",
+            "video": "shopify://files/videos/Shootdavid.mp4",
+            "heading": "<strong>VOTRE MONTRE EST ASSEMBLÉE</strong>",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Votre montre est assemblée avec soin dans nos ateliers et soumise à un contrôle qualité rigoureux, vous garantissant une pièce conçue pour traverser les années.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_f8Rc4W",
+        "column_UtB4Vy",
+        "column_imPrX8"
+      ],
+      "custom_css": [
+        ".multicolumn-card video,.multicolumn-card iframe,.multicolumn-card img {border-radius: 20px; overflow: hidden;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "large",
+        "columns": 3,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#f9f4f0",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 0,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "ss_testimonial_8_tjEN6F": {
+      "type": "ss-testimonial-8",
+      "blocks": {
+        "slide_GjtHjx": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 5,
+            "heading": "I love it! 😍",
+            "text": "I was initially hesitant to switch from my usual brand to this new one, but I'm so glad I did! This product has exceeded my expectations. It's not only affordable but also incredibly efficient. The quality is top-notch, and it's user-friendly.",
+            "author_date": "Cathrine"
+          }
+        },
+        "slide_A7cTwA": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 5,
+            "heading": "I love it! 😍",
+            "text": "I was initially hesitant to switch from my usual brand to this new one, but I'm so glad I did! This product has exceeded my expectations. It's not only affordable but also incredibly efficient. The quality is top-notch, and it's user-friendly.",
+            "author_date": "Cathrine"
+          }
+        },
+        "slide_nWqNXr": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 5,
+            "heading": "I love it! 😍",
+            "text": "I was initially hesitant to switch from my usual brand to this new one, but I'm so glad I did! This product has exceeded my expectations. It's not only affordable but also incredibly efficient. The quality is top-notch, and it's user-friendly.",
+            "author_date": "Cathrine"
+          }
+        },
+        "slide_UYayp3": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 5,
+            "heading": "I love it! 😍",
+            "text": "I was initially hesitant to switch from my usual brand to this new one, but I'm so glad I did! This product has exceeded my expectations. It's not only affordable but also incredibly efficient. The quality is top-notch, and it's user-friendly.",
+            "author_date": "Cathrine"
+          }
+        },
+        "slide_VbWTWK": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 5,
+            "heading": "I love it! 😍",
+            "text": "I was initially hesitant to switch from my usual brand to this new one, but I'm so glad I did! This product has exceeded my expectations. It's not only affordable but also incredibly efficient. The quality is top-notch, and it's user-friendly.",
+            "author_date": "Cathrine"
+          }
+        },
+        "slide_YbKm9X": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 5,
+            "heading": "I love it! 😍",
+            "text": "I was initially hesitant to switch from my usual brand to this new one, but I'm so glad I did! This product has exceeded my expectations. It's not only affordable but also incredibly efficient. The quality is top-notch, and it's user-friendly.",
+            "author_date": "Cathrine"
+          }
+        }
+      },
+      "block_order": [
+        "slide_GjtHjx",
+        "slide_A7cTwA",
+        "slide_nWqNXr",
+        "slide_UYayp3",
+        "slide_VbWTWK",
+        "slide_YbKm9X"
+      ],
+      "disabled": true,
+      "name": "SS - Testimonial #8",
+      "settings": {
+        "heading": "Our customers tell it better than we do!",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "heading_size_mobile": 24,
+        "heading_height": 130,
+        "heading_align": "center",
+        "rating_text": "Excellent",
+        "rating_text_custom": false,
+        "rating_text_font": "josefin_sans_n4",
+        "rating_text_size": 24,
+        "rating_text_size_mobile": 20,
+        "rating_text_height": 130,
+        "rating_text_mt": 16,
+        "rating": 4.7,
+        "rating_hide": false,
+        "rating_text_hide": false,
+        "rating_align": "center",
+        "stars_count": 5,
+        "stars_size": 28,
+        "stars_size_mobile": 24,
+        "stars_align": "center",
+        "text": "<p>based on <strong>1 067</strong> reviews</p>",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 20,
+        "text_size_mobile": 16,
+        "text_height": 130,
+        "text_align": "center",
+        "text_mt": 16,
+        "slider_width": 80,
+        "slider_view": 3,
+        "slider_view_mobile": 1.2,
+        "slider_gap": 20,
+        "slider_gap_mobile": 20,
+        "slider_mt": 36,
+        "card_padding_vertical": 32,
+        "card_padding_vertical_mobile": 24,
+        "card_padding_horizontal": 40,
+        "card_padding_horizontal_mobile": 24,
+        "card_radius": 16,
+        "card_border_thickness": 0,
+        "card_shadow": true,
+        "card_heading_custom": false,
+        "card_heading_font": "josefin_sans_n4",
+        "card_heading_size": 24,
+        "card_heading_size_mobile": 20,
+        "card_heading_height": 130,
+        "card_heading_align": "center",
+        "card_heading_mt": 16,
+        "card_text_custom": false,
+        "card_text_font": "josefin_sans_n4",
+        "card_text_size": 14,
+        "card_text_size_mobile": 14,
+        "card_text_height": 150,
+        "card_text_align": "center",
+        "card_text_mt": 16,
+        "card_text_more": "View More",
+        "card_text_less": "View Less",
+        "card_count_words": 20,
+        "card_author_date_text_custom": false,
+        "card_author_date_text_font": "josefin_sans_n4",
+        "card_author_date_text_size": 16,
+        "card_author_date_text_size_mobile": 16,
+        "card_author_date_text_height": 130,
+        "card_author_date_text_align": "center",
+        "card_author_date_text_mt": 16,
+        "arrow_size": 50,
+        "arrow_size_mobile": 50,
+        "arrow_icon_size": 28,
+        "arrow_icon_size_mobile": 28,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "dots_size": 12,
+        "dots_size_mobile": 12,
+        "dots_show_desktop": false,
+        "dots_show_mobile": false,
+        "button": "View All",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 16,
+        "button_size_mobile": 14,
+        "button_height": 100,
+        "button_align": "center",
+        "button_mt": 16,
+        "button_padding_vertical": 20,
+        "button_padding_horizontal": 16,
+        "button_radius": 8,
+        "button_border_thickness": 0,
+        "button_color": "#ffffff",
+        "button_hover_color": "#ffffff",
+        "button_bg_color": "#000000",
+        "button_bg_hover_color": "#000000",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#000000",
+        "card_shadow_color": "#00b67a",
+        "card_heading_color": "#000000",
+        "card_text_color": "#000000",
+        "card_author_date_text_color": "#000000",
+        "arrow_color": "#000000",
+        "arrow_hover_color": "#000000",
+        "arrow_bg_color": "#ffffff",
+        "arrow_bg_hover_color": "#ffffff",
+        "arrow_border_color": "#ffffff",
+        "arrow_border_hover_color": "#ffffff",
+        "dots_color": "#000000",
+        "heading_color": "#000000",
+        "rating_text_color": "#000000",
+        "stars_bg_color": "#00b67a",
+        "stars_color": "#ffffff",
+        "text_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "linear-gradient(180deg, rgba(206, 239, 199, 1), rgba(255, 255, 255, 1) 100%)",
+        "border_color": "#000000",
+        "margin_top": 60,
+        "margin_bottom": 0,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "video_with_text_gTkrWr": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_Ck6pET": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>SOUTENIR DES ATELIERS FRANÇAIS</strong>",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_9KkRgh": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><em><strong>PROSE, c’est aussi des ateliers qui font de leur mieux pour vous satisfaire : en Espagne, en Asie, mais aussi en France.</strong></em></h6><p>Et si vous le souhaitez, vous pouvez demander un assemblage réalisé en France, à Paris dans le 17e arrondissement ou à Metz, par une équipe d’horlogers diplômés.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_w9n77Q": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "primary",
+            "button_size": "md",
+            "button_external": false,
+            "button_icon": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ck6pET",
+        "text_9KkRgh",
+        "button_w9n77Q"
+      ],
+      "custom_css": [],
+      "name": "t:sections.video-with-text.presets.name",
+      "settings": {
+        "video": "shopify://files/videos/e41a00f3-3bfc-4cef-a600-7122978fa3a4.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "image_height": "adapt",
+        "video_width": "medium",
+        "layout": "video_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "video_mobile": "shopify://files/videos/e41a00f3-3bfc-4cef-a600-7122978fa3a4.mp4",
+        "video_url_mobile": "",
+        "image_height_mobile": "auto",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "#f9f4f1",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "about_brand": {
+      "type": "reveal-image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/Design_sans_titre_19.jpg",
+        "content_width": "large",
+        "heading": "Porter une montre Prose, c'est aussi soutenir de vraies causes.",
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "text-left",
+        "heading_tag": "h2",
+        "button_label": "",
+        "button_link": "/pages/about",
+        "button_external": false,
+        "button_icon": false,
+        "color_text": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": ""
+      }
+    },
+    "ss_text_block_pro_ek9rQM": {
+      "type": "ss-text-block-pro",
+      "blocks": {
+        "subtitle_8GQ6AK": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "",
+            "subtitle_custom": false,
+            "subtitle_font": "assistant_n4",
+            "subtitle_size": 20,
+            "subtitle_height": 100,
+            "subtitle_align": "center",
+            "subtitle_mt": 0,
+            "subtitle_color": "#000000"
+          }
+        },
+        "title_hH4dhw": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "NOS VALEURS",
+            "title_custom": true,
+            "title_font": "red_hat_display_n9",
+            "title_size": 34,
+            "title_height": 150,
+            "title_align": "center",
+            "title_mt": 12,
+            "title_color": "#000000"
+          }
+        },
+        "subtitle_HCXaAA": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "En achetant une montre PROSE, vous offrez aussi du temps à ceux qui en ont besoin.",
+            "subtitle_custom": false,
+            "subtitle_font": "assistant_n4",
+            "subtitle_size": 18,
+            "subtitle_height": 130,
+            "subtitle_align": "center",
+            "subtitle_mt": 0,
+            "subtitle_color": "#000000"
+          }
+        },
+        "text_Wahetm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Une partie de nos bénéfices contribue à financer des programmes d’éducation dans des écoles défavorisées, en France et dans le monde, ainsi que l’association Mona Lisa, engagée contre l’isolement des personnes âgées en France.</p>",
+            "text_custom": false,
+            "text_font": "assistant_n4",
+            "text_size": 16,
+            "text_height": 120,
+            "text_align": "center",
+            "text_mt": 16,
+            "text_color": "#000000"
+          }
+        },
+        "button_AMAUnD": {
+          "type": "button",
+          "settings": {
+            "btn": "NOTRE HISTOIRE",
+            "btn_url": "",
+            "btn_custom": false,
+            "btn_font": "assistant_n4",
+            "btn_size": 16,
+            "btn_height": 150,
+            "btn_align": "center",
+            "btn_width": 200,
+            "btn_mt": 32,
+            "btn_padding_horizontal": 16,
+            "btn_padding_vertical": 12,
+            "btn_border_thickness": 1,
+            "btn_radius": 0,
+            "btn_color": "#000000",
+            "btn_hover_color": "#000000",
+            "btn_bg_color": "",
+            "btn_bg_hover_color": "",
+            "btn_border_color": "#000000",
+            "btn_border_hover_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_8GQ6AK",
+        "title_hH4dhw",
+        "subtitle_HCXaAA",
+        "text_Wahetm",
+        "button_AMAUnD"
+      ],
+      "name": "SS - Text Block Pro",
+      "settings": {
+        "image_width": 20,
+        "image_custom": false,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "image_radius": 12,
+        "image_ration": "none",
+        "image_location": "row",
+        "image_location_mobile": "column",
+        "content_padding_horizontal": 40,
+        "content_padding_vertical": 16,
+        "content_radius": 40,
+        "gap": 30,
+        "gap_mobile": 15,
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "content_bg": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "content_width": 100,
+        "border_thickness": 0
+      }
+    },
+    "ss_text_block_pro_aTEp6U": {
+      "type": "ss-text-block-pro",
+      "blocks": {
+        "subtitle_GTwGgQ": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "",
+            "subtitle_custom": false,
+            "subtitle_font": "assistant_n4",
+            "subtitle_size": 20,
+            "subtitle_height": 100,
+            "subtitle_align": "center",
+            "subtitle_mt": 0,
+            "subtitle_color": "#000000"
+          }
+        },
+        "title_MkTe6z": {
+          "type": "title",
+          "settings": {
+            "title": "QUESTIONS FRÉQUENTES",
+            "title_custom": true,
+            "title_font": "red_hat_display_n9",
+            "title_size": 34,
+            "title_height": 100,
+            "title_align": "center",
+            "title_mt": 12,
+            "title_color": "#000000"
+          }
+        },
+        "text_EHRHpG": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Les montres PROSE sont inspirées de designs célèbres et entièrement assemblées à la main par une équipe d'horlogers indépendants. Nous faisons le maximum pour vous offrir un rapport qualité/service/prix imbattable pour des montres automatiques équipées de mouvements japonais.</p>",
+            "text_custom": false,
+            "text_font": "assistant_n4",
+            "text_size": 20,
+            "text_height": 120,
+            "text_align": "center",
+            "text_mt": 16,
+            "text_color": "#000000"
+          }
+        },
+        "button_7iqmxz": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "btn": "Learn More",
+            "btn_url": "",
+            "btn_custom": false,
+            "btn_font": "assistant_n4",
+            "btn_size": 22,
+            "btn_height": 150,
+            "btn_align": "center",
+            "btn_width": 200,
+            "btn_mt": 32,
+            "btn_padding_horizontal": 16,
+            "btn_padding_vertical": 12,
+            "btn_border_thickness": 1,
+            "btn_radius": 0,
+            "btn_color": "#000000",
+            "btn_hover_color": "#000000",
+            "btn_bg_color": "",
+            "btn_bg_hover_color": "",
+            "btn_border_color": "#000000",
+            "btn_border_hover_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_GTwGgQ",
+        "title_MkTe6z",
+        "text_EHRHpG",
+        "button_7iqmxz"
+      ],
+      "name": "SS - Text Block Pro",
+      "settings": {
+        "image_width": 20,
+        "image_custom": false,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "image_radius": 12,
+        "image_ration": "none",
+        "image_location": "row",
+        "image_location_mobile": "column",
+        "content_padding_horizontal": 40,
+        "content_padding_vertical": 40,
+        "content_radius": 40,
+        "gap": 30,
+        "gap_mobile": 15,
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "content_bg": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "content_width": 100,
+        "border_thickness": 0
+      }
+    },
+    "faq_section": {
+      "type": "faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "title": "Combien de temps dure la création d'une montre ?",
+            "text": "<p>Le délai moyen est de 4 à 8 semaines selon la complexité de la personnalisation et les pièces choisies. Vous êtes informé à chaque étape.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "title": "Puis-je personnaliser une montre existante ?",
+            "text": "<p>Oui, nous travaillons sur des montres neuves comme sur des pièces existantes. Apportez votre montre, nous lui donnons une nouvelle vie.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "title": "Quelles sont les possibilités de personnalisation ?",
+            "text": "<p>Cadran, aiguilles, bracelet, boîtier, couronne, gravure — tout est personnalisable. Nos horlogers vous guident selon vos envies et votre budget.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "title": "Livrez-vous à l'international ?",
+            "text": "<p>Oui, nous livrons partout dans le monde. Chaque envoi est assuré et bénéficie d'un suivi en temps réel jusqu'à votre porte.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "title": "Quelle est votre politique de retour ?",
+            "text": "<p>Les pièces personnalisées ne peuvent pas être retournées. En cas de défaut de fabrication, nous reprenons la montre dans le cadre de notre garantie 2 ans.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
+      "settings": {
+        "style": "with-border",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 4,
+        "padding_top": 0,
+        "padding_bottom": 80,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "ss_text_block_pro_RthbcJ": {
+      "type": "ss-text-block-pro",
+      "blocks": {
+        "subtitle_jfR8cH": {
+          "type": "subtitle",
+          "disabled": true,
+          "settings": {
+            "subtitle": "Subtitle",
+            "subtitle_custom": false,
+            "subtitle_font": "assistant_n4",
+            "subtitle_size": 20,
+            "subtitle_height": 100,
+            "subtitle_align": "center",
+            "subtitle_mt": 0,
+            "subtitle_color": "#000000"
+          }
+        },
+        "title_thmykx": {
+          "type": "title",
+          "settings": {
+            "title": "UNE AUTRE QUESTION ?",
+            "title_custom": true,
+            "title_font": "red_hat_display_n9",
+            "title_size": 40,
+            "title_height": 100,
+            "title_align": "center",
+            "title_mt": 12,
+            "title_color": "#000000"
+          }
+        },
+        "text_7P6hnn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Numéro accessible uniquement sur WhatsApp<br/><strong>+33 7 75 74 95 41</strong></p>",
+            "text_custom": false,
+            "text_font": "assistant_n4",
+            "text_size": 16,
+            "text_height": 130,
+            "text_align": "center",
+            "text_mt": 16,
+            "text_color": "#000000"
+          }
+        },
+        "button_YbhHQT": {
+          "type": "button",
+          "settings": {
+            "btn": "CONTACTEZ-NOUS SUR WHATSAPP",
+            "btn_url": "",
+            "btn_custom": true,
+            "btn_font": "red_hat_display_n7",
+            "btn_size": 16,
+            "btn_height": 150,
+            "btn_align": "center",
+            "btn_width": 320,
+            "btn_mt": 24,
+            "btn_padding_horizontal": 8,
+            "btn_padding_vertical": 12,
+            "btn_border_thickness": 0,
+            "btn_radius": 0,
+            "btn_color": "#ffffff",
+            "btn_hover_color": "#000000",
+            "btn_bg_color": "#21a56e",
+            "btn_bg_hover_color": "",
+            "btn_border_color": "#4d7c0f",
+            "btn_border_hover_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_jfR8cH",
+        "title_thmykx",
+        "text_7P6hnn",
+        "button_YbhHQT"
+      ],
+      "name": "SS - Text Block Pro",
+      "settings": {
+        "image_width": 20,
+        "image_custom": false,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "image_radius": 12,
+        "image_ration": "none",
+        "image_location": "row",
+        "image_location_mobile": "column",
+        "content_padding_horizontal": 40,
+        "content_padding_vertical": 0,
+        "content_radius": 40,
+        "gap": 30,
+        "gap_mobile": 15,
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "content_bg": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "content_width": 120,
+        "border_thickness": 0
+      }
+    }
+  },
+  "order": [
+    "ss_hero_32_Lb9Emg",
+    "scrolling_text_wFHC46",
+    "ss_text_block_pro_BKy9b4",
+    "ss_image_grid_pro_rbD3dE",
+    "ss_image_grid_pro_QgjQcE",
+    "ss_image_grid_pro_iMJwU4",
+    "ss_featured_collection_tabs_6_HRh8yX",
+    "ss_hero_32_3ibW8R",
+    "image_with_text_overlay_yGJHMK",
+    "multicolumn_with_icons_r7rrHt",
+    "ss_text_block_pro_fnTiDf",
+    "ss_text_block_pro_VpRFRn",
+    "custom_liquid_aUHxXe",
+    "ss_text_block_pro_bCU3pT",
+    "ss_text_block_pro_fXFdcF",
+    "multicolumn_miRTrb",
+    "ss_testimonial_8_tjEN6F",
+    "video_with_text_gTkrWr",
+    "about_brand",
+    "ss_text_block_pro_ek9rQM",
+    "ss_text_block_pro_aTEp6U",
+    "faq_section",
+    "ss_text_block_pro_RthbcJ"
+  ]
+}
