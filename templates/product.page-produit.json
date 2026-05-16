@@ -560,8 +560,8 @@
         "faq_item_h79pQL": {
           "type": "faq_item",
           "settings": {
-            "question": "C'est quoi une montre Prose ?",
-            "answer": "<p>C'est une montre assemblée à la main équipée d'un mécanisme automatique, avec des pièces détachées dont le design est inspiré de modèles iconiques.</p>"
+            "question": "Le concept Prose ?",
+            "answer": "<p>C’est une montre assemblée à la main, équipée d’un mouvement automatique, avec des pièces dont le design s’inspire de modèles iconiques.<br/><br/>Notre objectif : vous offrir le meilleur rapport qualité-prix possible pour une montre automatique de qualité, sans dépendre d’un budget inaccessible.</p>"
           }
         },
         "faq_item_tTYVbx": {
@@ -582,7 +582,7 @@
           "type": "faq_item",
           "settings": {
             "question": "Puis je demander un assemblage en France ?",
-            "answer": "<p>Par défaut, nous privilégions un assemblage en France pour nos clients français.<br/>Si vous souhaitez garantir un assemblage Made in France, vous pouvez le préciser à notre équipe client ou sélectionner l’option “Assemblage Made in France & étanchéité renforcée”. Dans tous les cas, nos exigences restent les mêmes : chaque montre est soumise aux mêmes normes et contrôles qualité, quel que soit l’atelier d’assemblage.</p>"
+            "answer": "<p><strong>Par défaut, nous privilégions un assemblage en France pour nos clients français.<br/></strong>Pour le garantir, vous pouvez le préciser à notre service client ou sélectionner l’option <strong>“Assemblage Made in France & étanchéité renforcée”</strong>.<br/>Dans tous les cas, nos exigences qualité restent les mêmes, quel que soit l’atelier d’assemblage.</p>"
           }
         },
         "tab_gzPaAG": {
