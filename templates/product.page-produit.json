@@ -554,54 +554,75 @@
         "tab_ENaErq": {
           "type": "tab",
           "settings": {
-            "tab": "Notre concept"
+            "tab": "NOTRE CONCEPT"
           }
         },
         "faq_item_h79pQL": {
           "type": "faq_item",
           "settings": {
-            "question": "Question",
-            "answer": "<p>Answer</p>"
+            "question": "C'est quoi une montre Prose ?",
+            "answer": "<p>C'est une montre assemblée à la main équipée d'un mécanisme automatique, avec des pièces détachées dont le design est inspiré de modèles iconiques.</p>"
+          }
+        },
+        "faq_item_tTYVbx": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Comment se passe l'assemblage de ma montre ?",
+            "answer": "<p><strong>Chaque montre est assemblée après votre commande.</strong></p><p>Nous produisons et stockons les pièces détachées nécessaires à sa fabrication. Nos horlogers réunissent ensuite les composants de votre montre, procèdent à son assemblage, puis la confient à notre partenaire logistique, chargé de vous l’expédier.</p>"
           }
         },
         "faq_item_ECef83": {
           "type": "faq_item",
           "settings": {
-            "question": "Questionk",
-            "answer": "<p>Answer</p>"
+            "question": "Où sont situés vos ateliers ?",
+            "answer": "<p>Nous disposons de plusieurs ateliers afin de répondre à une demande internationale, notamment en Chine, en Espagne et en France.</p><p>En France, nous travaillons avec deux ateliers indépendants partenaires : l’un à Paris, dans le 17e arrondissement, et l’autre à Metz, dans l’est de la France.</p>"
           }
         },
         "faq_item_yy6QML": {
           "type": "faq_item",
           "settings": {
-            "question": "Question",
-            "answer": "<p>Answer</p>"
+            "question": "Puis je demander un assemblage en France ?",
+            "answer": "<p>Par défaut, nous privilégions un assemblage en France pour nos clients français.<br/>Si vous souhaitez garantir un assemblage Made in France, vous pouvez le préciser à notre équipe client ou sélectionner l’option “Assemblage Made in France & étanchéité renforcée”. Dans tous les cas, nos exigences restent les mêmes : chaque montre est soumise aux mêmes normes et contrôles qualité, quel que soit l’atelier d’assemblage.</p>"
           }
         },
         "tab_gzPaAG": {
           "type": "tab",
           "settings": {
-            "tab": "Envoi & Livraison"
+            "tab": "VOTRE MONTRE"
           }
         },
         "faq_item_DXBVeh": {
           "type": "faq_item",
           "settings": {
-            "question": "Question",
-            "answer": "<p>Answer</p>"
+            "question": "Puis je réglais la taille de ma montre ?",
+            "answer": ""
           }
         },
         "faq_item_DczaJ3": {
           "type": "faq_item",
           "settings": {
-            "question": "Question",
+            "question": "Puis je personnalisais ma montre ?",
+            "answer": "<p>Answer</p>"
+          }
+        },
+        "faq_item_ga6KwJ": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Puis-je personnaliser le logo ?",
+            "answer": "<p>Answer</p>"
+          }
+        },
+        "faq_item_RUdFRX": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Puis-je personnaliser le logo ?",
             "answer": "<p>Answer</p>"
           }
         },
         "tab_H9h6hG": {
           "type": "tab",
           "settings": {
-            "tab": "Shipping & Delivery"
+            "tab": "ENVOI & LIVRAISON"
           }
         },
         "faq_item_CQfkXd": {
@@ -624,11 +645,14 @@
         "text_AaL7ea",
         "tab_ENaErq",
         "faq_item_h79pQL",
+        "faq_item_tTYVbx",
         "faq_item_ECef83",
         "faq_item_yy6QML",
         "tab_gzPaAG",
         "faq_item_DXBVeh",
         "faq_item_DczaJ3",
+        "faq_item_ga6KwJ",
+        "faq_item_RUdFRX",
         "tab_H9h6hG",
         "faq_item_CQfkXd",
         "faq_item_NmjD9i"
