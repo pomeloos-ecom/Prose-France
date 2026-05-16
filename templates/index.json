@@ -316,13 +316,35 @@
             "url": "",
             "button": "DÉCOUVRIR"
           }
+        },
+        "item_LWJDKA": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/SKNA.jpg",
+            "title": "<h2>FABLE</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
+        },
+        "item_pgt39f": {
+          "type": "item",
+          "settings": {
+            "product": "",
+            "image": "shopify://shop_images/SKOAK.jpg",
+            "title": "<h2>RIME</h2>",
+            "url": "",
+            "button": "DÉCOUVRIR"
+          }
         }
       },
       "block_order": [
         "item_wpaLCT",
         "item_NpKrWX",
         "item_KWC4Nt",
-        "item_bjA6kp"
+        "item_bjA6kp",
+        "item_LWJDKA",
+        "item_pgt39f"
       ],
       "name": "SS - Image Grid Pro",
       "settings": {
@@ -377,7 +399,7 @@
         "overlay_color": "#000000",
         "title_color": "#ffffff",
         "button_color": "#191919",
-        "button_hover_color": "#FFFFFF",
+        "button_hover_color": "#ffffff",
         "button_bg_color": "#ffffff",
         "button_bg_hover_color": "#000000",
         "button_border_color": "#000000",
