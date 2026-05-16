@@ -551,26 +551,6 @@
             "text_color": "#121212"
           }
         },
-        "tab_H9h6hG": {
-          "type": "tab",
-          "settings": {
-            "tab": "ENVOI & LIVRAISON"
-          }
-        },
-        "faq_item_CQfkXd": {
-          "type": "faq_item",
-          "settings": {
-            "question": "Question",
-            "answer": "<p>Answer</p>"
-          }
-        },
-        "faq_item_NmjD9i": {
-          "type": "faq_item",
-          "settings": {
-            "question": "Question",
-            "answer": "<p>Answer</p>"
-          }
-        },
         "tab_gzPaAG": {
           "type": "tab",
           "settings": {
@@ -613,6 +593,26 @@
             "answer": "<p><strong>Par défaut, toutes les montres PROSE sont résistantes à l’eau.<br/><br/></strong>Avec l’option <strong>étanchéité renforcée</strong>, vous pouvez porter votre montre lors d’une baignade, jusqu’à <strong>5 mètres de profondeur maximum</strong>.<br/><br/>Avant tout contact avec l’eau, veillez toujours à <strong>bien visser la couronne</strong>. Nous déconseillons toutefois de plonger avec votre montre.<br/>L’étanchéité doit être contrôlée tous les <strong>12 mois</strong> pour maintenir la garantie. Notre service client pourra vous accompagner si vous souhaitez faire réaliser ce contrôle.</p>"
           }
         },
+        "tab_H9h6hG": {
+          "type": "tab",
+          "settings": {
+            "tab": "ENVOI & LIVRAISON"
+          }
+        },
+        "faq_item_CQfkXd": {
+          "type": "faq_item",
+          "settings": {
+            "question": "QUELLE EST LA DURÉE DE LIVRAISON ?",
+            "answer": "<p>Chaque montre est assemblée manuellement après votre commande. Comptez environ <strong>5 à 7 jours ouvrés</strong> pour la préparation des pièces, l’assemblage et le contrôle qualité, selon le volume de commandes.</p><p>Après expédition, la livraison avec Colissimo prend généralement <strong>3 à 5 jours ouvrés</strong>.</p><p>En moyenne, vous recevez donc votre montre sous <strong>8 à 12 jours ouvrés</strong> après votre commande.</p>"
+          }
+        },
+        "faq_item_NmjD9i": {
+          "type": "faq_item",
+          "settings": {
+            "question": "PUIS-JE RETOURNER MON MODÈLE ?",
+            "answer": "<p>Vous disposez de <strong>30 jours à compter de la livraison</strong> pour retourner votre montre automatique.</p><p>Le remboursement est effectué sous <strong>5 à 7 jours ouvrés</strong> après réception du retour.</p><p>Veuillez noter que les montres personnalisées sur demande ne sont pas éligibles au retour.</p>"
+          }
+        },
         "tab_ENaErq": {
           "type": "tab",
           "settings": {
@@ -652,15 +652,15 @@
       "block_order": [
         "heading_jTy94J",
         "text_AaL7ea",
-        "tab_H9h6hG",
-        "faq_item_CQfkXd",
-        "faq_item_NmjD9i",
         "tab_gzPaAG",
         "faq_item_DXBVeh",
         "faq_item_DczaJ3",
         "faq_item_ga6KwJ",
         "faq_item_RUdFRX",
         "faq_item_VY3Vzk",
+        "tab_H9h6hG",
+        "faq_item_CQfkXd",
+        "faq_item_NmjD9i",
         "tab_ENaErq",
         "faq_item_h79pQL",
         "faq_item_tTYVbx",
@@ -708,10 +708,10 @@
         "answer_size_mobile": 14,
         "answer_height": 150,
         "answer_padding_top": 30,
-        "toggles_bg_color": "#f7f7f7",
+        "toggles_bg_color": "#bbaba3",
         "toggle_bg_color": "#121212",
         "toggle_bg_gradient": "",
-        "toggle_color": "#121212",
+        "toggle_color": "#ffffff",
         "toggle_active_color": "#ffffff",
         "item_border_color": "#e2e2e2",
         "question_color": "#121212",
