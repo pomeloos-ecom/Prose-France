@@ -292,6 +292,9 @@
         "column_dfLGVP",
         "column_J33yna"
       ],
+      "custom_css": [
+        ".multicolumn-card video,.multicolumn-card iframe,.multicolumn-card img {border-radius: 20px; overflow: hidden;}"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "gap": "small",
