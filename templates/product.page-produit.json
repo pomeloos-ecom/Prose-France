@@ -594,22 +594,22 @@
         "faq_item_DXBVeh": {
           "type": "faq_item",
           "settings": {
-            "question": "Puis je réglais la taille de ma montre ?",
+            "question": "Puis je régler la taille de ma montre ?",
             "answer": ""
           }
         },
         "faq_item_DczaJ3": {
           "type": "faq_item",
           "settings": {
-            "question": "Puis je personnalisais ma montre ?",
+            "question": "Puis je personnaliser ma montre ?",
             "answer": "<p>Answer</p>"
           }
         },
         "faq_item_ga6KwJ": {
           "type": "faq_item",
           "settings": {
-            "question": "Puis-je personnaliser le logo ?",
-            "answer": "<p>Answer</p>"
+            "question": "Quelle est la durée garantie de ma montre ?",
+            "answer": "<p>Toutes les montres PROSE sont garanties pendant trois ans. Cette garantie couvre les défauts de fonctionnement non liés à une mauvaise utilisation, à un choc ou à une usure anormale de la montre.</p>"
           }
         },
         "faq_item_RUdFRX": {
@@ -617,6 +617,13 @@
           "settings": {
             "question": "Puis-je personnaliser le logo ?",
             "answer": "<p>Answer</p>"
+          }
+        },
+        "faq_item_VY3Vzk": {
+          "type": "faq_item",
+          "settings": {
+            "question": "MA MONTRE EST-ELLE ÉTANCHE ?",
+            "answer": "<p><strong>Par défaut, toutes les montres PROSE sont résistantes à l’eau.<br/><br/></strong>Avec l’option <strong>étanchéité renforcée</strong>, vous pouvez porter votre montre lors d’une baignade, jusqu’à <strong>5 mètres de profondeur maximum</strong>.<br/><br/>Avant tout contact avec l’eau, veillez toujours à <strong>bien visser la couronne</strong>. Nous déconseillons toutefois de plonger avec votre montre.<br/>L’étanchéité doit être contrôlée tous les <strong>12 mois</strong> pour maintenir la garantie. Notre service client pourra vous accompagner si vous souhaitez faire réaliser ce contrôle.</p>"
           }
         },
         "tab_H9h6hG": {
@@ -653,6 +660,7 @@
         "faq_item_DczaJ3",
         "faq_item_ga6KwJ",
         "faq_item_RUdFRX",
+        "faq_item_VY3Vzk",
         "tab_H9h6hG",
         "faq_item_CQfkXd",
         "faq_item_NmjD9i"
