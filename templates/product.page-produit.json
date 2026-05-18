@@ -75,12 +75,12 @@
             "liquid": "<div class=\"product-description\">\n  {{ product.description }}\n</div>"
           }
         },
-        "collapsible_tab_ndQmb6": {
+        "collapsible_tab_R8qbte": {
           "type": "collapsible_tab",
           "settings": {
-            "icon": "wash",
-            "heading": "Ma montre est-elle étanche ?",
-            "content": "<p>Votre montre est conçue pour résister aux conditions du quotidien : éclaboussures, pluie ou passage sous l’eau claire.<br/><br/>En revanche, si vous prévoyez de l’exposer à des situations plus exigeantes, comme la baignade en piscine, nous pouvons renforcer son étanchéité en ajoutant des joints supplémentaires.</p><p>⚠️ Pensez toujours à bien revisser la couronne avant utilisation.<br/><br/>⚠️ Si vous souhaitez cette option d’étanchéité renforcée, il vous suffit de nous le signaler par e-mail ou WhatsApp dans les 24 heures suivant votre commande, afin que nous transmettions la demande à notre atelier.</p>",
+            "icon": "watch",
+            "heading": "Composants et matériaux",
+            "content": "<ul><li>Mouvement automatique japonais TMI, filiale de Seiko.</li><li><strong>Verre Saphir</strong>, anti rayures avec traitement anti-reflets</li><li>Acier <strong>inoxydable</strong> 316L</li></ul>",
             "page": "",
             "liquid": ""
           }
@@ -91,6 +91,16 @@
             "icon": "heart",
             "heading": "Pourquoi choisir Prose ?",
             "content": "<p>Prose est<strong> le leader français de la montre automatique personnalisée. </strong>Nos ateliers assemblent chaque pièce à la main, sur commande, avec des <strong>matériaux de qualité. </strong>Nous offrons le <strong>meilleur rapport service-qualité-prix </strong>du marché, soutenus par une équipe française réactive et déjà plus de 10 000 clients satisfaits. Avec Prose, vous avez la garantie de recevoir une montre unique, fidèle à vos attentes.</p>",
+            "page": "",
+            "liquid": ""
+          }
+        },
+        "collapsible_tab_ndQmb6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "wash",
+            "heading": "Ma montre est-elle étanche ?",
+            "content": "<p>Votre montre est conçue pour résister aux conditions du quotidien : éclaboussures, pluie ou passage sous l’eau claire.<br/><br/>En revanche, si vous prévoyez de l’exposer à des situations plus exigeantes, comme la baignade en piscine, nous pouvons renforcer son étanchéité en ajoutant des joints supplémentaires.</p><p>⚠️ Pensez toujours à bien revisser la couronne avant utilisation.<br/><br/>⚠️ Si vous souhaitez cette option d’étanchéité renforcée, il vous suffit de nous le signaler par e-mail ou WhatsApp dans les 24 heures suivant votre commande, afin que nous transmettions la demande à notre atelier.</p>",
             "page": "",
             "liquid": ""
           }
@@ -109,18 +119,8 @@
           "type": "collapsible_tab",
           "settings": {
             "icon": "return",
-            "heading": "Satisfait ou remboursé",
+            "heading": "Garantie satisfait ou remboursé",
             "content": "<p>Vous avez 30 jours après la réception pour changer d’avis. Si la montre ne vous plaît pas, il suffit de nous la renvoyer et vous serez remboursé en totalité.</p>",
-            "page": "",
-            "liquid": ""
-          }
-        },
-        "collapsible_tab_R8qbte": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "watch",
-            "heading": "Composants et matériaux",
-            "content": "<ul><li>Mouvement Seiko authentique</li><li><strong>Verre Saphir</strong>, anti rayures avec traitement anti-reflets</li><li>Acier <strong>inoxydable</strong> 316L</li></ul>",
             "page": "",
             "liquid": ""
           }
@@ -151,6 +151,7 @@
         },
         "share": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Share",
             "show_help_desk": true,
@@ -181,11 +182,11 @@
         "description",
         "text_aF6nwL",
         "collapsible_tab_7if77r",
-        "collapsible_tab_ndQmb6",
+        "collapsible_tab_R8qbte",
         "collapsible_tab_FHKxkt",
+        "collapsible_tab_ndQmb6",
         "collapsible_tab_PCcBjL",
         "collapsible_tab_ANeeff",
-        "collapsible_tab_R8qbte",
         "countdown",
         "inventory",
         "pickup_availability",
@@ -271,8 +272,8 @@
             "button_mt": 24,
             "button_mt_mobile": 16,
             "button_color": "#121212",
-            "button_hover_color": "#FFFFFF",
-            "button_bg_color": "#FFFFFF",
+            "button_hover_color": "#ffffff",
+            "button_bg_color": "#ffffff",
             "button_bg_hover_color": "#121212",
             "button_border_color": "#121212",
             "button_border_hover_color": "#121212"
@@ -299,6 +300,7 @@
         "content_vertical_align": "center",
         "source": "uploaded",
         "video": "shopify://files/videos/hf_20260516_232907_b76dc146-8641-46c4-b844-11aae72d4f09.mp4",
+        "video_url": "",
         "video_ratio": "landscape",
         "video_ratio_mobile": "landscape",
         "video_radius": 0,
@@ -312,14 +314,14 @@
         "play_padding_mobile": 14,
         "play_radius": 100,
         "play_border_thickness": 0,
-        "layout_border_color": "#F0F0F0",
+        "layout_border_color": "#f0f0f0",
         "use_shadow": true,
-        "shadow_color": "#DEDEDE",
+        "shadow_color": "#dedede",
         "video_border_color": "#121212",
         "play_color": "#121212",
         "play_hover_color": "#121212",
-        "play_bg_color": "#FFFFFF",
-        "play_bg_hover_color": "#F3F3F3",
+        "play_bg_color": "#ffffff",
+        "play_bg_hover_color": "#f3f3f3",
         "play_border_color": "#121212",
         "play_border_hover_color": "#121212",
         "background_style": "solid",
