@@ -324,7 +324,7 @@
           "type": "item",
           "settings": {
             "product": "",
-            "image": "shopify://shop_images/SKNA.jpg",
+            "image": "shopify://shop_images/daytona.jpg",
             "title": "<h2>FABLE</h2>",
             "url": "",
             "button": "DÉCOUVRIR"
@@ -1240,7 +1240,7 @@
       "name": "t:sections.image-with-text-overlay.presets.name",
       "settings": {
         "transparent_header": false,
-        "image": "shopify://shop_images/Design_sans_titre_11.jpg",
+        "image": "shopify://shop_images/bannier_new_dweleiko.jpg",
         "image_height": "adapt",
         "content_width": "small",
         "content_position": "md:items-center md:justify-center",
