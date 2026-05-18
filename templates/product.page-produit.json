@@ -797,6 +797,7 @@
         },
         "text_AaL7ea": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Share details about your brand with customers. Introduce products, make announcements, or greet visitors to your store.</p>",
             "text_custom": false,
@@ -978,11 +979,11 @@
         "background_color": "#f9f4f0",
         "background_gradient": "",
         "border_color": "#000000",
-        "margin_top": 0,
+        "margin_top": 60,
         "margin_bottom": 0,
         "margin_horizontal": 0,
-        "margin_horizontal_mobile": 0,
-        "padding_top": 52,
+        "margin_horizontal_mobile": 1.5,
+        "padding_top": 0,
         "padding_bottom": 36,
         "padding_horizontal": 5,
         "padding_horizontal_mobile": 0,
@@ -990,6 +991,110 @@
         "content_width": 800,
         "border_thickness": 0,
         "section_radius": 0
+      }
+    },
+    "ss_text_block_pro_jCDYaY": {
+      "type": "ss-text-block-pro",
+      "blocks": {
+        "subtitle_YKaGLh": {
+          "type": "subtitle",
+          "disabled": true,
+          "settings": {
+            "subtitle": "Subtitle",
+            "subtitle_custom": false,
+            "subtitle_font": "assistant_n4",
+            "subtitle_size": 20,
+            "subtitle_height": 100,
+            "subtitle_align": "center",
+            "subtitle_mt": 0,
+            "subtitle_color": "#000000"
+          }
+        },
+        "title_zPHFUY": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "VOS QUESTIONS",
+            "title_custom": true,
+            "title_font": "red_hat_display_n9",
+            "title_size": 40,
+            "title_height": 100,
+            "title_align": "center",
+            "title_mt": 12,
+            "title_color": "#000000"
+          }
+        },
+        "text_MYiCPi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Si vous avez une autre question, n'hésitez pas à nous contacter<br/>sur le numéro WhatsApp en cliquant sur le bouton ci-dessous.<br/><strong><br/>(Communication par message uniquement)<br/>+33 7 75 74 95 41</strong></p>",
+            "text_custom": false,
+            "text_font": "assistant_n4",
+            "text_size": 18,
+            "text_height": 130,
+            "text_align": "center",
+            "text_mt": 16,
+            "text_color": "#000000"
+          }
+        },
+        "button_CEmT3g": {
+          "type": "button",
+          "settings": {
+            "btn": "CONTACTEZ-NOUS SUR WHATSAPP",
+            "btn_url": "",
+            "btn_custom": true,
+            "btn_font": "red_hat_display_n7",
+            "btn_size": 16,
+            "btn_height": 150,
+            "btn_align": "center",
+            "btn_width": 320,
+            "btn_mt": 24,
+            "btn_padding_horizontal": 8,
+            "btn_padding_vertical": 12,
+            "btn_border_thickness": 0,
+            "btn_radius": 0,
+            "btn_color": "#ffffff",
+            "btn_hover_color": "#000000",
+            "btn_bg_color": "#21a56e",
+            "btn_bg_hover_color": "",
+            "btn_border_color": "#4d7c0f",
+            "btn_border_hover_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_YKaGLh",
+        "title_zPHFUY",
+        "text_MYiCPi",
+        "button_CEmT3g"
+      ],
+      "name": "SS - Text Block Pro",
+      "settings": {
+        "image_width": 20,
+        "image_custom": false,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "image_radius": 12,
+        "image_ration": "none",
+        "image_location": "row",
+        "image_location_mobile": "column",
+        "content_padding_horizontal": 40,
+        "content_padding_vertical": 0,
+        "content_radius": 40,
+        "gap": 30,
+        "gap_mobile": 15,
+        "background_color": "#f9f4f1",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "content_bg": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "content_width": 120,
+        "border_thickness": 0
       }
     }
   },
@@ -1000,6 +1105,7 @@
     "ss_video_with_text_ecy7VF",
     "ss_video_with_text_qxYBag",
     "help-drawer",
-    "ss_faq_17_PmaNpV"
+    "ss_faq_17_PmaNpV",
+    "ss_text_block_pro_jCDYaY"
   ]
 }
