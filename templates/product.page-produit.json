@@ -484,6 +484,7 @@
         },
         "button_XjaTNb": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button": "Shop now",
             "url": "",
@@ -611,6 +612,7 @@
         },
         "button_FxL7wE": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button": "Shop now",
             "url": "",
