@@ -335,7 +335,7 @@
           "settings": {
             "product": "",
             "image": "shopify://shop_images/SKOAK.jpg",
-            "title": "<h2>RIME</h2>",
+            "title": "<h2>OPUS</h2>",
             "url": "",
             "button": "DÉCOUVRIR"
           }
@@ -1203,7 +1203,7 @@
         "heading_FjYKaj": {
           "type": "heading",
           "settings": {
-            "heading": "DÉCOUVREZ LA NOUVELLE  DWELEIKO",
+            "heading": "DÉCOUVREZ LA NOUVELLE  HAÏKU",
             "heading_size": "title-sm",
             "heading_tag": "h2",
             "highlighted_text": "none",
