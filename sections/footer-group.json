@@ -120,7 +120,7 @@
         "link_list-2": {
           "type": "link_list",
           "settings": {
-            "heading": "LIEN UTILS",
+            "heading": "LIEN UTILES",
             "menu": "footer",
             "container_width": 50,
             "opened": false
