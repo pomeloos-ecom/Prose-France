@@ -316,7 +316,7 @@
             "product": "",
             "image": "shopify://shop_images/JSTK.jpg",
             "title": "<h2>RIME</h2>",
-            "url": "",
+            "url": "shopify://collections/rime",
             "button": "DÉCOUVRIR"
           }
         },
@@ -326,7 +326,7 @@
             "product": "",
             "image": "shopify://shop_images/daytona_02facdd0-63a4-4944-aabf-fb1dd0394d62.jpg",
             "title": "<h2>FABLE</h2>",
-            "url": "",
+            "url": "shopify://collections/fable",
             "button": "DÉCOUVRIR"
           }
         },
@@ -336,7 +336,7 @@
             "product": "",
             "image": "shopify://shop_images/SKOAK.jpg",
             "title": "<h2>OPUS</h2>",
-            "url": "",
+            "url": "shopify://collections/opus",
             "button": "DÉCOUVRIR"
           }
         }
@@ -435,7 +435,7 @@
             "product": "",
             "image": "shopify://shop_images/NTK.jpg",
             "title": "<h2>POEME</h2>",
-            "url": "",
+            "url": "shopify://collections/poeme",
             "button": "DÉCOUVRIR"
           }
         },
@@ -445,7 +445,7 @@
             "product": "",
             "image": "shopify://shop_images/MSTK.jpg",
             "title": "<h2>VERSET</h2>",
-            "url": "",
+            "url": "shopify://collections/verset",
             "button": "DÉCOUVRIR"
           }
         },
@@ -455,7 +455,7 @@
             "product": "",
             "image": "shopify://shop_images/SKNT.jpg",
             "title": "<h2>SONNET</h2>",
-            "url": "",
+            "url": "shopify://collections/sonnet",
             "button": "DÉCOUVRIR"
           }
         },
@@ -1136,6 +1136,7 @@
         "text_N4Mzyd",
         "button_TdTkb4"
       ],
+      "custom_css": [],
       "name": "SS - Hero #32",
       "settings": {
         "layout_height": "fixed_height",
@@ -1237,6 +1238,9 @@
         "button_mHKFPx",
         "link_LGeDmi"
       ],
+      "custom_css": [
+        ".page-width {max-width: 1200px; margin-left: auto; margin-right: auto;}"
+      ],
       "name": "t:sections.image-with-text-overlay.presets.name",
       "settings": {
         "transparent_header": false,
@@ -1307,6 +1311,9 @@
         "column_qTBqtp",
         "column_cyGefU",
         "column_wcLHkQ"
+      ],
+      "custom_css": [
+        ".page-width {max-width: 1200px; margin-left: auto; margin-right: auto;}"
       ],
       "name": "t:sections.multicolumn-with-icons.presets.name",
       "settings": {
