@@ -2299,7 +2299,7 @@
           "type": "button",
           "settings": {
             "btn": "NOTRE HISTOIRE",
-            "btn_url": "",
+            "btn_url": "shopify://pages/notre-histoire",
             "btn_custom": false,
             "btn_font": "assistant_n4",
             "btn_size": 16,
