@@ -1375,8 +1375,8 @@
             "text": "<p><strong>Notre concept est simple : créer une montre qui vous ressemble, sans compromis sur la qualité.</strong></p>",
             "text_custom": false,
             "text_font": "assistant_n4",
-            "text_size": 18,
-            "text_height": 120,
+            "text_size": 20,
+            "text_height": 100,
             "text_align": "center",
             "text_mt": 16,
             "text_color": "#000000"
@@ -1385,10 +1385,10 @@
         "text_i98pTG": {
           "type": "text",
           "settings": {
-            "text": "<p><br/>Chaque modèle est assemblé à la main après votre commande, avec soin, par de véritables horlogers en France et à l’international.</p><p>Nos montres s’inspirent de designs iconiques, mais chaque détail est retravaillé pour vous proposer une pièce unique, accessible et personnalisable.<br/>De la fabrication de nos propres pièces détachées jusqu’à l’assemblage final, notre objectif reste le même : vous proposer le meilleur rapport service, qualité et prix du marché pour une montre automatique assemblée à la main.</p>",
+            "text": "<p><br/>Chaque modèle est assemblé à la main après votre commande, par de véritables horlogers en France et à l’international.</p><p>Nos montres s’inspirent de designs iconiques mais retravaillés pour vous proposer une pièce accessible et personnalisable.<br/>Notre objectif est simple : vous proposer le meilleur rapport service, qualité et prix du marché pour une montre automatique assemblée à la main.</p>",
             "text_custom": false,
             "text_font": "assistant_n4",
-            "text_size": 16,
+            "text_size": 20,
             "text_height": 130,
             "text_align": "center",
             "text_mt": 16,
@@ -1766,7 +1766,7 @@
             "text": "<p>Chaque détail compte, et l'assemblage de votre montre se fera dans un de nos ateliers<br/>à travers le monde, ou spécifiquement en France, si vous en faites la demande. </p>",
             "text_custom": false,
             "text_font": "assistant_n4",
-            "text_size": 18,
+            "text_size": 20,
             "text_height": 120,
             "text_align": "center",
             "text_mt": 16,
