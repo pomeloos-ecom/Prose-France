@@ -370,6 +370,7 @@
         "item_LWJDKA",
         "item_pgt39f"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 749px) {* {display: none !important; } {padding: 0 !important; margin: 0 !important; height: 0 !important; overflow: hidden !important; }}"
       ],
@@ -522,6 +523,7 @@
         "item_34q94d",
         "item_N76Ymm"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 749px) {* {display: none !important; } {padding: 0 !important; margin: 0 !important; height: 0 !important; overflow: hidden !important; }}"
       ],
@@ -671,6 +673,7 @@
         "item_48hTYU",
         "item_JfMTEi"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 750px) {* {display: none !important; } {padding: 0 !important; margin: 0 !important; height: 0 !important; overflow: hidden !important; }}"
       ],
@@ -1157,6 +1160,7 @@
         "text_N4Mzyd",
         "button_TdTkb4"
       ],
+      "disabled": true,
       "custom_css": [],
       "name": "SS - Hero #32",
       "settings": {
