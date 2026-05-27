@@ -81,6 +81,9 @@
         "heading_JHfcHE",
         "button_9MVYXg"
       ],
+      "custom_css": [
+        ".page-width {max-width: 1200px; margin-left: auto; margin-right: auto;}"
+      ],
       "name": "SS - Hero #32",
       "settings": {
         "layout_height": "fixed_height",
