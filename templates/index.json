@@ -1940,10 +1940,10 @@
         "column_imPrX8"
       ],
       "custom_css": [
-        ".multicolumn-card video,.multicolumn-card iframe,.multicolumn-card img{border-radius:20px;overflow:hidden}",
-        ".page-width{padding-inline:36px!important}",
-        "@media(min-width:1024px){.page-width{padding-inline:86px!important}}",
-        "@media(min-width:1280px){.page-width{padding-inline:98px!important}}"
+        ".multicolumn-card video,.multicolumn-card iframe,.multicolumn-card img {border-radius: 20px; overflow: hidden;}",
+        ".page-width {padding-inline: 36px !important;}",
+        "@media (min-width: 1024px) {.page-width {padding-inline: 86px !important; }}",
+        "@media (min-width: 1280px) {.page-width {padding-inline: 98px !important; }}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -2221,10 +2221,10 @@
         "button_w9n77Q"
       ],
       "custom_css": [
-        ".multicolumn-card video,.multicolumn-card iframe,.multicolumn-card img {border-radius: 20px; overflow: hidden;}",
-        ".page-width {padding-inline: 36px !important;}",
-        "@media (min-width: 1024px) {.page-width {padding-inline: 86px !important; }}",
-        "@media (min-width: 1280px) {.page-width {padding-inline: 98px !important; }}"
+        ".image-with-text__media{border-radius:20px;overflow:hidden}",
+        ".page-width{padding-inline:36px!important}",
+        "@media(min-width:1024px){.page-width{padding-inline:86px!important}}",
+        "@media(min-width:1280px){.page-width{padding-inline:98px!important}}"
       ],
       "name": "t:sections.video-with-text.presets.name",
       "settings": {
