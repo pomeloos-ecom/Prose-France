@@ -137,6 +137,41 @@
         "lazy": false
       }
     },
+    "featured_collection_ED6UFP": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "les-nouveautes",
+        "products": [],
+        "product_limit": 10,
+        "columns": 5,
+        "carousel_on_desktop": true,
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Featured collection",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
     "scrolling_text_wFHC46": {
       "type": "scrolling-text",
       "blocks": {
@@ -2221,10 +2256,10 @@
         "button_w9n77Q"
       ],
       "custom_css": [
-        ".image-with-text__media{border-radius:20px;overflow:hidden}",
-        ".page-width{padding-inline:36px!important}",
-        "@media(min-width:1024px){.page-width{padding-inline:86px!important}}",
-        "@media(min-width:1280px){.page-width{padding-inline:98px!important}}"
+        ".image-with-text__media {border-radius: 20px; overflow: hidden;}",
+        ".page-width {padding-inline: 36px !important;}",
+        "@media (min-width: 1024px) {.page-width {padding-inline: 86px !important; }}",
+        "@media (min-width: 1280px) {.page-width {padding-inline: 98px !important; }}"
       ],
       "name": "t:sections.video-with-text.presets.name",
       "settings": {
@@ -2695,6 +2730,7 @@
   },
   "order": [
     "ss_hero_32_Lb9Emg",
+    "featured_collection_ED6UFP",
     "scrolling_text_wFHC46",
     "ss_text_block_pro_BKy9b4",
     "custom_liquid_xaDexa",
