@@ -163,8 +163,8 @@
       ],
       "name": "t:sections.featured-collections.presets.name",
       "settings": {
-        "product_limit": 6,
-        "columns": 4,
+        "product_limit": 9,
+        "columns": 5,
         "carousel_on_desktop": true,
         "show_view_all": false,
         "columns_mobile": "2",
