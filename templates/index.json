@@ -2391,7 +2391,7 @@
         "text_Wahetm": {
           "type": "text",
           "settings": {
-            "text": "<p>Une partie de nos bénéfices contribue à financer des programmes d’éducation dans des écoles défavorisées, en France et dans le monde, ainsi que l’association Mona Lisa, engagée contre l’isolement des personnes âgées en France.</p>",
+            "text": "<p>Une partie de nos bénéfices contribue à financer des programmes d’éducation dans des écoles défavorisées, en France et dans le monde, ainsi que pour des associations contre l’isolement des personnes âgées en France.</p>",
             "text_custom": false,
             "text_font": "assistant_n4",
             "text_size": 16,
