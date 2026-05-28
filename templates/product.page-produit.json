@@ -1047,7 +1047,7 @@
           "type": "button",
           "settings": {
             "btn": "CONTACTEZ-NOUS SUR WHATSAPP",
-            "btn_url": "",
+            "btn_url": "https://wa.me/33775749541",
             "btn_custom": true,
             "btn_font": "red_hat_display_n7",
             "btn_size": 16,
