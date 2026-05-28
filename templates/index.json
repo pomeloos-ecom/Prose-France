@@ -137,19 +137,39 @@
         "lazy": false
       }
     },
-    "featured_collection_ED6UFP": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
+    "featured_collections_9rpB6L": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_EcmjFA": {
+          "type": "collection",
+          "settings": {
+            "collection": "les-nouveautes",
+            "products": [],
+            "title": ""
+          }
+        },
+        "collection_wg669K": {
+          "type": "collection",
+          "settings": {
+            "collection": "vos-coups-de-coeur",
+            "products": [],
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_EcmjFA",
+        "collection_wg669K"
+      ],
+      "name": "t:sections.featured-collections.presets.name",
       "settings": {
-        "collection": "les-nouveautes",
-        "products": [],
-        "product_limit": 10,
-        "columns": 5,
+        "product_limit": 6,
+        "columns": 4,
         "carousel_on_desktop": true,
         "show_view_all": false,
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "heading": "Featured collection",
+        "heading": "Best-sellers",
         "heading_size": "title-md",
         "heading_alignment": "text-left md:items-end md:flex-row",
         "heading_tag": "h2",
@@ -178,8 +198,18 @@
         "text_hraapQ": {
           "type": "text",
           "settings": {
-            "text": "OFFRE SPÉCIALE EN COURS",
-            "text_size": 26,
+            "text": "OFFRE SPÉCIALE <strong>EN COURS</strong>",
+            "text_size": 30,
+            "text_font": "heading",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_AHQLwE": {
+          "type": "text",
+          "settings": {
+            "text": "JUIN 2026",
+            "text_size": 30,
             "text_font": "heading",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
@@ -187,13 +217,13 @@
         }
       },
       "block_order": [
-        "text_hraapQ"
+        "text_hraapQ",
+        "text_AHQLwE"
       ],
-      "disabled": true,
       "name": "t:sections.scrolling-text.presets.name",
       "settings": {
         "direction": "left",
-        "speed": 8,
+        "speed": 10,
         "grid_horizontal": 70,
         "enable_twin": false,
         "enable_parallax": false,
@@ -202,8 +232,8 @@
         "gradient_background": "",
         "color_highlight": "",
         "gradient_highlight": "",
-        "padding_top": 40,
-        "padding_bottom": 32,
+        "padding_top": 36,
+        "padding_bottom": 36,
         "divider": false,
         "rounded": false
       }
@@ -315,6 +345,7 @@
     },
     "custom_liquid_xaDexa": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "liquid": "{%- comment -%}\n  ============================================================\n  PS WATCHES — Section unifiée \"Découvrez nos collections\"\n  Bloc Custom Liquid (HTML + CSS inline)\n  ------------------------------------------------------------\n  - Grille 3×2 des 6 collections (Rime, Fable, Opus, Poème, Verset, Sonnet)\n  - 7ème bloc \"Configurez votre montre\" intégré dans la même grille\n    (full-width sur la dernière rangée — même container que les 6 cards)\n  - Largeur de container unifiée (résout l'incohérence Configurer plus large)\n  ------------------------------------------------------------\n  Comportement fidèle à la section originale :\n  - URLs des images réelles (CDN Shopify pswatches.com)\n  - Aspect-ratio mobile/tablet : 12/9 (paysage)\n  - Aspect-ratio desktop ≥1024px : 1/1 (carré)\n  - Padding latéral mobile : 20px (identique à l'original)\n  - Padding latéral desktop : 50px\n  - Gap mobile : 20px / Gap desktop : 30px\n  - Background : rgb(249, 244, 241)\n  - Card border-radius : 16px\n  ------------------------------------------------------------\n  À coller dans : Theme editor → Add section → Custom Liquid\n  ============================================================\n{%- endcomment -%}\n\n<style>\n  .ps-collections {\n    background-color: rgb(249, 244, 241);\n    font-family: \"Red Hat Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n    color: #171717;\n  }\n  .ps-collections__header {\n    text-align: center;\n    padding: 60px 20px 30px;\n  }\n  .ps-collections__title {\n    font-family: \"Red Hat Display\", sans-serif;\n    font-weight: 900;\n    font-size: clamp(26px, 3.4vw, 44px);\n    line-height: 1.1;\n    color: #000;\n    letter-spacing: -0.01em;\n    margin: 0 0 18px;\n    text-transform: uppercase;\n  }\n  .ps-collections__subtitle {\n    font-size: 15px;\n    line-height: 1.55;\n    color: #4a4a4a;\n    max-width: 880px;\n    margin: 0 auto;\n  }\n\n  /* ---------- GRID (mobile-first, calé sur l'original) ---------- */\n  .ps-collections__grid {\n    display: grid;\n    grid-template-columns: repeat(1, 1fr);\n    align-items: center;\n    gap: 20px;\n    padding: 20px;\n  }\n\n  /* ---------- CARD COLLECTION ---------- */\n  .ps-collections__card {\n    position: relative;\n    display: flex;\n    flex-direction: column;\n    justify-content: end;\n    padding: 16px;\n    border: 0;\n    border-radius: 16px;\n    overflow: hidden;\n    text-decoration: none;\n    aspect-ratio: 12 / 9; /* mobile / tablet — identique à l'original */\n    background-color: #2a2a2a;\n    transition: transform 0.35s ease, box-shadow 0.35s ease;\n  }\n  .ps-collections__card:hover {\n    transform: translateY(-3px);\n    box-shadow: 0 14px 32px rgba(0, 0, 0, 0.18);\n  }\n  .ps-collections__card-img {\n    position: absolute;\n    inset: 0;\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    z-index: 0;\n    transition: transform 0.6s ease;\n  }\n  .ps-collections__card:hover .ps-collections__card-img {\n    transform: scale(1.04);\n  }\n  /* Overlay ::after — identique à l'original (rgba 0,0,0,0.2) */\n  .ps-collections__card::after {\n    content: \"\";\n    position: absolute;\n    inset: 0;\n    background-color: rgba(0, 0, 0, 0.2);\n    z-index: 1;\n    pointer-events: none;\n  }\n  .ps-collections__card-content {\n    position: relative;\n    z-index: 2;\n    color: #fff;\n  }\n  .ps-collections__card-title {\n    font-family: \"Red Hat Display\", sans-serif;\n    font-weight: 900;\n    font-size: clamp(28px, 4.5vw, 38px);\n    color: #fff;\n    margin: 0 0 14px;\n    text-transform: uppercase;\n    letter-spacing: 0.01em;\n    line-height: 1;\n  }\n  .ps-collections__btn {\n    display: inline-block;\n    padding: 11px 22px;\n    background-color: #fff;\n    color: #121212;\n    font-family: \"Red Hat Display\", sans-serif;\n    font-weight: 700;\n    font-size: 12px;\n    letter-spacing: 0.08em;\n    text-transform: uppercase;\n    text-decoration: none;\n    border: none;\n    border-radius: 4px;\n    cursor: pointer;\n    transition: background-color 0.25s ease, color 0.25s ease;\n  }\n  .ps-collections__btn:hover {\n    background-color: #121212;\n    color: #fff;\n  }\n\n  /* ---------- 7ème bloc — Configurez votre montre ---------- */\n  .ps-collections__config {\n    grid-column: 1 / -1;\n    position: relative;\n    display: flex;\n    align-items: center;\n    overflow: hidden;\n    border-radius: 16px;\n    text-decoration: none;\n    color: #fff;\n    aspect-ratio: 12 / 9; /* mobile : même proportion que les cards */\n    transition: box-shadow 0.35s ease;\n  }\n  .ps-collections__config:hover {\n    box-shadow: 0 14px 32px rgba(0, 0, 0, 0.18);\n  }\n  .ps-collections__config-img {\n    position: absolute;\n    inset: 0;\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    z-index: 0;\n  }\n  .ps-collections__config::after {\n    content: \"\";\n    position: absolute;\n    inset: 0;\n    background: linear-gradient(90deg, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.15) 55%, rgba(0,0,0,0) 100%);\n    z-index: 1;\n    pointer-events: none;\n  }\n  .ps-collections__config-content {\n    position: relative;\n    z-index: 2;\n    padding: 28px;\n    max-width: 620px;\n  }\n  .ps-collections__config-title {\n    font-family: \"Red Hat Display\", sans-serif;\n    font-weight: 900;\n    font-size: clamp(26px, 4.2vw, 42px);\n    line-height: 1.05;\n    color: #fff;\n    margin: 0 0 14px;\n    text-transform: uppercase;\n    letter-spacing: -0.01em;\n  }\n  .ps-collections__config-desc {\n    font-size: 15px;\n    line-height: 1.55;\n    color: rgba(255,255,255,0.95);\n    margin: 0 0 22px;\n  }\n\n  /* ---------- TABLET ≥ 768px ---------- */\n  @media (min-width: 768px) {\n    .ps-collections__grid {\n      grid-template-columns: repeat(2, 1fr);\n    }\n    .ps-collections__config-content {\n      padding: 44px;\n    }\n  }\n\n  /* ---------- DESKTOP ≥ 1024px ---------- */\n  @media (min-width: 1024px) {\n    .ps-collections__header {\n      padding: 80px 50px 40px;\n    }\n    .ps-collections__grid {\n      grid-template-columns: repeat(3, 1fr);\n      gap: 30px;\n      padding: 50px;\n    }\n    .ps-collections__card {\n      aspect-ratio: 1 / 1; /* desktop carré — identique à l'original (12/12) */\n    }\n    .ps-collections__config {\n      aspect-ratio: auto;\n      min-height: 360px;\n    }\n    .ps-collections__config-content {\n      padding: 60px;\n    }\n  }\n</style>\n\n<section class=\"ps-collections\">\n\n  <header class=\"ps-collections__header\">\n    <h2 class=\"ps-collections__title\">Découvrez nos collections</h2>\n    <p class=\"ps-collections__subtitle\">\n      Toutes nos montres sont assemblées à la main après votre commande.\n      Vous pouvez choisir parmi des designs proposés ou créer votre propre\n      montre à l'aide de notre configurateur.\n    </p>\n  </header>\n\n  <div class=\"ps-collections__grid\">\n\n    {%- comment -%} ===== RIME ===== {%- endcomment -%}\n    <a href=\"/collections/rime\" class=\"ps-collections__card\" aria-label=\"Découvrir la collection Rime\">\n      <img class=\"ps-collections__card-img\"\n           src=\"https://pswatches.com/cdn/shop/files/JSTK.jpg\"\n           alt=\"Collection Rime\"\n           loading=\"lazy\"\n           width=\"900\" height=\"900\">\n      <div class=\"ps-collections__card-content\">\n        <h3 class=\"ps-collections__card-title\">Rime</h3>\n        <span class=\"ps-collections__btn\">Découvrir</span>\n      </div>\n    </a>\n\n    {%- comment -%} ===== FABLE ===== {%- endcomment -%}\n    <a href=\"/collections/fable\" class=\"ps-collections__card\" aria-label=\"Découvrir la collection Fable\">\n      <img class=\"ps-collections__card-img\"\n           src=\"https://pswatches.com/cdn/shop/files/daytona_02facdd0-63a4-4944-aabf-fb1dd0394d62.jpg\"\n           alt=\"Collection Fable\"\n           loading=\"lazy\"\n           width=\"900\" height=\"900\">\n      <div class=\"ps-collections__card-content\">\n        <h3 class=\"ps-collections__card-title\">Fable</h3>\n        <span class=\"ps-collections__btn\">Découvrir</span>\n      </div>\n    </a>\n\n    {%- comment -%} ===== OPUS ===== {%- endcomment -%}\n    <a href=\"/collections/opus\" class=\"ps-collections__card\" aria-label=\"Découvrir la collection Opus\">\n      <img class=\"ps-collections__card-img\"\n           src=\"https://pswatches.com/cdn/shop/files/SKOAK.jpg\"\n           alt=\"Collection Opus\"\n           loading=\"lazy\"\n           width=\"900\" height=\"900\">\n      <div class=\"ps-collections__card-content\">\n        <h3 class=\"ps-collections__card-title\">Opus</h3>\n        <span class=\"ps-collections__btn\">Découvrir</span>\n      </div>\n    </a>\n\n    {%- comment -%} ===== POEME ===== {%- endcomment -%}\n    <a href=\"/collections/poeme\" class=\"ps-collections__card\" aria-label=\"Découvrir la collection Poème\">\n      <img class=\"ps-collections__card-img\"\n           src=\"https://pswatches.com/cdn/shop/files/NTK.jpg\"\n           alt=\"Collection Poème\"\n           loading=\"lazy\"\n           width=\"900\" height=\"900\">\n      <div class=\"ps-collections__card-content\">\n        <h3 class=\"ps-collections__card-title\">Poème</h3>\n        <span class=\"ps-collections__btn\">Découvrir</span>\n      </div>\n    </a>\n\n    {%- comment -%} ===== VERSET ===== {%- endcomment -%}\n    <a href=\"/collections/verset\" class=\"ps-collections__card\" aria-label=\"Découvrir la collection Verset\">\n      <img class=\"ps-collections__card-img\"\n           src=\"https://pswatches.com/cdn/shop/files/MSTK.jpg\"\n           alt=\"Collection Verset\"\n           loading=\"lazy\"\n           width=\"900\" height=\"900\">\n      <div class=\"ps-collections__card-content\">\n        <h3 class=\"ps-collections__card-title\">Verset</h3>\n        <span class=\"ps-collections__btn\">Découvrir</span>\n      </div>\n    </a>\n\n    {%- comment -%} ===== SONNET ===== {%- endcomment -%}\n    <a href=\"/collections/sonnet\" class=\"ps-collections__card\" aria-label=\"Découvrir la collection Sonnet\">\n      <img class=\"ps-collections__card-img\"\n           src=\"https://pswatches.com/cdn/shop/files/SKNT.jpg\"\n           alt=\"Collection Sonnet\"\n           loading=\"lazy\"\n           width=\"900\" height=\"900\">\n      <div class=\"ps-collections__card-content\">\n        <h3 class=\"ps-collections__card-title\">Sonnet</h3>\n        <span class=\"ps-collections__btn\">Découvrir</span>\n      </div>\n    </a>\n\n    {%- comment -%} ===== 7ème bloc — CONFIGURER UNE MONTRE ===== {%- endcomment -%}\n    <a href=\"/collections/configurateur\" class=\"ps-collections__config\" aria-label=\"Configurer une montre\">\n      <img class=\"ps-collections__config-img\"\n           src=\"https://pswatches.com/cdn/shop/files/hf_20260509_231606_0c7b39c7-224f-45a5-bf81-7aff377bf138_1.png\"\n           alt=\"Configurez votre montre\"\n           loading=\"lazy\"\n           width=\"1800\" height=\"600\">\n      <div class=\"ps-collections__config-content\">\n        <h3 class=\"ps-collections__config-title\">Configurez votre montre</h3>\n        <p class=\"ps-collections__config-desc\">\n          Créez une montre sur mesure à l'aide de notre configurateur.\n        </p>\n        <span class=\"ps-collections__btn\">Configurer une montre</span>\n      </div>\n    </a>\n\n  </div>\n</section>",
@@ -2299,7 +2330,7 @@
     "about_brand": {
       "type": "reveal-image-with-text",
       "settings": {
-        "image": "shopify://shop_images/Design_sans_titre_19.jpg",
+        "image": "shopify://shop_images/mmmmm.png",
         "content_width": "large",
         "heading": "Porter une montre Prose, c'est aussi soutenir de vraies causes.",
         "heading_size": "title-xl tracking-heading",
@@ -2730,7 +2761,7 @@
   },
   "order": [
     "ss_hero_32_Lb9Emg",
-    "featured_collection_ED6UFP",
+    "featured_collections_9rpB6L",
     "scrolling_text_wFHC46",
     "ss_text_block_pro_BKy9b4",
     "custom_liquid_xaDexa",
