@@ -1,1 +1,249 @@
-{"sections":{"main-collection-banner":{"type":"main-collection-banner","blocks":{"spacing":{"type":"spacing","settings":{"height":48,"height_mobile":0}},"breadcrumb":{"type":"breadcrumb","settings":{"show_collections_link":true}},"title":{"type":"title","settings":{"title_size":"title-xl"}}},"block_order":["spacing","breadcrumb","title"],"custom_css":["{font-size: 30px;}"],"settings":{"transparent_header":true,"show_image":true,"image":"shopify:\/\/shop_images\/ROI_en_chiffres_x2_20_plutot_qu_en_bc7e8166-762c-41eb-8141-ebc6c6f3c0b9.jpg","image_height":"450px","content_position":"md:items-end md:justify-start","text_alignment":"left","image_mobile":"shopify:\/\/shop_images\/ROI_en_chiffres_x2_20_plutot_qu_en_0837f62c-93d7-47ef-9fbe-a0ac209937bc.jpg","image_height_mobile":"auto","content_position_mobile":"items-end justify-start","text_alignment_mobile":"left","color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":40,"padding_top":0,"padding_bottom":0,"divider":false,"full_width":true,"rounded":false,"enable_parallax":true,"parallax_direction":"vertical"}},"main-collection":{"type":"main-collection","blocks":{"subcollections":{"type":"subcollections","settings":{"menu":"","per_row":5,"show_count":true}},"promotion":{"type":"promotion","settings":{"position":5,"column_size":"1","image":"shopify:\/\/shop_images\/IMG_4513_1_-min.jpg","heading":"Une question ?","content":"<p>Notre service client est disponible pour vous.<\/p>","button_label":"","button_link":"","button_style":"secondary","button_external":false,"button_icon":true,"content_position":"md:items-center","text_alignment":"center","content_position_mobile":"items-center","text_alignment_mobile":"center","color_text":"#ffffff","color_button_text":"#4d5940","color_button_background":"#ffffff","color_button_gradient":"","color_overlay":"#000000","overlay_opacity":30}}},"block_order":["subcollections","promotion"],"settings":{"products_per_page":11,"columns":4,"columns_mobile":"2","pagination":"click","enable_filtering":true,"filter_collapsed":false,"filter_type":"drawer","filter_color_swatches":true,"enable_sorting":true,"padding_top":40,"padding_bottom":100,"divider":false,"full_width":false,"rounded":true}},"recently-viewed":{"type":"recently-viewed","settings":{"product_limit":6,"columns":4,"carousel_on_desktop":true,"columns_mobile":"1","swipe_on_mobile":true,"heading":"Recently Viewed","heading_size":"title-md","heading_alignment":"text-left md:items-end md:flex-row","heading_tag":"h2","subheading":"","description":"","highlighted_text":"none","highlighted_scribble":"circle","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":72,"padding_bottom":80,"divider":false,"full_width":false,"rounded":true}}},"order":["main-collection-banner","main-collection","recently-viewed"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "blocks": {
+        "spacing": {
+          "type": "spacing",
+          "settings": {
+            "height": 48,
+            "height_mobile": 0
+          }
+        },
+        "breadcrumb": {
+          "type": "breadcrumb",
+          "settings": {
+            "show_collections_link": true
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "title-xl"
+          }
+        }
+      },
+      "block_order": [
+        "spacing",
+        "breadcrumb",
+        "title"
+      ],
+      "custom_css": [
+        "{font-size: 30px;}"
+      ],
+      "settings": {
+        "transparent_header": true,
+        "show_image": true,
+        "image": "shopify://shop_images/ROI_en_chiffres_x2_20_plutot_qu_en_bc7e8166-762c-41eb-8141-ebc6c6f3c0b9.jpg",
+        "image_height": "450px",
+        "content_position": "md:items-end md:justify-start",
+        "text_alignment": "left",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-end justify-start",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_overlay": "#000000",
+        "overlay_opacity": 40,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "subcollections": {
+          "type": "subcollections",
+          "settings": {
+            "menu": "",
+            "per_row": 5,
+            "show_count": true
+          }
+        },
+        "promotion": {
+          "type": "promotion",
+          "settings": {
+            "position": 5,
+            "column_size": "1",
+            "image": "shopify://shop_images/IMG_4513_1_-min.jpg",
+            "heading": "Une question ?",
+            "content": "<p>Notre service client est disponible pour vous.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "content_position": "md:items-center",
+            "text_alignment": "center",
+            "content_position_mobile": "items-center",
+            "text_alignment_mobile": "center",
+            "color_text": "#ffffff",
+            "color_button_text": "#4d5940",
+            "color_button_background": "#ffffff",
+            "color_button_gradient": "",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "subcollections",
+        "promotion"
+      ],
+      "settings": {
+        "products_per_page": 11,
+        "columns": 4,
+        "columns_mobile": "2",
+        "pagination": "click",
+        "enable_filtering": true,
+        "filter_collapsed": false,
+        "filter_type": "drawer",
+        "filter_color_swatches": true,
+        "enable_sorting": true,
+        "padding_top": 40,
+        "padding_bottom": 100,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "product_limit": 6,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Recently Viewed",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 80,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "faq_8TqjxW": {
+      "type": "faq",
+      "blocks": {
+        "question_TzmaH4": {
+          "type": "question",
+          "settings": {
+            "title": "Combien de temps dure la création d'une montre ?",
+            "text": "<p>Le délai moyen est de 4 à 8 semaines, selon la complexité de la personnalisation et les pièces choisies.</p><p>Dans la plupart des cas, vous recevez votre montre sous 3 à 4 semaines. Vous êtes informé à chaque étape, jusqu’à l’expédition effectuée par La Poste, en Chronopost ou Colissimo.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_HpCyiE": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "Puis-je personnaliser une montre existante ?",
+            "text": "<p>Oui, nous travaillons sur des montres neuves comme sur des pièces existantes. Apportez votre montre, nous lui donnons une nouvelle vie.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_jRihYJ": {
+          "type": "question",
+          "settings": {
+            "title": "Quelles sont les possibilités de personnalisation ?",
+            "text": "<p>Cadran, aiguilles, bracelet, boîtier, couronne, gravure, tout est personnalisable. Nos horlogers vous guident selon vos envies et votre budget. Si vous avez des questions, n'hésitez pas à contacter notre équipe sur WhatsApp.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_WkkrjF": {
+          "type": "question",
+          "settings": {
+            "title": "Livrez-vous à l'international ?",
+            "text": "<p>Oui, nous livrons partout dans le monde. Chaque envoi est assuré et bénéficie d'un suivi en temps réel jusqu'à votre porte.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_7dqpjn": {
+          "type": "question",
+          "settings": {
+            "title": "Quelle est votre politique de retour ?",
+            "text": "<p>Vous disposez de 30 jours à compter de la réception de votre montre pour nous la retourner, à condition qu’elle soit intacte et non portée.</p><p>Pour des raisons évidentes, les montres personnalisées ne peuvent pas être reprises si elles ne vous plaisent pas.</p><p>En cas de défaut de fabrication, nous pourrons étudier la montre dans nos ateliers et effectuer une prise en charge dans le cadre de notre garantie de 3 ans.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "question_TzmaH4",
+        "question_HpCyiE",
+        "question_jRihYJ",
+        "question_WkkrjF",
+        "question_7dqpjn"
+      ],
+      "settings": {
+        "style": "with-border",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 4,
+        "padding_top": 0,
+        "padding_bottom": 80,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "main-collection",
+    "recently-viewed",
+    "faq_8TqjxW"
+  ]
+}
