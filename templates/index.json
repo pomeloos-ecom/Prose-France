@@ -179,6 +179,7 @@
         "collection_EcmjFA",
         "collection_wg669K"
       ],
+      "disabled": true,
       "name": "t:sections.featured-collections.presets.name",
       "settings": {
         "product_limit": 9,
