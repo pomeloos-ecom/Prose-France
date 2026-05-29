@@ -361,312 +361,6 @@
         "rounded": false
       }
     },
-    "ss_image_grid_pro_rbD3dE": {
-      "type": "ss-image-grid-pro",
-      "blocks": {
-        "item_wpaLCT": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "product": "",
-            "image": "shopify://shop_images/NTK.jpg",
-            "title": "<h2>POEME</h2>",
-            "url": "",
-            "button": "DÉCOUVRIR"
-          }
-        },
-        "item_NpKrWX": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "product": "",
-            "image": "shopify://shop_images/MSTK.jpg",
-            "title": "<h2>VERSET</h2>",
-            "url": "",
-            "button": "DÉCOUVRIR"
-          }
-        },
-        "item_KWC4Nt": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "product": "",
-            "image": "shopify://shop_images/SKNT.jpg",
-            "title": "<h2>SONNET</h2>",
-            "url": "",
-            "button": "DÉCOUVRIR"
-          }
-        },
-        "item_bjA6kp": {
-          "type": "item",
-          "settings": {
-            "product": "",
-            "image": "shopify://shop_images/JSTK.jpg",
-            "title": "<h2>RIME</h2>",
-            "url": "shopify://collections/rime",
-            "button": "DÉCOUVRIR"
-          }
-        },
-        "item_LWJDKA": {
-          "type": "item",
-          "settings": {
-            "product": "",
-            "image": "shopify://shop_images/daytona_02facdd0-63a4-4944-aabf-fb1dd0394d62.jpg",
-            "title": "<h2>FABLE</h2>",
-            "url": "shopify://collections/fable",
-            "button": "DÉCOUVRIR"
-          }
-        },
-        "item_pgt39f": {
-          "type": "item",
-          "settings": {
-            "product": "",
-            "image": "shopify://shop_images/SKOAK.jpg",
-            "title": "<h2>OPUS</h2>",
-            "url": "shopify://collections/opus",
-            "button": "DÉCOUVRIR"
-          }
-        }
-      },
-      "block_order": [
-        "item_wpaLCT",
-        "item_NpKrWX",
-        "item_KWC4Nt",
-        "item_bjA6kp",
-        "item_LWJDKA",
-        "item_pgt39f"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "@media screen and (max-width: 749px) {* {display: none !important; } {padding: 0 !important; margin: 0 !important; height: 0 !important; overflow: hidden !important; }}"
-      ],
-      "name": "COLLECTION PART 1 - PC",
-      "settings": {
-        "layout_gap": 30,
-        "layout_gap_mobile": 20,
-        "layout_padding_vertical": 50,
-        "layout_padding_vertical_mobile": 20,
-        "layout_padding_horizontal": 50,
-        "layout_padding_horizontal_mobile": 20,
-        "layout_radius": 0,
-        "layout_border_thickness": 0,
-        "two_column_mobile": false,
-        "card_padding_vertical": 16,
-        "card_padding_vertical_mobile": 16,
-        "card_padding_horizontal": 16,
-        "card_padding_horizontal_mobile": 16,
-        "card_radius": 16,
-        "card_border_thickness": 0,
-        "overlay": 0.2,
-        "card_image_ratio": "square",
-        "card_image_ratio_mobile": "landscape",
-        "content_vertical_align": "end",
-        "content_vertical_align_mobile": "end",
-        "title_custom": true,
-        "title_font": "red_hat_display_n7",
-        "title_size": 36,
-        "title_size_mobile": 30,
-        "title_height": 130,
-        "title_align": "left",
-        "title_align_mobile": "left",
-        "button_custom": true,
-        "button_font": "red_hat_display_n5",
-        "button_size": 14,
-        "button_size_mobile": 14,
-        "button_height": 100,
-        "button_padding_vertical": 16,
-        "button_padding_vertical_mobile": 16,
-        "button_padding_horizontal": 30,
-        "button_padding_horizontal_mobile": 50,
-        "button_radius": 0,
-        "button_border_thickness": 0,
-        "button_mt": 16,
-        "button_align": "left",
-        "button_align_mobile": "left",
-        "button_ellipse": false,
-        "button_icon": false,
-        "button_gap": 28,
-        "button_shadow": false,
-        "layout_bg_color": "#f9f4f1",
-        "layout_border_color": "#000000",
-        "card_border_color": "#000000",
-        "overlay_color": "#000000",
-        "title_color": "#ffffff",
-        "button_color": "#191919",
-        "button_hover_color": "#ffffff",
-        "button_bg_color": "#ffffff",
-        "button_bg_hover_color": "#000000",
-        "button_border_color": "#000000",
-        "button_border_hover_color": "#000000",
-        "button_shadow_color": "#000000",
-        "background_color": "#f9f4f1",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_horizontal": 0,
-        "padding_horizontal_mobile": 0,
-        "full_width": false,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
-    "ss_image_grid_pro_QgjQcE": {
-      "type": "ss-image-grid-pro",
-      "blocks": {
-        "item_AMxGFy": {
-          "type": "item",
-          "settings": {
-            "product": "",
-            "image": "shopify://shop_images/NTK.jpg",
-            "title": "<h2>POEME</h2>",
-            "url": "shopify://collections/poeme",
-            "button": "DÉCOUVRIR"
-          }
-        },
-        "item_wD8Aj3": {
-          "type": "item",
-          "settings": {
-            "product": "",
-            "image": "shopify://shop_images/MSTK.jpg",
-            "title": "<h2>VERSET</h2>",
-            "url": "shopify://collections/verset",
-            "button": "DÉCOUVRIR"
-          }
-        },
-        "item_ThB9NC": {
-          "type": "item",
-          "settings": {
-            "product": "",
-            "image": "shopify://shop_images/SKNT.jpg",
-            "title": "<h2>SONNET</h2>",
-            "url": "shopify://collections/sonnet",
-            "button": "DÉCOUVRIR"
-          }
-        },
-        "item_CPdXgd": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "product": "",
-            "image": "shopify://shop_images/JSTK.jpg",
-            "title": "<h2>RIME</h2>",
-            "url": "",
-            "button": "DÉCOUVRIR"
-          }
-        },
-        "item_34q94d": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "product": "",
-            "image": "shopify://shop_images/SKNA.jpg",
-            "title": "<h2>FABLE</h2>",
-            "url": "",
-            "button": "DÉCOUVRIR"
-          }
-        },
-        "item_N76Ymm": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "product": "",
-            "image": "shopify://shop_images/SKOAK.jpg",
-            "title": "<h2>RIME</h2>",
-            "url": "",
-            "button": "DÉCOUVRIR"
-          }
-        }
-      },
-      "block_order": [
-        "item_AMxGFy",
-        "item_wD8Aj3",
-        "item_ThB9NC",
-        "item_CPdXgd",
-        "item_34q94d",
-        "item_N76Ymm"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "@media screen and (max-width: 749px) {* {display: none !important; } {padding: 0 !important; margin: 0 !important; height: 0 !important; overflow: hidden !important; }}"
-      ],
-      "name": "COLLECTION PART 2 - PC",
-      "settings": {
-        "layout_gap": 30,
-        "layout_gap_mobile": 20,
-        "layout_padding_vertical": 50,
-        "layout_padding_vertical_mobile": 20,
-        "layout_padding_horizontal": 50,
-        "layout_padding_horizontal_mobile": 20,
-        "layout_radius": 0,
-        "layout_border_thickness": 0,
-        "two_column_mobile": false,
-        "card_padding_vertical": 16,
-        "card_padding_vertical_mobile": 16,
-        "card_padding_horizontal": 16,
-        "card_padding_horizontal_mobile": 16,
-        "card_radius": 16,
-        "card_border_thickness": 0,
-        "overlay": 0.2,
-        "card_image_ratio": "square",
-        "card_image_ratio_mobile": "landscape",
-        "content_vertical_align": "end",
-        "content_vertical_align_mobile": "end",
-        "title_custom": true,
-        "title_font": "red_hat_display_n7",
-        "title_size": 36,
-        "title_size_mobile": 30,
-        "title_height": 130,
-        "title_align": "left",
-        "title_align_mobile": "left",
-        "button_custom": true,
-        "button_font": "red_hat_display_n5",
-        "button_size": 14,
-        "button_size_mobile": 14,
-        "button_height": 100,
-        "button_padding_vertical": 16,
-        "button_padding_vertical_mobile": 16,
-        "button_padding_horizontal": 30,
-        "button_padding_horizontal_mobile": 50,
-        "button_radius": 0,
-        "button_border_thickness": 0,
-        "button_mt": 16,
-        "button_align": "left",
-        "button_align_mobile": "left",
-        "button_ellipse": false,
-        "button_icon": false,
-        "button_gap": 28,
-        "button_shadow": false,
-        "layout_bg_color": "#f9f4f1",
-        "layout_border_color": "#000000",
-        "card_border_color": "#000000",
-        "overlay_color": "#000000",
-        "title_color": "#ffffff",
-        "button_color": "#191919",
-        "button_hover_color": "#ffffff",
-        "button_bg_color": "#ffffff",
-        "button_bg_hover_color": "#000000",
-        "button_border_color": "#000000",
-        "button_border_hover_color": "#000000",
-        "button_shadow_color": "#000000",
-        "background_color": "#f9f4f1",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_horizontal": 0,
-        "padding_horizontal_mobile": 0,
-        "full_width": false,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
     "ss_image_grid_pro_iMJwU4": {
       "type": "ss-image-grid-pro",
       "blocks": {
@@ -1157,128 +851,6 @@
         "border_thickness": 0,
         "section_radius": 16,
         "lazy": true
-      }
-    },
-    "ss_hero_32_3ibW8R": {
-      "type": "ss-hero-32",
-      "blocks": {
-        "heading_6DwLeD": {
-          "type": "heading",
-          "settings": {
-            "heading_up": "<p>CONFIGUREZ</p>",
-            "heading_center": "VOTRE MONTRE, UNE PIÈCE UNIQUE",
-            "heading_down": "",
-            "heading_custom": true,
-            "heading_font": "red_hat_display_n9",
-            "heading_size": 40,
-            "heading_size_mobile": 30,
-            "heading_height": 130,
-            "heading_mt": 24,
-            "heading_mt_mobile": 16,
-            "heading_color": "#ffffff"
-          }
-        },
-        "text_N4Mzyd": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Créer une montre sur mesure<br/>à l'aide de notre configurateur</p>",
-            "text_custom": false,
-            "text_font": "josefin_sans_n4",
-            "text_size": 16,
-            "text_size_mobile": 16,
-            "text_height": 150,
-            "text_mt": 24,
-            "text_mt_mobile": 16,
-            "text_width": 40,
-            "text_color": "#ffffff"
-          }
-        },
-        "button_TdTkb4": {
-          "type": "button",
-          "settings": {
-            "button": "CONFIGURER UNE MONTRE",
-            "url": "",
-            "button_custom": true,
-            "button_font": "red_hat_display_n5",
-            "button_size": 16,
-            "button_size_mobile": 13,
-            "button_height": 100,
-            "button_padding_horizontal": 32,
-            "button_padding_horizontal_mobile": 32,
-            "button_padding_vertical": 16,
-            "button_padding_vertical_mobile": 16,
-            "button_radius": 0,
-            "button_border_thickness": 0,
-            "button_mt": 24,
-            "button_mt_mobile": 16,
-            "button_style": "non_outline",
-            "button_color": "#121212",
-            "button_hover_color": "#ffffff",
-            "button_bg_color": "#ffffff",
-            "button_bg_hover_color": "#121212",
-            "button_border_color": "#121212",
-            "button_border_hover_color": "#121212"
-          }
-        }
-      },
-      "block_order": [
-        "heading_6DwLeD",
-        "text_N4Mzyd",
-        "button_TdTkb4"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "name": "SS - Hero #32",
-      "settings": {
-        "layout_height": "fixed_height",
-        "layout_fixed_height": 350,
-        "layout_fixed_height_mobile": 260,
-        "layout_padding_horizontal": 50,
-        "layout_padding_horizontal_mobile": 16,
-        "layout_padding_vertical": 0,
-        "layout_padding_vertical_mobile": 32,
-        "layout_radius": 16,
-        "bg_image": "shopify://shop_images/hf_20260509_231606_0c7b39c7-224f-45a5-bf81-7aff377bf138_1.png",
-        "bg_image_mobile": "shopify://shop_images/hf_20260515_143017_e6c6b596-da83-4410-a63e-222009c56342_1.png",
-        "bg_image_overlay": 0,
-        "use_gradient": true,
-        "content_align": "left",
-        "content_align_mobile": "left",
-        "content_vertical_align": "start",
-        "content_vertical_align_mobile": "center",
-        "features_mt": 24,
-        "features_mt_mobile": 12,
-        "feature_gap": 8,
-        "feature_gap_mobile": 8,
-        "feature_mt": 4,
-        "feature_mt_mobile": 4,
-        "feature_icon_size": 16,
-        "feature_icon_size_mobile": 16,
-        "feature_text_custom": false,
-        "feature_text_font": "josefin_sans_n4",
-        "feature_text_size": 16,
-        "feature_text_size_mobile": 16,
-        "feature_text_height": 150,
-        "feature_icon_color": "#ffffff",
-        "feature_text_color": "#ffffff",
-        "bg_image_overlay_color": "#121212",
-        "gradient_color": "linear-gradient(#0a0a0a00, #0a171700 9%, #0a0a0a00 41%, #0a0a0ab3 80%)",
-        "background_color": "#f9f4f0",
-        "background_gradient": "",
-        "border_color": "#121212",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "margin_horizontal": 0,
-        "margin_horizontal_mobile": 1,
-        "padding_top": 4,
-        "padding_bottom": 36,
-        "padding_horizontal": 2,
-        "padding_horizontal_mobile": 0,
-        "full_width": true,
-        "content_width": 1200,
-        "border_thickness": 0,
-        "section_radius": 0,
-        "lazy": false
       }
     },
     "image_with_text_overlay_yGJHMK": {
@@ -2756,6 +2328,24 @@
         "content_width": 120,
         "border_thickness": 0
       }
+    },
+    "custom_liquid_JxfdUC": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "liquid": "{%- comment -%}\n  ============================================================\n  PS WATCHES — Section CTA finale (avant footer)\n  ------------------------------------------------------------\n  Texte engageant + bouton qui ramène vers la section Collections\n  (anchor link #collections + scroll fluide compensant le header sticky).\n  À placer juste avant le footer.\n  ------------------------------------------------------------\n  PRÉREQUIS : ajouter id=\"collections\" sur le <section class=\"ps-collections\">\n  de ta section Custom Liquid \"Découvrez nos collections\".\n  ============================================================\n{%- endcomment -%}\n\n<style>\n  html { scroll-behavior: smooth; }\n\n  .ps-final-cta {\n    background-color: #F9F4F1;\n    padding: 90px 24px;\n    text-align: center;\n    font-family: \"Red Hat Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n    color: #171717;\n  }\n  .ps-final-cta__inner {\n    max-width: 720px;\n    margin: 0 auto;\n  }\n  .ps-final-cta__eyebrow {\n    display: inline-block;\n    font-size: 12px;\n    font-weight: 700;\n    letter-spacing: 0.18em;\n    text-transform: uppercase;\n    color: #4a4a4a;\n    margin-bottom: 18px;\n  }\n  .ps-final-cta__title {\n    font-family: \"Red Hat Display\", sans-serif;\n    font-weight: 900;\n    font-size: clamp(28px, 4vw, 44px);\n    line-height: 1.1;\n    color: #000;\n    text-transform: uppercase;\n    letter-spacing: -0.01em;\n    margin: 0 0 18px;\n  }\n  .ps-final-cta__subtitle {\n    font-size: 16px;\n    line-height: 1.6;\n    color: #4a4a4a;\n    margin: 0 0 36px;\n  }\n  .ps-final-cta__btn {\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    gap: 10px;\n    padding: 16px 36px;\n    background-color: #121212;\n    color: #fff;\n    font-family: \"Red Hat Display\", sans-serif;\n    font-size: 14px;\n    font-weight: 700;\n    line-height: 1;\n    letter-spacing: 0.08em;\n    text-transform: uppercase;\n    text-decoration: none;\n    border: 2px solid #121212;\n    border-radius: 0;\n    cursor: pointer;\n    transition: background-color 0.25s ease, color 0.25s ease;\n  }\n  .ps-final-cta__btn:hover {\n    background-color: transparent;\n    color: #121212;\n  }\n  .ps-final-cta__btn svg {\n    width: 18px;\n    height: 18px;\n    transition: transform 0.25s ease;\n  }\n  .ps-final-cta__btn:hover svg {\n    transform: translateY(-3px);\n  }\n\n  @media (max-width: 767px) {\n    .ps-final-cta { padding: 60px 20px; }\n    .ps-final-cta__subtitle { font-size: 15px; margin-bottom: 28px; }\n    .ps-final-cta__btn { padding: 14px 28px; width: 100%; max-width: 320px; }\n  }\n</style>\n\n<section class=\"ps-final-cta\">\n  <div class=\"ps-final-cta__inner\">\n    <span class=\"ps-final-cta__eyebrow\">Vous avez tout vu</span>\n    <h2 class=\"ps-final-cta__title\">Prêt à porter votre histoire&nbsp;?</h2>\n    <p class=\"ps-final-cta__subtitle\">\n      Choisissez parmi nos 6 collections ou créez votre propre modèle.\n      Chaque montre est assemblée à la main, livrée prête à raconter la vôtre.\n    </p>\n    <a href=\"#collections\" class=\"ps-final-cta__btn\">\n      <span>Voir les collections</span>\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\">\n        <path d=\"M12 19V5\"/>\n        <path d=\"M5 12l7-7 7 7\"/>\n      </svg>\n    </a>\n  </div>\n</section>",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
     }
   },
   "order": [
@@ -2764,11 +2354,8 @@
     "scrolling_text_wFHC46",
     "ss_text_block_pro_BKy9b4",
     "custom_liquid_xaDexa",
-    "ss_image_grid_pro_rbD3dE",
-    "ss_image_grid_pro_QgjQcE",
     "ss_image_grid_pro_iMJwU4",
     "ss_featured_collection_tabs_6_HRh8yX",
-    "ss_hero_32_3ibW8R",
     "image_with_text_overlay_yGJHMK",
     "multicolumn_with_icons_r7rrHt",
     "ss_text_block_pro_fnTiDf",
@@ -2783,6 +2370,7 @@
     "ss_text_block_pro_ek9rQM",
     "ss_text_block_pro_aTEp6U",
     "faq_section",
-    "ss_text_block_pro_RthbcJ"
+    "ss_text_block_pro_RthbcJ",
+    "custom_liquid_JxfdUC"
   ]
 }
