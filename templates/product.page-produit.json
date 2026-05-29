@@ -784,6 +784,209 @@
         "description": "<p>If you have any questions, you are always welcome to contact us. We'll get back to you as soon as possible, within 24 hours on weekdays.</p>"
       }
     },
+    "ss_testimonials_13_n7DdRh": {
+      "type": "ss-testimonials-13",
+      "blocks": {
+        "slide_x3JrmU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/hf_20260415_191541_6ddf41a4-1b50-46cb-b4d7-2a5c7f5c3837.png",
+            "stars_count": 5,
+            "heading": "<h3>Jake A</h3>",
+            "text": "<p>“Showcase stellar reviews from your valued clients to highlight the best of customer feedback and satisfaction.”</p>"
+          }
+        },
+        "slide_h3Q3b3": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 5,
+            "heading": "<h3>Steven F</h3>",
+            "text": "<p>“Showcase stellar reviews from your valued clients to highlight the best of customer feedback and satisfaction.”</p>"
+          }
+        },
+        "slide_Wm8i4t": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 5,
+            "heading": "<h3>Tara B</h3>",
+            "text": "<p>“Showcase stellar reviews from your valued clients to highlight the best of customer feedback and satisfaction.”</p>"
+          }
+        },
+        "slide_QpMJYg": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 5,
+            "heading": "<h3>Gia S</h3>",
+            "text": "<p>“Showcase stellar reviews from your valued clients to highlight the best of customer feedback and satisfaction.”</p>"
+          }
+        },
+        "slide_9RjjhJ": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 5,
+            "heading": "<h3>Daryl E</h3>",
+            "text": "<p>“Showcase stellar reviews from your valued clients to highlight the best of customer feedback and satisfaction.”</p>"
+          }
+        },
+        "slide_Kj7HKQ": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 5,
+            "heading": "<h3>John R</h3>",
+            "text": "<p>“Showcase stellar reviews from your valued clients to highlight the best of customer feedback and satisfaction.”</p>"
+          }
+        },
+        "slide_8jdJDi": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 5,
+            "heading": "<h3>Robert L</h3>",
+            "text": "<p>“Showcase stellar reviews from your valued clients to highlight the best of customer feedback and satisfaction.”</p>"
+          }
+        },
+        "slide_cjLrCd": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 5,
+            "heading": "<h3>Don L</h3>",
+            "text": "<p>“Showcase stellar reviews from your valued clients to highlight the best of customer feedback and satisfaction.”</p>"
+          }
+        },
+        "slide_mQg6Pb": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 5,
+            "heading": "<h3>Charles N</h3>",
+            "text": "<p>“Showcase stellar reviews from your valued clients to highlight the best of customer feedback and satisfaction.”</p>"
+          }
+        },
+        "slide_XcJ3i8": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 5,
+            "heading": "<h3>Ziad A</h3>",
+            "text": "<p>“Showcase stellar reviews from your valued clients to highlight the best of customer feedback and satisfaction.”</p>"
+          }
+        },
+        "slide_iWcaqq": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 5,
+            "heading": "<h3>Kevin N</h3>",
+            "text": "<p>“Showcase stellar reviews from your valued clients to highlight the best of customer feedback and satisfaction.”</p>"
+          }
+        },
+        "slide_BXRt6m": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 5,
+            "heading": "<h3>Calvin N</h3>",
+            "text": "<p>“Showcase stellar reviews from your valued clients to highlight the best of customer feedback and satisfaction.”</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_x3JrmU",
+        "slide_h3Q3b3",
+        "slide_Wm8i4t",
+        "slide_QpMJYg",
+        "slide_9RjjhJ",
+        "slide_Kj7HKQ",
+        "slide_8jdJDi",
+        "slide_cjLrCd",
+        "slide_mQg6Pb",
+        "slide_XcJ3i8",
+        "slide_iWcaqq",
+        "slide_BXRt6m"
+      ],
+      "name": "SS - Testimonials #13",
+      "settings": {
+        "scrolling_velocity": 70,
+        "scrolling_velocity_mobile": 70,
+        "scrolling_gap": 24,
+        "scrolling_gap_mobile": 24,
+        "scrolling_in_row": false,
+        "reverse_direction": false,
+        "slide_width": 500,
+        "slide_width_mobile": 500,
+        "slide_padding_vertical": 20,
+        "slide_padding_vertical_mobile": 16,
+        "slide_padding_horizontal": 20,
+        "slide_padding_horizontal_mobile": 16,
+        "slide_radius": 12,
+        "slide_space": 38,
+        "slide_space_mobile": 38,
+        "slide_gap": 24,
+        "slide_gap_mobile": 24,
+        "slide_border_thickness": 1,
+        "slide_shadow": true,
+        "content_vertical_align": "center",
+        "content_vertical_align_mobile": "center",
+        "show_image": true,
+        "image_width": 100,
+        "image_width_mobile": 100,
+        "image_radius": 4,
+        "image_border_thickness": 0,
+        "image_ratio": "square",
+        "image_ratio_mobile": "square",
+        "show_stars": true,
+        "stars_size": 16,
+        "stars_align": "start",
+        "stars_align_mobile": "start",
+        "show_heading": true,
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 12,
+        "heading_size_mobile": 12,
+        "heading_height": 130,
+        "heading_mt": 8,
+        "heading_align": "left",
+        "heading_align_mobile": "left",
+        "use_tag": true,
+        "tag_mt": 8,
+        "tag_align": "left",
+        "tag_align_mobile": "left",
+        "tag_width": 20,
+        "tag_width_mobile": 20,
+        "tag_text": "Verified buyer",
+        "tag_text_custom": false,
+        "tag_text_font": "josefin_sans_n4",
+        "tag_text_size": 12,
+        "tag_text_size_mobile": 12,
+        "tag_text_height": 130,
+        "show_text": true,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 12,
+        "text_size_mobile": 12,
+        "text_height": 130,
+        "text_mt": 8,
+        "text_align": "left",
+        "text_align_mobile": "left",
+        "slide_bg_color": "#e8ddd8",
+        "slide_border_color": "#dcbeb0",
+        "slide_shadow_color": "#FFFFFF",
+        "image_border_color": "#ffffff",
+        "stars_color": "#F6CF02",
+        "heading_color": "#F5F6F7",
+        "text_color": "#171717",
+        "tag_text_color": "#B1B1B1",
+        "tag_icon_color": "#116AE6",
+        "background_color": "#f9f4f1",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "ss_faq_17_PmaNpV": {
       "type": "ss-faq-17",
       "blocks": {
@@ -1111,6 +1314,7 @@
     "ss_video_with_text_ecy7VF",
     "ss_video_with_text_qxYBag",
     "help-drawer",
+    "ss_testimonials_13_n7DdRh",
     "ss_faq_17_PmaNpV",
     "ss_text_block_pro_jCDYaY"
   ]
