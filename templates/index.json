@@ -1902,9 +1902,9 @@
       "type": "reveal-image-with-text",
       "settings": {
         "image": "shopify://shop_images/mmmmm.png",
-        "content_width": "large",
+        "content_width": "medium",
         "heading": "Porter une montre Prose, c'est aussi soutenir de vraies causes.",
-        "heading_size": "title-xl tracking-heading",
+        "heading_size": "title-lg tracking-heading",
         "heading_alignment": "text-left",
         "heading_tag": "h2",
         "button_label": "",
