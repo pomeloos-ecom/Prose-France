@@ -41,7 +41,7 @@
         "{font-size: 30px;}"
       ],
       "settings": {
-        "transparent_header": true,
+        "transparent_header": false,
         "show_image": true,
         "image": "shopify://shop_images/ROI_en_chiffres_x2_20_plutot_qu_en_bc7e8166-762c-41eb-8141-ebc6c6f3c0b9.jpg",
         "image_height": "450px",
