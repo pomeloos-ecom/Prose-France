@@ -91,7 +91,7 @@
     "swatch_image_tooltip": true,
     "product_image_ratio": "square",
     "product_image_fill": false,
-    "product_vendor": false,
+    "product_vendor": true,
     "product_secondary_image": false,
     "product_rating": false,
     "product_countdown": false,
