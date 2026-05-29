@@ -137,6 +137,25 @@
         "lazy": false
       }
     },
+    "custom_liquid_FaB7YF": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "liquid": "",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
     "featured_collections_9rpB6L": {
       "type": "featured-collections",
       "blocks": {
@@ -2350,6 +2369,7 @@
   },
   "order": [
     "ss_hero_32_Lb9Emg",
+    "custom_liquid_FaB7YF",
     "featured_collections_9rpB6L",
     "scrolling_text_wFHC46",
     "ss_text_block_pro_BKy9b4",
