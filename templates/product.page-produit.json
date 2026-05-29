@@ -31,7 +31,6 @@
         },
         "variant_picker": {
           "type": "variant_picker",
-          "disabled": true,
           "settings": {
             "show_variant_labels": true,
             "picker_type": "button",
@@ -50,6 +49,7 @@
         },
         "product_variations_FaMxcj": {
           "type": "product_variations",
+          "disabled": true,
           "settings": {
             "option_name": "",
             "option_value_metafield": "",
