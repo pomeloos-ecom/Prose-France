@@ -459,7 +459,7 @@
         "heading_8trCpt": {
           "type": "heading",
           "settings": {
-            "heading": "<h2>UN SAVOIR-FAIRE UNIQUE</h2>",
+            "heading": "<h2>FIABILITÉ ET PRÉCISION JAPONAISE</h2>",
             "heading_custom": true,
             "heading_font": "red_hat_display_n9",
             "heading_size": 40,
@@ -474,7 +474,7 @@
         "text_eeQycR": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with a video to give customers insight into your brand. Tell a story, explain a product detail, or describe a new promotion.</p>",
+            "text": "<p>Nous avons choisi des matériaux premium : acier 316L et 904L, verre saphir anti-rayures à l’avant comme à l’arrière, et des mouvements automatiques TMI, filiale de Seiko.</p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 14,
@@ -587,7 +587,7 @@
         "heading_7LDDxQ": {
           "type": "heading",
           "settings": {
-            "heading": "<h2>UN SAVOIR-FAIRE UNIQUE</h2>",
+            "heading": "<h2>L'EXIGENCE À LA FRANÇAISE</h2>",
             "heading_custom": true,
             "heading_font": "red_hat_display_n9",
             "heading_size": 40,
@@ -602,7 +602,7 @@
         "text_AnRcXW": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with a video to give customers insight into your brand. Tell a story, explain a product detail, or describe a new promotion.</p>",
+            "text": "<p>Toujours avec l’exigence du meilleur rapport qualité-prix, nous vous proposons un accompagnement 5 étoiles, un SAV irréprochable et un assemblage par nos horlogers indépendants en France.</p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 14,
@@ -670,7 +670,7 @@
         "video_ratio": "landscape",
         "video_ratio_mobile": "landscape",
         "video_radius": 20,
-        "video_border_thickness": 0,
+        "video_border_thickness": 2,
         "video_autoplay": true,
         "video_loop": true,
         "use_controls": false,
@@ -683,7 +683,7 @@
         "layout_border_color": "#f0f0f0",
         "use_shadow": false,
         "shadow_color": "#ffffff",
-        "video_border_color": "#121212",
+        "video_border_color": "#e8ddd8",
         "play_color": "#121212",
         "play_hover_color": "#121212",
         "play_bg_color": "#ffffff",
