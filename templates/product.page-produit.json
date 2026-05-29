@@ -40,6 +40,13 @@
             "size_chart": ""
           }
         },
+        "text_aF6nwL": {
+          "type": "text",
+          "settings": {
+            "text": "Le modèle <strong>Verset</strong> est inspiré du design inconique Submariner. Équipé d'un mécanisme automatique japonais calibré et lubrifié, et avec une réserve de marche de 43 heures.",
+            "text_size": "text-base"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -55,13 +62,6 @@
           "type": "description",
           "disabled": true,
           "settings": {
-            "text_size": "text-base"
-          }
-        },
-        "text_aF6nwL": {
-          "type": "text",
-          "settings": {
-            "text": "Le modèle <strong>Verset</strong> est inspiré du design inconique Submariner. Équipé d'un mécanisme automatique japonais calibré et lubrifié, et avec une réserve de marche de 43 heures.",
             "text_size": "text-base"
           }
         },
@@ -178,9 +178,9 @@
         "title",
         "vendor",
         "variant_picker",
+        "text_aF6nwL",
         "buy_buttons",
         "description",
-        "text_aF6nwL",
         "collapsible_tab_7if77r",
         "collapsible_tab_R8qbte",
         "collapsible_tab_FHKxkt",
