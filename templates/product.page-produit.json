@@ -495,7 +495,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "liquid": "{%- comment -%}\n  ============================================================\n  PS WATCHES — Section \"Le Processus\" (inspirée du \"How it works\" de smooche)\n  ------------------------------------------------------------\n  Layout :\n  - Desktop ≥ 992px : Titre à gauche (0.75fr) + 3 étapes en grille à droite (1fr)\n    Chaque étape = vidéo carrée + texte (titre + description) à droite\n  - Tablet 768-991px : Titre au-dessus, 3 étapes en grille 3 colonnes\n  - Mobile < 768px : Tout empilé verticalement, chaque étape = vidéo + texte sur 1 ligne\n  ------------------------------------------------------------\n  ⚠️ Avant de coller, remplace les 3 URLs <video src=\"...\"> par\n  les URLs réelles de tes vidéos (depuis Shopify Files ou\n  shopify-section settings) — voir bloc CONFIGURATION ci-dessous.\n  ============================================================\n{%- endcomment -%}\n\n{%- comment -%} ===== CONFIGURATION : URLs des 3 vidéos (récupérées du CDN PS Watches) ===== {%- endcomment -%}\n{%- assign video1_url    = \"https://pswatches.com/cdn/shop/videos/c/vp/a01d095fd6d54545861c2c63427d14db/a01d095fd6d54545861c2c63427d14db.HD-1080p-2.5Mbps-83868436.mp4\" -%}\n{%- assign video2_url    = \"https://pswatches.com/cdn/shop/videos/c/vp/90abd42bb86a48bfb11bb367c22c3f75/90abd42bb86a48bfb11bb367c22c3f75.HD-720p-1.6Mbps-83868437.mp4\" -%}\n{%- assign video3_url    = \"https://pswatches.com/cdn/shop/videos/c/vp/b94e0f85ef734418b41c99d641a97f9b/b94e0f85ef734418b41c99d641a97f9b.HD-1080p-7.2Mbps-83868438.mp4\" -%}\n{%- assign video1_poster = \"https://pswatches.com/cdn/shop/files/preview_images/a01d095fd6d54545861c2c63427d14db.thumbnail.0000000000.jpg\" -%}\n{%- assign video2_poster = \"https://pswatches.com/cdn/shop/files/preview_images/90abd42bb86a48bfb11bb367c22c3f75.thumbnail.0000000000.jpg\" -%}\n{%- assign video3_poster = \"https://pswatches.com/cdn/shop/files/preview_images/b94e0f85ef734418b41c99d641a97f9b.thumbnail.0000000000.jpg\" -%}\n{%- comment -%} ============================================== {%- endcomment -%}\n\n<style>\n  .ps-process { padding: 60px 48px; font-family: \"Red Hat Display\", -apple-system, BlinkMacSystemFont, sans-serif; }\n  .ps-process__inner {\n    max-width: 1416px;\n    margin: 0 auto;\n    background-color: #F4EBE5;\n    border-radius: 16px;\n    padding: 40px 50px;\n    display: grid;\n    /* Colonne titre nettement plus étroite → plus d'espace pour les cards */\n    grid-template-columns: 0.35fr 1fr;\n    gap: 40px;\n    align-items: center;\n  }\n\n  /* ===== Titre : plus petit, aligné à gauche ===== */\n  .ps-process__title {\n    font-family: \"Red Hat Display\", sans-serif;\n    font-weight: 800;\n    font-size: clamp(18px, 1.6vw, 26px);\n    line-height: 1.1;\n    color: #171717;\n    margin: 0;\n    text-align: left;\n    text-transform: uppercase;\n    letter-spacing: 0.01em;\n  }\n\n  /* ===== Grille 3 étapes (desktop) ===== */\n  .ps-process__steps {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 30px;\n  }\n  .ps-process__step {\n    display: flex;\n    align-items: center;\n    gap: 14px;\n    min-width: 0;\n  }\n  .ps-process__video-wrap {\n    flex: 0 0 100px;\n    width: 100px;\n    height: 100px;\n    overflow: hidden;\n    border-radius: 50%;\n    background-color: #E8DCD3;\n    position: relative;\n  }\n  .ps-process__video {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    display: block;\n    background-color: #E8DCD3;\n  }\n  .ps-process__text {\n    flex: 1 1 auto;\n    min-width: 0;\n  }\n  .ps-process__step-title {\n    font-family: \"Red Hat Display\", sans-serif;\n    font-size: 15px;\n    font-weight: 700;\n    line-height: 1.2;\n    color: #171717;\n    margin: 0 0 4px;\n  }\n  .ps-process__step-desc {\n    font-family: \"Red Hat Display\", sans-serif;\n    font-size: 12.5px;\n    font-weight: 400;\n    line-height: 1.4;\n    color: #4a4a4a;\n    margin: 0;\n  }\n\n  /* ===== Tablet 768-991px : titre au-dessus, 3 étapes en grille en dessous ===== */\n  @media (max-width: 991px) {\n    .ps-process__inner {\n      grid-template-columns: 1fr;\n      gap: 36px;\n      padding: 40px 36px;\n    }\n    .ps-process__title { text-align: left; }\n  }\n\n  /* ===== Mobile < 768px : empilage vertical complet ===== */\n  @media (max-width: 767px) {\n    .ps-process { padding: 40px 16px; }\n    .ps-process__inner {\n      padding: 32px 22px;\n      gap: 28px;\n      border-radius: 12px;\n    }\n    .ps-process__steps {\n      grid-template-columns: 1fr; /* 1 étape par ligne, empilées */\n      gap: 22px;\n    }\n    .ps-process__step {\n      gap: 16px;\n    }\n    .ps-process__video-wrap {\n      flex: 0 0 84px;\n      width: 84px;\n      height: 84px;\n    }\n    .ps-process__step-title { font-size: 14px; }\n    .ps-process__step-desc { font-size: 12px; }\n  }\n</style>\n\n<section class=\"ps-process\">\n  <div class=\"ps-process__inner\">\n\n    {%- comment -%} ===== Titre ===== {%- endcomment -%}\n    <h2 class=\"ps-process__title\">Le Processus</h2>\n\n    {%- comment -%} ===== 3 étapes ===== {%- endcomment -%}\n    <div class=\"ps-process__steps\">\n\n      {%- comment -%} Étape 1 ===== {%- endcomment -%}\n      <div class=\"ps-process__step\">\n        <div class=\"ps-process__video-wrap\">\n          <video class=\"ps-process__video\"\n                 src=\"{{ video1_url }}\"\n                 poster=\"{{ video1_poster }}\"\n                 muted autoplay loop playsinline preload=\"metadata\"></video>\n        </div>\n        <div class=\"ps-process__text\">\n          <h3 class=\"ps-process__step-title\">Choisissez un modèle</h3>\n          <p class=\"ps-process__step-desc\">Vous avez le choix entre un design de notre catalogue ou un modèle unique avec notre configurateur.</p>\n        </div>\n      </div>\n\n      {%- comment -%} Étape 2 ===== {%- endcomment -%}\n      <div class=\"ps-process__step\">\n        <div class=\"ps-process__video-wrap\">\n          <video class=\"ps-process__video\"\n                 src=\"{{ video2_url }}\"\n                 poster=\"{{ video2_poster }}\"\n                 muted autoplay loop playsinline preload=\"metadata\"></video>\n        </div>\n        <div class=\"ps-process__text\">\n          <h3 class=\"ps-process__step-title\">Nous réunissons les pièces</h3>\n          <p class=\"ps-process__step-desc\">Immédiatement après votre commande, nous nous procurons les pièces nécessaires à l'assemblage de votre montre.</p>\n        </div>\n      </div>\n\n      {%- comment -%} Étape 3 ===== {%- endcomment -%}\n      <div class=\"ps-process__step\">\n        <div class=\"ps-process__video-wrap\">\n          <video class=\"ps-process__video\"\n                 src=\"{{ video3_url }}\"\n                 poster=\"{{ video3_poster }}\"\n                 muted autoplay loop playsinline preload=\"metadata\"></video>\n        </div>\n        <div class=\"ps-process__text\">\n          <h3 class=\"ps-process__step-title\">Votre montre est assemblée</h3>\n          <p class=\"ps-process__step-desc\">Votre montre est assemblée avec soin dans nos ateliers et soumise à un contrôle qualité rigoureux.</p>\n        </div>\n      </div>\n\n    </div>\n  </div>\n</section>",
+        "liquid": "{%- comment -%}\n  ============================================================\n  PS WATCHES — Section \"Le Processus\" (inspirée du \"How it works\" de smooche)\n  ------------------------------------------------------------\n  Layout :\n  - Desktop ≥ 992px : Titre à gauche (0.75fr) + 3 étapes en grille à droite (1fr)\n    Chaque étape = vidéo carrée + texte (titre + description) à droite\n  - Tablet 768-991px : Titre au-dessus, 3 étapes en grille 3 colonnes\n  - Mobile < 768px : Tout empilé verticalement, chaque étape = vidéo + texte sur 1 ligne\n  ------------------------------------------------------------\n  ⚠️ Avant de coller, remplace les 3 URLs <video src=\"...\"> par\n  les URLs réelles de tes vidéos (depuis Shopify Files ou\n  shopify-section settings) — voir bloc CONFIGURATION ci-dessous.\n  ============================================================\n{%- endcomment -%}\n\n{%- comment -%} ===== CONFIGURATION : URLs des 3 vidéos (récupérées du CDN PS Watches) ===== {%- endcomment -%}\n{%- assign video1_url    = \"https://pswatches.com/cdn/shop/videos/c/vp/a01d095fd6d54545861c2c63427d14db/a01d095fd6d54545861c2c63427d14db.HD-1080p-2.5Mbps-83868436.mp4\" -%}\n{%- assign video2_url    = \"https://pswatches.com/cdn/shop/videos/c/vp/90abd42bb86a48bfb11bb367c22c3f75/90abd42bb86a48bfb11bb367c22c3f75.HD-720p-1.6Mbps-83868437.mp4\" -%}\n{%- assign video3_url    = \"https://pswatches.com/cdn/shop/videos/c/vp/b94e0f85ef734418b41c99d641a97f9b/b94e0f85ef734418b41c99d641a97f9b.HD-1080p-7.2Mbps-83868438.mp4\" -%}\n{%- assign video1_poster = \"https://pswatches.com/cdn/shop/files/preview_images/a01d095fd6d54545861c2c63427d14db.thumbnail.0000000000.jpg\" -%}\n{%- assign video2_poster = \"https://pswatches.com/cdn/shop/files/preview_images/90abd42bb86a48bfb11bb367c22c3f75.thumbnail.0000000000.jpg\" -%}\n{%- assign video3_poster = \"https://pswatches.com/cdn/shop/files/preview_images/b94e0f85ef734418b41c99d641a97f9b.thumbnail.0000000000.jpg\" -%}\n{%- comment -%} ============================================== {%- endcomment -%}\n\n<style>\n  .ps-process { padding: 60px 48px; font-family: \"Red Hat Display\", -apple-system, BlinkMacSystemFont, sans-serif; }\n  .ps-process__inner {\n    max-width: 1416px;\n    margin: 0 auto;\n    background-color: #F4EBE5;\n    border-radius: 16px;\n    padding: 40px 50px;\n    display: grid;\n    /* Colonne titre étroite + gap réduit → max d'espace pour les cards */\n    grid-template-columns: 0.28fr 1fr;\n    gap: 24px;\n    align-items: center;\n  }\n\n  /* ===== Titre : plus petit, aligné à gauche ===== */\n  .ps-process__title {\n    font-family: \"Red Hat Display\", sans-serif;\n    font-weight: 800;\n    font-size: clamp(18px, 1.6vw, 26px);\n    line-height: 1.1;\n    color: #171717;\n    margin: 0;\n    text-align: left;\n    text-transform: uppercase;\n    letter-spacing: 0.01em;\n  }\n\n  /* ===== Grille 3 étapes (desktop) ===== */\n  .ps-process__steps {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 20px;\n  }\n  .ps-process__step {\n    display: flex;\n    align-items: flex-start; /* titres alignés en haut, pas centrés vertical */\n    gap: 12px;\n    min-width: 0;\n  }\n  /* Vidéos en format 3:4 portrait avec coins arrondis (au lieu de cercle) */\n  .ps-process__video-wrap {\n    flex: 0 0 90px;\n    width: 90px;\n    height: 120px; /* 90:120 = 3:4 */\n    overflow: hidden;\n    border-radius: 10px;\n    background-color: #E8DCD3;\n    position: relative;\n  }\n  .ps-process__video {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    display: block;\n    background-color: #E8DCD3;\n  }\n  .ps-process__text {\n    flex: 1 1 auto;\n    min-width: 0;\n  }\n  .ps-process__step-title {\n    font-family: \"Red Hat Display\", sans-serif;\n    font-size: 17px;\n    font-weight: 700;\n    line-height: 1.2;\n    color: #171717;\n    margin: 0 0 5px;\n  }\n  .ps-process__step-desc {\n    font-family: \"Red Hat Display\", sans-serif;\n    font-size: 14px;\n    font-weight: 400;\n    line-height: 1.45;\n    color: #4a4a4a;\n    margin: 0;\n  }\n\n  /* ===== Tablet 768-991px : titre au-dessus, 3 étapes en grille en dessous ===== */\n  @media (max-width: 991px) {\n    .ps-process__inner {\n      grid-template-columns: 1fr;\n      gap: 36px;\n      padding: 40px 36px;\n    }\n    .ps-process__title { text-align: left; }\n  }\n\n  /* ===== Mobile < 768px : empilage vertical, vidéos plus grandes, padding réduit ===== */\n  @media (max-width: 767px) {\n    .ps-process { padding: 40px 10px; } /* padding latéral réduit */\n    .ps-process__inner {\n      padding: 28px 18px;\n      gap: 24px;\n      border-radius: 12px;\n    }\n    .ps-process__steps {\n      grid-template-columns: 1fr;\n      gap: 20px;\n    }\n    .ps-process__step {\n      gap: 14px;\n    }\n    /* Vidéos beaucoup plus grandes sur mobile, toujours en 3:4 portrait */\n    .ps-process__video-wrap {\n      flex: 0 0 120px;\n      width: 120px;\n      height: 160px; /* 120:160 = 3:4 */\n    }\n    .ps-process__step-title { font-size: 16px; }\n    .ps-process__step-desc { font-size: 13.5px; }\n  }\n</style>\n\n<section class=\"ps-process\">\n  <div class=\"ps-process__inner\">\n\n    {%- comment -%} ===== Titre ===== {%- endcomment -%}\n    <h2 class=\"ps-process__title\">Le Processus</h2>\n\n    {%- comment -%} ===== 3 étapes ===== {%- endcomment -%}\n    <div class=\"ps-process__steps\">\n\n      {%- comment -%} Étape 1 ===== {%- endcomment -%}\n      <div class=\"ps-process__step\">\n        <div class=\"ps-process__video-wrap\">\n          <video class=\"ps-process__video\"\n                 src=\"{{ video1_url }}\"\n                 poster=\"{{ video1_poster }}\"\n                 muted autoplay loop playsinline preload=\"metadata\"></video>\n        </div>\n        <div class=\"ps-process__text\">\n          <h3 class=\"ps-process__step-title\">Choisissez un modèle</h3>\n          <p class=\"ps-process__step-desc\">Vous avez le choix entre un design de notre catalogue ou un modèle unique avec notre configurateur.</p>\n        </div>\n      </div>\n\n      {%- comment -%} Étape 2 ===== {%- endcomment -%}\n      <div class=\"ps-process__step\">\n        <div class=\"ps-process__video-wrap\">\n          <video class=\"ps-process__video\"\n                 src=\"{{ video2_url }}\"\n                 poster=\"{{ video2_poster }}\"\n                 muted autoplay loop playsinline preload=\"metadata\"></video>\n        </div>\n        <div class=\"ps-process__text\">\n          <h3 class=\"ps-process__step-title\">Nous réunissons les pièces</h3>\n          <p class=\"ps-process__step-desc\">Immédiatement après votre commande, nous nous procurons les pièces nécessaires à l'assemblage de votre montre.</p>\n        </div>\n      </div>\n\n      {%- comment -%} Étape 3 ===== {%- endcomment -%}\n      <div class=\"ps-process__step\">\n        <div class=\"ps-process__video-wrap\">\n          <video class=\"ps-process__video\"\n                 src=\"{{ video3_url }}\"\n                 poster=\"{{ video3_poster }}\"\n                 muted autoplay loop playsinline preload=\"metadata\"></video>\n        </div>\n        <div class=\"ps-process__text\">\n          <h3 class=\"ps-process__step-title\">Votre montre est assemblée</h3>\n          <p class=\"ps-process__step-desc\">Votre montre est assemblée avec soin dans nos ateliers et soumise à un contrôle qualité rigoureux.</p>\n        </div>\n      </div>\n\n    </div>\n  </div>\n</section>",
         "color_text": "",
         "color_background": "",
         "gradient_background": "",
@@ -839,6 +839,110 @@
       "settings": {
         "heading": "Need help?",
         "description": "<p>If you have any questions, you are always welcome to contact us. We'll get back to you as soon as possible, within 24 hours on weekdays.</p>"
+      }
+    },
+    "ss_text_block_pro_CCjXfH": {
+      "type": "ss-text-block-pro",
+      "blocks": {
+        "subtitle_CJrxCD": {
+          "type": "subtitle",
+          "disabled": true,
+          "settings": {
+            "subtitle": "Subtitle",
+            "subtitle_custom": false,
+            "subtitle_font": "assistant_n4",
+            "subtitle_size": 20,
+            "subtitle_height": 100,
+            "subtitle_align": "center",
+            "subtitle_mt": 0,
+            "subtitle_color": "#000000"
+          }
+        },
+        "title_fHnweF": {
+          "type": "title",
+          "settings": {
+            "title": "Merci à nos clients",
+            "title_custom": false,
+            "title_font": "assistant_n4",
+            "title_size": 40,
+            "title_height": 100,
+            "title_align": "center",
+            "title_mt": 12,
+            "title_color": "#000000"
+          }
+        },
+        "text_YEqYqH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Le bouche à oreille est la principale raison pour laquelle nous pouvons continuer à vivre en vous proposant un rapport service qualité prix imbattable et en continuant à mener nos opérations marketing pour nous faire connaître.</p>",
+            "text_custom": false,
+            "text_font": "assistant_n4",
+            "text_size": 20,
+            "text_height": 130,
+            "text_align": "center",
+            "text_mt": 16,
+            "text_color": "#000000"
+          }
+        },
+        "button_Wh4dfx": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "btn": "Learn More",
+            "btn_url": "",
+            "btn_custom": false,
+            "btn_font": "assistant_n4",
+            "btn_size": 22,
+            "btn_height": 150,
+            "btn_align": "center",
+            "btn_width": 200,
+            "btn_mt": 32,
+            "btn_padding_horizontal": 16,
+            "btn_padding_vertical": 12,
+            "btn_border_thickness": 1,
+            "btn_radius": 0,
+            "btn_color": "#000000",
+            "btn_hover_color": "#000000",
+            "btn_bg_color": "",
+            "btn_bg_hover_color": "",
+            "btn_border_color": "#000000",
+            "btn_border_hover_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_CJrxCD",
+        "title_fHnweF",
+        "text_YEqYqH",
+        "button_Wh4dfx"
+      ],
+      "name": "SS - Text Block Pro",
+      "settings": {
+        "image_width": 20,
+        "image_custom": false,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "image_radius": 12,
+        "image_ration": "none",
+        "image_location": "row",
+        "image_location_mobile": "column",
+        "content_padding_horizontal": 40,
+        "content_padding_vertical": 40,
+        "content_radius": 40,
+        "gap": 30,
+        "gap_mobile": 15,
+        "background_color": "#F5F5F5",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "content_bg": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "content_width": 120,
+        "border_thickness": 0
       }
     },
     "ss_testimonials_13_n7DdRh": {
@@ -1383,6 +1487,7 @@
     "ss_video_with_text_ecy7VF",
     "ss_video_with_text_qxYBag",
     "help-drawer",
+    "ss_text_block_pro_CCjXfH",
     "ss_testimonials_13_n7DdRh",
     "ss_faq_17_PmaNpV",
     "ss_text_block_pro_jCDYaY"
