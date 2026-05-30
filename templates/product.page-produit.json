@@ -224,7 +224,8 @@
       ],
       "custom_css": [
         "@media screen and (min-width: 990px) {.page-width {max-width: 90%; margin: 0 auto; }}",
-        ".variant-input-wrapper .form__label {display: none;}"
+        ".variant-input-wrapper .form__label {display: none;}",
+        ".variant-input-wrapper .label-swatch {padding-top: 8px !important; padding-bottom: 8px !important;}"
       ],
       "settings": {
         "enable_sticky_info": true,
