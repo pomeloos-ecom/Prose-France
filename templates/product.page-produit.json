@@ -1160,10 +1160,10 @@
         "lazy": true
       }
     },
-    "17801501424f4a6424": {
+    "178015033943638687": {
       "type": "apps",
       "blocks": {
-        "trustwill_trustoo_review_widget_YLRFeT": {
+        "trustwill_trustoo_review_widget_MdqGhD": {
           "type": "shopify://apps/trustwill-trustoo/blocks/review-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
           "settings": {
             "product": ""
@@ -1171,7 +1171,7 @@
         }
       },
       "block_order": [
-        "trustwill_trustoo_review_widget_YLRFeT"
+        "trustwill_trustoo_review_widget_MdqGhD"
       ],
       "settings": {
         "color_text": "",
@@ -1519,7 +1519,7 @@
     "help-drawer",
     "ss_text_block_pro_CCjXfH",
     "ss_testimonials_13_n7DdRh",
-    "17801501424f4a6424",
+    "178015033943638687",
     "ss_faq_17_PmaNpV",
     "ss_text_block_pro_jCDYaY"
   ]
