@@ -805,7 +805,7 @@
         "slide_x3JrmU": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/hf_20260415_191541_6ddf41a4-1b50-46cb-b4d7-2a5c7f5c3837.png",
+            "image": "shopify://shop_images/0000_logo-blanc_f1f01c6a-4010-4c7d-a22c-6363e438761f.png",
             "stars_count": 5,
             "heading": "<h3>Nathan D.</h3>",
             "text": "<p>J'habite à Cannes et je laisse ma GMT Master au coffre, par souci de sécurité, et ma Prose me convient très bien au quotidien.</p>"
@@ -814,7 +814,8 @@
         "slide_h3Q3b3": {
           "type": "slide",
           "settings": {
-            "stars_count": 5,
+            "image": "shopify://shop_images/0031_logo-blanc.png",
+            "stars_count": 4,
             "heading": "<h3>Joshua C.</h3>",
             "text": "<p>Déjà commandé plusieurs fois auprès de vos ateliers pour l'instant jamais déçu.</p>"
           }
@@ -822,14 +823,24 @@
         "slide_Wm8i4t": {
           "type": "slide",
           "settings": {
-            "stars_count": 5,
+            "image": "shopify://shop_images/0033_logo-noir.png",
+            "stars_count": 4.5,
             "heading": "<h3>Aaron S.</h3>",
             "text": "<p>“Showcase stellar reviews from your valued clients to highlight the best of customer feedback and satisfaction.”</p>"
+          }
+        },
+        "slide_JTc4kk": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 4.5,
+            "heading": "<h3>Heading</h3>",
+            "text": "<p>Text</p>"
           }
         },
         "slide_QpMJYg": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/0025_REMOVE-LOGO-4.png",
             "stars_count": 5,
             "heading": "<h3>David G.</h3>",
             "text": "<p>Je suis satisfait de mon achat . La montre est beaucoup plus belle en vrai . Le service client , nikel , répond rapidement à toutes les questions. 👌🤓👍👍👍</p>"
@@ -838,7 +849,8 @@
         "slide_9RjjhJ": {
           "type": "slide",
           "settings": {
-            "stars_count": 5,
+            "image": "shopify://shop_images/0029_logo-blanc.png",
+            "stars_count": 4.5,
             "heading": "<h3>Cyril A.</h3>",
             "text": "<p>Montre de bonne qualité, livré avec le matériel pour l’ajuster sois même au poignet, envoie rapide<br/>Je recommande !</p>"
           }
@@ -846,6 +858,7 @@
         "slide_Kj7HKQ": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/0027_logo-noir.png",
             "stars_count": 5,
             "heading": "<h3>Manolo R.</h3>",
             "text": "<p>Très bonne expérience un peu retissant au début mes après avoir parlé avec eux j’ai passé commande, la montre est de qualité irréprochable</p>"
@@ -854,6 +867,7 @@
         "slide_8jdJDi": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/0026_logo-noir.png",
             "stars_count": 5,
             "heading": "<h3>Nicolas C</h3>",
             "text": "<p>Très satisfait par le produit et par le SAV hyper réactif et rapide. Je recommande vraiment !</p>"
@@ -862,6 +876,7 @@
         "slide_cjLrCd": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/0000_logo-blanc_f1f01c6a-4010-4c7d-a22c-6363e438761f.png",
             "stars_count": 5,
             "heading": "<h3>Jonathan C.</h3>",
             "text": "<p>Petit souci sur un bracelet Très vite solutionner, des échanges rapides et des réponses, tout autant. Bravo à toute l’équipe et surtout un grand merci.</p>"
@@ -870,7 +885,8 @@
         "slide_mQg6Pb": {
           "type": "slide",
           "settings": {
-            "stars_count": 5,
+            "image": "shopify://shop_images/0002_logo-noir.png",
+            "stars_count": 4.5,
             "heading": "<h3>Christophe C</h3>",
             "text": "<p>Je viens de recevoir cette magnifique montre ,<br/>Très bonne relation à le service commercial pour toute demande spécifique</p>"
           }
@@ -878,6 +894,7 @@
         "slide_XcJ3i8": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/0016_logo-blanc.png",
             "stars_count": 5,
             "heading": "<h3>Stéphan</h3>",
             "text": "<p>J'ai pu la retourner sans problème à l'horloger. La société m'a retourner une nouvelle montre sans frais, ceci dans un laps de temps de 10 jours. Merci</p>"
@@ -886,6 +903,7 @@
         "slide_iWcaqq": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/0006_logo-blanc.png",
             "stars_count": 5,
             "heading": "<h3>Cédric M.</h3>",
             "text": "<p>Grand merci à Julien pour son accompagneemnt. Très pro<br/>Cordialement,</p>"
@@ -894,7 +912,8 @@
         "slide_BXRt6m": {
           "type": "slide",
           "settings": {
-            "stars_count": 5,
+            "image": "shopify://shop_images/0008_logo-blanc.png",
+            "stars_count": 4.5,
             "heading": "<h3>Yann D.</h3>",
             "text": "<p>Agréablement surpris par la qualité du sav toujours à l'écoute répond rapidement et rien à redire se ce n'est qu'à se prix là ont trouvera pas mieux</p>"
           }
@@ -904,6 +923,7 @@
         "slide_x3JrmU",
         "slide_h3Q3b3",
         "slide_Wm8i4t",
+        "slide_JTc4kk",
         "slide_QpMJYg",
         "slide_9RjjhJ",
         "slide_Kj7HKQ",
@@ -940,9 +960,9 @@
         "show_image": true,
         "image_width": 100,
         "image_width_mobile": 100,
-        "image_radius": 4,
+        "image_radius": 0,
         "image_border_thickness": 0,
-        "image_ratio": "square",
+        "image_ratio": "landscape",
         "image_ratio_mobile": "square",
         "show_stars": true,
         "stars_size": 16,
@@ -963,7 +983,7 @@
         "tag_align_mobile": "left",
         "tag_width": 20,
         "tag_width_mobile": 20,
-        "tag_text": "Verified buyer",
+        "tag_text": "Achat vérifié",
         "tag_text_custom": false,
         "tag_text_font": "josefin_sans_n4",
         "tag_text_size": 12,
@@ -982,10 +1002,10 @@
         "slide_border_color": "#dcbeb0",
         "slide_shadow_color": "#ffffff",
         "image_border_color": "#ffffff",
-        "stars_color": "#f6cf02",
+        "stars_color": "#93582c",
         "heading_color": "#171717",
         "text_color": "#171717",
-        "tag_text_color": "#b1b1b1",
+        "tag_text_color": "#116be6",
         "tag_icon_color": "#116ae6",
         "background_color": "#f9f4f1",
         "background_gradient": "",
