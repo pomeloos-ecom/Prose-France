@@ -1168,15 +1168,10 @@
           "settings": {
             "product": ""
           }
-        },
-        "trustwill_trustoo_barrage_carousel_tXYKaW": {
-          "type": "shopify://apps/trustwill-trustoo/blocks/barrage-carousel/c8f15077-6475-4e86-ad06-b66038d5ba2c",
-          "settings": {}
         }
       },
       "block_order": [
-        "trustwill_trustoo_review_widget_YLRFeT",
-        "trustwill_trustoo_barrage_carousel_tXYKaW"
+        "trustwill_trustoo_review_widget_YLRFeT"
       ],
       "settings": {
         "color_text": "",
