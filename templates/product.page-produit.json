@@ -208,7 +208,8 @@
         "sticky_buy_button"
       ],
       "custom_css": [
-        "@media screen and (min-width: 990px) {.page-width {max-width: 90%; margin: 0 auto; }}"
+        "@media screen and (min-width: 990px) {.page-width {max-width: 90%; margin: 0 auto; }}",
+        ".variant-input-wrapper .form__label {display: none;}"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -979,13 +980,13 @@
         "text_align_mobile": "left",
         "slide_bg_color": "#e8ddd8",
         "slide_border_color": "#dcbeb0",
-        "slide_shadow_color": "#FFFFFF",
+        "slide_shadow_color": "#ffffff",
         "image_border_color": "#ffffff",
-        "stars_color": "#F6CF02",
+        "stars_color": "#f6cf02",
         "heading_color": "#171717",
         "text_color": "#171717",
-        "tag_text_color": "#B1B1B1",
-        "tag_icon_color": "#116AE6",
+        "tag_text_color": "#b1b1b1",
+        "tag_icon_color": "#116ae6",
         "background_color": "#f9f4f1",
         "background_gradient": "",
         "border_color": "#000000",
