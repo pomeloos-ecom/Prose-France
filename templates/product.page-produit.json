@@ -1160,6 +1160,33 @@
         "lazy": true
       }
     },
+    "17801501424f4a6424": {
+      "type": "apps",
+      "blocks": {
+        "trustwill_trustoo_barrage_carousel_tXYKaW": {
+          "type": "shopify://apps/trustwill-trustoo/blocks/barrage-carousel/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "trustwill_trustoo_barrage_carousel_tXYKaW"
+      ],
+      "settings": {
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
     "ss_faq_17_PmaNpV": {
       "type": "ss-faq-17",
       "blocks": {
@@ -1490,6 +1517,7 @@
     "help-drawer",
     "ss_text_block_pro_CCjXfH",
     "ss_testimonials_13_n7DdRh",
+    "17801501424f4a6424",
     "ss_faq_17_PmaNpV",
     "ss_text_block_pro_jCDYaY"
   ]
