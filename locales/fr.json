@@ -127,7 +127,7 @@
       },
       "free_shipping": {
         "remaining_html": "Dépensez {{ remaining_amount }} de plus pour obtenir la livraison gratuite!",
-        "congratulations_html": "La livraison est OFFERTE et sera assurée par La Poste"
+        "congratulations_html": "Livraison OFFERTE assurée par La Poste"
       },
       "note": {
         "title": "Ajouter un commentaire",
