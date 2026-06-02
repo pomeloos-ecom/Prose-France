@@ -1919,6 +1919,7 @@
     },
     "about_brand": {
       "type": "reveal-image-with-text",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/mmmmm.png",
         "content_width": "medium",
@@ -2024,6 +2025,7 @@
         "text_Wahetm",
         "button_AMAUnD"
       ],
+      "disabled": true,
       "name": "SS - Text Block Pro",
       "settings": {
         "image_width": 20,
@@ -2149,7 +2151,7 @@
         "content_bg": "",
         "margin_top": 0,
         "margin_bottom": 0,
-        "padding_top": 36,
+        "padding_top": 8,
         "padding_bottom": 0,
         "padding_horizontal": 5,
         "padding_horizontal_mobile": 0,
