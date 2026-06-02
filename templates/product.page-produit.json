@@ -232,6 +232,7 @@
       ],
       "custom_css": [
         "@media screen and (min-width: 990px) {.page-width {max-width: 90%; margin: 0 auto; }}",
+        ".variant-input-wrapper .form__label span {display: none !important;}",
         ".variant-input-wrapper .label-swatch {padding-top: 8px !important; padding-bottom: 8px !important; border-radius: 1px !important;}"
       ],
       "settings": {
