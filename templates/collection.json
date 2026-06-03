@@ -47,7 +47,7 @@
         "image_height": "450px",
         "content_position": "md:items-end md:justify-start",
         "text_alignment": "left",
-        "image_height_mobile": "auto",
+        "image_height_mobile": "200px",
         "content_position_mobile": "items-end justify-start",
         "text_alignment_mobile": "left",
         "color_text": "#ffffff",
@@ -137,6 +137,111 @@
         "text_pwrW4g",
         "button_VPHJfY"
       ],
+      "disabled": true,
+      "name": "SS - Text Block Pro",
+      "settings": {
+        "image_width": 20,
+        "image_custom": false,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "image_radius": 12,
+        "image_ration": "none",
+        "image_location": "row",
+        "image_location_mobile": "column",
+        "content_padding_horizontal": 40,
+        "content_padding_vertical": 40,
+        "content_radius": 40,
+        "gap": 30,
+        "gap_mobile": 15,
+        "background_color": "#f9f4f1",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "content_bg": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 0,
+        "padding_horizontal": 10,
+        "padding_horizontal_mobile": 1.5,
+        "content_width": 120,
+        "border_thickness": 0
+      }
+    },
+    "ss_text_block_pro_8zzPAQ": {
+      "type": "ss-text-block-pro",
+      "blocks": {
+        "subtitle_gFkJQk": {
+          "type": "subtitle",
+          "disabled": true,
+          "settings": {
+            "subtitle": "Subtitle",
+            "subtitle_custom": false,
+            "subtitle_font": "assistant_n4",
+            "subtitle_size": 20,
+            "subtitle_height": 100,
+            "subtitle_align": "center",
+            "subtitle_mt": 0,
+            "subtitle_color": "#000000"
+          }
+        },
+        "title_ghRjXh": {
+          "type": "title",
+          "settings": {
+            "title": "COLLECTION {{ collection.title }}",
+            "title_custom": true,
+            "title_font": "red_hat_display_n8",
+            "title_size": 40,
+            "title_height": 100,
+            "title_align": "left",
+            "title_mt": 12,
+            "title_color": "#000000"
+          }
+        },
+        "text_RR9ywr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Les montres Fable 2 Pro sont équipées d'un mécanisme hybride méca-quartz VK63. </p>",
+            "text_custom": false,
+            "text_font": "assistant_n4",
+            "text_size": 18,
+            "text_height": 130,
+            "text_align": "left",
+            "text_mt": 16,
+            "text_color": "#000000"
+          }
+        },
+        "button_xkgz4t": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "btn": "Learn More",
+            "btn_url": "",
+            "btn_custom": false,
+            "btn_font": "assistant_n4",
+            "btn_size": 22,
+            "btn_height": 150,
+            "btn_align": "center",
+            "btn_width": 200,
+            "btn_mt": 32,
+            "btn_padding_horizontal": 16,
+            "btn_padding_vertical": 12,
+            "btn_border_thickness": 1,
+            "btn_radius": 0,
+            "btn_color": "#000000",
+            "btn_hover_color": "#000000",
+            "btn_bg_color": "",
+            "btn_bg_hover_color": "",
+            "btn_border_color": "#000000",
+            "btn_border_hover_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_gFkJQk",
+        "title_ghRjXh",
+        "text_RR9ywr",
+        "button_xkgz4t"
+      ],
       "name": "SS - Text Block Pro",
       "settings": {
         "image_width": 20,
@@ -179,8 +284,9 @@
         },
         "promotion": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
-            "position": 5,
+            "position": 50,
             "column_size": "1",
             "image": "shopify://shop_images/IMG_4513_1_-min.jpg",
             "heading": "Une question ?",
@@ -348,6 +454,7 @@
   "order": [
     "main-collection-banner",
     "ss_text_block_pro_GJtQAi",
+    "ss_text_block_pro_8zzPAQ",
     "main-collection",
     "recently-viewed",
     "faq_8TqjxW"
