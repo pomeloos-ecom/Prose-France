@@ -897,7 +897,7 @@
           "type": "button",
           "settings": {
             "button_label": "DÉCOUVRIR",
-            "button_link": "shopify://collections/dwelleiko-montre-automatique",
+            "button_link": "shopify://collections/haiku",
             "button_style": "primary",
             "button_size": "sm",
             "button_external": false,
