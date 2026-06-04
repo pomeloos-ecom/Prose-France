@@ -1316,16 +1316,14 @@
         },
         "tab_ENaErq": {
           "type": "tab",
-          "disabled": true,
           "settings": {
             "tab": "NOTRE CONCEPT"
           }
         },
         "faq_item_h79pQL": {
           "type": "faq_item",
-          "disabled": true,
           "settings": {
-            "question": "Le concept Prose ?",
+            "question": "LE CONCEPT PROSE ?",
             "answer": "<p>C’est une montre assemblée à la main, équipée d’un mouvement automatique, avec des pièces dont le design s’inspire de modèles iconiques.<br/><br/>Notre objectif : vous offrir le meilleur rapport qualité-prix possible pour une montre automatique de qualité, sans dépendre d’un budget inaccessible.</p>"
           }
         },
@@ -1338,7 +1336,6 @@
         },
         "faq_item_ECef83": {
           "type": "faq_item",
-          "disabled": true,
           "settings": {
             "question": "OÙ SONT SITUÉS VOS ATELIERS ?",
             "answer": "<p>Nous disposons de plusieurs ateliers afin de répondre à une demande internationale, notamment en Chine, en Espagne et en France.</p><p>En France, nous travaillons avec deux ateliers indépendants partenaires : l’un à Paris, dans le 17e arrondissement, et l’autre à Metz, dans l’est de la France.</p>"
@@ -1346,7 +1343,6 @@
         },
         "faq_item_yy6QML": {
           "type": "faq_item",
-          "disabled": true,
           "settings": {
             "question": "PUIS-JE DEMANDER UN ASSEMBLAGE EN FRANCE ?",
             "answer": "<p><strong>Par défaut, nous privilégions un assemblage en France pour nos clients français.<br/></strong>Pour le garantir, vous pouvez le préciser à notre service client ou sélectionner l’option <strong>“Assemblage Made in France & étanchéité renforcée”</strong>.<br/>Dans tous les cas, nos exigences qualité restent les mêmes, quel que soit l’atelier d’assemblage.</p>"
