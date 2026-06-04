@@ -2166,7 +2166,7 @@
           "type": "question",
           "settings": {
             "title": "Combien de temps dure la création d'une montre ?",
-            "text": "<p>Le délai moyen est de 4 à 8 semaines, selon la complexité de la personnalisation et les pièces choisies.</p><p>Dans la plupart des cas, vous recevez votre montre sous 3 à 4 semaines. Vous êtes informé à chaque étape, jusqu’à l’expédition effectuée par La Poste, en Chronopost ou Colissimo.</p>",
+            "text": "<p>Le délai moyen pour recevoir votre montre est <strong>généralement de 2 à 4 semaines</strong>, selon la complexité de la personnalisation, les pièces choisies et la charge de nos ateliers.<br/><br/>Pour une commande classique, le délai est souvent plus proche de 2 semaines. Si vous demandez un assemblage spécifiquement réalisé dans nos ateliers français, le délai peut être plus proche de 3 à 4 semaines.<br/><br/>Vous êtes informé à chaque étape, jusqu’à l’expédition effectuée par La Poste, en Chronopost ou Colissimo.</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
