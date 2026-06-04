@@ -62,7 +62,7 @@
         "padding_bottom": 72,
         "divider": false,
         "narrow": false,
-        "rounded": false
+        "rounded": true
       }
     },
     "multicolumn-with-icons": {
