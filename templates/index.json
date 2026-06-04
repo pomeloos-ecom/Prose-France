@@ -2184,8 +2184,8 @@
         "q3": {
           "type": "question",
           "settings": {
-            "title": "Quelles sont les possibilités de personnalisation ?",
-            "text": "<p>Cadran, aiguilles, bracelet, boîtier, couronne, gravure, tout est personnalisable. Nos horlogers vous guident selon vos envies et votre budget. Si vous avez des questions, n'hésitez pas à contacter notre équipe sur WhatsApp.</p>",
+            "title": "Puis-je personnaliser ma montre ?",
+            "text": "<p>Vous pouvez personnaliser votre montre directement depuis notre configurateur : cadran, aiguilles, bracelet et boîtier.</p><p>Pour une demande plus spécifique, comme un coloris particulier, un cadran non proposé, un logo ou une gravure, notre équipe peut étudier votre projet sur WhatsApp.</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
