@@ -75,7 +75,7 @@
     
     render 'mouse-cursor'
 
-echo "<div style='display:none'>"     sections 'header-group' echo "</div>"
+echo "<div style='display:none'>"
     sections 'overlay-group'
   -%}
 
@@ -99,3 +99,13 @@ echo "<div style='display:none'>"     sections 'header-group' echo "</div>"
   {%- endif -%}
 </body>
 </html>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: echo "<div style='display:none'>"     sections 'header-group' echo "</div>"
+  to: echo "<div style='display:none'>"
+  position: 3344..3377
+{% endcomment %}
